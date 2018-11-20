@@ -6,3 +6,6 @@ doc/cache/*
 *.log
 *.tex
 *.pdf
+*.html
+doc/slurm*
+doc/*.sh
