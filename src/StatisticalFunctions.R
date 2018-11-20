@@ -280,13 +280,12 @@ make_collected_results_plot <- function(table1_list,
   collected_new_results$Analysis <- factor(collected_new_results$Analysis, 
                                            levels = names(table1_list)[!analysis_classification_vec[names(table1_list)]=="Old"])
   
-  cc <- scales::seq_gradient_pal("#F8766D", "#619CFF", "Lab")(seq(0,1,length.out=5))
   combo_plot_scatter2 <- qplot(data=collected_new_results, x=EstimateOld, y=Estimate, ylab="Current Progression Risk Ratio", xlab="Nelson et al. 2015 Progression Risk Ratio", color=Transition, shape=Transition) + 
     facet_grid(Source~Analysis) + 
     geom_hline(yintercept = 1, linetype="dashed") + scale_y_log10(breaks=c(0.25, 0.5,1,2,4)) + 
     scale_x_log10(breaks=c(0.25, 0.5,1,2,4)) + geom_abline(slope=1, intercept=0) +
     geom_errorbarh(aes(xmin=LowerOld, xmax=UpperOld)) +
-    geom_errorbar(aes(ymin=Lower, ymax=Upper)) + scale_colour_manual(values=cc) +
+    geom_errorbar(aes(ymin=Lower, ymax=Upper)) + 
     theme(legend.position = "bottom") + guides(color=guide_legend(ncol=3)) + background_grid(major = "xy", minor = "none")
   
   g <- ggplot_gtable(ggplot_build(combo_plot_scatter2))
@@ -429,25 +428,15 @@ standardize_mesh <- function(mesh, gene, vals_to_standardize=mesh, genes_to_stan
 # each human disease top MeSH term applies to
 # each mesh term in target-indication table
 
-top_mesh_design_matrix <- function(target_indication_table, mesh_names, mesh_tree) {
+top_mesh_design_matrix <- function(target_indication_table, top_mesh) {
   # Exclude nondisease, animal disease (C22)
-  disease_mesh <- mesh_names %>% filter(Preferred=="Y") %>% left_join(mesh_tree) %>% filter(substr(TreeNumber, 1, 1) %in% c("C", "F")) %>%
-    mutate(topid=substr(TreeNumber, 1, 3)) %>% filter(!topid=="C22")
-  # Add the top mesh name onto the dataframe
-  top_level_mesh <- filter(disease_mesh, TreeNumber==topid)
-  disease_mesh <- left_join(disease_mesh, top_level_mesh %>% dplyr::select(MSH.Top=Name, topid))
-  # Restrict to those present in the table
-  disease_mesh <- filter(disease_mesh, Name %in% target_indication_table$MSH)
-  utop <- unique(disease_mesh$MSH.Top)
-  
+  utop <- unique(top_mesh$MSH.Top)
   X_msh <- matrix(nrow = nrow(target_indication_table), ncol=length(utop), data =0)
   colnames(X_msh) <- utop
   for (i in seq_along(utop)) {
-    X_msh[target_indication_table$MSH %in% (filter(disease_mesh, MSH.Top==utop[i]) %>% pull(Name)), i] <- 1
+    X_msh[target_indication_table$MSH %in% (filter(top_mesh, MSH.Top==utop[i]) %>% pull(Name)), i] <- 1
   }
-  
   colnames(X_msh) <- make.names(colnames(X_msh))
-  
   return(list(X=X_msh, norm=tibble()))
 }
 
@@ -457,10 +446,10 @@ top_mesh_design_matrix <- function(target_indication_table, mesh_names, mesh_tre
 # ... is additional arguments to sampler.  Optionally, save output to file.
 
 run_stan <- function(target_indication_table, association_table, MSH_similarity,
-                     mesh_names, mesh_tree, gene_table, pg, pe, filter_list, 
+                     top_mesh, gene_table, pg, pe, filter_list, 
                      sigmab, mualpha, sigmaalpha, save_file=NULL, stan_path="../src/LogisticRegression.stan",...) {
   data = list(target_indication_table=target_indication_table, association_table=association_table, 
-              MSH_similarity=MSH_similarity, mesh_names=mesh_names, mesh_tree=mesh_tree, gene_table=gene_table)
+              MSH_similarity=MSH_similarity, top_mesh=top_mesh, gene_table=gene_table)
   params = list(pg=pg, pe=pe, filter_list=filter_list, sigmab=sigmab, sigmaalpha=sigmaalpha, mualpha=mualpha)
   stan_input <- do.call(generate_stan_input, c(data, params))
   stan_out <- stan(file=stan_path, data=stan_input$input,...)
@@ -475,10 +464,10 @@ run_stan <- function(target_indication_table, association_table, MSH_similarity,
 # and prior parameters and combining resulting outputs to get design matrix.
 
 generate_stan_input <- function(target_indication_table, association_table, MSH_similarity,
-                                mesh_names, mesh_tree, gene_table, pg, pe, filter_list, 
+                                top_mesh, gene_table, pg, pe, filter_list, 
                                 sigmab, mualpha, sigmaalpha, norm=NULL) {
   dmat <- generate_full_design_matrix(target_indication_table, association_table, MSH_similarity,
-                                      mesh_names, mesh_tree, gene_table, pg, pe, filter_list, norm)
+                                      top_mesh, gene_table, pg, pe, filter_list, norm)
   missing_indices <- apply(is.na(dmat$X), 1, any)
   y <- as.integer(target_indication_table$lApprovedUS.EU)
   X_nonmissing <- dmat$X[!missing_indices,,drop=FALSE]
@@ -489,17 +478,12 @@ generate_stan_input <- function(target_indication_table, association_table, MSH_
 }
 
 generate_full_design_matrix <- function(target_indication_table, association_table, MSH_similarity,
-                                        mesh_names, mesh_tree, gene_table, pg, pe, filter_list, norm=NULL) {
-  X_msh <- top_mesh_design_matrix(target_indication_table, mesh_names, mesh_tree)
-  
+                                        top_mesh, gene_table, pg, pe, filter_list, norm=NULL) {
+  X_msh <- top_mesh_design_matrix(target_indication_table, top_mesh)
   X_gene <- gene_design_matrix(target_indication_table, gene_table, p=pg, norm=norm)
-  
   X_ge <- genetic_evidence_design_matrix(target_indication_table, association_table, MSH_similarity, filter_list, pe, norm=norm)
-  
   X <- cbind(X_ge$X, X_msh$X, X_gene$X)
-  
   norm <- bind_rows(list(X_msh$norm, X_gene$norm, X_ge$norm))
-  
   return(list(X=X, norm=norm))
 }
 
@@ -539,23 +523,16 @@ generate_prediction_df <- function(stan_input, stan_out, params, norm, similarit
 
 
 # parameter cutoff determines the minimum similarity for which ensembl ids and mesh term pairs are included.
-predict_gene_mesh <- function(ensembl_ids, mesh_terms, conf, stan_res, association_table, 
-                              mesh_names, mesh_tree, manual_assignments, gene_table, default_time = 13903.5, cutoff=0.5, find_similar_trait=TRUE) {
-  similarity <- construct_MeSH_similarity(mesh_terms, mesh_names, mesh_tree, manual_assignments, IC=NULL, trait_terms = unique(association_table$MSH))
-  #browser()
+predict_gene_mesh <- function(ensembl_ids, mesh_terms, conf, stan_res, similarity, gene_table, top_mesh, association_table, default_time = 13903.5, cutoff=0.5, find_similar_trait=TRUE) {
   X_table <- new_design_rows_df(ensembl_id = ensembl_ids, mesh_term = mesh_terms, association_table = association_table, 
-                                 MSH_similarity = similarity, mesh_names = mesh_names, mesh_tree = mesh_tree, gene_table = gene_table, stan_res = stan_res, cutoff=cutoff)
+                                 MSH_similarity = similarity, top_mesh = top_mesh, gene_table = gene_table, stan_res = stan_res, cutoff=cutoff)
   X <- as.matrix(X_table[,!colnames(X_table) %in% c("ensembl_id", "MSH")])
-  #browser()
   posterior_samps_beta <- as.matrix(stan_res$stan_out, pars=paste0("beta[", 1:ncol(X), "]"))
   posterior_samps_alpha <- matrix(data = as.matrix(stan_res$stan_out, pars="alpha"), nrow = nrow(posterior_samps_beta), ncol = nrow(X), byrow=FALSE)
-  #browser()
   pred <- posterior_samps_alpha + posterior_samps_beta %*% t(X)
   pred_p <- 1 / (1 + exp(-pred))
-  #browser()
   pres <- data.frame(mean = apply(pred_p, 2, mean), median = apply(pred_p, 2, median), 
                      lower = apply(pred_p, 2, quantile, (1-conf)/2), upper = apply(pred_p, 2, quantile, 1-(1-conf)/2))
-  #browser()
   # I would also like the component of beta specifically due to genetic evidence.g
   if (find_similar_trait) {
     annotated_table <- annotate_target_indication_table_with_genetic_evidence(X_table[,c("ensembl_id", "MSH")], 
@@ -563,7 +540,6 @@ predict_gene_mesh <- function(ensembl_ids, mesh_terms, conf, stan_res, associati
                                                                               MSH_similarity = similarity, 
                                                                               gene_col_name = "ensembl_id")
     trait_res <- vector("list", length(stan_res$params$filter_list))
-    #browser()
   }
   sim_res <- vector("list", length(stan_res$params$filter_list))
   ge_col <- c()
@@ -589,20 +565,16 @@ predict_gene_mesh <- function(ensembl_ids, mesh_terms, conf, stan_res, associati
                                    Trait = trait, stringsAsFactors = FALSE)
     }
   }
-  #browser()
   ge_component <- exp(posterior_samps_beta[,ge_col] %*% t(X[,ge_col]))
   sim_res <- bind_rows(sim_res) %>% spread(Source, Similarity)
-  stan_res <- data.frame(p = pres, OR = apply(ge_component, 2, mean), X_table[,c('ensembl_id', 'MSH')], stringsAsFactors = FALSE)
+  stan_res <- data.frame(p = pres, OR = apply(ge_component, 2, mean), OR.lower = apply(ge_component, 2, quantile, (1-conf)/2), OR.upper = apply(ge_component, 2, quantile, 1-(1-conf)/2), X_table[,c('ensembl_id', 'MSH')], stringsAsFactors = FALSE)
   res <- left_join(stan_res, sim_res)
-  #browser()
   if (find_similar_trait) {
     trait_res <- bind_rows(trait_res) %>% spread(Source, Trait)
     res <- left_join(res, trait_res, by = c("ensembl_id", "MSH"), suffix = c("Similarity", "Trait"))
   }
-  #browser()
   return(res)
 }
-
 
 # Time is optionally set to a default value (default is do this).  This is recommended for new targets in particular as a certain amount of
 # time is required for a target to have a positive probability of success.  Set to NA if you don't want.
@@ -611,18 +583,15 @@ predict_gene_mesh <- function(ensembl_ids, mesh_terms, conf, stan_res, associati
 # This is a commonly stated figure and consistent with calculations from Pharmaprojects 
 # (calculating time between drug with target first added and first launched or registered, excluding negative values, get 10.35 years on average).
 
-new_design_rows_df <- function(ensembl_ids, mesh_terms, association_table, MSH_similarity, mesh_names, mesh_tree, gene_table, stan_res, 
+new_design_rows_df <- function(ensembl_ids, mesh_terms, association_table, MSH_similarity, gene_table, top_mesh, stan_res, 
                            default_time = 13903.5, cutoff=0.5) {
   tmp_table <- select_gene_msh_pairs(ensembl_ids, mesh_terms, association_table, MSH_similarity, cutoff) %>% mutate(lApprovedUS.EU=NA)
-  
   new_rows <- matrix(data=0, ncol=ncol(stan_res$stan_input$X), nrow=nrow(tmp_table))
   colnames(new_rows) <- colnames(stan_res$stan_input$X)
-  
   # generate the input again using original normalization.
   X <- generate_full_design_matrix(tmp_table, association_table = association_table, MSH_similarity = MSH_similarity, 
-                                   mesh_names = mesh_names, mesh_tree = mesh_tree, gene_table = gene_table, 
+                                   gene_table = gene_table, top_mesh = top_mesh,
                                    pg = stan_res$params$pg, pe = stan_res$params$pe, filter_list = stan_res$params$filter_list, norm=stan_res$norm)$X
-  
   # Any ones not in there are (currently) MeSH headings not found in the row and can be zero
   # Any ones not in the model are excluded
   new_rows[,intersect(colnames(X), colnames(new_rows))] <- X[,intersect(colnames(X), colnames(new_rows))]
@@ -641,7 +610,6 @@ new_design_rows_df <- function(ensembl_ids, mesh_terms, association_table, MSH_s
     }
   }
   new_rows_df <- data.frame(tmp_table[,1:2], new_rows, stringsAsFactors = FALSE)
-  
   return(new_rows_df)
 }
 
@@ -650,13 +618,12 @@ select_gene_msh_pairs <- function(ensembl_ids, mesh_terms, association_table, MS
   cand_pairs <- vector("list", length(cand_ids))
   for (i in seq_along(cand_ids)) {
     associated_MSH <- filter(association_table, ensembl_id == cand_ids[i]) %>% pull(MSH) %>% unique()
-    msh_cols <- MSH_similarity[,associated_MSH,drop=FALSE]
+    msh_cols <- MSH_similarity[mesh_terms,associated_MSH,drop=FALSE]
     similar_mesh <- rownames(msh_cols)[apply(msh_cols >= cutoff, 1, any)]
     if (length(similar_mesh) > 0) {
       cand_pairs[[i]] <- data.frame(ensembl_id = cand_ids[i], MSH = similar_mesh, stringsAsFactors = FALSE)
     }
   }
-  
   if (all(sapply(cand_pairs, is.null))) {
     cand_pairs <- data.frame(ensembl_id = character(0), MSH = character(0), stringsAsFactors = FALSE)
   } else {
