@@ -9,33 +9,16 @@
 
 library(shiny)
 library(dplyr)
-library(ggplot2)
-library(tidyr)
-library(gdata)
-library(ontologyIndex)
-library(ontologySimilarity)
-library(rstan)
-#library(org.Hs.eg.db)
 library(DT)
 
-path = "/home/eaking/genetic-evidence-drug-success/"
+path = "/home/eaking/genetic-evidence-approval/"
 
-# association_table <- read.delim(paste0(path, "data/gene_trait_assoc.tsv"), stringsAsFactors = FALSE)
-mesh_names <- read.delim(paste0(path, "data/MeSH_desc_2017.tsv"), stringsAsFactors = FALSE)
-mesh_tree <- read.delim(paste0(path, "data/MeSH_desctree_2017.tsv"), stringsAsFactors = FALSE)
-# manual_assignments <- read.xls(paste0(path, "data/ng.3314-S9.xlsx"), stringsAsFactors=FALSE)
-# gene_table <- read.delim(paste0(path,"data/Target_Properties.tsv"), stringsAsFactors = FALSE)
 stan_res <- readRDS(paste0(path, "results/ShinyAppPrecomputed.rds"))
-hgnc <- read.delim(paste0(path, "data/protein-coding_gene.txt"), stringsAsFactors = FALSE)
+stan_res <- stan_res %>% left_join(hgnc %>% dplyr::select(symbol, ensembl_gene_id), by = c("ensembl_id"="ensembl_gene_id"))
+stan_res <- filter(stan_res, !is.na(symbol))
+
 source(paste0(path, "/src/MeSHFunctions.R"))
 source(paste0(path, "/src/StatisticalFunctions.R"))
-
-
-mesh_df <- left_join(mesh_names %>% filter(Preferred=="Y"), mesh_tree) 
-disease_msh <- filter(mesh_df, (substr(TreeNumber, 1, 1)=="C" & !substr(TreeNumber, 1, 3)=="C22") | substr(TreeNumber, 1, 3)=="F03") %>% 
-  pull(Name) %>% unique()
-
-stan_res <- left_join(stan_res, hgnc %>% dplyr::select(symbol, ensembl_gene_id), by = c("ensembl_id"="ensembl_gene_id"))
 
 ui <- fluidPage(
    
@@ -50,7 +33,7 @@ ui <- fluidPage(
 #                              selectize = TRUE, width = NULL, size = NULL), 
                   selectizeInput("target",
                                 "Target",
-                                hgnc$symbol, 
+                                unique(stan_res$symbol), 
                                 selected = "IL10",
                                 multiple = FALSE, width = NULL, size = NULL),
                   selectizeInput("model", 
@@ -68,7 +51,7 @@ ui <- fluidPage(
      tabPanel("Genetic Evidence by Indication", fluid = TRUE,
               sidebarLayout(
                 sidebarPanel(
-                  selectizeInput("msh", "Indication (2017 MeSH term)", disease_msh, selected = "Psoriasis", multiple = FALSE,
+                  selectizeInput("msh", "Indication (2017 MeSH term)", unique(stan_res$MSH), selected = "Psoriasis", multiple = FALSE,
                               width = NULL, size = NULL), 
                   selectizeInput("model2", "Model", c("GWAS and OMIM", "GWAS only", "OMIM only"), selected = "GWAS and OMIM", multiple = FALSE,
                               width = NULL, size = NULL),

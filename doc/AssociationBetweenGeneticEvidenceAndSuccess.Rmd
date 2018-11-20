@@ -1,0 +1,178 @@
+---
+title: "Main text figures"
+output: 
+  html_document: 
+    fig_caption: yes
+---
+
+```{r label=packagesAndFunctions, include=FALSE}
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(gdata)
+library(epitools)
+library(cowplot)
+library(rstan)
+library(biomaRt)
+source("../src/MeSHFunctions.R")
+source("../src/StatisticalFunctions.R")
+source("../src/GeneticFunctions.R")
+```
+
+### Effect of Genetic Evidence on Test Sets
+
+```{r label=datareadin, include=FALSE}
+data_folder = "../data"
+# Gene-trait associations from GWAS and OMIM genetic evidence (current and Nelson)
+gene_trait_association_table0 <- read.delim(paste0(data_folder, "/gene_trait_assoc.tsv"), stringsAsFactors = FALSE)
+gene_trait_association_table_n <- read.delim(paste0(data_folder, "/Standardized_Nelson_Associations.tsv"), stringsAsFactors = FALSE)
+# Drug target-indication links with success (with my maps and maps standardized to n et al.).
+target_indication_table <- read.delim(paste0(data_folder, "/target_indication.tsv"), stringsAsFactors = FALSE)
+target_indication_table_nmsh <- read.delim(paste0(data_folder, "/target_indication_nmsh.tsv"), stringsAsFactors = FALSE)
+# trait - indication similarity
+average_similarity <- read.delim(paste0(data_folder, "/indication_trait_similarity.tsv"), stringsAsFactors = FALSE, check.names = FALSE)
+# Nelson et al. supplementary tables
+# Table of genetic associations from Nelson supplementary material
+table2_nelson <- read.table(paste0(data_folder, "/ng.3314-S12.txt"), quote="\"", sep="\t", header=TRUE, stringsAsFactors = FALSE)
+#Table of drugs from Nelson supplementary material
+table3_nelson <- read.table(paste0(data_folder, "/ng.3314-S13.txt"), quote="\"", sep="\t", header=TRUE, stringsAsFactors = FALSE)
+#Relative similarities of MSH term pairs
+table4_nelson <- read.table(paste0(data_folder, "/ng.3314-S14.txt"),
+  quote="\"", sep="\t", header=TRUE, row.names=1, stringsAsFactors = FALSE, check.names=FALSE)
+table4_nelson <- as.matrix(table4_nelson)
+rownames(table4_nelson) <- gsub("\\\\", "", rownames(table4_nelson))
+colnames(table4_nelson) <- gsub("\\\\", "", colnames(table4_nelson))
+# gene properties, used in statistical models
+gene_properties <- read.delim(paste0(data_folder,"/Target_Properties.tsv"), stringsAsFactors = FALSE)
+# top mesh, used in statistical models
+mesh_properties <- read.delim(paste0(data_folder,"/top_mesh.tsv"), stringsAsFactors = FALSE)
+```
+
+```{r label=RemoveXMHC, include=FALSE}
+xMHC_ensembl <- get_xMHC_genes()
+gene_trait_association_table <- filter(gene_trait_association_table0, !ensembl_id %in% xMHC_ensembl)
+target_indication_table <-  filter(target_indication_table, !ensembl_id %in% xMHC_ensembl) # this actually was already filtered to remove these genes.
+target_indication_table_nmsh <-  filter(target_indication_table_nmsh, !ensembl_id %in% xMHC_ensembl) # this actually was already filtered to remove these genes.
+```
+
+```{r ReplicationResultsOnFullDataset, include=FALSE}
+# Chosen to match Nelson value 0.7 from linear model of similarities.
+new_replication_similarity_cutoff <- 0.7268653
+
+# Complete current
+table1_complete <- replicate_table1(target_indication_table = target_indication_table, association_table = gene_trait_association_table, MSH_similarity = average_similarity, similarity_cutoff = new_replication_similarity_cutoff, ngene_cutoff = 5, gene_col_name = "ensembl_id", source_names=c(gwas="GWAS Catalog", omim="OMIM", any="GWAS Catalog & OMIM"))
+```
+
+```{r label=ReplicationNewGenetic, include=FALSE}
+new_associations <- filter(gene_trait_association_table, (Source== "GWAS:A" & first_added > as.Date("2013-05-21")) |
+                           (Source == "OMIM" & first_added > as.Date("2013-10-03")))
+
+# Well-studied MeSH are being obtained from the full dataset.
+well_studied <- get_well_studied_MSH(target_indication_table = target_indication_table, association_table = gene_trait_association_table, MSH_similarity = average_similarity, similarity_cutoff =new_replication_similarity_cutoff, ngene_cutoff = 5, gene_col_name = "ensembl_id")
+
+# New Genetic Test Set
+table1_new_genetic  <- replicate_table1(association_table = new_associations, target_indication_table = target_indication_table, MSH_similarity = average_similarity, similarity_cutoff = new_replication_similarity_cutoff, ngene_cutoff = 5, gene_col_name = "ensembl_id", MSH_to_include = well_studied)
+```
+
+```{r label=ReplicationNewClincial, include=FALSE}
+well_studied_clinical <- get_well_studied_MSH(target_indication_table = target_indication_table_nmsh, association_table = gene_trait_association_table_n, MSH_similarity = average_similarity, similarity_cutoff =new_replication_similarity_cutoff, ngene_cutoff = 5, gene_col_name = "ensembl_id")
+
+# New clinical test set
+table1_new_clinical <- replicate_table1(association_table = gene_trait_association_table_n, target_indication_table = target_indication_table_nmsh %>% filter(NelsonStatus %in% c("Absent", "Unused")), MSH_similarity=average_similarity, similarity_cutoff = new_replication_similarity_cutoff, ngene_cutoff = 5, gene_col_name = "ensembl_id", MSH_to_include = well_studied_clinical)
+```
+
+```{r label=ReplicationClinicalProgression, include=FALSE}
+# Clinical progression test set.
+progression_table <- generate_table1_progression(target_indication_table = target_indication_table_nmsh, 
+                                                 association_table = gene_trait_association_table_n, 
+                                                 MSH_similarity = average_similarity, 
+                                                 similarity_cutoff = new_replication_similarity_cutoff)
+```
+
+```{r label=OriginalNelsonEtAlAnalysis, include=FALSE}
+table1_original <- replicate_table1(target_indication_table = table3_nelson, association_table = table2_nelson, MSH_similarity = table4_nelson, similarity_cutoff = 0.7, ngene_cutoff = 5, gene_col_name = "Gene")
+```
+
+```{r label=ResultsFigure, include=FALSE, cache=FALSE}
+table1_list <- list(
+                    "New\nClinical"=table1_new_clinical,
+                    "Clinical\nProgression"=progression_table,
+                    "New\nGenetic"=table1_new_genetic,
+                    "Complete\nCurrent"=table1_complete,
+                    "2013 Data"=table1_original)
+
+collected_results_plot <- make_collected_results_plot(table1_list, 
+                                                      analysis_classification_vec = c("New\nClinical"="New",
+                                                                   "2013 Data"="Old",
+                                                                   "New\nGenetic"="New",
+                                                                   "Clinical\nProgression"="Pro",
+                                                                   "Complete\nCurrent"="Mix"))
+```
+
+```{r label=CountFigure, include=FALSE, cache=FALSE}
+pharmaprojects_count <- target_indication_table_nmsh %>% 
+  mutate(StatusCurrent=case_when(lApprovedUS.EU ~ "Approved",
+                                 grepl("linical", Phase.Latest) ~ Phase.Latest,
+                                 TRUE ~ "Unused")) %>%
+  group_by(StatusCurrent, NelsonStatus) %>% 
+  dplyr::summarise(N=length(MSH)) %>% 
+  mutate(Set = case_when(StatusCurrent=="Unused"~"Unknown Status", 
+                         grepl("linical", NelsonStatus)~"Nelson Clinical\nClinical Progression",
+                         NelsonStatus=="Approved"~"Nelson Approved",
+                         TRUE~"Nelson Unused\nNew Clinical"), Source="Pharmaprojects") %>% 
+  group_by(Set) %>% 
+  dplyr::summarise(N=sum(N), Source=unique(Source))
+
+OMIM_by_date_count <- OMIM_filter(gene_trait_association_table) %>% 
+  mutate(PostDownload=first_added > as.Date("2013-10-03"), Set=case_when(is.na(PostDownload)~"Unknown Date",
+                                                                         PostDownload~"New Genetic",
+                                                                         TRUE~"Pre Oct 2013")) %>%
+  group_by(Set) %>% dplyr::summarise(N=length(unique(paste(MSH, ensembl_id))), Source=unique(Source))
+
+GWAS_by_date_count <- gwas_filter(gene_trait_association_table) %>% 
+  mutate(PostDownload=first_added > as.Date("2013-05-21"), Set=case_when(is.na(PostDownload)~"Unknown Date",
+                                                                         PostDownload~"New Genetic",
+                                                                         TRUE~"Pre May 2013")) %>%
+  group_by(Set) %>% dplyr::summarise(N=length(unique(paste(MSH, ensembl_id))), Source=unique(Source))
+
+combined_counts <- bind_rows(OMIM_by_date_count , GWAS_by_date_count, pharmaprojects_count) %>%
+  mutate(Col=ifelse(Set %in% c("Pre May 2013", "Pre Oct 2013", "Nelson Approved"), "Training", ifelse(grepl("Unknown", Set), "Unlabelled", ifelse(grepl("New", Set), "New", "Progression"))))
+
+lab_size = 2.5
+
+count_plot <- ggplot(combined_counts) + aes(x = Source, y = N, fill = Col) + geom_bar(stat = "identity") + 
+  theme(legend.position=c(0.35,0.8), text = element_text(size=9)) + 
+  labs(x="", y="Number of Target-MeSH Pairs", fill="Subset Type") + 
+  scale_fill_manual(values=c(hcl(h = seq(15, 375, length = 4), l = 65, c = 100)[c(3,2,1)], "gray")) +
+  geom_text(aes(label=ifelse(grepl("Unknown Date|Approved", Set) | (Set=="New Genetic" & Source=="OMIM"), "", Set)), position = "stack", vjust=2, size=lab_size) +
+  geom_text(aes(label=ifelse(grepl("Pre|Status", Set) | (Set=="New Genetic" & Source=="GWAS"), paste0("N"=N), "")), position = "stack", vjust=4, size=lab_size) +
+  geom_text(aes(label=ifelse(grepl("New Clinical|Prog", Set), paste0("N"=N), "")), position = "stack", vjust=8, size=lab_size) +
+  geom_text(aes(label=ifelse(grepl("Approved", Set), paste(Set, N), "")), position = "stack", vjust=2.5, size=lab_size) +
+  geom_text(aes(label=ifelse((grepl("New Genetic", Set) & Source=="OMIM"), paste(Set, N), "")), position = "stack", vjust=1.5, size=lab_size) +
+  annotate("text", x=2, y=5500, label=paste0("Unknown Date ", combined_counts %>% filter(Set=="Unknown Date") %>% pull(N)), size=lab_size)
+```
+
+
+```{r label=HeldOutTestSets, echo=FALSE, results='asis', fig.width=10, fig.height=5, fig.cap="Estimated effect of evidence from human genetic studies on the probability of advancing in clinical development.  A: Partitioning Pharmaprojects, OMIM, and GWAS Catalog into training data available to Nelson et al. 2015 and validation sets.  We use validation set Pipeline Progression (which drugs advanced > 2013) to determine whether gene target-indication pairs with genetic evidence were more likely to advance to the next pipeline phase from 2013-2018.  B:  Our estimates of the effect of genetic evidence on gene target-indication pair progression compared to values reported by Nelson et al. 2015 in validation sets New Pipeline (drugs and indications > 2013, 2013 inactive drugs) New Genetic (only new genetic information > 2013) Pipeline Progression, and in the full updated dataset (Full Data)."}
+plot_grid(count_plot, collected_results_plot, labels = c("A", "B"))
+```
+
+
+
+### Statistical Models
+
+```{r label=ModelFitPlotChunk, include=FALSE, eval=TRUE}
+combined_model_fits <- readRDS("../results/ORForFig2.rds")
+
+combined_model_fit_plot <- ggplot(data = combined_model_fits) + 
+  geom_line(aes(x=Similarity, y=Median, color=Source, linetype=Source)) + 
+  facet_wrap(~Analysis) + 
+  geom_ribbon(aes(x=Similarity, ymin=Lower, ymax=Upper, fill=Source), alpha=0.1) + 
+  scale_y_log10(breaks=c(0.25,0.5,1,2,4,8,16)) + 
+  labs(y="Odds ratio of approval for target-indication pair\nwith genetic evidence", x="Trait-Indication Similarity") + 
+ theme(legend.position = c(0.2, 0.8))
+```
+
+```{r modelingfigmain, echo=FALSE, results='asis', fig.width=10, fig.height=5, fig.cap="Estimated odds ratio of gene target-indication pair attaining approval, as a function of similarity between drug indication and the most similar trait associated with the target. Left: All genetic associations.  Right: Only genetic associations reported after 2013 download.  Posterior median and 95% credible interval from Bayesian logistic regression."}
+combined_model_fit_plot + background_grid()
+```

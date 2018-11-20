@@ -1,0 +1,129 @@
+```{r label=packagesAndFunctions, include=FALSE}
+library(dplyr)
+library(tidyr)
+library(rstan)
+library(biomaRt)
+library(parallel)
+source("../src/StatisticalFunctions.R")
+source("../src/GeneticFunctions.R")
+```
+
+
+```{r label=datareadin, include=FALSE}
+data_folder = "../data"
+# Gene-trait associations from GWAS and OMIM genetic evidence (current and Nelson)
+gene_trait_association_table0 <- read.delim(paste0(data_folder, "/gene_trait_assoc.tsv"), stringsAsFactors = FALSE)
+# Drug target-indication links with success (with my maps and maps standardized to n et al.).
+target_indication_table <- read.delim(paste0(data_folder, "/target_indication.tsv"), stringsAsFactors = FALSE)
+# trait - indication similarity
+average_similarity <- read.delim(paste0(data_folder, "/indication_trait_similarity.tsv"), stringsAsFactors = FALSE, check.names = FALSE)
+# gene properties, used in statistical models
+gene_properties <- read.delim(paste0(data_folder,"/Target_Properties.tsv"), stringsAsFactors = FALSE)
+# top mesh, used in statistical models
+mesh_properties <- read.delim(paste0(data_folder,"/top_mesh.tsv"), stringsAsFactors = FALSE)
+``` 
+
+```{r label = RemoveXMHC, include=FALSE}
+xMHC_ensembl <- get_xMHC_genes()
+gene_trait_association_table <- filter(gene_trait_association_table0, !ensembl_id %in% xMHC_ensembl)
+target_indication_table <-  filter(target_indication_table, !ensembl_id %in% xMHC_ensembl) # this actually was already filtered to remove these genes.
+```
+
+```{r label=DefiningDatasetForGenePropertyAnalysis, include=FALSE, cache=TRUE}
+# Our statistical model only operates on target-indication pairs with known success or failure (not those currently active without
+# known failures)
+target_indication_table_known_status <- filter(target_indication_table, Inactive | lApprovedUS.EU)
+```
+
+```{r label=DefaultPriorParameterValues, include=FALSE, cache=TRUE}
+sigmab=2
+mualpha=-2.2
+sigmaalpha=0.75
+
+ncore = 4
+```
+
+```{r label=RunningStanGWAS, include=FALSE, cache=TRUE}
+stan_gwas <- run_stan(target_indication_table = target_indication_table_known_status, association_table = gene_trait_association_table, MSH_similarity = average_similarity, top_mesh = mesh_properties, gene_table = gene_properties, pg = c(RVIS=2, Time=4), pe = 2, filter_list=list(gwas = gwas_filter), sigmab=sigmab, mualpha=mualpha, sigmaalpha=sigmaalpha, save_file="../results/gwas.rds", cores = ncore)
+```
+
+```{r label=RunningStanOMIM, include=FALSE, cache=TRUE}
+stan_omim <- run_stan(target_indication_table = target_indication_table_known_status, association_table = gene_trait_association_table, MSH_similarity = average_similarity,  top_mesh =  mesh_properties, gene_table = gene_properties, pg = c(RVIS=2, Time=4), pe = 2, filter_list=list(omim = OMIM_filter), sigmab=sigmab, mualpha=mualpha, sigmaalpha=sigmaalpha, save_file="../results/omim.rds", cores=ncore)
+```
+
+```{r label=RunningStanGWASDel, include=FALSE, cache=TRUE}
+del_filter <- function(gene_trait_association_table) {
+  filter(gene_trait_association_table, R2 >= 0.9, Deleterious %in% c("MODERATE", "HIGH"))
+}
+
+stan_del <- run_stan(target_indication_table = target_indication_table_known_status, association_table = gene_trait_association_table, MSH_similarity = average_similarity,  top_mesh =  mesh_properties, gene_table = gene_properties, pg = c(RVIS=2, Time=4), pe = 2, filter_list=list(del = del_filter), sigmab=sigmab, mualpha=mualpha, sigmaalpha=sigmaalpha, save_file="../results/del.rds", cores=ncore)
+```
+
+```{r label=RunningStanGWAS2013, include=FALSE, cache=TRUE}
+new_associations <- filter(gene_trait_association_table, (Source== "GWAS:A" & first_added > as.Date("2013-05-21")) |
+                           (Source == "OMIM" & first_added > as.Date("2013-10-03")))
+
+stan_gwas_2013 <- run_stan(target_indication_table = target_indication_table_known_status, association_table = new_associations, MSH_similarity = average_similarity,  top_mesh =  mesh_properties, gene_table = gene_properties, pg = c(RVIS=2, Time=4), pe = 2, filter_list=list(gwas = gwas_filter), sigmab=sigmab, mualpha=mualpha, sigmaalpha=sigmaalpha, save_file="../results/gwas_new.rds", cores=ncore)
+```
+
+```{r label=RunningStanOMIM2013, include=FALSE, cache=TRUE}
+stan_omim_2013 <- run_stan(target_indication_table = target_indication_table_known_status, association_table = new_associations, MSH_similarity = average_similarity,  top_mesh =  mesh_properties, gene_table = gene_properties, pg = c(RVIS=2, Time=4), pe = 2, filter_list=list(omim = OMIM_filter), sigmab=sigmab, mualpha=mualpha, sigmaalpha=sigmaalpha, save_file="../results/omim_new.rds", cores=ncore)
+```
+
+```{r label=RunningStanGWASDel2013, include=FALSE, cache=TRUE}
+stan_del_2013 <- run_stan(target_indication_table = target_indication_table_known_status, association_table = new_associations, MSH_similarity = average_similarity,  top_mesh =  mesh_properties, gene_table = gene_properties, pg = c(RVIS=2, Time=4), pe = 2, filter_list=list(del = del_filter), sigmab=sigmab, mualpha=mualpha, sigmaalpha=sigmaalpha, save_file="../results/del_new.rds", cores=ncore)
+```
+
+```{r label=RunningStanBoth, include=FALSE, cache=TRUE}
+stan_both <- run_stan(target_indication_table = target_indication_table_known_status, association_table = gene_trait_association_table, MSH_similarity = average_similarity,  top_mesh =  mesh_properties, gene_table = gene_properties, pg = c(RVIS=2, Time=4), pe = rep(2,2), filter_list=list(gwas=gwas_filter, omim=OMIM_filter), sigmab=sigmab, mualpha=mualpha, sigmaalpha=sigmaalpha, save_file="../results/both.rds", cores=ncore)
+```
+
+```{r label=RunningStanBoth2013, include=FALSE, cache=TRUE}
+stan_both_2013 <- run_stan(target_indication_table = target_indication_table_known_status, association_table = new_associations, MSH_similarity = average_similarity,  top_mesh =  mesh_properties, gene_table = gene_properties, pg = c(RVIS=2, Time=4), pe = rep(2,2), filter_list=list(gwas=gwas_filter, omim=OMIM_filter), sigmab=sigmab, mualpha=mualpha, sigmaalpha=sigmaalpha, save_file="../results/both_new.rds", cores=ncore)
+```
+
+```{r label=ModelFitPlotChunk, include=FALSE}
+similarities <- seq(0, 1, 0.01)
+prediction_df_gwas <- do.call(generate_prediction_df, c(stan_gwas, list(similarities=seq(0,1,0.01)))) %>% mutate(Analysis="Complete Current", Source="GWAS")
+prediction_df_omim <- do.call(generate_prediction_df, c(stan_omim, list(similarities=seq(0,1,0.01)))) %>% mutate(Analysis="Complete Current", Source="OMIM")
+prediction_df_del <- do.call(generate_prediction_df, c(stan_del, list(similarities=seq(0,1,0.01)))) %>% mutate(Analysis="Complete Current", Source="GWAS High/Moderate Deleterious")
+prediction_df_gwas2013 <- do.call(generate_prediction_df, c(stan_gwas_2013, list(similarities=seq(0,1,0.01)))) %>% mutate(Analysis="New Genetic", Source="GWAS")
+prediction_df_omim2013 <- do.call(generate_prediction_df, c(stan_omim_2013, list(similarities=seq(0,1,0.01)))) %>% mutate(Analysis="New Genetic", Source="OMIM")
+prediction_df_del2013 <- do.call(generate_prediction_df, c(stan_del_2013, list(similarities=seq(0,1,0.01)))) %>% mutate(Analysis="New Genetic", Source="GWAS High/Moderate Deleterious")
+
+combined_model_fits <- rbind(prediction_df_gwas, prediction_df_omim, prediction_df_del, prediction_df_gwas2013, prediction_df_omim2013, prediction_df_del2013)
+
+saveRDS(combined_model_fits, file = "../results/ORForFig2.rds")
+```
+
+```{r label=GeneratingInputForShinyApp, include=FALSE, cache=TRUE, eval=TRUE}
+stan_res_list <- list(gwas = stan_gwas, omim = stan_omim, both = stan_both)
+filter_list <- list(gwas_filter, OMIM_filter, function(x) {x})
+
+indications <- unique(target_indication_table$MSH)
+associated_genes <- unique(gene_trait_association_table$ensembl_id)
+
+pred_res <- vector("list", length(stan_res_list))
+
+for (i in 1:length(stan_res_list)) {
+  pred_res[[i]] <- cbind(predict_gene_mesh(ensembl_ids = associated_genes, mesh_terms = indications, association_table = gene_trait_association_table, similarity = average_similarity, gene_table = gene_properties, top_mesh = mesh_properties, stan_res= stan_res_list[[i]], default_time = 13903.5, conf = 0.95, cutoff=0.5), data.frame(Model=names(stan_res_list)[i]))
+}
+
+output_for_app <- bind_rows(pred_res) %>% filter(!is.na(OMIMSimilarity) | !is.na(GWASSimilarity))
+
+saveRDS(output_for_app, file = "../results/ShinyAppPrecomputed.rds")
+```
+
+```{r label=GeneratingInputForShinyAppKnownTargets, include=FALSE, cache=TRUE, eval=TRUE}
+target_genes <- unique(target_indication_table$ensembl_id)
+
+pred_res <- vector("list", length(stan_res_list))
+
+for (i in 1:length(stan_res_list)) {
+  pred_res[[i]] <- cbind(predict_gene_mesh(ensembl_ids = target_genes, mesh_terms = indications, association_table = gene_trait_association_table, similarity = average_similarity, gene_table = gene_properties, top_mesh = mesh_properties, stan_res= stan_res_list[[i]], default_time = NA, conf = 0.95, cutoff=0.5), data.frame(Model=names(stan_res_list)[i]))
+}
+
+output_for_app <- bind_rows(pred_res) %>% filter(!is.na(OMIMSimilarity) | !is.na(GWASSimilarity))
+
+saveRDS(output_for_app, file = "../results/ShinyAppPrecomputedKnownTargets.rds")
+```
