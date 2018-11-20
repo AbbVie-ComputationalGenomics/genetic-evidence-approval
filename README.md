@@ -63,5 +63,20 @@ cd path/to/genetic-evidence-approval/data
 ```
  Or download directly from paper and move to `path/to/genetic-evidence-approval/data`
 ### Reproducing main text figures
-### Running shiny app
+From command line
+```
+Rscript -e "library(knitr); knit('doc/AssociationBetweenGeneticEvidenceAndSuccess.Rnw')"
+pdflatex doc/AssociationBetweenGeneticEvidenceAndSuccess.tex
+```
+From RStudio, open `AssociationBetweenGeneticEvidenceAndSuccess.Rnw` and click compile pdf.  Ensure Sweave options are set to weave files using knitr.
+[TODO: convert this to a markdown document to avoid complications]
 ### Rerunning model fit
+```
+Rscript -e "library(knitr); knit('doc/StanModelFits.Rnw')"
+```
+From RStudio, open `StanModelFits.Rnw` and click compile pdf.  Ensure Sweave options are set to weave files using knitr.  This is likely to take hours to run.
+### Running shiny app
+From RStudio, open `PredictApproval/app.R` and click run app button.
+[TODO how to from Rsession]
+[TODO additional shiny app instructions]
+
