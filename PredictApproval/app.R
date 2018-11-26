@@ -11,11 +11,18 @@ library(shiny)
 library(dplyr)
 library(DT)
 
-path = "/home/eaking/genetic-evidence-approval/"
+path = "../"
 
 stan_res <- readRDS(paste0(path, "results/ShinyAppPrecomputed.rds"))
-stan_res <- stan_res %>% left_join(hgnc %>% dplyr::select(symbol, ensembl_gene_id), by = c("ensembl_id"="ensembl_gene_id"))
-stan_res <- filter(stan_res, !is.na(symbol))
+gene_trait_association_table <- 
+  read.delim(paste0(path, "data/gene_trait_assoc.tsv"), stringsAsFactors = FALSE)
+TI_table <- 
+  read.delim(paste0(path, "data/target_indication.tsv"), stringsAsFactors = FALSE)
+stan_res <- stan_res %>% 
+  left_join(gene_trait_association_table %>% 
+              dplyr::select(ensembl_id, symbol) %>% distinct) %>% 
+  filter(!is.na(symbol)) %>% 
+  mutate(PharmaprojectsTarget=ensembl_id %in% TI_table$ensembl_id)
 
 source(paste0(path, "/src/MeSHFunctions.R"))
 source(paste0(path, "/src/StatisticalFunctions.R"))
@@ -57,6 +64,7 @@ ui <- fluidPage(
                               width = NULL, size = NULL),
 #                  selectInput("vocab2", "Gene name format", tolower(keytypes(org.Hs.eg.db)), selected = "symbol", multiple = FALSE,
 #                              selectize = TRUE, width = NULL, size = NULL), 
+                  checkboxInput("knowntargets", "Exclude Non-targets", value = FALSE, width = NULL),
                   width=2
                 ),
                 mainPanel(
@@ -76,7 +84,8 @@ server <- function(input, output) {
       arrange(desc(OR))
     datatable(res, colnames = c('GWAS Trait' = 'GWASTrait', 'OMIM Trait' = 'OMIMTrait', 
                                      'GWAS Similarity' = 'GWASSimilarity', 'OMIM Similarity' = 'OMIMSimilarity', 
-                                     'Success Probability' = 'p.mean', 'Genetic Evidence (Odds Ratio)' = 'OR', 'Indication (MeSH)' = 'MSH')) %>%
+                                     'Success Probability' = 'p.mean', 'Genetic Evidence (Odds Ratio)' = 'OR', 
+                                'Indication (MeSH)' = 'MSH')) %>%
       formatRound('Success Probability',2) %>%
       formatRound('Genetic Evidence (Odds Ratio)', 2) %>%
       formatRound('GWAS Similarity', 2) %>%
@@ -85,11 +94,15 @@ server <- function(input, output) {
   output$PredictionSummaryIndication <- renderDT({
     selected_model2 <- c("GWAS and OMIM"="both", "GWAS only"="gwas", "OMIM only"="omim")[input$model2]
     res <- filter(stan_res, MSH==input$msh, Model==selected_model2) %>% 
-      dplyr::select(symbol, p.mean, OR, GWASSimilarity, GWASTrait, OMIMSimilarity, OMIMTrait) %>% 
+      dplyr::select(symbol, p.mean, OR, GWASSimilarity, GWASTrait, OMIMSimilarity, OMIMTrait, PharmaprojectsTarget) %>% 
       arrange(desc(OR))
+    if (input$knowntargets) {
+      res <- filter(res, PharmaprojectsTarget)
+    }
     datatable(res, colnames = c('GWAS Trait' = 'GWASTrait', 'OMIM Trait' = 'OMIMTrait', 
                                 'GWAS Similarity' = 'GWASSimilarity', 'OMIM Similarity' = 'OMIMSimilarity', 
-                                'Success Probability' = 'p.mean', 'Genetic Evidence (Odds Ratio)' = 'OR', 'Target' = 'symbol')) %>%
+                                'Success Probability' = 'p.mean', 'Genetic Evidence (Odds Ratio)' = 'OR', 
+                                'Target' = 'symbol', 'Pharmaprojects Target' = 'PharmaprojectsTarget')) %>%
       formatRound('Success Probability',2) %>%
       formatRound('Genetic Evidence (Odds Ratio)', 2) %>%
       formatRound('GWAS Similarity', 2) %>%

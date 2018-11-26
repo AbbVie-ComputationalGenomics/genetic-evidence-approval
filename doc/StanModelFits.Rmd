@@ -24,9 +24,9 @@ mesh_properties <- read.delim(paste0(data_folder,"/top_mesh.tsv"), stringsAsFact
 ``` 
 
 ```{r label = RemoveXMHC, include=FALSE}
-xMHC_ensembl <- get_xMHC_genes()
-gene_trait_association_table <- filter(gene_trait_association_table0, !ensembl_id %in% xMHC_ensembl)
-target_indication_table <-  filter(target_indication_table, !ensembl_id %in% xMHC_ensembl) # this actually was already filtered to remove these genes.
+gene_trait_association_table <- filter(gene_trait_association_table0, !xMHCGene)
+# target-indication was already filtered to remove these genes.
+# gene-trait association not to allow option of xMHC success prediction
 ```
 
 ```{r label=DefiningDatasetForGenePropertyAnalysis, include=FALSE, cache=TRUE}
@@ -78,18 +78,22 @@ stan_del_2013 <- run_stan(target_indication_table = target_indication_table_know
 stan_both <- run_stan(target_indication_table = target_indication_table_known_status, association_table = gene_trait_association_table, MSH_similarity = average_similarity,  top_mesh =  mesh_properties, gene_table = gene_properties, pg = c(RVIS=2, Time=4), pe = rep(2,2), filter_list=list(gwas=gwas_filter, omim=OMIM_filter), sigmab=sigmab, mualpha=mualpha, sigmaalpha=sigmaalpha, save_file="../results/both.rds", cores=ncore)
 ```
 
-```{r label=RunningStanBoth2013, include=FALSE, cache=TRUE}
-stan_both_2013 <- run_stan(target_indication_table = target_indication_table_known_status, association_table = new_associations, MSH_similarity = average_similarity,  top_mesh =  mesh_properties, gene_table = gene_properties, pg = c(RVIS=2, Time=4), pe = rep(2,2), filter_list=list(gwas=gwas_filter, omim=OMIM_filter), sigmab=sigmab, mualpha=mualpha, sigmaalpha=sigmaalpha, save_file="../results/both_new.rds", cores=ncore)
+```{r label=RunningStanAny, include=FALSE, cache=TRUE, eval=FALSE}
+stan_any <- run_stan(target_indication_table = target_indication_table_known_status, association_table = gene_trait_association_table, MSH_similarity = average_similarity, top_mesh = mesh_properties, gene_table = gene_properties, pg = c(RVIS=2, Time=4), pe = 2, filter_list=list(any = function(x) {x}), sigmab=sigmab, mualpha=mualpha, sigmaalpha=sigmaalpha, save_file="../results/any.rds", cores = ncore)
+```
+
+```{r label=RunningStanAny2013, include=FALSE, cache=TRUE, eval=FALSE}
+stan_any2013 <- run_stan(target_indication_table = target_indication_table_known_status, association_table = new_associations, MSH_similarity = average_similarity,  top_mesh =  mesh_properties, gene_table = gene_properties, pg = c(RVIS=2, Time=4), pe = 2, filter_list=list(any = function(x) {x}), sigmab=sigmab, mualpha=mualpha, sigmaalpha=sigmaalpha, save_file="../results/any_new.rds", cores=ncore)
 ```
 
 ```{r label=ModelFitPlotChunk, include=FALSE}
 similarities <- seq(0, 1, 0.01)
-prediction_df_gwas <- do.call(generate_prediction_df, c(stan_gwas, list(similarities=seq(0,1,0.01)))) %>% mutate(Analysis="Complete Current", Source="GWAS")
-prediction_df_omim <- do.call(generate_prediction_df, c(stan_omim, list(similarities=seq(0,1,0.01)))) %>% mutate(Analysis="Complete Current", Source="OMIM")
-prediction_df_del <- do.call(generate_prediction_df, c(stan_del, list(similarities=seq(0,1,0.01)))) %>% mutate(Analysis="Complete Current", Source="GWAS High/Moderate Deleterious")
-prediction_df_gwas2013 <- do.call(generate_prediction_df, c(stan_gwas_2013, list(similarities=seq(0,1,0.01)))) %>% mutate(Analysis="New Genetic", Source="GWAS")
-prediction_df_omim2013 <- do.call(generate_prediction_df, c(stan_omim_2013, list(similarities=seq(0,1,0.01)))) %>% mutate(Analysis="New Genetic", Source="OMIM")
-prediction_df_del2013 <- do.call(generate_prediction_df, c(stan_del_2013, list(similarities=seq(0,1,0.01)))) %>% mutate(Analysis="New Genetic", Source="GWAS High/Moderate Deleterious")
+prediction_df_gwas <- do.call(generate_prediction_df, c(stan_gwas, list(similarities=similarities))) %>% mutate(Analysis="Full Data", Source="GWAS")
+prediction_df_omim <- do.call(generate_prediction_df, c(stan_omim, list(similarities=similarities))) %>% mutate(Analysis="Full Data", Source="OMIM")
+prediction_df_del <- do.call(generate_prediction_df, c(stan_del, list(similarities=similarities))) %>% mutate(Analysis="Full Data", Source="GWAS High/Moderate Deleterious")
+prediction_df_gwas2013 <- do.call(generate_prediction_df, c(stan_gwas_2013, list(similarities=similarities))) %>% mutate(Analysis="New Genetic", Source="GWAS")
+prediction_df_omim2013 <- do.call(generate_prediction_df, c(stan_omim_2013, list(similarities=similarities))) %>% mutate(Analysis="New Genetic", Source="OMIM")
+prediction_df_del2013 <- do.call(generate_prediction_df, c(stan_del_2013, list(similarities=similarities))) %>% mutate(Analysis="New Genetic", Source="GWAS High/Moderate Deleterious")
 
 combined_model_fits <- rbind(prediction_df_gwas, prediction_df_omim, prediction_df_del, prediction_df_gwas2013, prediction_df_omim2013, prediction_df_del2013)
 
@@ -103,11 +107,23 @@ filter_list <- list(gwas_filter, OMIM_filter, function(x) {x})
 indications <- unique(target_indication_table$MSH)
 associated_genes <- unique(gene_trait_association_table$ensembl_id)
 
-pred_res <- vector("list", length(stan_res_list))
+ngenes <- length(associated_genes)
+# Split into chunks to avoid memory problems
+ntasks <- 50
+genes_per_task <- ceiling(ngenes / ntasks)
+gene_df <- data.frame(gene_start = seq(1, ngenes, genes_per_task)) %>% mutate(gene_end = pmin(gene_start + (genes_per_task - 1), ngenes))
+params <- cbind(bind_rows(rep(list(gene_df),3)), stan_res_ind = rep(1:3, each=nrow(gene_df)))
 
-for (i in 1:length(stan_res_list)) {
-  pred_res[[i]] <- cbind(predict_gene_mesh(ensembl_ids = associated_genes, mesh_terms = indications, association_table = gene_trait_association_table, similarity = average_similarity, gene_table = gene_properties, top_mesh = mesh_properties, stan_res= stan_res_list[[i]], default_time = 13903.5, conf = 0.95, cutoff=0.5), data.frame(Model=names(stan_res_list)[i]))
+pred_res <- vector("list", nrow(params))
+
+pb <- txtProgressBar(min = 0, max = nrow(params), style = 3)
+
+for (i in 1:nrow(params)) {
+  setTxtProgressBar(pb, i)
+  pred_res[[i]] <- cbind(predict_gene_mesh(ensembl_ids = associated_genes[params$gene_start[i]:params$gene_end[i]], mesh_terms = indications, association_table = gene_trait_association_table, similarity = average_similarity, gene_table = gene_properties, top_mesh = mesh_properties, stan_res= stan_res_list[[params$stan_res_ind[i]]], default_time = 13903.5, conf = 0.95, cutoff=0.5), data.frame(Model=names(stan_res_list)[params$stan_res_ind[i]], stringsAsFactors = FALSE))
 }
+
+close(pb)
 
 output_for_app <- bind_rows(pred_res) %>% filter(!is.na(OMIMSimilarity) | !is.na(GWASSimilarity))
 
@@ -117,10 +133,19 @@ saveRDS(output_for_app, file = "../results/ShinyAppPrecomputed.rds")
 ```{r label=GeneratingInputForShinyAppKnownTargets, include=FALSE, cache=TRUE, eval=TRUE}
 target_genes <- unique(target_indication_table$ensembl_id)
 
-pred_res <- vector("list", length(stan_res_list))
+ngenes <- length(target_genes)
+# Split into chunks to avoid memory problems
+ntasks <- 50
+genes_per_task <- ceiling(ngenes / ntasks)
+gene_df <- data.frame(gene_start = seq(1, ngenes, genes_per_task)) %>% mutate(gene_end = pmin(gene_start + (genes_per_task - 1), ngenes))
+params <- cbind(bind_rows(rep(list(gene_df),3)), stan_res_ind = rep(1:3, each=nrow(gene_df)))
+
+pred_res <- vector("list", nrow(params))
+
+pb <- txtProgressBar(min = 0, max = nrow(params), style = 3)
 
 for (i in 1:length(stan_res_list)) {
-  pred_res[[i]] <- cbind(predict_gene_mesh(ensembl_ids = target_genes, mesh_terms = indications, association_table = gene_trait_association_table, similarity = average_similarity, gene_table = gene_properties, top_mesh = mesh_properties, stan_res= stan_res_list[[i]], default_time = NA, conf = 0.95, cutoff=0.5), data.frame(Model=names(stan_res_list)[i]))
+  pred_res[[i]] <- cbind(predict_gene_mesh(ensembl_ids = target_genes[params$gene_start[i]:params$gene_end[i]], mesh_terms = indications, association_table = gene_trait_association_table, similarity = average_similarity, gene_table = gene_properties, top_mesh = mesh_properties, stan_res= stan_res_list[[params$stan_res_ind[i]]], default_time = NA, conf = 0.95, cutoff=0.5), data.frame(Model=names(stan_res_list)[params$stan_res_ind[i]], stringsAsFactors = FALSE))
 }
 
 output_for_app <- bind_rows(pred_res) %>% filter(!is.na(OMIMSimilarity) | !is.na(GWASSimilarity))

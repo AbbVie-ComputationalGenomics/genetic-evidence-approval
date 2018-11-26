@@ -526,6 +526,7 @@ generate_prediction_df <- function(stan_input, stan_out, params, norm, similarit
 predict_gene_mesh <- function(ensembl_ids, mesh_terms, conf, stan_res, similarity, gene_table, top_mesh, association_table, default_time = 13903.5, cutoff=0.5, find_similar_trait=TRUE) {
   X_table <- new_design_rows_df(ensembl_id = ensembl_ids, mesh_term = mesh_terms, association_table = association_table, 
                                  MSH_similarity = similarity, top_mesh = top_mesh, gene_table = gene_table, stan_res = stan_res, cutoff=cutoff)
+  browser()
   X <- as.matrix(X_table[,!colnames(X_table) %in% c("ensembl_id", "MSH")])
   posterior_samps_beta <- as.matrix(stan_res$stan_out, pars=paste0("beta[", 1:ncol(X), "]"))
   posterior_samps_alpha <- matrix(data = as.matrix(stan_res$stan_out, pars="alpha"), nrow = nrow(posterior_samps_beta), ncol = nrow(X), byrow=FALSE)
@@ -565,7 +566,7 @@ predict_gene_mesh <- function(ensembl_ids, mesh_terms, conf, stan_res, similarit
                                    Trait = trait, stringsAsFactors = FALSE)
     }
   }
-  ge_component <- exp(posterior_samps_beta[,ge_col] %*% t(X[,ge_col]))
+  ge_component <- exp(posterior_samps_beta[,ge_col,drop=FALSE] %*% t(X[,ge_col,drop=FALSE]))
   sim_res <- bind_rows(sim_res) %>% spread(Source, Similarity)
   stan_res <- data.frame(p = pres, OR = apply(ge_component, 2, mean), OR.lower = apply(ge_component, 2, quantile, (1-conf)/2), OR.upper = apply(ge_component, 2, quantile, 1-(1-conf)/2), X_table[,c('ensembl_id', 'MSH')], stringsAsFactors = FALSE)
   res <- left_join(stan_res, sim_res)
