@@ -3,7 +3,7 @@ Code and supplementary to reproduce main text figures on new estimates of the ef
 ## Quickstart guide
 This guide gives instructions for compiling a pdf document reproducing main text figures from King et al. 2018 using supplementary data sources and for installing the associated shiny app outputing predictions.
 ### Cloning repository
-`git clone https://pig.abbvienet.com/kingea/genetic-evidence-approval/kingea/genetic-evidence-approval.git`
+`git clone https://pig.abbvienet.com/kingea/genetic-evidence-approval.git`
 
 Note: For public git repo, to appear,
 
@@ -30,11 +30,7 @@ install.packages("dplyr")
 ```
 install.packages("rstan")
 ```
-##### Additional dependencies for ontology
-```
-install.packages("ontologySimilarity")
-install.packages("ontologyIndex")
-```
+
 ### Downloading data and results files
 This is how to download model output if not running Stan.
 ```
