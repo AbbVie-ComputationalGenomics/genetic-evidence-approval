@@ -50,9 +50,7 @@ mesh_properties <- read.delim(paste0(data_folder,"/top_mesh.tsv"), stringsAsFact
 
 ```{r label=RemoveXMHC, include=FALSE}
 xMHC_ensembl <- get_xMHC_genes()
-gene_trait_association_table <- filter(gene_trait_association_table0, !ensembl_id %in% xMHC_ensembl)
-target_indication_table <-  filter(target_indication_table, !ensembl_id %in% xMHC_ensembl) # this actually was already filtered to remove these genes.
-target_indication_table_nmsh <-  filter(target_indication_table_nmsh, !ensembl_id %in% xMHC_ensembl) # this actually was already filtered to remove these genes.
+gene_trait_association_table <- filter(gene_trait_association_table0, !xMHCGene)
 ```
 
 ```{r ReplicationResultsOnFullDataset, include=FALSE}
