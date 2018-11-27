@@ -56,7 +56,7 @@ library(knitr)
 library(markdown)
 knit('doc/AssociationBetweenGeneticEvidenceAndSuccess.Rmd', 'doc/AssociationBetweenGeneticEvidenceAndSuccess.md')
 markdownToHTML('doc/AssociationBetweenGeneticEvidenceAndSuccess.md', 'doc/AssociationBetweenGeneticEvidenceAndSuccess.html')
-browseURL(paste('file://', file.path('doc/AssociationBetweenGeneticEvidenceAndSuccess.html'), sep=''))
+browseURL(paste('file://', file.path(getwd(),'doc/AssociationBetweenGeneticEvidenceAndSuccess.html'), sep='')) 
 ```
 From RStudio, open `AssociationBetweenGeneticEvidenceAndSuccess.Rmd` and click Knit.
 
@@ -67,7 +67,7 @@ library(knitr)
 library(markdown)
 knit('doc/StanModelFits.Rmd', 'doc/StanModelFits.md')
 markdownToHTML('doc/StanModelFits.md', 'doc/StanModelFits.html')
-browseURL(paste('file://', file.path('doc/StanModelFits.html'), sep=''))
+browseURL(paste('file://', file.path(getwd(),'doc/StanModelFits.html'), sep='')) 
 ```
 From RStudio, open `StanModelFits.Rmd` and click Knit.
 Note this will likely take several hours to run.
