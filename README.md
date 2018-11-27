@@ -12,7 +12,7 @@ Note: For public git repo, to appear,
 From an R session
 ##### Figure reproduction dependencies
 ```
-install.packages("rmarkdown")
+install.packages("markdown")
 install.packages("knitr")
 install.packages("dplyr")
 install.packages("ggplot2")
@@ -53,7 +53,7 @@ cd ../
 From R session in `genetic_evidence_approval` directory
 ```
 library(knitr)
-library(rmarkdown)
+library(markdown)
 knit('doc/AssociationBetweenGeneticEvidenceAndSuccess.Rmd', 'doc/AssociationBetweenGeneticEvidenceAndSuccess.md')
 markdownToHTML('doc/AssociationBetweenGeneticEvidenceAndSuccess.md', 'doc/AssociationBetweenGeneticEvidenceAndSuccess.html')
 browseURL(paste('file://', file.path('doc/AssociationBetweenGeneticEvidenceAndSuccess.html'), sep=''))
@@ -64,7 +64,7 @@ From RStudio, open `AssociationBetweenGeneticEvidenceAndSuccess.Rmd` and click K
 From R session in `genetic_evidence_approval` directory
 ```
 library(knitr)
-library(rmarkdown)
+library(markdown)
 knit('doc/StanModelFits.Rmd', 'doc/StanModelFits.md')
 markdownToHTML('doc/StanModelFits.md', 'doc/StanModelFits.html')
 browseURL(paste('file://', file.path('doc/StanModelFits.html'), sep=''))
