@@ -31,21 +31,14 @@ install.packages("dplyr")
 install.packages("rstan")
 ```
 
-### Downloading data and results files
-This is how to download model output if not running Stan.
-```
-cd path/to/genetic-evidence-approval
-mkdir data
-mkdir results
-cd results
-[fetch ShinyAppPrecomputed.rds from paper supplementary materials]
-```
- Or download directly from paper and move to `path/to/genetic-evidence-approval/results`
 #### File only data files
 ##### Nelson et al supplementary tables
 From command line
 ```
-cd path/to/genetic-evidence-approval/data
+cd path/to/genetic-evidence-approval
+mkdir data
+cd data
+
 wget https://images.nature.com/full/nature-assets/ng/journal/v47/n8/extref/ng.3314-S12.txt
 wget https://images.nature.com/full/nature-assets/ng/journal/v47/n8/extref/ng.3314-S13.txt
 wget https://images.nature.com/full/nature-assets/ng/journal/v47/n8/extref/ng.3314-S14.txt
@@ -61,16 +54,15 @@ cd path/to/genetic-evidence-approval/data
 ### Reproducing main text figures
 From command line
 ```
-Rscript -e "library(knitr); knit('doc/AssociationBetweenGeneticEvidenceAndSuccess.Rnw')"
-pdflatex doc/AssociationBetweenGeneticEvidenceAndSuccess.tex
+Rscript -e "library(knitr); knit('doc/AssociationBetweenGeneticEvidenceAndSuccess.Rmd')"
 ```
-From RStudio, open `AssociationBetweenGeneticEvidenceAndSuccess.Rnw` and click compile pdf.  Ensure Sweave options are set to weave files using knitr.
-[TODO: convert this to a markdown document to avoid complications]
+From RStudio, open `AssociationBetweenGeneticEvidenceAndSuccess.Rmd` and click Knit.
 ### Rerunning model fit
+From command line
 ```
-Rscript -e "library(knitr); knit('doc/StanModelFits.Rnw')"
+Rscript -e "library(knitr); knit('doc/StanModelFits.Rmd')"
 ```
-From RStudio, open `StanModelFits.Rnw` and click compile pdf.  Ensure Sweave options are set to weave files using knitr.  This is likely to take hours to run.
+From RStudio, open `StanModelFits.Rmd` and click Knit.
 ### Running shiny app
 From RStudio, open `PredictApproval/app.R` and click run app button.
 [TODO how to from Rsession]
