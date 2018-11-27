@@ -35,7 +35,7 @@ install.packages("rstan")
 ##### Nelson et al supplementary tables
 From command line
 ```
-cd path/to/genetic-evidence-approval
+cd genetic-evidence-approval
 mkdir data
 cd data
 
@@ -47,10 +47,9 @@ wget https://images.nature.com/full/nature-assets/ng/journal/v47/n8/extref/ng.33
  Or download directly from paper and move to `path/to/genetic-evidence-approval/data`
  ##### King et al supplementary tables
  ```
-cd path/to/genetic-evidence-approval/data
 [fetch gene_trait_assoc.tsv, Standardized_Nelson_Associations.tsv, target_indication_nmsh.tsv, target_indication.tsv, Target_Properties.tsv from paper supplementary materials]
 ```
- Or download directly from paper and move to `path/to/genetic-evidence-approval/data`
+ Or download directly from paper and move to `genetic-evidence-approval/data`
 ### Reproducing main text figures
 From command line
 ```
