@@ -50,24 +50,24 @@ cd ../
 ```
  Or download directly from papers and move to `genetic-evidence-approval/data`
 ### Reproducing main text figures
-From R session in `genetic_evidence_approval` directory
+From R session in `genetic_evidence_approval/doc` directory
 ```
 library(knitr)
 library(markdown)
-knit('doc/AssociationBetweenGeneticEvidenceAndSuccess.Rmd', 'doc/AssociationBetweenGeneticEvidenceAndSuccess.md')
-markdownToHTML('doc/AssociationBetweenGeneticEvidenceAndSuccess.md', 'doc/AssociationBetweenGeneticEvidenceAndSuccess.html')
+knit('AssociationBetweenGeneticEvidenceAndSuccess.Rmd', 'AssociationBetweenGeneticEvidenceAndSuccess.md')
+markdownToHTML('AssociationBetweenGeneticEvidenceAndSuccess.md', 'AssociationBetweenGeneticEvidenceAndSuccess.html')
 browseURL(paste('file://', file.path(getwd(),'doc/AssociationBetweenGeneticEvidenceAndSuccess.html'), sep='')) 
 ```
 From RStudio, open `AssociationBetweenGeneticEvidenceAndSuccess.Rmd` and click Knit.
 
 ### Rerunning model fit
-From R session in `genetic_evidence_approval` directory
+From R session in `genetic_evidence_approval/doc` directory
 ```
 library(knitr)
 library(markdown)
-knit('doc/StanModelFits.Rmd', 'doc/StanModelFits.md')
-markdownToHTML('doc/StanModelFits.md', 'doc/StanModelFits.html')
-browseURL(paste('file://', file.path(getwd(),'doc/StanModelFits.html'), sep='')) 
+knit('StanModelFits.Rmd', 'StanModelFits.md')
+markdownToHTML('StanModelFits.md', 'StanModelFits.html')
+browseURL(paste('file://', file.path(getwd(),'StanModelFits.html'), sep='')) 
 ```
 From RStudio, open `StanModelFits.Rmd` and click Knit.
 Note this will likely take several hours to run.
