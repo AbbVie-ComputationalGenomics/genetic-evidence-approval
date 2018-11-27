@@ -71,7 +71,7 @@ markdownToHTML('doc/StanModelFits.md', 'doc/StanModelFits.html')
 browseURL(paste('file://', file.path('doc/StanModelFits.html'), sep=''))
 ```
 From RStudio, open `StanModelFits.Rmd` and click Knit.
-
+Note this will likely take several hours to run.
 ### Running shiny app
 From R session in `genetic_evidence_approval` directory
 ```
@@ -91,10 +91,9 @@ OMIM: OMIM genetic evidence alone
 GWAS and OMIM: GWAS and OMIM genetic evidence in the same model.  
 ##### Available gene target-indication pairs
 Gene target indication pairs were created from MeSH terms mapping to Pharmaprojects indications and genetically associated non xMHC, protein coding genes (filtering criteria used in the paper).  Target-indication pairs are only included if the target is genetically linked to a trait with similarity at least 0.5.  
-
 ##### Output interpretation
 Success probabilities reflect target and indication level properties in addition to genetic evidence, and are best interpreted on a relative scale due to unknown development times for new programs (see next section for further details).  Odds ratios purely reflect the contribution of genetic evidence to success, and by default we sort by the odds ratio.  Odds ratios above 1 mean the gene target-indication pair is more likely to succeed than if there were no genetic association and odds ratios below 1 mean it is less likely to succeed than with no genetic assocation.  
-##### Interpretation caveats
+### Interpretation caveats
 ##### Prior plausibility
 Note that fitted probabilities are produced from Pharmaprojects gene target-indication pairs, which had sufficient prior plausibility to enter early stage (Preclinical or Phase I) development.  Therefore predicted probabilities may be inflated for gene target-indication pairs with low prior plausibility (for example, due to negative early discovery results or problems with druggability) as these were not part of the training data.  The option to restrict to known targets when searching for targets by indication is intended to reduce this problem.  
 ##### Developpment Time
