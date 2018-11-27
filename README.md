@@ -56,7 +56,7 @@ library(knitr)
 library(markdown)
 knit('AssociationBetweenGeneticEvidenceAndSuccess.Rmd', 'AssociationBetweenGeneticEvidenceAndSuccess.md')
 markdownToHTML('AssociationBetweenGeneticEvidenceAndSuccess.md', 'AssociationBetweenGeneticEvidenceAndSuccess.html')
-browseURL(paste('file://', file.path(getwd(),'doc/AssociationBetweenGeneticEvidenceAndSuccess.html'), sep='')) 
+browseURL(paste('file://', file.path(getwd(),'AssociationBetweenGeneticEvidenceAndSuccess.html'), sep='')) 
 ```
 From RStudio, open `AssociationBetweenGeneticEvidenceAndSuccess.Rmd` and click Knit.
 
