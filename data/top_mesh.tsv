@@ -1,1617 +1,1617 @@
-"Name"	"MSH.Top"
-"1"	"Abortion, Spontaneous"	"Female Urogenital Diseases and Pregnancy Complications"
-"2"	"Morton Neuroma"	"Musculoskeletal Diseases"
-"3"	"Morton Neuroma"	"Nervous System Diseases"
-"4"	"Morton Neuroma"	"Pathological Conditions, Signs and Symptoms"
-"5"	"Brain Injuries, Traumatic"	"Nervous System Diseases"
-"6"	"Brain Injuries, Traumatic"	"Wounds and Injuries"
-"7"	"Tardive Dyskinesia"	"Nervous System Diseases"
-"8"	"Tardive Dyskinesia"	"Pathological Conditions, Signs and Symptoms"
-"9"	"Zika Virus Infection"	"Virus Diseases"
-"10"	"Cancer Pain"	"Nervous System Diseases"
-"11"	"Cancer Pain"	"Pathological Conditions, Signs and Symptoms"
-"12"	"Phobia, Social"	"Mental Disorders"
-"13"	"Acidosis"	"Nutritional and Metabolic Diseases"
-"14"	"Acne Vulgaris"	"Skin and Connective Tissue Diseases"
-"15"	"Acromegaly"	"Musculoskeletal Diseases"
-"16"	"Acromegaly"	"Nervous System Diseases"
-"17"	"Acromegaly"	"Endocrine System Diseases"
-"18"	"Addison Disease"	"Endocrine System Diseases"
-"19"	"Addison Disease"	"Immune System Diseases"
-"20"	"Adenoma"	"Neoplasms"
-"21"	"Adenoviridae Infections"	"Virus Diseases"
-"22"	"Tissue Adhesions"	"Pathological Conditions, Signs and Symptoms"
-"23"	"Adrenal Gland Neoplasms"	"Neoplasms"
-"24"	"Adrenal Gland Neoplasms"	"Endocrine System Diseases"
-"25"	"Adrenoleukodystrophy"	"Nervous System Diseases"
-"26"	"Adrenoleukodystrophy"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"27"	"Adrenoleukodystrophy"	"Nutritional and Metabolic Diseases"
-"28"	"Adrenoleukodystrophy"	"Endocrine System Diseases"
-"29"	"Affective Symptoms"	"Behavior and Behavior Mechanisms"
-"30"	"Afibrinogenemia"	"Hemic and Lymphatic Diseases"
-"31"	"Afibrinogenemia"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"32"	"Agammaglobulinemia"	"Hemic and Lymphatic Diseases"
-"33"	"Agammaglobulinemia"	"Immune System Diseases"
-"34"	"Agranulocytosis"	"Hemic and Lymphatic Diseases"
-"35"	"Albinism"	"Eye Diseases"
-"36"	"Albinism"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"37"	"Albinism"	"Skin and Connective Tissue Diseases"
-"38"	"Albinism"	"Nutritional and Metabolic Diseases"
-"39"	"Alcoholic Intoxication"	"Chemically-Induced Disorders"
-"40"	"Alcoholic Intoxication"	"Mental Disorders"
-"41"	"Alcoholism"	"Chemically-Induced Disorders"
-"42"	"Alcoholism"	"Mental Disorders"
-"43"	"Alkaptonuria"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"44"	"Alkaptonuria"	"Nutritional and Metabolic Diseases"
-"45"	"Alopecia"	"Skin and Connective Tissue Diseases"
-"46"	"Alopecia"	"Pathological Conditions, Signs and Symptoms"
-"47"	"Alopecia Areata"	"Skin and Connective Tissue Diseases"
-"48"	"Alzheimer Disease"	"Nervous System Diseases"
-"49"	"Alzheimer Disease"	"Mental Disorders"
-"50"	"Amblyopia"	"Nervous System Diseases"
-"51"	"Amblyopia"	"Eye Diseases"
-"52"	"Amblyopia"	"Pathological Conditions, Signs and Symptoms"
-"53"	"Amenorrhea"	"Pathological Conditions, Signs and Symptoms"
-"54"	"Amino Acid Metabolism, Inborn Errors"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"55"	"Amino Acid Metabolism, Inborn Errors"	"Nutritional and Metabolic Diseases"
-"56"	"Amnesia"	"Nervous System Diseases"
-"57"	"Amnesia"	"Pathological Conditions, Signs and Symptoms"
-"58"	"Amnesia"	"Behavior and Behavior Mechanisms"
-"59"	"Amnesia"	"Mental Disorders"
-"60"	"Amyloidosis"	"Nutritional and Metabolic Diseases"
-"61"	"Amyotrophic Lateral Sclerosis"	"Nervous System Diseases"
-"62"	"Amyotrophic Lateral Sclerosis"	"Nutritional and Metabolic Diseases"
-"63"	"Anaphylaxis"	"Immune System Diseases"
-"64"	"Anemia"	"Hemic and Lymphatic Diseases"
-"65"	"Anemia, Aplastic"	"Hemic and Lymphatic Diseases"
-"66"	"Anemia, Hemolytic"	"Hemic and Lymphatic Diseases"
-"67"	"Anemia, Hemolytic, Autoimmune"	"Hemic and Lymphatic Diseases"
-"68"	"Anemia, Hemolytic, Autoimmune"	"Immune System Diseases"
-"69"	"Anemia, Pernicious"	"Hemic and Lymphatic Diseases"
-"70"	"Anemia, Pernicious"	"Nutritional and Metabolic Diseases"
-"71"	"Anemia, Sickle Cell"	"Hemic and Lymphatic Diseases"
-"72"	"Anemia, Sickle Cell"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"73"	"Aneurysm"	"Cardiovascular Diseases"
-"74"	"Angina, Unstable"	"Nervous System Diseases"
-"75"	"Angina, Unstable"	"Cardiovascular Diseases"
-"76"	"Angina, Unstable"	"Pathological Conditions, Signs and Symptoms"
-"77"	"Fabry Disease"	"Nervous System Diseases"
-"78"	"Fabry Disease"	"Cardiovascular Diseases"
-"79"	"Fabry Disease"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"80"	"Fabry Disease"	"Nutritional and Metabolic Diseases"
-"81"	"Angioedema"	"Cardiovascular Diseases"
-"82"	"Angioedema"	"Skin and Connective Tissue Diseases"
-"83"	"Angioedema"	"Immune System Diseases"
-"84"	"Anorexia"	"Pathological Conditions, Signs and Symptoms"
-"85"	"Anorexia Nervosa"	"Mental Disorders"
-"86"	"Anthrax"	"Bacterial Infections and Mycoses"
-"87"	"Anus Neoplasms"	"Neoplasms"
-"88"	"Anus Neoplasms"	"Digestive System Diseases"
-"89"	"Anxiety"	"Behavior and Behavior Mechanisms"
-"90"	"Anxiety Disorders"	"Mental Disorders"
-"91"	"Anxiety, Separation"	"Mental Disorders"
-"92"	"Aortic Valve Stenosis"	"Cardiovascular Diseases"
-"93"	"Apnea"	"Respiratory Tract Diseases"
-"94"	"Apnea"	"Pathological Conditions, Signs and Symptoms"
-"95"	"Feeding and Eating Disorders"	"Mental Disorders"
-"96"	"Arrhythmias, Cardiac"	"Cardiovascular Diseases"
-"97"	"Arrhythmias, Cardiac"	"Pathological Conditions, Signs and Symptoms"
-"98"	"Arthritis"	"Musculoskeletal Diseases"
-"99"	"Arthritis, Juvenile"	"Musculoskeletal Diseases"
-"100"	"Arthritis, Juvenile"	"Skin and Connective Tissue Diseases"
-"101"	"Arthritis, Juvenile"	"Immune System Diseases"
-"102"	"Arthritis, Rheumatoid"	"Musculoskeletal Diseases"
-"103"	"Arthritis, Rheumatoid"	"Skin and Connective Tissue Diseases"
-"104"	"Arthritis, Rheumatoid"	"Immune System Diseases"
-"105"	"Ascites"	"Pathological Conditions, Signs and Symptoms"
-"106"	"Aspergillosis"	"Bacterial Infections and Mycoses"
-"107"	"Aspergillosis"	"Skin and Connective Tissue Diseases"
-"108"	"Asthma"	"Respiratory Tract Diseases"
-"109"	"Asthma"	"Immune System Diseases"
-"110"	"Ataxia Telangiectasia"	"Nervous System Diseases"
-"111"	"Ataxia Telangiectasia"	"Cardiovascular Diseases"
-"112"	"Ataxia Telangiectasia"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"113"	"Ataxia Telangiectasia"	"Nutritional and Metabolic Diseases"
-"114"	"Ataxia Telangiectasia"	"Immune System Diseases"
-"115"	"Atrial Fibrillation"	"Cardiovascular Diseases"
-"116"	"Atrial Fibrillation"	"Pathological Conditions, Signs and Symptoms"
-"117"	"Attention Deficit Disorder with Hyperactivity"	"Mental Disorders"
-"118"	"Autistic Disorder"	"Mental Disorders"
-"119"	"Autoimmune Diseases"	"Immune System Diseases"
-"120"	"Bacterial Infections"	"Bacterial Infections and Mycoses"
-"121"	"Barrett Esophagus"	"Digestive System Diseases"
-"122"	"Basal Cell Nevus Syndrome"	"Neoplasms"
-"123"	"Basal Cell Nevus Syndrome"	"Musculoskeletal Diseases"
-"124"	"Basal Cell Nevus Syndrome"	"Stomatognathic Diseases"
-"125"	"Basal Cell Nevus Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"126"	"Behcet Syndrome"	"Stomatognathic Diseases"
-"127"	"Behcet Syndrome"	"Eye Diseases"
-"128"	"Behcet Syndrome"	"Cardiovascular Diseases"
-"129"	"Behcet Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"130"	"Behcet Syndrome"	"Skin and Connective Tissue Diseases"
-"131"	"Biliary Atresia"	"Digestive System Diseases"
-"132"	"Biliary Atresia"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"133"	"Biliary Dyskinesia"	"Digestive System Diseases"
-"134"	"Biliary Tract Neoplasms"	"Neoplasms"
-"135"	"Biliary Tract Neoplasms"	"Digestive System Diseases"
-"136"	"Bipolar Disorder"	"Mental Disorders"
-"137"	"Urinary Bladder Diseases"	"Male Urogenital Diseases"
-"138"	"Urinary Bladder Diseases"	"Female Urogenital Diseases and Pregnancy Complications"
-"139"	"Urinary Bladder Neoplasms"	"Neoplasms"
-"140"	"Urinary Bladder Neoplasms"	"Male Urogenital Diseases"
-"141"	"Urinary Bladder Neoplasms"	"Female Urogenital Diseases and Pregnancy Complications"
-"142"	"Urinary Bladder, Neurogenic"	"Nervous System Diseases"
-"143"	"Urinary Bladder, Neurogenic"	"Male Urogenital Diseases"
-"144"	"Urinary Bladder, Neurogenic"	"Female Urogenital Diseases and Pregnancy Complications"
-"145"	"Urinary Bladder, Neurogenic"	"Pathological Conditions, Signs and Symptoms"
-"146"	"Blepharitis"	"Eye Diseases"
-"147"	"Blindness"	"Nervous System Diseases"
-"148"	"Blindness"	"Eye Diseases"
-"149"	"Blindness"	"Pathological Conditions, Signs and Symptoms"
-"150"	"Bone Cysts"	"Neoplasms"
-"151"	"Bone Cysts"	"Musculoskeletal Diseases"
-"152"	"Bone Diseases"	"Musculoskeletal Diseases"
-"153"	"Bone Diseases, Metabolic"	"Musculoskeletal Diseases"
-"154"	"Bone Diseases, Metabolic"	"Nutritional and Metabolic Diseases"
-"155"	"Bone Neoplasms"	"Neoplasms"
-"156"	"Bone Neoplasms"	"Musculoskeletal Diseases"
-"157"	"Bradycardia"	"Cardiovascular Diseases"
-"158"	"Bradycardia"	"Pathological Conditions, Signs and Symptoms"
-"159"	"Brain Edema"	"Nervous System Diseases"
-"160"	"Brain Injuries"	"Nervous System Diseases"
-"161"	"Brain Injuries"	"Wounds and Injuries"
-"162"	"Brain Neoplasms"	"Neoplasms"
-"163"	"Brain Neoplasms"	"Nervous System Diseases"
-"164"	"Breast Neoplasms"	"Neoplasms"
-"165"	"Breast Neoplasms"	"Skin and Connective Tissue Diseases"
-"166"	"Bronchiectasis"	"Respiratory Tract Diseases"
-"167"	"Bronchiolitis Obliterans"	"Respiratory Tract Diseases"
-"168"	"Bronchopulmonary Dysplasia"	"Respiratory Tract Diseases"
-"169"	"Bronchopulmonary Dysplasia"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"170"	"Brucellosis"	"Bacterial Infections and Mycoses"
-"171"	"Bulimia"	"Pathological Conditions, Signs and Symptoms"
-"172"	"Burns"	"Wounds and Injuries"
-"173"	"Bursitis"	"Musculoskeletal Diseases"
-"174"	"Cachexia"	"Pathological Conditions, Signs and Symptoms"
-"175"	"Candidiasis"	"Bacterial Infections and Mycoses"
-"176"	"Carbohydrate Metabolism, Inborn Errors"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"177"	"Carbohydrate Metabolism, Inborn Errors"	"Nutritional and Metabolic Diseases"
-"178"	"Carcinoid Tumor"	"Neoplasms"
-"179"	"Carcinoma, Non-Small-Cell Lung"	"Neoplasms"
-"180"	"Carcinoma, Non-Small-Cell Lung"	"Respiratory Tract Diseases"
-"181"	"Carcinoma, Squamous Cell"	"Neoplasms"
-"182"	"Cardiomyopathy, Dilated"	"Cardiovascular Diseases"
-"183"	"Cardiomyopathy, Hypertrophic"	"Cardiovascular Diseases"
-"184"	"Cardiovascular Diseases"	"Cardiovascular Diseases"
-"185"	"Cataplexy"	"Nervous System Diseases"
-"186"	"Cataplexy"	"Mental Disorders"
-"187"	"Cataract"	"Eye Diseases"
-"188"	"Celiac Disease"	"Digestive System Diseases"
-"189"	"Celiac Disease"	"Nutritional and Metabolic Diseases"
-"190"	"Central Nervous System Diseases"	"Nervous System Diseases"
-"191"	"Cerebral Hemorrhage"	"Nervous System Diseases"
-"192"	"Cerebral Hemorrhage"	"Cardiovascular Diseases"
-"193"	"Cerebral Hemorrhage"	"Pathological Conditions, Signs and Symptoms"
-"194"	"Cerebral Infarction"	"Nervous System Diseases"
-"195"	"Cerebral Infarction"	"Cardiovascular Diseases"
-"196"	"Brain Ischemia"	"Nervous System Diseases"
-"197"	"Brain Ischemia"	"Cardiovascular Diseases"
-"198"	"Cerebral Palsy"	"Nervous System Diseases"
-"199"	"Uterine Cervical Dysplasia"	"Neoplasms"
-"200"	"Uterine Cervical Dysplasia"	"Female Urogenital Diseases and Pregnancy Complications"
-"201"	"Uterine Cervical Neoplasms"	"Neoplasms"
-"202"	"Uterine Cervical Neoplasms"	"Female Urogenital Diseases and Pregnancy Complications"
-"203"	"Charcot-Marie-Tooth Disease"	"Nervous System Diseases"
-"204"	"Charcot-Marie-Tooth Disease"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"205"	"Chest Pain"	"Nervous System Diseases"
-"206"	"Chest Pain"	"Pathological Conditions, Signs and Symptoms"
-"207"	"Chickenpox"	"Virus Diseases"
-"208"	"Chlamydia Infections"	"Bacterial Infections and Mycoses"
-"209"	"Chlamydia Infections"	"Male Urogenital Diseases"
-"210"	"Chlamydia Infections"	"Female Urogenital Diseases and Pregnancy Complications"
-"211"	"Cholangitis"	"Digestive System Diseases"
-"212"	"Cholecystitis"	"Digestive System Diseases"
-"213"	"Cholelithiasis"	"Digestive System Diseases"
-"214"	"Cholestasis, Intrahepatic"	"Digestive System Diseases"
-"215"	"Chordoma"	"Neoplasms"
-"216"	"Chorioretinitis"	"Eye Diseases"
-"217"	"Hemophilia B"	"Hemic and Lymphatic Diseases"
-"218"	"Hemophilia B"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"219"	"Clostridium Infections"	"Bacterial Infections and Mycoses"
-"220"	"Cluster Headache"	"Nervous System Diseases"
-"221"	"Colic"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"222"	"Colitis"	"Digestive System Diseases"
-"223"	"Colitis, Ulcerative"	"Digestive System Diseases"
-"224"	"Color Vision Defects"	"Nervous System Diseases"
-"225"	"Color Vision Defects"	"Eye Diseases"
-"226"	"Color Vision Defects"	"Pathological Conditions, Signs and Symptoms"
-"227"	"Conjunctivitis"	"Eye Diseases"
-"228"	"Conjunctivitis, Allergic"	"Eye Diseases"
-"229"	"Conjunctivitis, Allergic"	"Immune System Diseases"
-"230"	"Connective Tissue Diseases"	"Skin and Connective Tissue Diseases"
-"231"	"Constipation"	"Pathological Conditions, Signs and Symptoms"
-"232"	"Constriction, Pathologic"	"Pathological Conditions, Signs and Symptoms"
-"233"	"Corneal Ulcer"	"Bacterial Infections and Mycoses"
-"234"	"Corneal Ulcer"	"Eye Diseases"
-"235"	"Coronary Thrombosis"	"Cardiovascular Diseases"
-"236"	"Cough"	"Respiratory Tract Diseases"
-"237"	"Cough"	"Pathological Conditions, Signs and Symptoms"
-"238"	"Crigler-Najjar Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"239"	"Crigler-Najjar Syndrome"	"Nutritional and Metabolic Diseases"
-"240"	"Crohn Disease"	"Digestive System Diseases"
-"241"	"Croup"	"Respiratory Tract Diseases"
-"242"	"Croup"	"Otorhinolaryngologic Diseases"
-"243"	"Cryptococcosis"	"Bacterial Infections and Mycoses"
-"244"	"Cryptosporidiosis"	"Parasitic Diseases"
-"245"	"Cryptosporidiosis"	"Digestive System Diseases"
-"246"	"Cystic Fibrosis"	"Digestive System Diseases"
-"247"	"Cystic Fibrosis"	"Respiratory Tract Diseases"
-"248"	"Cystic Fibrosis"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"249"	"Cytomegalovirus Infections"	"Virus Diseases"
-"250"	"Pressure Ulcer"	"Skin and Connective Tissue Diseases"
-"251"	"Hepatitis D"	"Virus Diseases"
-"252"	"Hepatitis D"	"Digestive System Diseases"
-"253"	"Dementia"	"Nervous System Diseases"
-"254"	"Dementia"	"Mental Disorders"
-"255"	"Dengue"	"Virus Diseases"
-"256"	"Depression"	"Behavior and Behavior Mechanisms"
-"257"	"Depressive Disorder, Major"	"Mental Disorders"
-"258"	"Dermatitis"	"Skin and Connective Tissue Diseases"
-"259"	"Dermatitis, Atopic"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"260"	"Dermatitis, Atopic"	"Skin and Connective Tissue Diseases"
-"261"	"Dermatitis, Atopic"	"Immune System Diseases"
-"262"	"Dermatitis, Contact"	"Skin and Connective Tissue Diseases"
-"263"	"Dermatomyositis"	"Musculoskeletal Diseases"
-"264"	"Dermatomyositis"	"Nervous System Diseases"
-"265"	"Dermatomyositis"	"Skin and Connective Tissue Diseases"
-"266"	"Diabetes Insipidus"	"Male Urogenital Diseases"
-"267"	"Diabetes Insipidus"	"Female Urogenital Diseases and Pregnancy Complications"
-"268"	"Diabetes Insipidus"	"Endocrine System Diseases"
-"269"	"Diabetes Mellitus, Type 1"	"Nutritional and Metabolic Diseases"
-"270"	"Diabetes Mellitus, Type 1"	"Endocrine System Diseases"
-"271"	"Diabetes Mellitus, Type 1"	"Immune System Diseases"
-"272"	"Diabetes Mellitus, Type 2"	"Nutritional and Metabolic Diseases"
-"273"	"Diabetes Mellitus, Type 2"	"Endocrine System Diseases"
-"274"	"Diabetic Nephropathies"	"Male Urogenital Diseases"
-"275"	"Diabetic Nephropathies"	"Female Urogenital Diseases and Pregnancy Complications"
-"276"	"Diabetic Nephropathies"	"Endocrine System Diseases"
-"277"	"Diabetic Neuropathies"	"Nervous System Diseases"
-"278"	"Diabetic Neuropathies"	"Endocrine System Diseases"
-"279"	"Diabetic Retinopathy"	"Eye Diseases"
-"280"	"Diabetic Retinopathy"	"Cardiovascular Diseases"
-"281"	"Diabetic Retinopathy"	"Endocrine System Diseases"
-"282"	"Diarrhea"	"Pathological Conditions, Signs and Symptoms"
-"283"	"DiGeorge Syndrome"	"Musculoskeletal Diseases"
-"284"	"DiGeorge Syndrome"	"Cardiovascular Diseases"
-"285"	"DiGeorge Syndrome"	"Hemic and Lymphatic Diseases"
-"286"	"DiGeorge Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"287"	"DiGeorge Syndrome"	"Endocrine System Diseases"
-"288"	"Diphtheria"	"Bacterial Infections and Mycoses"
-"289"	"Disease"	"Pathological Conditions, Signs and Symptoms"
-"290"	"Disseminated Intravascular Coagulation"	"Hemic and Lymphatic Diseases"
-"291"	"Diverticulitis"	"Bacterial Infections and Mycoses"
-"292"	"Diverticulitis"	"Digestive System Diseases"
-"293"	"Down Syndrome"	"Nervous System Diseases"
-"294"	"Down Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"295"	"Ductus Arteriosus, Patent"	"Cardiovascular Diseases"
-"296"	"Ductus Arteriosus, Patent"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"297"	"Duodenal Ulcer"	"Digestive System Diseases"
-"298"	"Dwarfism"	"Musculoskeletal Diseases"
-"299"	"Dwarfism"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"300"	"Dwarfism"	"Endocrine System Diseases"
-"301"	"Dysautonomia, Familial"	"Nervous System Diseases"
-"302"	"Dysautonomia, Familial"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"303"	"Dyskinesia, Drug-Induced"	"Nervous System Diseases"
-"304"	"Dyskinesia, Drug-Induced"	"Pathological Conditions, Signs and Symptoms"
-"305"	"Dyskinesia, Drug-Induced"	"Chemically-Induced Disorders"
-"306"	"Dysmenorrhea"	"Pathological Conditions, Signs and Symptoms"
-"307"	"Dyspareunia"	"Male Urogenital Diseases"
-"308"	"Dyspareunia"	"Female Urogenital Diseases and Pregnancy Complications"
-"309"	"Dyspareunia"	"Mental Disorders"
-"310"	"Dyspepsia"	"Pathological Conditions, Signs and Symptoms"
-"311"	"Dystonia"	"Nervous System Diseases"
-"312"	"Dystonia"	"Pathological Conditions, Signs and Symptoms"
-"313"	"Ear Diseases"	"Otorhinolaryngologic Diseases"
-"314"	"Ectodermal Dysplasia"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"315"	"Ectodermal Dysplasia"	"Skin and Connective Tissue Diseases"
-"316"	"Eczema"	"Skin and Connective Tissue Diseases"
-"317"	"Edema"	"Pathological Conditions, Signs and Symptoms"
-"318"	"Edema, Cardiac"	"Cardiovascular Diseases"
-"319"	"Edema, Cardiac"	"Pathological Conditions, Signs and Symptoms"
-"320"	"Ehlers-Danlos Syndrome"	"Cardiovascular Diseases"
-"321"	"Ehlers-Danlos Syndrome"	"Hemic and Lymphatic Diseases"
-"322"	"Ehlers-Danlos Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"323"	"Ehlers-Danlos Syndrome"	"Skin and Connective Tissue Diseases"
-"324"	"Emphysema"	"Pathological Conditions, Signs and Symptoms"
-"325"	"Encephalitis"	"Nervous System Diseases"
-"326"	"Encephalitis, Japanese"	"Virus Diseases"
-"327"	"Encephalitis, Japanese"	"Nervous System Diseases"
-"328"	"Encephalomyelitis, Venezuelan Equine"	"Virus Diseases"
-"329"	"Encephalomyelitis, Venezuelan Equine"	"Nervous System Diseases"
-"330"	"Endocarditis"	"Cardiovascular Diseases"
-"331"	"Endocrine System Diseases"	"Endocrine System Diseases"
-"332"	"Endometriosis"	"Female Urogenital Diseases and Pregnancy Complications"
-"333"	"Enuresis"	"Male Urogenital Diseases"
-"334"	"Enuresis"	"Female Urogenital Diseases and Pregnancy Complications"
-"335"	"Enuresis"	"Behavior and Behavior Mechanisms"
-"336"	"Enuresis"	"Mental Disorders"
-"337"	"Epidermolysis Bullosa"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"338"	"Epidermolysis Bullosa"	"Skin and Connective Tissue Diseases"
-"339"	"Epilepsy"	"Nervous System Diseases"
-"340"	"Epilepsies, Partial"	"Nervous System Diseases"
-"341"	"Epilepsy, Generalized"	"Nervous System Diseases"
-"342"	"Epilepsy, Tonic-Clonic"	"Nervous System Diseases"
-"343"	"Epilepsies, Myoclonic"	"Nervous System Diseases"
-"344"	"Epilepsy, Absence"	"Nervous System Diseases"
-"345"	"Erythema Multiforme"	"Skin and Connective Tissue Diseases"
-"346"	"Erythroblastosis, Fetal"	"Female Urogenital Diseases and Pregnancy Complications"
-"347"	"Erythroblastosis, Fetal"	"Hemic and Lymphatic Diseases"
-"348"	"Erythroblastosis, Fetal"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"349"	"Erythroblastosis, Fetal"	"Immune System Diseases"
-"350"	"Erythromelalgia"	"Cardiovascular Diseases"
-"351"	"Escherichia coli Infections"	"Bacterial Infections and Mycoses"
-"352"	"Esophageal Achalasia"	"Digestive System Diseases"
-"353"	"Esophageal Neoplasms"	"Neoplasms"
-"354"	"Esophageal Neoplasms"	"Digestive System Diseases"
-"355"	"Esophagitis"	"Digestive System Diseases"
-"356"	"Esophagitis, Peptic"	"Digestive System Diseases"
-"357"	"Exophthalmos"	"Eye Diseases"
-"358"	"Eye Diseases"	"Eye Diseases"
-"359"	"Eye Neoplasms"	"Neoplasms"
-"360"	"Eye Neoplasms"	"Eye Diseases"
-"361"	"Factor VII Deficiency"	"Hemic and Lymphatic Diseases"
-"362"	"Factor VII Deficiency"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"363"	"Factor X Deficiency"	"Hemic and Lymphatic Diseases"
-"364"	"Factor X Deficiency"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"365"	"Factor XI Deficiency"	"Hemic and Lymphatic Diseases"
-"366"	"Factor XI Deficiency"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"367"	"Factor XIII Deficiency"	"Hemic and Lymphatic Diseases"
-"368"	"Factor XIII Deficiency"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"369"	"Fallopian Tube Neoplasms"	"Neoplasms"
-"370"	"Fallopian Tube Neoplasms"	"Female Urogenital Diseases and Pregnancy Complications"
-"371"	"Fatigue"	"Pathological Conditions, Signs and Symptoms"
-"372"	"Fatty Liver"	"Digestive System Diseases"
-"373"	"Fatty Liver, Alcoholic"	"Digestive System Diseases"
-"374"	"Fatty Liver, Alcoholic"	"Chemically-Induced Disorders"
-"375"	"Fecal Incontinence"	"Digestive System Diseases"
-"376"	"Female Urogenital Diseases and Pregnancy Complications"	"Female Urogenital Diseases and Pregnancy Complications"
-"377"	"Fetal Death"	"Female Urogenital Diseases and Pregnancy Complications"
-"378"	"Fetal Death"	"Pathological Conditions, Signs and Symptoms"
-"379"	"Fever"	"Pathological Conditions, Signs and Symptoms"
-"380"	"Fibrocystic Breast Disease"	"Skin and Connective Tissue Diseases"
-"381"	"Fibrosarcoma"	"Neoplasms"
-"382"	"Fibrosis"	"Pathological Conditions, Signs and Symptoms"
-"383"	"Fibromyalgia"	"Musculoskeletal Diseases"
-"384"	"Fibromyalgia"	"Nervous System Diseases"
-"385"	"Fissure in Ano"	"Digestive System Diseases"
-"386"	"Flatulence"	"Pathological Conditions, Signs and Symptoms"
-"387"	"Food Hypersensitivity"	"Immune System Diseases"
-"388"	"Fragile X Syndrome"	"Nervous System Diseases"
-"389"	"Fragile X Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"390"	"Friedreich Ataxia"	"Nervous System Diseases"
-"391"	"Friedreich Ataxia"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"392"	"Friedreich Ataxia"	"Nutritional and Metabolic Diseases"
-"393"	"Galactorrhea"	"Female Urogenital Diseases and Pregnancy Complications"
-"394"	"Galactorrhea"	"Skin and Connective Tissue Diseases"
-"395"	"Gambling"	"Behavior and Behavior Mechanisms"
-"396"	"Gambling"	"Mental Disorders"
-"397"	"Gastritis"	"Digestive System Diseases"
-"398"	"Gastroenteritis"	"Digestive System Diseases"
-"399"	"Gastroesophageal Reflux"	"Digestive System Diseases"
-"400"	"Gastrointestinal Diseases"	"Digestive System Diseases"
-"401"	"Gastrointestinal Neoplasms"	"Neoplasms"
-"402"	"Gastrointestinal Neoplasms"	"Digestive System Diseases"
-"403"	"Gaucher Disease"	"Nervous System Diseases"
-"404"	"Gaucher Disease"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"405"	"Gaucher Disease"	"Nutritional and Metabolic Diseases"
-"406"	"Giant Lymph Node Hyperplasia"	"Hemic and Lymphatic Diseases"
-"407"	"Giant Lymph Node Hyperplasia"	"Immune System Diseases"
-"408"	"Tourette Syndrome"	"Nervous System Diseases"
-"409"	"Tourette Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"410"	"Tourette Syndrome"	"Mental Disorders"
-"411"	"Glaucoma"	"Eye Diseases"
-"412"	"Glomerulonephritis"	"Male Urogenital Diseases"
-"413"	"Glomerulonephritis"	"Female Urogenital Diseases and Pregnancy Complications"
-"414"	"Glomerulonephritis, IGA"	"Male Urogenital Diseases"
-"415"	"Glomerulonephritis, IGA"	"Female Urogenital Diseases and Pregnancy Complications"
-"416"	"Glomerulonephritis, IGA"	"Immune System Diseases"
-"417"	"Glycogen Storage Disease Type I"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"418"	"Glycogen Storage Disease Type I"	"Nutritional and Metabolic Diseases"
-"419"	"Glycogen Storage Disease Type II"	"Nervous System Diseases"
-"420"	"Glycogen Storage Disease Type II"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"421"	"Glycogen Storage Disease Type II"	"Nutritional and Metabolic Diseases"
-"422"	"Goiter"	"Endocrine System Diseases"
-"423"	"Gonorrhea"	"Bacterial Infections and Mycoses"
-"424"	"Gonorrhea"	"Male Urogenital Diseases"
-"425"	"Gonorrhea"	"Female Urogenital Diseases and Pregnancy Complications"
-"426"	"Graft vs Host Disease"	"Immune System Diseases"
-"427"	"Granulomatous Disease, Chronic"	"Hemic and Lymphatic Diseases"
-"428"	"Granulomatous Disease, Chronic"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"429"	"Granulomatous Disease, Chronic"	"Immune System Diseases"
-"430"	"Gynecomastia"	"Skin and Connective Tissue Diseases"
-"431"	"Haemophilus Infections"	"Bacterial Infections and Mycoses"
-"432"	"Hamartoma Syndrome, Multiple"	"Neoplasms"
-"433"	"Hamartoma Syndrome, Multiple"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"434"	"Rhinitis, Allergic, Seasonal"	"Respiratory Tract Diseases"
-"435"	"Rhinitis, Allergic, Seasonal"	"Otorhinolaryngologic Diseases"
-"436"	"Rhinitis, Allergic, Seasonal"	"Immune System Diseases"
-"437"	"Head and Neck Neoplasms"	"Neoplasms"
-"438"	"Headache"	"Nervous System Diseases"
-"439"	"Headache"	"Pathological Conditions, Signs and Symptoms"
-"440"	"Heart Failure"	"Cardiovascular Diseases"
-"441"	"Hemangioma"	"Neoplasms"
-"442"	"Hematologic Diseases"	"Hemic and Lymphatic Diseases"
-"443"	"Hemic and Lymphatic Diseases"	"Hemic and Lymphatic Diseases"
-"444"	"Hemiplegia"	"Nervous System Diseases"
-"445"	"Hemiplegia"	"Pathological Conditions, Signs and Symptoms"
-"446"	"Hemochromatosis"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"447"	"Hemochromatosis"	"Nutritional and Metabolic Diseases"
-"448"	"Hemoglobinuria, Paroxysmal"	"Hemic and Lymphatic Diseases"
-"449"	"Hemolytic-Uremic Syndrome"	"Male Urogenital Diseases"
-"450"	"Hemolytic-Uremic Syndrome"	"Female Urogenital Diseases and Pregnancy Complications"
-"451"	"Hemolytic-Uremic Syndrome"	"Hemic and Lymphatic Diseases"
-"452"	"Hemophilia A"	"Hemic and Lymphatic Diseases"
-"453"	"Hemophilia A"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"454"	"Hemorrhage"	"Pathological Conditions, Signs and Symptoms"
-"455"	"Postpartum Hemorrhage"	"Female Urogenital Diseases and Pregnancy Complications"
-"456"	"Postpartum Hemorrhage"	"Pathological Conditions, Signs and Symptoms"
-"457"	"Hepatitis"	"Digestive System Diseases"
-"458"	"Hepatitis A"	"Virus Diseases"
-"459"	"Hepatitis A"	"Digestive System Diseases"
-"460"	"Hepatitis B"	"Virus Diseases"
-"461"	"Hepatitis B"	"Digestive System Diseases"
-"462"	"Hepatitis, Viral, Human"	"Virus Diseases"
-"463"	"Hepatitis, Viral, Human"	"Digestive System Diseases"
-"464"	"Hepatitis C"	"Virus Diseases"
-"465"	"Hepatitis C"	"Digestive System Diseases"
-"466"	"Hepatolenticular Degeneration"	"Digestive System Diseases"
-"467"	"Hepatolenticular Degeneration"	"Nervous System Diseases"
-"468"	"Hepatolenticular Degeneration"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"469"	"Hepatolenticular Degeneration"	"Nutritional and Metabolic Diseases"
-"470"	"Hepatorenal Syndrome"	"Digestive System Diseases"
-"471"	"Hepatorenal Syndrome"	"Male Urogenital Diseases"
-"472"	"Hepatorenal Syndrome"	"Female Urogenital Diseases and Pregnancy Complications"
-"473"	"Herpes Simplex"	"Virus Diseases"
-"474"	"Herpes Simplex"	"Skin and Connective Tissue Diseases"
-"475"	"Herpesviridae Infections"	"Virus Diseases"
-"476"	"von Hippel-Lindau Disease"	"Nervous System Diseases"
-"477"	"von Hippel-Lindau Disease"	"Cardiovascular Diseases"
-"478"	"Hirsutism"	"Skin and Connective Tissue Diseases"
-"479"	"Hirsutism"	"Pathological Conditions, Signs and Symptoms"
-"480"	"Histiocytosis, Langerhans-Cell"	"Respiratory Tract Diseases"
-"481"	"Histiocytosis, Langerhans-Cell"	"Hemic and Lymphatic Diseases"
-"482"	"Hodgkin Disease"	"Neoplasms"
-"483"	"Hodgkin Disease"	"Hemic and Lymphatic Diseases"
-"484"	"Hodgkin Disease"	"Immune System Diseases"
-"485"	"Homocystinuria"	"Nervous System Diseases"
-"486"	"Homocystinuria"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"487"	"Homocystinuria"	"Skin and Connective Tissue Diseases"
-"488"	"Homocystinuria"	"Nutritional and Metabolic Diseases"
-"489"	"Huntington Disease"	"Nervous System Diseases"
-"490"	"Huntington Disease"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"491"	"Huntington Disease"	"Mental Disorders"
-"492"	"Hyperaldosteronism"	"Endocrine System Diseases"
-"493"	"Hyperbilirubinemia"	"Pathological Conditions, Signs and Symptoms"
-"494"	"Hypercalcemia"	"Nutritional and Metabolic Diseases"
-"495"	"Hypercholesterolemia"	"Nutritional and Metabolic Diseases"
-"496"	"Hyperlipoproteinemia Type II"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"497"	"Hyperlipoproteinemia Type II"	"Nutritional and Metabolic Diseases"
-"498"	"Hyperhidrosis"	"Skin and Connective Tissue Diseases"
-"499"	"Hyperlipidemias"	"Nutritional and Metabolic Diseases"
-"500"	"Hyperoxaluria"	"Male Urogenital Diseases"
-"501"	"Hyperoxaluria"	"Female Urogenital Diseases and Pregnancy Complications"
-"502"	"Hyperparathyroidism"	"Endocrine System Diseases"
-"503"	"Hyperparathyroidism, Secondary"	"Endocrine System Diseases"
-"504"	"Hyperphagia"	"Pathological Conditions, Signs and Symptoms"
-"505"	"Hyperplasia"	"Pathological Conditions, Signs and Symptoms"
-"506"	"Hyperprolactinemia"	"Nervous System Diseases"
-"507"	"Hyperprolactinemia"	"Endocrine System Diseases"
-"508"	"Hypersensitivity"	"Immune System Diseases"
-"509"	"Hypertension"	"Cardiovascular Diseases"
-"510"	"Hypertension, Portal"	"Digestive System Diseases"
-"511"	"Hypertension, Pulmonary"	"Respiratory Tract Diseases"
-"512"	"Hyperthyroidism"	"Endocrine System Diseases"
-"513"	"Hypocalcemia"	"Nutritional and Metabolic Diseases"
-"514"	"Hypoglycemia"	"Nutritional and Metabolic Diseases"
-"515"	"Hypogonadism"	"Endocrine System Diseases"
-"516"	"Hyponatremia"	"Nutritional and Metabolic Diseases"
-"517"	"Hypoparathyroidism"	"Endocrine System Diseases"
-"518"	"Hypophosphatasia"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"519"	"Hypophosphatasia"	"Nutritional and Metabolic Diseases"
-"520"	"Hypoprothrombinemias"	"Hemic and Lymphatic Diseases"
-"521"	"Hypoprothrombinemias"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"522"	"Hypotension"	"Cardiovascular Diseases"
-"523"	"Hypothermia"	"Pathological Conditions, Signs and Symptoms"
-"524"	"Hypotrichosis"	"Skin and Connective Tissue Diseases"
-"525"	"Ichthyosis"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"526"	"Ichthyosis"	"Skin and Connective Tissue Diseases"
-"527"	"Immunologic Deficiency Syndromes"	"Immune System Diseases"
-"528"	"Immune System Diseases"	"Immune System Diseases"
-"529"	"Impetigo"	"Bacterial Infections and Mycoses"
-"530"	"Impetigo"	"Skin and Connective Tissue Diseases"
-"531"	"Erectile Dysfunction"	"Male Urogenital Diseases"
-"532"	"Erectile Dysfunction"	"Mental Disorders"
-"533"	"Disruptive, Impulse Control, and Conduct Disorders"	"Mental Disorders"
-"534"	"Infection"	"Bacterial Infections and Mycoses"
-"535"	"Infertility, Female"	"Female Urogenital Diseases and Pregnancy Complications"
-"536"	"Infertility, Male"	"Male Urogenital Diseases"
-"537"	"Inflammation"	"Pathological Conditions, Signs and Symptoms"
-"538"	"Influenza, Human"	"Virus Diseases"
-"539"	"Influenza, Human"	"Respiratory Tract Diseases"
-"540"	"Sleep Initiation and Maintenance Disorders"	"Nervous System Diseases"
-"541"	"Sleep Initiation and Maintenance Disorders"	"Mental Disorders"
-"542"	"Intermittent Claudication"	"Cardiovascular Diseases"
-"543"	"Intermittent Claudication"	"Pathological Conditions, Signs and Symptoms"
-"544"	"Intervertebral Disc Displacement"	"Musculoskeletal Diseases"
-"545"	"Intervertebral Disc Displacement"	"Pathological Conditions, Signs and Symptoms"
-"546"	"Ischemia"	"Pathological Conditions, Signs and Symptoms"
-"547"	"Creutzfeldt-Jakob Syndrome"	"Nervous System Diseases"
-"548"	"Creutzfeldt-Jakob Syndrome"	"Mental Disorders"
-"549"	"Jaundice"	"Pathological Conditions, Signs and Symptoms"
-"550"	"Joint Diseases"	"Musculoskeletal Diseases"
-"551"	"Kartagener Syndrome"	"Respiratory Tract Diseases"
-"552"	"Kartagener Syndrome"	"Otorhinolaryngologic Diseases"
-"553"	"Kartagener Syndrome"	"Cardiovascular Diseases"
-"554"	"Kartagener Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"555"	"Keratitis"	"Eye Diseases"
-"556"	"Keratoconjunctivitis"	"Eye Diseases"
-"557"	"Keratoconus"	"Eye Diseases"
-"558"	"Keratosis"	"Skin and Connective Tissue Diseases"
-"559"	"Darier Disease"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"560"	"Darier Disease"	"Skin and Connective Tissue Diseases"
-"561"	"Kernicterus"	"Nervous System Diseases"
-"562"	"Kernicterus"	"Hemic and Lymphatic Diseases"
-"563"	"Kernicterus"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"564"	"Kernicterus"	"Nutritional and Metabolic Diseases"
-"565"	"Kernicterus"	"Immune System Diseases"
-"566"	"Kernicterus"	"Pathological Conditions, Signs and Symptoms"
-"567"	"Kidney Diseases"	"Male Urogenital Diseases"
-"568"	"Kidney Diseases"	"Female Urogenital Diseases and Pregnancy Complications"
-"569"	"Kidney Failure, Chronic"	"Male Urogenital Diseases"
-"570"	"Kidney Failure, Chronic"	"Female Urogenital Diseases and Pregnancy Complications"
-"571"	"Kidney Neoplasms"	"Neoplasms"
-"572"	"Kidney Neoplasms"	"Male Urogenital Diseases"
-"573"	"Kidney Neoplasms"	"Female Urogenital Diseases and Pregnancy Complications"
-"574"	"Polycystic Kidney Diseases"	"Male Urogenital Diseases"
-"575"	"Polycystic Kidney Diseases"	"Female Urogenital Diseases and Pregnancy Complications"
-"576"	"Polycystic Kidney Diseases"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"577"	"Obstetric Labor Complications"	"Female Urogenital Diseases and Pregnancy Complications"
-"578"	"Obstetric Labor, Premature"	"Female Urogenital Diseases and Pregnancy Complications"
-"579"	"Labyrinth Diseases"	"Otorhinolaryngologic Diseases"
-"580"	"Lactation Disorders"	"Female Urogenital Diseases and Pregnancy Complications"
-"581"	"Lactation Disorders"	"Skin and Connective Tissue Diseases"
-"582"	"Lecithin Cholesterol Acyltransferase Deficiency"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"583"	"Lecithin Cholesterol Acyltransferase Deficiency"	"Nutritional and Metabolic Diseases"
-"584"	"Leiomyoma"	"Neoplasms"
-"585"	"Leiomyosarcoma"	"Neoplasms"
-"586"	"Leishmaniasis"	"Parasitic Diseases"
-"587"	"Leishmaniasis"	"Skin and Connective Tissue Diseases"
-"588"	"Leprosy"	"Bacterial Infections and Mycoses"
-"589"	"Lesch-Nyhan Syndrome"	"Nervous System Diseases"
-"590"	"Lesch-Nyhan Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"591"	"Lesch-Nyhan Syndrome"	"Nutritional and Metabolic Diseases"
-"592"	"Leukemia"	"Neoplasms"
-"593"	"Leukemia, Hairy Cell"	"Neoplasms"
-"594"	"Leukemia, Hairy Cell"	"Hemic and Lymphatic Diseases"
-"595"	"Leukemia, Hairy Cell"	"Immune System Diseases"
-"596"	"Leukemia, Mast-Cell"	"Neoplasms"
-"597"	"Leukodystrophy, Globoid Cell"	"Nervous System Diseases"
-"598"	"Leukodystrophy, Globoid Cell"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"599"	"Leukodystrophy, Globoid Cell"	"Nutritional and Metabolic Diseases"
-"600"	"Leukodystrophy, Metachromatic"	"Nervous System Diseases"
-"601"	"Leukodystrophy, Metachromatic"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"602"	"Leukodystrophy, Metachromatic"	"Nutritional and Metabolic Diseases"
-"603"	"Leukoencephalopathy, Progressive Multifocal"	"Virus Diseases"
-"604"	"Leukoencephalopathy, Progressive Multifocal"	"Nervous System Diseases"
-"605"	"Leukopenia"	"Hemic and Lymphatic Diseases"
-"606"	"Leukoplakia"	"Neoplasms"
-"607"	"Leukoplakia"	"Pathological Conditions, Signs and Symptoms"
-"608"	"Mucopolysaccharidosis I"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"609"	"Mucopolysaccharidosis I"	"Skin and Connective Tissue Diseases"
-"610"	"Mucopolysaccharidosis I"	"Nutritional and Metabolic Diseases"
-"611"	"Lipodystrophy"	"Skin and Connective Tissue Diseases"
-"612"	"Lipodystrophy"	"Nutritional and Metabolic Diseases"
-"613"	"Lipoma"	"Neoplasms"
-"614"	"Hyperlipoproteinemia Type I"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"615"	"Hyperlipoproteinemia Type I"	"Nutritional and Metabolic Diseases"
-"616"	"Liposarcoma"	"Neoplasms"
-"617"	"Liver Cirrhosis"	"Digestive System Diseases"
-"618"	"Liver Cirrhosis, Biliary"	"Digestive System Diseases"
-"619"	"Liver Diseases"	"Digestive System Diseases"
-"620"	"Liver Neoplasms"	"Neoplasms"
-"621"	"Liver Neoplasms"	"Digestive System Diseases"
-"622"	"Long QT Syndrome"	"Cardiovascular Diseases"
-"623"	"Long QT Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"624"	"Long QT Syndrome"	"Pathological Conditions, Signs and Symptoms"
-"625"	"Lung Diseases"	"Respiratory Tract Diseases"
-"626"	"Lung Neoplasms"	"Neoplasms"
-"627"	"Lung Neoplasms"	"Respiratory Tract Diseases"
-"628"	"Lupus Erythematosus, Cutaneous"	"Skin and Connective Tissue Diseases"
-"629"	"Lupus Erythematosus, Systemic"	"Skin and Connective Tissue Diseases"
-"630"	"Lupus Erythematosus, Systemic"	"Immune System Diseases"
-"631"	"Lupus Nephritis"	"Male Urogenital Diseases"
-"632"	"Lupus Nephritis"	"Female Urogenital Diseases and Pregnancy Complications"
-"633"	"Lupus Nephritis"	"Skin and Connective Tissue Diseases"
-"634"	"Lupus Nephritis"	"Immune System Diseases"
-"635"	"Lyme Disease"	"Bacterial Infections and Mycoses"
-"636"	"Lymphedema"	"Hemic and Lymphatic Diseases"
-"637"	"Lymphoma"	"Neoplasms"
-"638"	"Lymphoma"	"Hemic and Lymphatic Diseases"
-"639"	"Lymphoma"	"Immune System Diseases"
-"640"	"Lymphoma, Follicular"	"Neoplasms"
-"641"	"Lymphoma, Follicular"	"Hemic and Lymphatic Diseases"
-"642"	"Lymphoma, Follicular"	"Immune System Diseases"
-"643"	"Lymphoma, Non-Hodgkin"	"Neoplasms"
-"644"	"Lymphoma, Non-Hodgkin"	"Hemic and Lymphatic Diseases"
-"645"	"Lymphoma, Non-Hodgkin"	"Immune System Diseases"
-"646"	"Lymphopenia"	"Hemic and Lymphatic Diseases"
-"647"	"Lymphopenia"	"Immune System Diseases"
-"648"	"Waldenstrom Macroglobulinemia"	"Neoplasms"
-"649"	"Waldenstrom Macroglobulinemia"	"Cardiovascular Diseases"
-"650"	"Waldenstrom Macroglobulinemia"	"Hemic and Lymphatic Diseases"
-"651"	"Waldenstrom Macroglobulinemia"	"Immune System Diseases"
-"652"	"Macular Degeneration"	"Eye Diseases"
-"653"	"Macular Edema"	"Eye Diseases"
-"654"	"Malabsorption Syndromes"	"Digestive System Diseases"
-"655"	"Malabsorption Syndromes"	"Nutritional and Metabolic Diseases"
-"656"	"Malaria"	"Parasitic Diseases"
-"657"	"Malignant Carcinoid Syndrome"	"Neoplasms"
-"658"	"Malignant Hyperthermia"	"Pathological Conditions, Signs and Symptoms"
-"659"	"alpha-Mannosidosis"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"660"	"alpha-Mannosidosis"	"Nutritional and Metabolic Diseases"
-"661"	"Maple Syrup Urine Disease"	"Nervous System Diseases"
-"662"	"Maple Syrup Urine Disease"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"663"	"Maple Syrup Urine Disease"	"Nutritional and Metabolic Diseases"
-"664"	"Marburg Virus Disease"	"Virus Diseases"
-"665"	"Marfan Syndrome"	"Musculoskeletal Diseases"
-"666"	"Marfan Syndrome"	"Cardiovascular Diseases"
-"667"	"Marfan Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"668"	"Marfan Syndrome"	"Skin and Connective Tissue Diseases"
-"669"	"Mastocytosis"	"Neoplasms"
-"670"	"Mastocytosis"	"Skin and Connective Tissue Diseases"
-"671"	"Measles"	"Virus Diseases"
-"672"	"Meconium Aspiration Syndrome"	"Respiratory Tract Diseases"
-"673"	"Meconium Aspiration Syndrome"	"Female Urogenital Diseases and Pregnancy Complications"
-"674"	"Meconium Aspiration Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"675"	"Melanoma"	"Neoplasms"
-"676"	"Melanosis"	"Skin and Connective Tissue Diseases"
-"677"	"Meniere Disease"	"Otorhinolaryngologic Diseases"
-"678"	"Meningioma"	"Neoplasms"
-"679"	"Meningioma"	"Nervous System Diseases"
-"680"	"Meningitis, Aseptic"	"Nervous System Diseases"
-"681"	"Meningitis, Viral"	"Virus Diseases"
-"682"	"Meningitis, Viral"	"Nervous System Diseases"
-"683"	"Meningococcal Infections"	"Bacterial Infections and Mycoses"
-"684"	"Menorrhagia"	"Female Urogenital Diseases and Pregnancy Complications"
-"685"	"Menorrhagia"	"Pathological Conditions, Signs and Symptoms"
-"686"	"Menstruation Disturbances"	"Pathological Conditions, Signs and Symptoms"
-"687"	"Intellectual Disability"	"Nervous System Diseases"
-"688"	"Intellectual Disability"	"Pathological Conditions, Signs and Symptoms"
-"689"	"Intellectual Disability"	"Behavior and Behavior Mechanisms"
-"690"	"Intellectual Disability"	"Mental Disorders"
-"691"	"Mesothelioma"	"Neoplasms"
-"692"	"Metabolic Diseases"	"Nutritional and Metabolic Diseases"
-"693"	"Migraine Disorders"	"Nervous System Diseases"
-"694"	"Mouth Neoplasms"	"Neoplasms"
-"695"	"Mouth Neoplasms"	"Stomatognathic Diseases"
-"696"	"Mucocutaneous Lymph Node Syndrome"	"Cardiovascular Diseases"
-"697"	"Mucocutaneous Lymph Node Syndrome"	"Hemic and Lymphatic Diseases"
-"698"	"Mucocutaneous Lymph Node Syndrome"	"Skin and Connective Tissue Diseases"
-"699"	"Mucopolysaccharidoses"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"700"	"Mucopolysaccharidoses"	"Skin and Connective Tissue Diseases"
-"701"	"Mucopolysaccharidoses"	"Nutritional and Metabolic Diseases"
-"702"	"Mucopolysaccharidosis III"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"703"	"Mucopolysaccharidosis III"	"Skin and Connective Tissue Diseases"
-"704"	"Mucopolysaccharidosis III"	"Nutritional and Metabolic Diseases"
-"705"	"Mucopolysaccharidosis IV"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"706"	"Mucopolysaccharidosis IV"	"Skin and Connective Tissue Diseases"
-"707"	"Mucopolysaccharidosis IV"	"Nutritional and Metabolic Diseases"
-"708"	"Mucopolysaccharidosis VI"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"709"	"Mucopolysaccharidosis VI"	"Skin and Connective Tissue Diseases"
-"710"	"Mucopolysaccharidosis VI"	"Nutritional and Metabolic Diseases"
-"711"	"Multiple Myeloma"	"Neoplasms"
-"712"	"Multiple Myeloma"	"Cardiovascular Diseases"
-"713"	"Multiple Myeloma"	"Hemic and Lymphatic Diseases"
-"714"	"Multiple Myeloma"	"Immune System Diseases"
-"715"	"Multiple Sclerosis"	"Nervous System Diseases"
-"716"	"Multiple Sclerosis"	"Immune System Diseases"
-"717"	"Muscle Spasticity"	"Musculoskeletal Diseases"
-"718"	"Muscle Spasticity"	"Nervous System Diseases"
-"719"	"Muscle Spasticity"	"Pathological Conditions, Signs and Symptoms"
-"720"	"Muscular Atrophy"	"Nervous System Diseases"
-"721"	"Muscular Atrophy"	"Pathological Conditions, Signs and Symptoms"
-"722"	"Muscular Atrophy, Spinal"	"Nervous System Diseases"
-"723"	"Muscular Dystrophies"	"Musculoskeletal Diseases"
-"724"	"Muscular Dystrophies"	"Nervous System Diseases"
-"725"	"Muscular Dystrophies"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"726"	"Musculoskeletal Diseases"	"Musculoskeletal Diseases"
-"727"	"Myasthenia Gravis"	"Nervous System Diseases"
-"728"	"Myasthenia Gravis"	"Immune System Diseases"
-"729"	"Mycobacterium Infections, Nontuberculous"	"Bacterial Infections and Mycoses"
-"730"	"Mycoses"	"Bacterial Infections and Mycoses"
-"731"	"Myelodysplastic Syndromes"	"Hemic and Lymphatic Diseases"
-"732"	"Cardiomyopathies"	"Cardiovascular Diseases"
-"733"	"Myocardial Infarction"	"Cardiovascular Diseases"
-"734"	"Myopia"	"Eye Diseases"
-"735"	"Myositis"	"Musculoskeletal Diseases"
-"736"	"Myositis"	"Nervous System Diseases"
-"737"	"Myositis Ossificans"	"Musculoskeletal Diseases"
-"738"	"Myotonic Dystrophy"	"Musculoskeletal Diseases"
-"739"	"Myotonic Dystrophy"	"Nervous System Diseases"
-"740"	"Myotonic Dystrophy"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"741"	"Narcolepsy"	"Nervous System Diseases"
-"742"	"Narcolepsy"	"Mental Disorders"
-"743"	"Opioid-Related Disorders"	"Chemically-Induced Disorders"
-"744"	"Opioid-Related Disorders"	"Mental Disorders"
-"745"	"Nasal Polyps"	"Respiratory Tract Diseases"
-"746"	"Nasal Polyps"	"Otorhinolaryngologic Diseases"
-"747"	"Nasal Polyps"	"Pathological Conditions, Signs and Symptoms"
-"748"	"Nasopharyngeal Neoplasms"	"Neoplasms"
-"749"	"Nasopharyngeal Neoplasms"	"Stomatognathic Diseases"
-"750"	"Nasopharyngeal Neoplasms"	"Otorhinolaryngologic Diseases"
-"751"	"Neoplasms"	"Neoplasms"
-"752"	"Nephritis"	"Male Urogenital Diseases"
-"753"	"Nephritis"	"Female Urogenital Diseases and Pregnancy Complications"
-"754"	"Nephritis, Hereditary"	"Male Urogenital Diseases"
-"755"	"Nephritis, Hereditary"	"Female Urogenital Diseases and Pregnancy Complications"
-"756"	"Nephritis, Hereditary"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"757"	"Nephritis, Hereditary"	"Skin and Connective Tissue Diseases"
-"758"	"Wilms Tumor"	"Neoplasms"
-"759"	"Wilms Tumor"	"Male Urogenital Diseases"
-"760"	"Wilms Tumor"	"Female Urogenital Diseases and Pregnancy Complications"
-"761"	"Wilms Tumor"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"762"	"Nephrotic Syndrome"	"Male Urogenital Diseases"
-"763"	"Nephrotic Syndrome"	"Female Urogenital Diseases and Pregnancy Complications"
-"764"	"Nervous System Diseases"	"Nervous System Diseases"
-"765"	"Neuralgia"	"Nervous System Diseases"
-"766"	"Neuralgia"	"Pathological Conditions, Signs and Symptoms"
-"767"	"Neurilemmoma"	"Neoplasms"
-"768"	"Neuroblastoma"	"Neoplasms"
-"769"	"Neurofibromatosis 1"	"Neoplasms"
-"770"	"Neurofibromatosis 1"	"Nervous System Diseases"
-"771"	"Neurofibromatosis 1"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"772"	"Neuromyelitis Optica"	"Nervous System Diseases"
-"773"	"Neuromyelitis Optica"	"Eye Diseases"
-"774"	"Neuromyelitis Optica"	"Immune System Diseases"
-"775"	"Neuronal Ceroid-Lipofuscinoses"	"Nervous System Diseases"
-"776"	"Neuronal Ceroid-Lipofuscinoses"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"777"	"Neuronal Ceroid-Lipofuscinoses"	"Nutritional and Metabolic Diseases"
-"778"	"Neurotic Disorders"	"Mental Disorders"
-"779"	"Neutropenia"	"Hemic and Lymphatic Diseases"
-"780"	"Niemann-Pick Diseases"	"Nervous System Diseases"
-"781"	"Niemann-Pick Diseases"	"Hemic and Lymphatic Diseases"
-"782"	"Niemann-Pick Diseases"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"783"	"Niemann-Pick Diseases"	"Nutritional and Metabolic Diseases"
-"784"	"Noonan Syndrome"	"Musculoskeletal Diseases"
-"785"	"Noonan Syndrome"	"Cardiovascular Diseases"
-"786"	"Noonan Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"787"	"Noonan Syndrome"	"Skin and Connective Tissue Diseases"
-"788"	"Nutritional and Metabolic Diseases"	"Nutritional and Metabolic Diseases"
-"789"	"Nystagmus, Pathologic"	"Nervous System Diseases"
-"790"	"Nystagmus, Pathologic"	"Eye Diseases"
-"791"	"Obesity"	"Nutritional and Metabolic Diseases"
-"792"	"Obesity"	"Pathological Conditions, Signs and Symptoms"
-"793"	"Obsessive-Compulsive Disorder"	"Mental Disorders"
-"794"	"Optic Neuritis"	"Nervous System Diseases"
-"795"	"Optic Neuritis"	"Eye Diseases"
-"796"	"Ossification, Heterotopic"	"Pathological Conditions, Signs and Symptoms"
-"797"	"Osteitis Deformans"	"Musculoskeletal Diseases"
-"798"	"Osteoarthritis"	"Musculoskeletal Diseases"
-"799"	"Osteogenesis Imperfecta"	"Musculoskeletal Diseases"
-"800"	"Osteogenesis Imperfecta"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"801"	"Osteogenesis Imperfecta"	"Skin and Connective Tissue Diseases"
-"802"	"Osteomalacia"	"Musculoskeletal Diseases"
-"803"	"Osteomalacia"	"Nutritional and Metabolic Diseases"
-"804"	"Osteomyelitis"	"Bacterial Infections and Mycoses"
-"805"	"Osteomyelitis"	"Musculoskeletal Diseases"
-"806"	"Osteonecrosis"	"Musculoskeletal Diseases"
-"807"	"Osteonecrosis"	"Pathological Conditions, Signs and Symptoms"
-"808"	"Osteopetrosis"	"Musculoskeletal Diseases"
-"809"	"Osteoporosis"	"Musculoskeletal Diseases"
-"810"	"Osteoporosis"	"Nutritional and Metabolic Diseases"
-"811"	"Otitis"	"Otorhinolaryngologic Diseases"
-"812"	"Otitis Externa"	"Otorhinolaryngologic Diseases"
-"813"	"Otitis Media"	"Otorhinolaryngologic Diseases"
-"814"	"Ovarian Neoplasms"	"Neoplasms"
-"815"	"Ovarian Neoplasms"	"Female Urogenital Diseases and Pregnancy Complications"
-"816"	"Ovarian Neoplasms"	"Endocrine System Diseases"
-"817"	"Pain"	"Nervous System Diseases"
-"818"	"Pain"	"Pathological Conditions, Signs and Symptoms"
-"819"	"Pain"	"Psychological Phenomena and Processes"
-"820"	"Pain, Postoperative"	"Nervous System Diseases"
-"821"	"Pain, Postoperative"	"Pathological Conditions, Signs and Symptoms"
-"822"	"Pancreatic Diseases"	"Digestive System Diseases"
-"823"	"Exocrine Pancreatic Insufficiency"	"Digestive System Diseases"
-"824"	"Pancreatic Neoplasms"	"Neoplasms"
-"825"	"Pancreatic Neoplasms"	"Digestive System Diseases"
-"826"	"Pancreatic Neoplasms"	"Endocrine System Diseases"
-"827"	"Pancreatitis"	"Digestive System Diseases"
-"828"	"Papilloma"	"Neoplasms"
-"829"	"Paraphilic Disorders"	"Mental Disorders"
-"830"	"Parasitic Diseases"	"Parasitic Diseases"
-"831"	"Parkinson Disease"	"Nervous System Diseases"
-"832"	"Pemphigoid, Bullous"	"Skin and Connective Tissue Diseases"
-"833"	"Pemphigoid, Bullous"	"Immune System Diseases"
-"834"	"Pemphigus"	"Skin and Connective Tissue Diseases"
-"835"	"Pemphigus"	"Immune System Diseases"
-"836"	"Penile Induration"	"Male Urogenital Diseases"
-"837"	"Penile Induration"	"Skin and Connective Tissue Diseases"
-"838"	"Familial Mediterranean Fever"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"839"	"Periodontitis"	"Stomatognathic Diseases"
-"840"	"Peritoneal Neoplasms"	"Neoplasms"
-"841"	"Peritoneal Neoplasms"	"Digestive System Diseases"
-"842"	"Phenylketonurias"	"Nervous System Diseases"
-"843"	"Phenylketonurias"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"844"	"Phenylketonurias"	"Nutritional and Metabolic Diseases"
-"845"	"Phobic Disorders"	"Mental Disorders"
-"846"	"Photosensitivity Disorders"	"Skin and Connective Tissue Diseases"
-"847"	"Picornaviridae Infections"	"Virus Diseases"
-"848"	"Pituitary Diseases"	"Nervous System Diseases"
-"849"	"Pituitary Diseases"	"Endocrine System Diseases"
-"850"	"Pituitary Neoplasms"	"Neoplasms"
-"851"	"Pituitary Neoplasms"	"Nervous System Diseases"
-"852"	"Pituitary Neoplasms"	"Endocrine System Diseases"
-"853"	"Placental Insufficiency"	"Female Urogenital Diseases and Pregnancy Complications"
-"854"	"Plague"	"Bacterial Infections and Mycoses"
-"855"	"Plant Poisoning"	"Chemically-Induced Disorders"
-"856"	"Pneumococcal Infections"	"Bacterial Infections and Mycoses"
-"857"	"Pneumonia"	"Respiratory Tract Diseases"
-"858"	"Poisoning"	"Chemically-Induced Disorders"
-"859"	"Polycystic Ovary Syndrome"	"Neoplasms"
-"860"	"Polycystic Ovary Syndrome"	"Female Urogenital Diseases and Pregnancy Complications"
-"861"	"Polycystic Ovary Syndrome"	"Endocrine System Diseases"
-"862"	"Polycythemia Vera"	"Neoplasms"
-"863"	"Polycythemia Vera"	"Hemic and Lymphatic Diseases"
-"864"	"Polymyalgia Rheumatica"	"Musculoskeletal Diseases"
-"865"	"Polymyalgia Rheumatica"	"Skin and Connective Tissue Diseases"
-"866"	"Porphyrias"	"Nutritional and Metabolic Diseases"
-"867"	"Postgastrectomy Syndromes"	"Digestive System Diseases"
-"868"	"Postgastrectomy Syndromes"	"Pathological Conditions, Signs and Symptoms"
-"869"	"Prader-Willi Syndrome"	"Nervous System Diseases"
-"870"	"Prader-Willi Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"871"	"Prader-Willi Syndrome"	"Nutritional and Metabolic Diseases"
-"872"	"Pre-Eclampsia"	"Female Urogenital Diseases and Pregnancy Complications"
-"873"	"Premenstrual Syndrome"	"Pathological Conditions, Signs and Symptoms"
-"874"	"Presbyopia"	"Eye Diseases"
-"875"	"Proctitis"	"Digestive System Diseases"
-"876"	"Progeria"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"877"	"Progeria"	"Nutritional and Metabolic Diseases"
-"878"	"Prostatic Hyperplasia"	"Male Urogenital Diseases"
-"879"	"Prostatic Neoplasms"	"Neoplasms"
-"880"	"Prostatic Neoplasms"	"Male Urogenital Diseases"
-"881"	"Prostatitis"	"Male Urogenital Diseases"
-"882"	"Proteinuria"	"Male Urogenital Diseases"
-"883"	"Proteinuria"	"Female Urogenital Diseases and Pregnancy Complications"
-"884"	"Proteinuria"	"Pathological Conditions, Signs and Symptoms"
-"885"	"Pruritus"	"Skin and Connective Tissue Diseases"
-"886"	"Pruritus"	"Pathological Conditions, Signs and Symptoms"
-"887"	"Pseudohypoaldosteronism"	"Male Urogenital Diseases"
-"888"	"Pseudohypoaldosteronism"	"Female Urogenital Diseases and Pregnancy Complications"
-"889"	"Pseudohypoaldosteronism"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"890"	"Pseudohypoaldosteronism"	"Nutritional and Metabolic Diseases"
-"891"	"Pseudomonas Infections"	"Bacterial Infections and Mycoses"
-"892"	"Psoriasis"	"Skin and Connective Tissue Diseases"
-"893"	"Psychotic Disorders"	"Mental Disorders"
-"894"	"Pterygium"	"Eye Diseases"
-"895"	"Puberty, Delayed"	"Endocrine System Diseases"
-"896"	"Puberty, Precocious"	"Endocrine System Diseases"
-"897"	"Pulmonary Alveolar Proteinosis"	"Respiratory Tract Diseases"
-"898"	"Pulmonary Edema"	"Respiratory Tract Diseases"
-"899"	"Purpura, Thrombotic Thrombocytopenic"	"Hemic and Lymphatic Diseases"
-"900"	"Purpura, Thrombotic Thrombocytopenic"	"Pathological Conditions, Signs and Symptoms"
-"901"	"Rabies"	"Virus Diseases"
-"902"	"Radiation Injuries"	"Wounds and Injuries"
-"903"	"Raynaud Disease"	"Cardiovascular Diseases"
-"904"	"Rectal Fistula"	"Digestive System Diseases"
-"905"	"Rectal Fistula"	"Pathological Conditions, Signs and Symptoms"
-"906"	"Red-Cell Aplasia, Pure"	"Hemic and Lymphatic Diseases"
-"907"	"Respiratory Distress Syndrome, Newborn"	"Respiratory Tract Diseases"
-"908"	"Respiratory Distress Syndrome, Newborn"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"909"	"Respiratory Distress Syndrome, Adult"	"Respiratory Tract Diseases"
-"910"	"Respiratory Insufficiency"	"Respiratory Tract Diseases"
-"911"	"Respiratory Tract Diseases"	"Respiratory Tract Diseases"
-"912"	"Respiratory Tract Infections"	"Bacterial Infections and Mycoses"
-"913"	"Respiratory Tract Infections"	"Respiratory Tract Diseases"
-"914"	"Restless Legs Syndrome"	"Nervous System Diseases"
-"915"	"Restless Legs Syndrome"	"Mental Disorders"
-"916"	"Retinal Detachment"	"Eye Diseases"
-"917"	"Retinal Diseases"	"Eye Diseases"
-"918"	"Retinal Vein Occlusion"	"Eye Diseases"
-"919"	"Retinal Vein Occlusion"	"Cardiovascular Diseases"
-"920"	"Retinitis Pigmentosa"	"Eye Diseases"
-"921"	"Retinitis Pigmentosa"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"922"	"Retinopathy of Prematurity"	"Eye Diseases"
-"923"	"Retinopathy of Prematurity"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"924"	"Rhabdomyosarcoma"	"Neoplasms"
-"925"	"Rhinitis"	"Respiratory Tract Diseases"
-"926"	"Rhinitis"	"Otorhinolaryngologic Diseases"
-"927"	"Rhinitis, Allergic, Perennial"	"Respiratory Tract Diseases"
-"928"	"Rhinitis, Allergic, Perennial"	"Otorhinolaryngologic Diseases"
-"929"	"Rhinitis, Allergic, Perennial"	"Immune System Diseases"
-"930"	"Rickets"	"Musculoskeletal Diseases"
-"931"	"Rickets"	"Nutritional and Metabolic Diseases"
-"932"	"Rosacea"	"Skin and Connective Tissue Diseases"
-"933"	"Sandhoff Disease"	"Nervous System Diseases"
-"934"	"Sandhoff Disease"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"935"	"Sandhoff Disease"	"Nutritional and Metabolic Diseases"
-"936"	"Sarcoidosis"	"Hemic and Lymphatic Diseases"
-"937"	"Sarcoma"	"Neoplasms"
-"938"	"Sarcoma, Ewing"	"Neoplasms"
-"939"	"Sarcoma, Kaposi"	"Virus Diseases"
-"940"	"Sarcoma, Kaposi"	"Neoplasms"
-"941"	"Osteosarcoma"	"Neoplasms"
-"942"	"Schistosomiasis"	"Parasitic Diseases"
-"943"	"Schizophrenia"	"Mental Disorders"
-"944"	"Dermatitis, Seborrheic"	"Skin and Connective Tissue Diseases"
-"945"	"Serum Sickness"	"Skin and Connective Tissue Diseases"
-"946"	"Serum Sickness"	"Immune System Diseases"
-"947"	"Serum Sickness"	"Chemically-Induced Disorders"
-"948"	"Shock, Traumatic"	"Pathological Conditions, Signs and Symptoms"
-"949"	"Shock, Traumatic"	"Wounds and Injuries"
-"950"	"Short Bowel Syndrome"	"Digestive System Diseases"
-"951"	"Short Bowel Syndrome"	"Pathological Conditions, Signs and Symptoms"
-"952"	"Sialorrhea"	"Stomatognathic Diseases"
-"953"	"Sinusitis"	"Respiratory Tract Diseases"
-"954"	"Sinusitis"	"Otorhinolaryngologic Diseases"
-"955"	"Sjogren's Syndrome"	"Musculoskeletal Diseases"
-"956"	"Sjogren's Syndrome"	"Stomatognathic Diseases"
-"957"	"Sjogren's Syndrome"	"Eye Diseases"
-"958"	"Sjogren's Syndrome"	"Skin and Connective Tissue Diseases"
-"959"	"Sjogren's Syndrome"	"Immune System Diseases"
-"960"	"Skin Diseases"	"Skin and Connective Tissue Diseases"
-"961"	"Skin Diseases, Infectious"	"Bacterial Infections and Mycoses"
-"962"	"Skin Diseases, Infectious"	"Skin and Connective Tissue Diseases"
-"963"	"Skin Neoplasms"	"Neoplasms"
-"964"	"Skin Neoplasms"	"Skin and Connective Tissue Diseases"
-"965"	"Sleep Wake Disorders"	"Nervous System Diseases"
-"966"	"Sleep Wake Disorders"	"Pathological Conditions, Signs and Symptoms"
-"967"	"Sleep Wake Disorders"	"Mental Disorders"
-"968"	"Smallpox"	"Virus Diseases"
-"969"	"Spasm"	"Nervous System Diseases"
-"970"	"Spasm"	"Pathological Conditions, Signs and Symptoms"
-"971"	"Spasms, Infantile"	"Nervous System Diseases"
-"972"	"Spinal Cord Injuries"	"Nervous System Diseases"
-"973"	"Spinal Cord Injuries"	"Wounds and Injuries"
-"974"	"Spinal Stenosis"	"Musculoskeletal Diseases"
-"975"	"Spondylitis, Ankylosing"	"Musculoskeletal Diseases"
-"976"	"Staphylococcal Infections"	"Bacterial Infections and Mycoses"
-"977"	"Status Epilepticus"	"Nervous System Diseases"
-"978"	"Stomach Neoplasms"	"Neoplasms"
-"979"	"Stomach Neoplasms"	"Digestive System Diseases"
-"980"	"Stomach Ulcer"	"Digestive System Diseases"
-"981"	"Stomatitis"	"Stomatognathic Diseases"
-"982"	"Stomatitis, Aphthous"	"Stomatognathic Diseases"
-"983"	"Streptococcal Infections"	"Bacterial Infections and Mycoses"
-"984"	"Stress Disorders, Post-Traumatic"	"Mental Disorders"
-"985"	"Stuttering"	"Nervous System Diseases"
-"986"	"Stuttering"	"Pathological Conditions, Signs and Symptoms"
-"987"	"Subarachnoid Hemorrhage"	"Nervous System Diseases"
-"988"	"Subarachnoid Hemorrhage"	"Cardiovascular Diseases"
-"989"	"Subarachnoid Hemorrhage"	"Pathological Conditions, Signs and Symptoms"
-"990"	"Supranuclear Palsy, Progressive"	"Nervous System Diseases"
-"991"	"Supranuclear Palsy, Progressive"	"Eye Diseases"
-"992"	"Supranuclear Palsy, Progressive"	"Pathological Conditions, Signs and Symptoms"
-"993"	"Sarcoma, Synovial"	"Neoplasms"
-"994"	"Synovitis, Pigmented Villonodular"	"Neoplasms"
-"995"	"Synovitis, Pigmented Villonodular"	"Musculoskeletal Diseases"
-"996"	"Tachycardia"	"Cardiovascular Diseases"
-"997"	"Tachycardia"	"Pathological Conditions, Signs and Symptoms"
-"998"	"Tachycardia, Supraventricular"	"Cardiovascular Diseases"
-"999"	"Tachycardia, Supraventricular"	"Pathological Conditions, Signs and Symptoms"
-"1000"	"Tay-Sachs Disease"	"Nervous System Diseases"
-"1001"	"Tay-Sachs Disease"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1002"	"Tay-Sachs Disease"	"Nutritional and Metabolic Diseases"
-"1003"	"Telangiectasia, Hereditary Hemorrhagic"	"Cardiovascular Diseases"
-"1004"	"Telangiectasia, Hereditary Hemorrhagic"	"Hemic and Lymphatic Diseases"
-"1005"	"Telangiectasia, Hereditary Hemorrhagic"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1006"	"Telangiectasis"	"Cardiovascular Diseases"
-"1007"	"Tennis Elbow"	"Musculoskeletal Diseases"
-"1008"	"Tennis Elbow"	"Wounds and Injuries"
-"1009"	"Teratoma"	"Neoplasms"
-"1010"	"Testicular Neoplasms"	"Neoplasms"
-"1011"	"Testicular Neoplasms"	"Male Urogenital Diseases"
-"1012"	"Testicular Neoplasms"	"Endocrine System Diseases"
-"1013"	"Tetanus"	"Bacterial Infections and Mycoses"
-"1014"	"Tetralogy of Fallot"	"Cardiovascular Diseases"
-"1015"	"Tetralogy of Fallot"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1016"	"Thalassemia"	"Hemic and Lymphatic Diseases"
-"1017"	"Thalassemia"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1018"	"Thrombasthenia"	"Hemic and Lymphatic Diseases"
-"1019"	"Thrombasthenia"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1020"	"Thromboangiitis Obliterans"	"Cardiovascular Diseases"
-"1021"	"Thrombocytopenia"	"Hemic and Lymphatic Diseases"
-"1022"	"Thrombocytosis"	"Hemic and Lymphatic Diseases"
-"1023"	"Thrombophlebitis"	"Cardiovascular Diseases"
-"1024"	"Thrombosis"	"Cardiovascular Diseases"
-"1025"	"Thymoma"	"Neoplasms"
-"1026"	"Thymoma"	"Hemic and Lymphatic Diseases"
-"1027"	"Thymus Neoplasms"	"Neoplasms"
-"1028"	"Thymus Neoplasms"	"Hemic and Lymphatic Diseases"
-"1029"	"Thyroid Neoplasms"	"Neoplasms"
-"1030"	"Thyroid Neoplasms"	"Endocrine System Diseases"
-"1031"	"Tinnitus"	"Otorhinolaryngologic Diseases"
-"1032"	"Tinnitus"	"Nervous System Diseases"
-"1033"	"Tinnitus"	"Pathological Conditions, Signs and Symptoms"
-"1034"	"Tobacco Use Disorder"	"Chemically-Induced Disorders"
-"1035"	"Tobacco Use Disorder"	"Mental Disorders"
-"1036"	"Toxoplasmosis"	"Parasitic Diseases"
-"1037"	"Chagas Disease"	"Parasitic Diseases"
-"1038"	"Tuberculosis"	"Bacterial Infections and Mycoses"
-"1039"	"Tuberous Sclerosis"	"Neoplasms"
-"1040"	"Tuberous Sclerosis"	"Nervous System Diseases"
-"1041"	"Tuberous Sclerosis"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1042"	"Tularemia"	"Bacterial Infections and Mycoses"
-"1043"	"Turner Syndrome"	"Male Urogenital Diseases"
-"1044"	"Turner Syndrome"	"Female Urogenital Diseases and Pregnancy Complications"
-"1045"	"Turner Syndrome"	"Cardiovascular Diseases"
-"1046"	"Turner Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1047"	"Turner Syndrome"	"Endocrine System Diseases"
-"1048"	"Ulcer"	"Pathological Conditions, Signs and Symptoms"
-"1049"	"Urethral Neoplasms"	"Neoplasms"
-"1050"	"Urethral Neoplasms"	"Male Urogenital Diseases"
-"1051"	"Urethral Neoplasms"	"Female Urogenital Diseases and Pregnancy Complications"
-"1052"	"Urinary Calculi"	"Male Urogenital Diseases"
-"1053"	"Urinary Calculi"	"Female Urogenital Diseases and Pregnancy Complications"
-"1054"	"Urinary Calculi"	"Pathological Conditions, Signs and Symptoms"
-"1055"	"Urinary Incontinence"	"Male Urogenital Diseases"
-"1056"	"Urinary Incontinence"	"Female Urogenital Diseases and Pregnancy Complications"
-"1057"	"Urinary Incontinence"	"Pathological Conditions, Signs and Symptoms"
-"1058"	"Urinary Tract Infections"	"Bacterial Infections and Mycoses"
-"1059"	"Urinary Tract Infections"	"Male Urogenital Diseases"
-"1060"	"Urinary Tract Infections"	"Female Urogenital Diseases and Pregnancy Complications"
-"1061"	"Urination Disorders"	"Male Urogenital Diseases"
-"1062"	"Urination Disorders"	"Female Urogenital Diseases and Pregnancy Complications"
-"1063"	"Urogenital Abnormalities"	"Male Urogenital Diseases"
-"1064"	"Urogenital Abnormalities"	"Female Urogenital Diseases and Pregnancy Complications"
-"1065"	"Urogenital Abnormalities"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1066"	"Urogenital Neoplasms"	"Neoplasms"
-"1067"	"Urogenital Neoplasms"	"Male Urogenital Diseases"
-"1068"	"Urogenital Neoplasms"	"Female Urogenital Diseases and Pregnancy Complications"
-"1069"	"Urticaria"	"Skin and Connective Tissue Diseases"
-"1070"	"Urticaria"	"Immune System Diseases"
-"1071"	"Uveitis"	"Eye Diseases"
-"1072"	"Vaginal Neoplasms"	"Neoplasms"
-"1073"	"Vaginal Neoplasms"	"Female Urogenital Diseases and Pregnancy Complications"
-"1074"	"Vaginitis"	"Female Urogenital Diseases and Pregnancy Complications"
-"1075"	"Varicose Ulcer"	"Cardiovascular Diseases"
-"1076"	"Varicose Ulcer"	"Skin and Connective Tissue Diseases"
-"1077"	"Vascular Diseases"	"Cardiovascular Diseases"
-"1078"	"Venous Insufficiency"	"Cardiovascular Diseases"
-"1079"	"Ventricular Fibrillation"	"Cardiovascular Diseases"
-"1080"	"Ventricular Fibrillation"	"Pathological Conditions, Signs and Symptoms"
-"1081"	"Vertigo"	"Otorhinolaryngologic Diseases"
-"1082"	"Vertigo"	"Nervous System Diseases"
-"1083"	"Vertigo"	"Pathological Conditions, Signs and Symptoms"
-"1084"	"Virus Diseases"	"Virus Diseases"
-"1085"	"Vitamin D Deficiency"	"Nutritional and Metabolic Diseases"
-"1086"	"Vitiligo"	"Skin and Connective Tissue Diseases"
-"1087"	"Vomiting"	"Pathological Conditions, Signs and Symptoms"
-"1088"	"von Willebrand Diseases"	"Hemic and Lymphatic Diseases"
-"1089"	"von Willebrand Diseases"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1090"	"Granulomatosis with Polyangiitis"	"Respiratory Tract Diseases"
-"1091"	"Granulomatosis with Polyangiitis"	"Cardiovascular Diseases"
-"1092"	"Granulomatosis with Polyangiitis"	"Immune System Diseases"
-"1093"	"Werner Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1094"	"Werner Syndrome"	"Nutritional and Metabolic Diseases"
-"1095"	"West Nile Fever"	"Virus Diseases"
-"1096"	"West Nile Fever"	"Nervous System Diseases"
-"1097"	"Whooping Cough"	"Bacterial Infections and Mycoses"
-"1098"	"Whooping Cough"	"Respiratory Tract Diseases"
-"1099"	"Wiskott-Aldrich Syndrome"	"Hemic and Lymphatic Diseases"
-"1100"	"Wiskott-Aldrich Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1101"	"Wiskott-Aldrich Syndrome"	"Immune System Diseases"
-"1102"	"Wolfram Syndrome"	"Otorhinolaryngologic Diseases"
-"1103"	"Wolfram Syndrome"	"Nervous System Diseases"
-"1104"	"Wolfram Syndrome"	"Eye Diseases"
-"1105"	"Wolfram Syndrome"	"Male Urogenital Diseases"
-"1106"	"Wolfram Syndrome"	"Female Urogenital Diseases and Pregnancy Complications"
-"1107"	"Wolfram Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1108"	"Wolfram Syndrome"	"Nutritional and Metabolic Diseases"
-"1109"	"Wolfram Syndrome"	"Endocrine System Diseases"
-"1110"	"Wounds and Injuries"	"Wounds and Injuries"
-"1111"	"Xerophthalmia"	"Eye Diseases"
-"1112"	"Xerostomia"	"Stomatognathic Diseases"
-"1113"	"Yellow Fever"	"Virus Diseases"
-"1114"	"Zollinger-Ellison Syndrome"	"Neoplasms"
-"1115"	"Zollinger-Ellison Syndrome"	"Digestive System Diseases"
-"1116"	"Dementia, Vascular"	"Nervous System Diseases"
-"1117"	"Dementia, Vascular"	"Cardiovascular Diseases"
-"1118"	"Dementia, Vascular"	"Mental Disorders"
-"1119"	"Colorectal Neoplasms"	"Neoplasms"
-"1120"	"Colorectal Neoplasms"	"Digestive System Diseases"
-"1121"	"Cholangitis, Sclerosing"	"Digestive System Diseases"
-"1122"	"Arthritis, Gouty"	"Musculoskeletal Diseases"
-"1123"	"Arthritis, Gouty"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1124"	"Arthritis, Gouty"	"Nutritional and Metabolic Diseases"
-"1125"	"Inflammatory Bowel Diseases"	"Digestive System Diseases"
-"1126"	"Wolman Disease"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1127"	"Wolman Disease"	"Nutritional and Metabolic Diseases"
-"1128"	"Hypertriglyceridemia"	"Nutritional and Metabolic Diseases"
-"1129"	"Carcinoma, Merkel Cell"	"Virus Diseases"
-"1130"	"Carcinoma, Merkel Cell"	"Neoplasms"
-"1131"	"Churg-Strauss Syndrome"	"Cardiovascular Diseases"
-"1132"	"Churg-Strauss Syndrome"	"Hemic and Lymphatic Diseases"
-"1133"	"Churg-Strauss Syndrome"	"Immune System Diseases"
-"1134"	"Mycobacterium avium-intracellulare Infection"	"Bacterial Infections and Mycoses"
-"1135"	"Tumor Lysis Syndrome"	"Hemic and Lymphatic Diseases"
-"1136"	"Tumor Lysis Syndrome"	"Immune System Diseases"
-"1137"	"Pyruvate Metabolism, Inborn Errors"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1138"	"Pyruvate Metabolism, Inborn Errors"	"Nutritional and Metabolic Diseases"
-"1139"	"Scleritis"	"Eye Diseases"
-"1140"	"Reperfusion Injury"	"Cardiovascular Diseases"
-"1141"	"Reperfusion Injury"	"Pathological Conditions, Signs and Symptoms"
-"1142"	"Weight Gain"	"Pathological Conditions, Signs and Symptoms"
-"1143"	"Glomerulonephritis, Membranoproliferative"	"Male Urogenital Diseases"
-"1144"	"Glomerulonephritis, Membranoproliferative"	"Female Urogenital Diseases and Pregnancy Complications"
-"1145"	"Glomerulonephritis, Membranoproliferative"	"Immune System Diseases"
-"1146"	"Glomerulonephritis, Membranous"	"Male Urogenital Diseases"
-"1147"	"Glomerulonephritis, Membranous"	"Female Urogenital Diseases and Pregnancy Complications"
-"1148"	"Glomerulonephritis, Membranous"	"Immune System Diseases"
-"1149"	"Leukemia, Lymphocytic, Chronic, B-Cell"	"Neoplasms"
-"1150"	"Leukemia, Lymphocytic, Chronic, B-Cell"	"Hemic and Lymphatic Diseases"
-"1151"	"Leukemia, Lymphocytic, Chronic, B-Cell"	"Immune System Diseases"
-"1152"	"Leukemia, Myelogenous, Chronic, BCR-ABL Positive"	"Neoplasms"
-"1153"	"Leukemia, Myelogenous, Chronic, BCR-ABL Positive"	"Hemic and Lymphatic Diseases"
-"1154"	"Leukemia, Myeloid, Acute"	"Neoplasms"
-"1155"	"Leukemia, Myelomonocytic, Chronic"	"Neoplasms"
-"1156"	"Leukemia, Myelomonocytic, Chronic"	"Hemic and Lymphatic Diseases"
-"1157"	"HTLV-I Infections"	"Virus Diseases"
-"1158"	"HTLV-I Infections"	"Immune System Diseases"
-"1159"	"Rett Syndrome"	"Nervous System Diseases"
-"1160"	"Rett Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1161"	"AIDS Dementia Complex"	"Virus Diseases"
-"1162"	"AIDS Dementia Complex"	"Nervous System Diseases"
-"1163"	"AIDS Dementia Complex"	"Immune System Diseases"
-"1164"	"AIDS Dementia Complex"	"Mental Disorders"
-"1165"	"Arthritis, Psoriatic"	"Musculoskeletal Diseases"
-"1166"	"Arthritis, Psoriatic"	"Skin and Connective Tissue Diseases"
-"1167"	"HIV Infections"	"Virus Diseases"
-"1168"	"HIV Infections"	"Immune System Diseases"
-"1169"	"Fatigue Syndrome, Chronic"	"Virus Diseases"
-"1170"	"Fatigue Syndrome, Chronic"	"Musculoskeletal Diseases"
-"1171"	"Fatigue Syndrome, Chronic"	"Nervous System Diseases"
-"1172"	"Choroideremia"	"Eye Diseases"
-"1173"	"Choroideremia"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1174"	"Eye Infections"	"Bacterial Infections and Mycoses"
-"1175"	"Eye Infections"	"Eye Diseases"
-"1176"	"Osteochondroma"	"Neoplasms"
-"1177"	"Osteochondroma"	"Musculoskeletal Diseases"
-"1178"	"Vestibular Diseases"	"Otorhinolaryngologic Diseases"
-"1179"	"Choroid Diseases"	"Eye Diseases"
-"1180"	"Urinary Retention"	"Male Urogenital Diseases"
-"1181"	"Urinary Retention"	"Female Urogenital Diseases and Pregnancy Complications"
-"1182"	"Pleural Effusion, Malignant"	"Neoplasms"
-"1183"	"Pleural Effusion, Malignant"	"Respiratory Tract Diseases"
-"1184"	"Postpoliomyelitis Syndrome"	"Virus Diseases"
-"1185"	"Postpoliomyelitis Syndrome"	"Musculoskeletal Diseases"
-"1186"	"Postpoliomyelitis Syndrome"	"Nervous System Diseases"
-"1187"	"Lymphoma, B-Cell"	"Neoplasms"
-"1188"	"Lymphoma, B-Cell"	"Hemic and Lymphatic Diseases"
-"1189"	"Lymphoma, B-Cell"	"Immune System Diseases"
-"1190"	"Lymphoma, T-Cell"	"Neoplasms"
-"1191"	"Lymphoma, T-Cell"	"Hemic and Lymphatic Diseases"
-"1192"	"Lymphoma, T-Cell"	"Immune System Diseases"
-"1193"	"Lymphoma, Large B-Cell, Diffuse"	"Neoplasms"
-"1194"	"Lymphoma, Large B-Cell, Diffuse"	"Hemic and Lymphatic Diseases"
-"1195"	"Lymphoma, Large B-Cell, Diffuse"	"Immune System Diseases"
-"1196"	"Lymphoma, T-Cell, Cutaneous"	"Neoplasms"
-"1197"	"Lymphoma, T-Cell, Cutaneous"	"Hemic and Lymphatic Diseases"
-"1198"	"Lymphoma, T-Cell, Cutaneous"	"Immune System Diseases"
-"1199"	"Lymphoma, T-Cell, Peripheral"	"Neoplasms"
-"1200"	"Lymphoma, T-Cell, Peripheral"	"Hemic and Lymphatic Diseases"
-"1201"	"Lymphoma, T-Cell, Peripheral"	"Immune System Diseases"
-"1202"	"Motor Neuron Disease"	"Nervous System Diseases"
-"1203"	"Helicobacter Infections"	"Bacterial Infections and Mycoses"
-"1204"	"Peripheral Vascular Diseases"	"Cardiovascular Diseases"
-"1205"	"Severe Combined Immunodeficiency"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1206"	"Severe Combined Immunodeficiency"	"Nutritional and Metabolic Diseases"
-"1207"	"Severe Combined Immunodeficiency"	"Immune System Diseases"
-"1208"	"Neurofibromatosis 2"	"Neoplasms"
-"1209"	"Neurofibromatosis 2"	"Otorhinolaryngologic Diseases"
-"1210"	"Neurofibromatosis 2"	"Nervous System Diseases"
-"1211"	"Neurofibromatosis 2"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1212"	"Mucopolysaccharidosis II"	"Nervous System Diseases"
-"1213"	"Mucopolysaccharidosis II"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1214"	"Mucopolysaccharidosis II"	"Skin and Connective Tissue Diseases"
-"1215"	"Mucopolysaccharidosis II"	"Nutritional and Metabolic Diseases"
-"1216"	"Gangliosidosis, GM1"	"Nervous System Diseases"
-"1217"	"Gangliosidosis, GM1"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1218"	"Gangliosidosis, GM1"	"Nutritional and Metabolic Diseases"
-"1219"	"Mucopolysaccharidosis VII"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1220"	"Mucopolysaccharidosis VII"	"Skin and Connective Tissue Diseases"
-"1221"	"Mucopolysaccharidosis VII"	"Nutritional and Metabolic Diseases"
-"1222"	"Central Nervous System Neoplasms"	"Neoplasms"
-"1223"	"Central Nervous System Neoplasms"	"Nervous System Diseases"
-"1224"	"Purpura, Thrombocytopenic, Idiopathic"	"Hemic and Lymphatic Diseases"
-"1225"	"Purpura, Thrombocytopenic, Idiopathic"	"Immune System Diseases"
-"1226"	"Purpura, Thrombocytopenic, Idiopathic"	"Pathological Conditions, Signs and Symptoms"
-"1227"	"Seasonal Affective Disorder"	"Mental Disorders"
-"1228"	"Panic Disorder"	"Mental Disorders"
-"1229"	"Diabetes, Gestational"	"Female Urogenital Diseases and Pregnancy Complications"
-"1230"	"Diabetes, Gestational"	"Nutritional and Metabolic Diseases"
-"1231"	"Diabetes, Gestational"	"Endocrine System Diseases"
-"1232"	"Cerebral Amyloid Angiopathy"	"Nervous System Diseases"
-"1233"	"Cerebral Amyloid Angiopathy"	"Cardiovascular Diseases"
-"1234"	"Cerebral Amyloid Angiopathy"	"Nutritional and Metabolic Diseases"
-"1235"	"Still's Disease, Adult-Onset"	"Musculoskeletal Diseases"
-"1236"	"Still's Disease, Adult-Onset"	"Skin and Connective Tissue Diseases"
-"1237"	"Still's Disease, Adult-Onset"	"Immune System Diseases"
-"1238"	"Antiphospholipid Syndrome"	"Immune System Diseases"
-"1239"	"Alagille Syndrome"	"Digestive System Diseases"
-"1240"	"Alagille Syndrome"	"Cardiovascular Diseases"
-"1241"	"Alagille Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1242"	"Stiff-Person Syndrome"	"Nervous System Diseases"
-"1243"	"Stiff-Person Syndrome"	"Immune System Diseases"
-"1244"	"Hepatitis E"	"Virus Diseases"
-"1245"	"Hepatitis E"	"Digestive System Diseases"
-"1246"	"Keratitis, Herpetic"	"Virus Diseases"
-"1247"	"Keratitis, Herpetic"	"Eye Diseases"
-"1248"	"Endometrial Neoplasms"	"Neoplasms"
-"1249"	"Endometrial Neoplasms"	"Female Urogenital Diseases and Pregnancy Complications"
-"1250"	"IgA Deficiency"	"Hemic and Lymphatic Diseases"
-"1251"	"IgA Deficiency"	"Immune System Diseases"
-"1252"	"IgG Deficiency"	"Hemic and Lymphatic Diseases"
-"1253"	"IgG Deficiency"	"Immune System Diseases"
-"1254"	"Akathisia, Drug-Induced"	"Nervous System Diseases"
-"1255"	"Akathisia, Drug-Induced"	"Pathological Conditions, Signs and Symptoms"
-"1256"	"Akathisia, Drug-Induced"	"Chemically-Induced Disorders"
-"1257"	"Tachycardia, Ventricular"	"Cardiovascular Diseases"
-"1258"	"Tachycardia, Ventricular"	"Pathological Conditions, Signs and Symptoms"
-"1259"	"Skin Diseases, Bacterial"	"Bacterial Infections and Mycoses"
-"1260"	"Skin Diseases, Bacterial"	"Skin and Connective Tissue Diseases"
-"1261"	"Myocardial Ischemia"	"Cardiovascular Diseases"
-"1262"	"Angelman Syndrome"	"Nervous System Diseases"
-"1263"	"Angelman Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1264"	"Mitochondrial Encephalomyopathies"	"Musculoskeletal Diseases"
-"1265"	"Mitochondrial Encephalomyopathies"	"Nervous System Diseases"
-"1266"	"Mitochondrial Encephalomyopathies"	"Nutritional and Metabolic Diseases"
-"1267"	"Mitochondrial Myopathies"	"Musculoskeletal Diseases"
-"1268"	"Mitochondrial Myopathies"	"Nervous System Diseases"
-"1269"	"Mitochondrial Myopathies"	"Nutritional and Metabolic Diseases"
-"1270"	"MELAS Syndrome"	"Musculoskeletal Diseases"
-"1271"	"MELAS Syndrome"	"Nervous System Diseases"
-"1272"	"MELAS Syndrome"	"Cardiovascular Diseases"
-"1273"	"MELAS Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1274"	"MELAS Syndrome"	"Nutritional and Metabolic Diseases"
-"1275"	"Caliciviridae Infections"	"Virus Diseases"
-"1276"	"Neurofibromatoses"	"Neoplasms"
-"1277"	"Neurofibromatoses"	"Nervous System Diseases"
-"1278"	"Neurofibromatoses"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1279"	"Polymyositis"	"Musculoskeletal Diseases"
-"1280"	"Polymyositis"	"Nervous System Diseases"
-"1281"	"Dermatitis, Allergic Contact"	"Skin and Connective Tissue Diseases"
-"1282"	"Dermatitis, Allergic Contact"	"Immune System Diseases"
-"1283"	"Hidradenitis Suppurativa"	"Bacterial Infections and Mycoses"
-"1284"	"Hidradenitis Suppurativa"	"Skin and Connective Tissue Diseases"
-"1285"	"Pyoderma Gangrenosum"	"Skin and Connective Tissue Diseases"
-"1286"	"Postcholecystectomy Syndrome"	"Digestive System Diseases"
-"1287"	"Postcholecystectomy Syndrome"	"Pathological Conditions, Signs and Symptoms"
-"1288"	"Lung Diseases, Interstitial"	"Respiratory Tract Diseases"
-"1289"	"Myelinolysis, Central Pontine"	"Nervous System Diseases"
-"1290"	"Myelinolysis, Central Pontine"	"Nutritional and Metabolic Diseases"
-"1291"	"Neuroectodermal Tumors"	"Neoplasms"
-"1292"	"Hypophosphatemia"	"Nutritional and Metabolic Diseases"
-"1293"	"Lichen Planus, Oral"	"Stomatognathic Diseases"
-"1294"	"Lichen Planus, Oral"	"Skin and Connective Tissue Diseases"
-"1295"	"Hypereosinophilic Syndrome"	"Hemic and Lymphatic Diseases"
-"1296"	"Lymphoma, Large-Cell, Anaplastic"	"Neoplasms"
-"1297"	"Lymphoma, Large-Cell, Anaplastic"	"Hemic and Lymphatic Diseases"
-"1298"	"Lymphoma, Large-Cell, Anaplastic"	"Immune System Diseases"
-"1299"	"Tympanic Membrane Perforation"	"Otorhinolaryngologic Diseases"
-"1300"	"Tympanic Membrane Perforation"	"Wounds and Injuries"
-"1301"	"Glucose Intolerance"	"Nutritional and Metabolic Diseases"
-"1302"	"Paramyxoviridae Infections"	"Virus Diseases"
-"1303"	"Lymphangioleiomyomatosis"	"Neoplasms"
-"1304"	"Lymphangioleiomyomatosis"	"Hemic and Lymphatic Diseases"
-"1305"	"Lymphangioleiomyomatosis"	"Immune System Diseases"
-"1306"	"Fibromatosis, Aggressive"	"Neoplasms"
-"1307"	"Neoplasms, Basal Cell"	"Neoplasms"
-"1308"	"Neoplasms, Squamous Cell"	"Neoplasms"
-"1309"	"Gliosarcoma"	"Neoplasms"
-"1310"	"Coronavirus Infections"	"Virus Diseases"
-"1311"	"Alphavirus Infections"	"Virus Diseases"
-"1312"	"Respiratory Syncytial Virus Infections"	"Virus Diseases"
-"1313"	"Neuroendocrine Tumors"	"Neoplasms"
-"1314"	"Lymphoma, B-Cell, Marginal Zone"	"Neoplasms"
-"1315"	"Lymphoma, B-Cell, Marginal Zone"	"Hemic and Lymphatic Diseases"
-"1316"	"Lymphoma, B-Cell, Marginal Zone"	"Immune System Diseases"
-"1317"	"Gastroparesis"	"Digestive System Diseases"
-"1318"	"Gastroparesis"	"Pathological Conditions, Signs and Symptoms"
-"1319"	"Systemic Inflammatory Response Syndrome"	"Pathological Conditions, Signs and Symptoms"
-"1320"	"Hantavirus Infections"	"Virus Diseases"
-"1321"	"Anemia, Iron-Deficiency"	"Hemic and Lymphatic Diseases"
-"1322"	"Anemia, Iron-Deficiency"	"Nutritional and Metabolic Diseases"
-"1323"	"Sepsis"	"Bacterial Infections and Mycoses"
-"1324"	"Sepsis"	"Pathological Conditions, Signs and Symptoms"
-"1325"	"Heat Stroke"	"Wounds and Injuries"
-"1326"	"Optic Neuropathy, Ischemic"	"Nervous System Diseases"
-"1327"	"Optic Neuropathy, Ischemic"	"Eye Diseases"
-"1328"	"Optic Neuropathy, Ischemic"	"Cardiovascular Diseases"
-"1329"	"Myositis, Inclusion Body"	"Musculoskeletal Diseases"
-"1330"	"Myositis, Inclusion Body"	"Nervous System Diseases"
-"1331"	"Burkholderia Infections"	"Bacterial Infections and Mycoses"
-"1332"	"Hemorrhagic Fever, Ebola"	"Virus Diseases"
-"1333"	"HIV Wasting Syndrome"	"Virus Diseases"
-"1334"	"HIV Wasting Syndrome"	"Nutritional and Metabolic Diseases"
-"1335"	"HIV Wasting Syndrome"	"Immune System Diseases"
-"1336"	"Hematologic Neoplasms"	"Neoplasms"
-"1337"	"Hematologic Neoplasms"	"Hemic and Lymphatic Diseases"
-"1338"	"Pouchitis"	"Digestive System Diseases"
-"1339"	"Capillary Leak Syndrome"	"Cardiovascular Diseases"
-"1340"	"Multiple System Atrophy"	"Nervous System Diseases"
-"1341"	"Neurodegenerative Diseases"	"Nervous System Diseases"
-"1342"	"Schnitzler Syndrome"	"Immune System Diseases"
-"1343"	"alpha 1-Antitrypsin Deficiency"	"Digestive System Diseases"
-"1344"	"alpha 1-Antitrypsin Deficiency"	"Respiratory Tract Diseases"
-"1345"	"alpha 1-Antitrypsin Deficiency"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1346"	"alpha 1-Antitrypsin Deficiency"	"Pathological Conditions, Signs and Symptoms"
-"1347"	"Conduct Disorder"	"Mental Disorders"
-"1348"	"Neurocognitive Disorders"	"Mental Disorders"
-"1349"	"Substance-Related Disorders"	"Chemically-Induced Disorders"
-"1350"	"Substance-Related Disorders"	"Mental Disorders"
-"1351"	"Amphetamine-Related Disorders"	"Chemically-Induced Disorders"
-"1352"	"Amphetamine-Related Disorders"	"Mental Disorders"
-"1353"	"Cocaine-Related Disorders"	"Chemically-Induced Disorders"
-"1354"	"Cocaine-Related Disorders"	"Mental Disorders"
-"1355"	"Epstein-Barr Virus Infections"	"Virus Diseases"
-"1356"	"Coagulation Protein Disorders"	"Hemic and Lymphatic Diseases"
-"1357"	"Antithrombin III Deficiency"	"Hemic and Lymphatic Diseases"
-"1358"	"Antithrombin III Deficiency"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1359"	"Hyperglycinemia, Nonketotic"	"Nervous System Diseases"
-"1360"	"Hyperglycinemia, Nonketotic"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1361"	"Hyperglycinemia, Nonketotic"	"Nutritional and Metabolic Diseases"
-"1362"	"Citrullinemia"	"Nervous System Diseases"
-"1363"	"Citrullinemia"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1364"	"Citrullinemia"	"Nutritional and Metabolic Diseases"
-"1365"	"Hyperargininemia"	"Nervous System Diseases"
-"1366"	"Hyperargininemia"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1367"	"Hyperargininemia"	"Nutritional and Metabolic Diseases"
-"1368"	"Ornithine Carbamoyltransferase Deficiency Disease"	"Nervous System Diseases"
-"1369"	"Ornithine Carbamoyltransferase Deficiency Disease"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1370"	"Ornithine Carbamoyltransferase Deficiency Disease"	"Nutritional and Metabolic Diseases"
-"1371"	"Carbamoyl-Phosphate Synthase I Deficiency Disease"	"Nervous System Diseases"
-"1372"	"Carbamoyl-Phosphate Synthase I Deficiency Disease"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1373"	"Carbamoyl-Phosphate Synthase I Deficiency Disease"	"Nutritional and Metabolic Diseases"
-"1374"	"Tyrosinemias"	"Nervous System Diseases"
-"1375"	"Tyrosinemias"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1376"	"Tyrosinemias"	"Nutritional and Metabolic Diseases"
-"1377"	"Hypersomnolence, Idiopathic"	"Nervous System Diseases"
-"1378"	"Hypersomnolence, Idiopathic"	"Mental Disorders"
-"1379"	"Sleep Disorders, Circadian Rhythm"	"Nervous System Diseases"
-"1380"	"Sleep Disorders, Circadian Rhythm"	"Occupational Diseases"
-"1381"	"Sleep Disorders, Circadian Rhythm"	"Mental Disorders"
-"1382"	"Unverricht-Lundborg Syndrome"	"Nervous System Diseases"
-"1383"	"Unverricht-Lundborg Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1384"	"Trauma, Nervous System"	"Nervous System Diseases"
-"1385"	"Trauma, Nervous System"	"Wounds and Injuries"
-"1386"	"Venous Thrombosis"	"Cardiovascular Diseases"
-"1387"	"Postoperative Nausea and Vomiting"	"Pathological Conditions, Signs and Symptoms"
-"1388"	"Guillain-Barre Syndrome"	"Nervous System Diseases"
-"1389"	"Guillain-Barre Syndrome"	"Immune System Diseases"
-"1390"	"Polyradiculoneuropathy, Chronic Inflammatory Demyelinating"	"Nervous System Diseases"
-"1391"	"Polyradiculoneuropathy, Chronic Inflammatory Demyelinating"	"Immune System Diseases"
-"1392"	"Vasospasm, Intracranial"	"Nervous System Diseases"
-"1393"	"Vasospasm, Intracranial"	"Cardiovascular Diseases"
-"1394"	"Essential Tremor"	"Nervous System Diseases"
-"1395"	"Enterocolitis, Necrotizing"	"Digestive System Diseases"
-"1396"	"Muscular Dystrophy, Duchenne"	"Musculoskeletal Diseases"
-"1397"	"Muscular Dystrophy, Duchenne"	"Nervous System Diseases"
-"1398"	"Muscular Dystrophy, Duchenne"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1399"	"Muscular Dystrophy, Facioscapulohumeral"	"Musculoskeletal Diseases"
-"1400"	"Muscular Dystrophy, Facioscapulohumeral"	"Nervous System Diseases"
-"1401"	"Muscular Dystrophy, Facioscapulohumeral"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1402"	"Lymphoma, Mantle-Cell"	"Neoplasms"
-"1403"	"Lymphoma, Mantle-Cell"	"Hemic and Lymphatic Diseases"
-"1404"	"Lymphoma, Mantle-Cell"	"Immune System Diseases"
-"1405"	"Multiple Sclerosis, Chronic Progressive"	"Nervous System Diseases"
-"1406"	"Multiple Sclerosis, Chronic Progressive"	"Immune System Diseases"
-"1407"	"Multiple Sclerosis, Relapsing-Remitting"	"Nervous System Diseases"
-"1408"	"Multiple Sclerosis, Relapsing-Remitting"	"Immune System Diseases"
-"1409"	"Brain Diseases, Metabolic, Inborn"	"Nervous System Diseases"
-"1410"	"Brain Diseases, Metabolic, Inborn"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1411"	"Brain Diseases, Metabolic, Inborn"	"Nutritional and Metabolic Diseases"
-"1412"	"Spinocerebellar Ataxias"	"Nervous System Diseases"
-"1413"	"Spinocerebellar Ataxias"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1414"	"Intracranial Thrombosis"	"Nervous System Diseases"
-"1415"	"Intracranial Thrombosis"	"Cardiovascular Diseases"
-"1416"	"Hemangioma, Cavernous, Central Nervous System"	"Neoplasms"
-"1417"	"Hemangioma, Cavernous, Central Nervous System"	"Nervous System Diseases"
-"1418"	"Hemangioma, Cavernous, Central Nervous System"	"Cardiovascular Diseases"
-"1419"	"Hemangioma, Cavernous, Central Nervous System"	"Hemic and Lymphatic Diseases"
-"1420"	"Hemangioma, Cavernous, Central Nervous System"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1421"	"Bardet-Biedl Syndrome"	"Nervous System Diseases"
-"1422"	"Bardet-Biedl Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1423"	"Dyskinesias"	"Nervous System Diseases"
-"1424"	"Dyskinesias"	"Pathological Conditions, Signs and Symptoms"
-"1425"	"Myopathies, Structural, Congenital"	"Musculoskeletal Diseases"
-"1426"	"Myopathies, Structural, Congenital"	"Nervous System Diseases"
-"1427"	"Complex Regional Pain Syndromes"	"Nervous System Diseases"
-"1428"	"Lewy Body Disease"	"Nervous System Diseases"
-"1429"	"Lewy Body Disease"	"Mental Disorders"
-"1430"	"Muscular Disorders, Atrophic"	"Musculoskeletal Diseases"
-"1431"	"Muscular Disorders, Atrophic"	"Nervous System Diseases"
-"1432"	"Hyperammonemia"	"Pathological Conditions, Signs and Symptoms"
-"1433"	"Metabolic Syndrome X"	"Nutritional and Metabolic Diseases"
-"1434"	"Spondylarthritis"	"Musculoskeletal Diseases"
-"1435"	"Mitochondrial Diseases"	"Nutritional and Metabolic Diseases"
-"1436"	"Optic Atrophy, Hereditary, Leber"	"Nervous System Diseases"
-"1437"	"Optic Atrophy, Hereditary, Leber"	"Eye Diseases"
-"1438"	"Optic Atrophy, Hereditary, Leber"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1439"	"Optic Atrophy, Hereditary, Leber"	"Nutritional and Metabolic Diseases"
-"1440"	"Pulmonary Disease, Chronic Obstructive"	"Respiratory Tract Diseases"
-"1441"	"Bronchitis, Chronic"	"Respiratory Tract Diseases"
-"1442"	"Papillomavirus Infections"	"Virus Diseases"
-"1443"	"Erdheim-Chester Disease"	"Hemic and Lymphatic Diseases"
-"1444"	"Hyperuricemia"	"Pathological Conditions, Signs and Symptoms"
-"1445"	"Hypoalbuminemia"	"Hemic and Lymphatic Diseases"
-"1446"	"Hearing Loss"	"Otorhinolaryngologic Diseases"
-"1447"	"Hearing Loss"	"Nervous System Diseases"
-"1448"	"Hearing Loss"	"Pathological Conditions, Signs and Symptoms"
-"1449"	"Fasciitis, Plantar"	"Musculoskeletal Diseases"
-"1450"	"Muscular Dystrophy, Oculopharyngeal"	"Musculoskeletal Diseases"
-"1451"	"Muscular Dystrophy, Oculopharyngeal"	"Nervous System Diseases"
-"1452"	"Muscular Dystrophy, Oculopharyngeal"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1453"	"Retinoschisis"	"Eye Diseases"
-"1454"	"Irritable Bowel Syndrome"	"Digestive System Diseases"
-"1455"	"Severe Acute Respiratory Syndrome"	"Virus Diseases"
-"1456"	"Severe Acute Respiratory Syndrome"	"Respiratory Tract Diseases"
-"1457"	"Steatorrhea"	"Digestive System Diseases"
-"1458"	"Steatorrhea"	"Nutritional and Metabolic Diseases"
-"1459"	"Ileus"	"Digestive System Diseases"
-"1460"	"Protoporphyria, Erythropoietic"	"Digestive System Diseases"
-"1461"	"Protoporphyria, Erythropoietic"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1462"	"Protoporphyria, Erythropoietic"	"Skin and Connective Tissue Diseases"
-"1463"	"Protoporphyria, Erythropoietic"	"Nutritional and Metabolic Diseases"
-"1464"	"Pituitary ACTH Hypersecretion"	"Nervous System Diseases"
-"1465"	"Pituitary ACTH Hypersecretion"	"Endocrine System Diseases"
-"1466"	"Diabetes Complications"	"Endocrine System Diseases"
-"1467"	"Muscular Dystrophies, Limb-Girdle"	"Musculoskeletal Diseases"
-"1468"	"Muscular Dystrophies, Limb-Girdle"	"Nervous System Diseases"
-"1469"	"Muscular Dystrophies, Limb-Girdle"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1470"	"Hyperparathyroidism, Primary"	"Endocrine System Diseases"
-"1471"	"Graves Ophthalmopathy"	"Eye Diseases"
-"1472"	"Graves Ophthalmopathy"	"Endocrine System Diseases"
-"1473"	"Graves Ophthalmopathy"	"Immune System Diseases"
-"1474"	"Atherosclerosis"	"Cardiovascular Diseases"
-"1475"	"Fractures, Bone"	"Wounds and Injuries"
-"1476"	"Lymphohistiocytosis, Hemophagocytic"	"Hemic and Lymphatic Diseases"
-"1477"	"Renal Insufficiency"	"Male Urogenital Diseases"
-"1478"	"Renal Insufficiency"	"Female Urogenital Diseases and Pregnancy Complications"
-"1479"	"Neuralgia, Postherpetic"	"Nervous System Diseases"
-"1480"	"Neuralgia, Postherpetic"	"Pathological Conditions, Signs and Symptoms"
-"1481"	"Delayed Graft Function"	"Pathological Conditions, Signs and Symptoms"
-"1482"	"Mucositis"	"Digestive System Diseases"
-"1483"	"Mucositis"	"Stomatognathic Diseases"
-"1484"	"Usher Syndromes"	"Otorhinolaryngologic Diseases"
-"1485"	"Usher Syndromes"	"Nervous System Diseases"
-"1486"	"Usher Syndromes"	"Eye Diseases"
-"1487"	"Usher Syndromes"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1488"	"Usher Syndromes"	"Pathological Conditions, Signs and Symptoms"
-"1489"	"Tendinopathy"	"Musculoskeletal Diseases"
-"1490"	"Tendinopathy"	"Wounds and Injuries"
-"1491"	"Lipid Metabolism Disorders"	"Nutritional and Metabolic Diseases"
-"1492"	"Hypoalphalipoproteinemias"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1493"	"Hypoalphalipoproteinemias"	"Nutritional and Metabolic Diseases"
-"1494"	"Nocturia"	"Pathological Conditions, Signs and Symptoms"
-"1495"	"Dysuria"	"Pathological Conditions, Signs and Symptoms"
-"1496"	"Urinary Bladder, Overactive"	"Male Urogenital Diseases"
-"1497"	"Urinary Bladder, Overactive"	"Female Urogenital Diseases and Pregnancy Complications"
-"1498"	"Urinary Bladder, Overactive"	"Pathological Conditions, Signs and Symptoms"
-"1499"	"Hyper-IgM Immunodeficiency Syndrome"	"Hemic and Lymphatic Diseases"
-"1500"	"Hyper-IgM Immunodeficiency Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1501"	"Hyper-IgM Immunodeficiency Syndrome"	"Immune System Diseases"
-"1502"	"Pachyonychia Congenita"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1503"	"Pachyonychia Congenita"	"Skin and Connective Tissue Diseases"
-"1504"	"Opsoclonus-Myoclonus Syndrome"	"Neoplasms"
-"1505"	"Opsoclonus-Myoclonus Syndrome"	"Nervous System Diseases"
-"1506"	"Opsoclonus-Myoclonus Syndrome"	"Eye Diseases"
-"1507"	"Acute Coronary Syndrome"	"Cardiovascular Diseases"
-"1508"	"Mevalonate Kinase Deficiency"	"Nervous System Diseases"
-"1509"	"Mevalonate Kinase Deficiency"	"Hemic and Lymphatic Diseases"
-"1510"	"Mevalonate Kinase Deficiency"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1511"	"Mevalonate Kinase Deficiency"	"Nutritional and Metabolic Diseases"
-"1512"	"Mevalonate Kinase Deficiency"	"Immune System Diseases"
-"1513"	"Vascular Malformations"	"Cardiovascular Diseases"
-"1514"	"Vascular Malformations"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1515"	"Angioedemas, Hereditary"	"Cardiovascular Diseases"
-"1516"	"Angioedemas, Hereditary"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1517"	"Angioedemas, Hereditary"	"Skin and Connective Tissue Diseases"
-"1518"	"Angioedemas, Hereditary"	"Immune System Diseases"
-"1519"	"Precursor Cell Lymphoblastic Leukemia-Lymphoma"	"Neoplasms"
-"1520"	"Precursor Cell Lymphoblastic Leukemia-Lymphoma"	"Hemic and Lymphatic Diseases"
-"1521"	"Precursor Cell Lymphoblastic Leukemia-Lymphoma"	"Immune System Diseases"
-"1522"	"Leukemia, Myelomonocytic, Juvenile"	"Neoplasms"
-"1523"	"Leukemia, Myelomonocytic, Juvenile"	"Hemic and Lymphatic Diseases"
-"1524"	"Hyperphosphatemia"	"Nutritional and Metabolic Diseases"
-"1525"	"Idiopathic Pulmonary Fibrosis"	"Respiratory Tract Diseases"
-"1526"	"Acute Lung Injury"	"Respiratory Tract Diseases"
-"1527"	"Macrophage Activation Syndrome"	"Immune System Diseases"
-"1528"	"Keratosis, Actinic"	"Neoplasms"
-"1529"	"Keratosis, Actinic"	"Skin and Connective Tissue Diseases"
-"1530"	"Purpura Fulminans"	"Hemic and Lymphatic Diseases"
-"1531"	"Purpura Fulminans"	"Pathological Conditions, Signs and Symptoms"
-"1532"	"Primary Myelofibrosis"	"Hemic and Lymphatic Diseases"
-"1533"	"Small Cell Lung Carcinoma"	"Neoplasms"
-"1534"	"Small Cell Lung Carcinoma"	"Respiratory Tract Diseases"
-"1535"	"Sarcopenia"	"Nervous System Diseases"
-"1536"	"Sarcopenia"	"Pathological Conditions, Signs and Symptoms"
-"1537"	"Microscopic Polyangiitis"	"Nervous System Diseases"
-"1538"	"Microscopic Polyangiitis"	"Cardiovascular Diseases"
-"1539"	"Microscopic Polyangiitis"	"Immune System Diseases"
-"1540"	"Intervertebral Disc Degeneration"	"Musculoskeletal Diseases"
-"1541"	"Asthma, Aspirin-Induced"	"Respiratory Tract Diseases"
-"1542"	"Asthma, Aspirin-Induced"	"Immune System Diseases"
-"1543"	"Asthma, Aspirin-Induced"	"Chemically-Induced Disorders"
-"1544"	"Acute Chest Syndrome"	"Respiratory Tract Diseases"
-"1545"	"Acute Chest Syndrome"	"Hemic and Lymphatic Diseases"
-"1546"	"Acute Chest Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1547"	"Cryopyrin-Associated Periodic Syndromes"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1548"	"Cryopyrin-Associated Periodic Syndromes"	"Skin and Connective Tissue Diseases"
-"1549"	"Vulvodynia"	"Female Urogenital Diseases and Pregnancy Complications"
-"1550"	"Hereditary Autoinflammatory Diseases"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1551"	"Hereditary Autoinflammatory Diseases"	"Skin and Connective Tissue Diseases"
-"1552"	"Donohue Syndrome"	"Musculoskeletal Diseases"
-"1553"	"Donohue Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1554"	"Donohue Syndrome"	"Nutritional and Metabolic Diseases"
-"1555"	"Donohue Syndrome"	"Endocrine System Diseases"
-"1556"	"Alstrom Syndrome"	"Nervous System Diseases"
-"1557"	"Alstrom Syndrome"	"Eye Diseases"
-"1558"	"Alstrom Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1559"	"Netherton Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1560"	"Netherton Syndrome"	"Skin and Connective Tissue Diseases"
-"1561"	"Urea Cycle Disorders, Inborn"	"Nervous System Diseases"
-"1562"	"Urea Cycle Disorders, Inborn"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1563"	"Urea Cycle Disorders, Inborn"	"Nutritional and Metabolic Diseases"
-"1564"	"Argininosuccinic Aciduria"	"Nervous System Diseases"
-"1565"	"Argininosuccinic Aciduria"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1566"	"Argininosuccinic Aciduria"	"Nutritional and Metabolic Diseases"
-"1567"	"Binge-Eating Disorder"	"Mental Disorders"
-"1568"	"Geographic Atrophy"	"Eye Diseases"
-"1569"	"Leber Congenital Amaurosis"	"Eye Diseases"
-"1570"	"Wet Macular Degeneration"	"Eye Diseases"
-"1571"	"Frontotemporal Dementia"	"Nervous System Diseases"
-"1572"	"Frontotemporal Dementia"	"Nutritional and Metabolic Diseases"
-"1573"	"Frontotemporal Dementia"	"Mental Disorders"
-"1574"	"Eosinophilic Esophagitis"	"Digestive System Diseases"
-"1575"	"Eosinophilic Esophagitis"	"Hemic and Lymphatic Diseases"
-"1576"	"Eosinophilic Esophagitis"	"Immune System Diseases"
-"1577"	"Diabetic Cardiomyopathies"	"Cardiovascular Diseases"
-"1578"	"Diabetic Cardiomyopathies"	"Endocrine System Diseases"
-"1579"	"Acute Kidney Injury"	"Male Urogenital Diseases"
-"1580"	"Acute Kidney Injury"	"Female Urogenital Diseases and Pregnancy Complications"
-"1581"	"Smith-Magenis Syndrome"	"Nervous System Diseases"
-"1582"	"Smith-Magenis Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
-"1583"	"Nociceptive Pain"	"Nervous System Diseases"
-"1584"	"Nociceptive Pain"	"Pathological Conditions, Signs and Symptoms"
-"1585"	"Atrophic Vaginitis"	"Female Urogenital Diseases and Pregnancy Complications"
-"1586"	"Musculoskeletal Pain"	"Musculoskeletal Diseases"
-"1587"	"Musculoskeletal Pain"	"Nervous System Diseases"
-"1588"	"Musculoskeletal Pain"	"Pathological Conditions, Signs and Symptoms"
-"1589"	"Musculoskeletal Pain"	"Psychological Phenomena and Processes"
-"1590"	"Mastodynia"	"Nervous System Diseases"
-"1591"	"Mastodynia"	"Pathological Conditions, Signs and Symptoms"
-"1592"	"Mastodynia"	"Psychological Phenomena and Processes"
-"1593"	"Intraabdominal Infections"	"Bacterial Infections and Mycoses"
-"1594"	"Reproductive Tract Infections"	"Bacterial Infections and Mycoses"
-"1595"	"Reproductive Tract Infections"	"Male Urogenital Diseases"
-"1596"	"Reproductive Tract Infections"	"Female Urogenital Diseases and Pregnancy Complications"
-"1597"	"Cognitive Dysfunction"	"Mental Disorders"
-"1598"	"Hand-Foot Syndrome"	"Skin and Connective Tissue Diseases"
-"1599"	"Hand-Foot Syndrome"	"Chemically-Induced Disorders"
-"1600"	"Vascular Calcification"	"Nutritional and Metabolic Diseases"
-"1601"	"Premature Ejaculation"	"Male Urogenital Diseases"
-"1602"	"Premature Ejaculation"	"Mental Disorders"
-"1603"	"Organophosphate Poisoning"	"Chemically-Induced Disorders"
-"1604"	"Drug-Related Side Effects and Adverse Reactions"	"Chemically-Induced Disorders"
-"1605"	"Corneal Injuries"	"Nervous System Diseases"
-"1606"	"Corneal Injuries"	"Eye Diseases"
-"1607"	"Corneal Injuries"	"Wounds and Injuries"
-"1608"	"Premenstrual Dysphoric Disorder"	"Pathological Conditions, Signs and Symptoms"
-"1609"	"Premenstrual Dysphoric Disorder"	"Mental Disorders"
-"1610"	"Non-alcoholic Fatty Liver Disease"	"Digestive System Diseases"
-"1611"	"Rhinitis, Allergic"	"Respiratory Tract Diseases"
-"1612"	"Rhinitis, Allergic"	"Otorhinolaryngologic Diseases"
-"1613"	"Rhinitis, Allergic"	"Immune System Diseases"
-"1614"	"Chikungunya Fever"	"Virus Diseases"
-"1615"	"Lennox Gastaut Syndrome"	"Nervous System Diseases"
-"1616"	"Lennox Gastaut Syndrome"	"Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+Name	MSH.Top
+Abortion, Spontaneous	Female Urogenital Diseases and Pregnancy Complications
+Morton Neuroma	Musculoskeletal Diseases
+Morton Neuroma	Nervous System Diseases
+Morton Neuroma	Pathological Conditions, Signs and Symptoms
+Brain Injuries, Traumatic	Nervous System Diseases
+Brain Injuries, Traumatic	Wounds and Injuries
+Tardive Dyskinesia	Nervous System Diseases
+Tardive Dyskinesia	Pathological Conditions, Signs and Symptoms
+Zika Virus Infection	Virus Diseases
+Cancer Pain	Nervous System Diseases
+Cancer Pain	Pathological Conditions, Signs and Symptoms
+Phobia, Social	Mental Disorders
+Acidosis	Nutritional and Metabolic Diseases
+Acne Vulgaris	Skin and Connective Tissue Diseases
+Acromegaly	Musculoskeletal Diseases
+Acromegaly	Nervous System Diseases
+Acromegaly	Endocrine System Diseases
+Addison Disease	Endocrine System Diseases
+Addison Disease	Immune System Diseases
+Adenoma	Neoplasms
+Adenoviridae Infections	Virus Diseases
+Tissue Adhesions	Pathological Conditions, Signs and Symptoms
+Adrenal Gland Neoplasms	Neoplasms
+Adrenal Gland Neoplasms	Endocrine System Diseases
+Adrenoleukodystrophy	Nervous System Diseases
+Adrenoleukodystrophy	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Adrenoleukodystrophy	Nutritional and Metabolic Diseases
+Adrenoleukodystrophy	Endocrine System Diseases
+Affective Symptoms	Behavior and Behavior Mechanisms
+Afibrinogenemia	Hemic and Lymphatic Diseases
+Afibrinogenemia	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Agammaglobulinemia	Hemic and Lymphatic Diseases
+Agammaglobulinemia	Immune System Diseases
+Agranulocytosis	Hemic and Lymphatic Diseases
+Albinism	Eye Diseases
+Albinism	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Albinism	Skin and Connective Tissue Diseases
+Albinism	Nutritional and Metabolic Diseases
+Alcoholic Intoxication	Chemically-Induced Disorders
+Alcoholic Intoxication	Mental Disorders
+Alcoholism	Chemically-Induced Disorders
+Alcoholism	Mental Disorders
+Alkaptonuria	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Alkaptonuria	Nutritional and Metabolic Diseases
+Alopecia	Skin and Connective Tissue Diseases
+Alopecia	Pathological Conditions, Signs and Symptoms
+Alopecia Areata	Skin and Connective Tissue Diseases
+Alzheimer Disease	Nervous System Diseases
+Alzheimer Disease	Mental Disorders
+Amblyopia	Nervous System Diseases
+Amblyopia	Eye Diseases
+Amblyopia	Pathological Conditions, Signs and Symptoms
+Amenorrhea	Pathological Conditions, Signs and Symptoms
+Amino Acid Metabolism, Inborn Errors	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Amino Acid Metabolism, Inborn Errors	Nutritional and Metabolic Diseases
+Amnesia	Nervous System Diseases
+Amnesia	Pathological Conditions, Signs and Symptoms
+Amnesia	Behavior and Behavior Mechanisms
+Amnesia	Mental Disorders
+Amyloidosis	Nutritional and Metabolic Diseases
+Amyotrophic Lateral Sclerosis	Nervous System Diseases
+Amyotrophic Lateral Sclerosis	Nutritional and Metabolic Diseases
+Anaphylaxis	Immune System Diseases
+Anemia	Hemic and Lymphatic Diseases
+Anemia, Aplastic	Hemic and Lymphatic Diseases
+Anemia, Hemolytic	Hemic and Lymphatic Diseases
+Anemia, Hemolytic, Autoimmune	Hemic and Lymphatic Diseases
+Anemia, Hemolytic, Autoimmune	Immune System Diseases
+Anemia, Pernicious	Hemic and Lymphatic Diseases
+Anemia, Pernicious	Nutritional and Metabolic Diseases
+Anemia, Sickle Cell	Hemic and Lymphatic Diseases
+Anemia, Sickle Cell	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Aneurysm	Cardiovascular Diseases
+Angina, Unstable	Nervous System Diseases
+Angina, Unstable	Cardiovascular Diseases
+Angina, Unstable	Pathological Conditions, Signs and Symptoms
+Fabry Disease	Nervous System Diseases
+Fabry Disease	Cardiovascular Diseases
+Fabry Disease	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Fabry Disease	Nutritional and Metabolic Diseases
+Angioedema	Cardiovascular Diseases
+Angioedema	Skin and Connective Tissue Diseases
+Angioedema	Immune System Diseases
+Anorexia	Pathological Conditions, Signs and Symptoms
+Anorexia Nervosa	Mental Disorders
+Anthrax	Bacterial Infections and Mycoses
+Anus Neoplasms	Neoplasms
+Anus Neoplasms	Digestive System Diseases
+Anxiety	Behavior and Behavior Mechanisms
+Anxiety Disorders	Mental Disorders
+Anxiety, Separation	Mental Disorders
+Aortic Valve Stenosis	Cardiovascular Diseases
+Apnea	Respiratory Tract Diseases
+Apnea	Pathological Conditions, Signs and Symptoms
+Feeding and Eating Disorders	Mental Disorders
+Arrhythmias, Cardiac	Cardiovascular Diseases
+Arrhythmias, Cardiac	Pathological Conditions, Signs and Symptoms
+Arthritis	Musculoskeletal Diseases
+Arthritis, Juvenile	Musculoskeletal Diseases
+Arthritis, Juvenile	Skin and Connective Tissue Diseases
+Arthritis, Juvenile	Immune System Diseases
+Arthritis, Rheumatoid	Musculoskeletal Diseases
+Arthritis, Rheumatoid	Skin and Connective Tissue Diseases
+Arthritis, Rheumatoid	Immune System Diseases
+Ascites	Pathological Conditions, Signs and Symptoms
+Aspergillosis	Bacterial Infections and Mycoses
+Aspergillosis	Skin and Connective Tissue Diseases
+Asthma	Respiratory Tract Diseases
+Asthma	Immune System Diseases
+Ataxia Telangiectasia	Nervous System Diseases
+Ataxia Telangiectasia	Cardiovascular Diseases
+Ataxia Telangiectasia	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Ataxia Telangiectasia	Nutritional and Metabolic Diseases
+Ataxia Telangiectasia	Immune System Diseases
+Atrial Fibrillation	Cardiovascular Diseases
+Atrial Fibrillation	Pathological Conditions, Signs and Symptoms
+Attention Deficit Disorder with Hyperactivity	Mental Disorders
+Autistic Disorder	Mental Disorders
+Autoimmune Diseases	Immune System Diseases
+Bacterial Infections	Bacterial Infections and Mycoses
+Barrett Esophagus	Digestive System Diseases
+Basal Cell Nevus Syndrome	Neoplasms
+Basal Cell Nevus Syndrome	Musculoskeletal Diseases
+Basal Cell Nevus Syndrome	Stomatognathic Diseases
+Basal Cell Nevus Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Behcet Syndrome	Stomatognathic Diseases
+Behcet Syndrome	Eye Diseases
+Behcet Syndrome	Cardiovascular Diseases
+Behcet Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Behcet Syndrome	Skin and Connective Tissue Diseases
+Biliary Atresia	Digestive System Diseases
+Biliary Atresia	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Biliary Dyskinesia	Digestive System Diseases
+Biliary Tract Neoplasms	Neoplasms
+Biliary Tract Neoplasms	Digestive System Diseases
+Bipolar Disorder	Mental Disorders
+Urinary Bladder Diseases	Male Urogenital Diseases
+Urinary Bladder Diseases	Female Urogenital Diseases and Pregnancy Complications
+Urinary Bladder Neoplasms	Neoplasms
+Urinary Bladder Neoplasms	Male Urogenital Diseases
+Urinary Bladder Neoplasms	Female Urogenital Diseases and Pregnancy Complications
+Urinary Bladder, Neurogenic	Nervous System Diseases
+Urinary Bladder, Neurogenic	Male Urogenital Diseases
+Urinary Bladder, Neurogenic	Female Urogenital Diseases and Pregnancy Complications
+Urinary Bladder, Neurogenic	Pathological Conditions, Signs and Symptoms
+Blepharitis	Eye Diseases
+Blindness	Nervous System Diseases
+Blindness	Eye Diseases
+Blindness	Pathological Conditions, Signs and Symptoms
+Bone Cysts	Neoplasms
+Bone Cysts	Musculoskeletal Diseases
+Bone Diseases	Musculoskeletal Diseases
+Bone Diseases, Metabolic	Musculoskeletal Diseases
+Bone Diseases, Metabolic	Nutritional and Metabolic Diseases
+Bone Neoplasms	Neoplasms
+Bone Neoplasms	Musculoskeletal Diseases
+Bradycardia	Cardiovascular Diseases
+Bradycardia	Pathological Conditions, Signs and Symptoms
+Brain Edema	Nervous System Diseases
+Brain Injuries	Nervous System Diseases
+Brain Injuries	Wounds and Injuries
+Brain Neoplasms	Neoplasms
+Brain Neoplasms	Nervous System Diseases
+Breast Neoplasms	Neoplasms
+Breast Neoplasms	Skin and Connective Tissue Diseases
+Bronchiectasis	Respiratory Tract Diseases
+Bronchiolitis Obliterans	Respiratory Tract Diseases
+Bronchopulmonary Dysplasia	Respiratory Tract Diseases
+Bronchopulmonary Dysplasia	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Brucellosis	Bacterial Infections and Mycoses
+Bulimia	Pathological Conditions, Signs and Symptoms
+Burns	Wounds and Injuries
+Bursitis	Musculoskeletal Diseases
+Cachexia	Pathological Conditions, Signs and Symptoms
+Candidiasis	Bacterial Infections and Mycoses
+Carbohydrate Metabolism, Inborn Errors	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Carbohydrate Metabolism, Inborn Errors	Nutritional and Metabolic Diseases
+Carcinoid Tumor	Neoplasms
+Carcinoma, Non-Small-Cell Lung	Neoplasms
+Carcinoma, Non-Small-Cell Lung	Respiratory Tract Diseases
+Carcinoma, Squamous Cell	Neoplasms
+Cardiomyopathy, Dilated	Cardiovascular Diseases
+Cardiomyopathy, Hypertrophic	Cardiovascular Diseases
+Cardiovascular Diseases	Cardiovascular Diseases
+Cataplexy	Nervous System Diseases
+Cataplexy	Mental Disorders
+Cataract	Eye Diseases
+Celiac Disease	Digestive System Diseases
+Celiac Disease	Nutritional and Metabolic Diseases
+Central Nervous System Diseases	Nervous System Diseases
+Cerebral Hemorrhage	Nervous System Diseases
+Cerebral Hemorrhage	Cardiovascular Diseases
+Cerebral Hemorrhage	Pathological Conditions, Signs and Symptoms
+Cerebral Infarction	Nervous System Diseases
+Cerebral Infarction	Cardiovascular Diseases
+Brain Ischemia	Nervous System Diseases
+Brain Ischemia	Cardiovascular Diseases
+Cerebral Palsy	Nervous System Diseases
+Uterine Cervical Dysplasia	Neoplasms
+Uterine Cervical Dysplasia	Female Urogenital Diseases and Pregnancy Complications
+Uterine Cervical Neoplasms	Neoplasms
+Uterine Cervical Neoplasms	Female Urogenital Diseases and Pregnancy Complications
+Charcot-Marie-Tooth Disease	Nervous System Diseases
+Charcot-Marie-Tooth Disease	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Chest Pain	Nervous System Diseases
+Chest Pain	Pathological Conditions, Signs and Symptoms
+Chickenpox	Virus Diseases
+Chlamydia Infections	Bacterial Infections and Mycoses
+Chlamydia Infections	Male Urogenital Diseases
+Chlamydia Infections	Female Urogenital Diseases and Pregnancy Complications
+Cholangitis	Digestive System Diseases
+Cholecystitis	Digestive System Diseases
+Cholelithiasis	Digestive System Diseases
+Cholestasis, Intrahepatic	Digestive System Diseases
+Chordoma	Neoplasms
+Chorioretinitis	Eye Diseases
+Hemophilia B	Hemic and Lymphatic Diseases
+Hemophilia B	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Clostridium Infections	Bacterial Infections and Mycoses
+Cluster Headache	Nervous System Diseases
+Colic	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Colitis	Digestive System Diseases
+Colitis, Ulcerative	Digestive System Diseases
+Color Vision Defects	Nervous System Diseases
+Color Vision Defects	Eye Diseases
+Color Vision Defects	Pathological Conditions, Signs and Symptoms
+Conjunctivitis	Eye Diseases
+Conjunctivitis, Allergic	Eye Diseases
+Conjunctivitis, Allergic	Immune System Diseases
+Connective Tissue Diseases	Skin and Connective Tissue Diseases
+Constipation	Pathological Conditions, Signs and Symptoms
+Constriction, Pathologic	Pathological Conditions, Signs and Symptoms
+Corneal Ulcer	Bacterial Infections and Mycoses
+Corneal Ulcer	Eye Diseases
+Coronary Thrombosis	Cardiovascular Diseases
+Cough	Respiratory Tract Diseases
+Cough	Pathological Conditions, Signs and Symptoms
+Crigler-Najjar Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Crigler-Najjar Syndrome	Nutritional and Metabolic Diseases
+Crohn Disease	Digestive System Diseases
+Croup	Respiratory Tract Diseases
+Croup	Otorhinolaryngologic Diseases
+Cryptococcosis	Bacterial Infections and Mycoses
+Cryptosporidiosis	Parasitic Diseases
+Cryptosporidiosis	Digestive System Diseases
+Cystic Fibrosis	Digestive System Diseases
+Cystic Fibrosis	Respiratory Tract Diseases
+Cystic Fibrosis	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Cytomegalovirus Infections	Virus Diseases
+Pressure Ulcer	Skin and Connective Tissue Diseases
+Hepatitis D	Virus Diseases
+Hepatitis D	Digestive System Diseases
+Dementia	Nervous System Diseases
+Dementia	Mental Disorders
+Dengue	Virus Diseases
+Depression	Behavior and Behavior Mechanisms
+Depressive Disorder, Major	Mental Disorders
+Dermatitis	Skin and Connective Tissue Diseases
+Dermatitis, Atopic	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Dermatitis, Atopic	Skin and Connective Tissue Diseases
+Dermatitis, Atopic	Immune System Diseases
+Dermatitis, Contact	Skin and Connective Tissue Diseases
+Dermatomyositis	Musculoskeletal Diseases
+Dermatomyositis	Nervous System Diseases
+Dermatomyositis	Skin and Connective Tissue Diseases
+Diabetes Insipidus	Male Urogenital Diseases
+Diabetes Insipidus	Female Urogenital Diseases and Pregnancy Complications
+Diabetes Insipidus	Endocrine System Diseases
+Diabetes Mellitus, Type 1	Nutritional and Metabolic Diseases
+Diabetes Mellitus, Type 1	Endocrine System Diseases
+Diabetes Mellitus, Type 1	Immune System Diseases
+Diabetes Mellitus, Type 2	Nutritional and Metabolic Diseases
+Diabetes Mellitus, Type 2	Endocrine System Diseases
+Diabetic Nephropathies	Male Urogenital Diseases
+Diabetic Nephropathies	Female Urogenital Diseases and Pregnancy Complications
+Diabetic Nephropathies	Endocrine System Diseases
+Diabetic Neuropathies	Nervous System Diseases
+Diabetic Neuropathies	Endocrine System Diseases
+Diabetic Retinopathy	Eye Diseases
+Diabetic Retinopathy	Cardiovascular Diseases
+Diabetic Retinopathy	Endocrine System Diseases
+Diarrhea	Pathological Conditions, Signs and Symptoms
+DiGeorge Syndrome	Musculoskeletal Diseases
+DiGeorge Syndrome	Cardiovascular Diseases
+DiGeorge Syndrome	Hemic and Lymphatic Diseases
+DiGeorge Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+DiGeorge Syndrome	Endocrine System Diseases
+Diphtheria	Bacterial Infections and Mycoses
+Disease	Pathological Conditions, Signs and Symptoms
+Disseminated Intravascular Coagulation	Hemic and Lymphatic Diseases
+Diverticulitis	Bacterial Infections and Mycoses
+Diverticulitis	Digestive System Diseases
+Down Syndrome	Nervous System Diseases
+Down Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Ductus Arteriosus, Patent	Cardiovascular Diseases
+Ductus Arteriosus, Patent	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Duodenal Ulcer	Digestive System Diseases
+Dwarfism	Musculoskeletal Diseases
+Dwarfism	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Dwarfism	Endocrine System Diseases
+Dysautonomia, Familial	Nervous System Diseases
+Dysautonomia, Familial	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Dyskinesia, Drug-Induced	Nervous System Diseases
+Dyskinesia, Drug-Induced	Pathological Conditions, Signs and Symptoms
+Dyskinesia, Drug-Induced	Chemically-Induced Disorders
+Dysmenorrhea	Pathological Conditions, Signs and Symptoms
+Dyspareunia	Male Urogenital Diseases
+Dyspareunia	Female Urogenital Diseases and Pregnancy Complications
+Dyspareunia	Mental Disorders
+Dyspepsia	Pathological Conditions, Signs and Symptoms
+Dystonia	Nervous System Diseases
+Dystonia	Pathological Conditions, Signs and Symptoms
+Ear Diseases	Otorhinolaryngologic Diseases
+Ectodermal Dysplasia	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Ectodermal Dysplasia	Skin and Connective Tissue Diseases
+Eczema	Skin and Connective Tissue Diseases
+Edema	Pathological Conditions, Signs and Symptoms
+Edema, Cardiac	Cardiovascular Diseases
+Edema, Cardiac	Pathological Conditions, Signs and Symptoms
+Ehlers-Danlos Syndrome	Cardiovascular Diseases
+Ehlers-Danlos Syndrome	Hemic and Lymphatic Diseases
+Ehlers-Danlos Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Ehlers-Danlos Syndrome	Skin and Connective Tissue Diseases
+Emphysema	Pathological Conditions, Signs and Symptoms
+Encephalitis	Nervous System Diseases
+Encephalitis, Japanese	Virus Diseases
+Encephalitis, Japanese	Nervous System Diseases
+Encephalomyelitis, Venezuelan Equine	Virus Diseases
+Encephalomyelitis, Venezuelan Equine	Nervous System Diseases
+Endocarditis	Cardiovascular Diseases
+Endocrine System Diseases	Endocrine System Diseases
+Endometriosis	Female Urogenital Diseases and Pregnancy Complications
+Enuresis	Male Urogenital Diseases
+Enuresis	Female Urogenital Diseases and Pregnancy Complications
+Enuresis	Behavior and Behavior Mechanisms
+Enuresis	Mental Disorders
+Epidermolysis Bullosa	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Epidermolysis Bullosa	Skin and Connective Tissue Diseases
+Epilepsy	Nervous System Diseases
+Epilepsies, Partial	Nervous System Diseases
+Epilepsy, Generalized	Nervous System Diseases
+Epilepsy, Tonic-Clonic	Nervous System Diseases
+Epilepsies, Myoclonic	Nervous System Diseases
+Epilepsy, Absence	Nervous System Diseases
+Erythema Multiforme	Skin and Connective Tissue Diseases
+Erythroblastosis, Fetal	Female Urogenital Diseases and Pregnancy Complications
+Erythroblastosis, Fetal	Hemic and Lymphatic Diseases
+Erythroblastosis, Fetal	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Erythroblastosis, Fetal	Immune System Diseases
+Erythromelalgia	Cardiovascular Diseases
+Escherichia coli Infections	Bacterial Infections and Mycoses
+Esophageal Achalasia	Digestive System Diseases
+Esophageal Neoplasms	Neoplasms
+Esophageal Neoplasms	Digestive System Diseases
+Esophagitis	Digestive System Diseases
+Esophagitis, Peptic	Digestive System Diseases
+Exophthalmos	Eye Diseases
+Eye Diseases	Eye Diseases
+Eye Neoplasms	Neoplasms
+Eye Neoplasms	Eye Diseases
+Factor VII Deficiency	Hemic and Lymphatic Diseases
+Factor VII Deficiency	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Factor X Deficiency	Hemic and Lymphatic Diseases
+Factor X Deficiency	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Factor XI Deficiency	Hemic and Lymphatic Diseases
+Factor XI Deficiency	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Factor XIII Deficiency	Hemic and Lymphatic Diseases
+Factor XIII Deficiency	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Fallopian Tube Neoplasms	Neoplasms
+Fallopian Tube Neoplasms	Female Urogenital Diseases and Pregnancy Complications
+Fatigue	Pathological Conditions, Signs and Symptoms
+Fatty Liver	Digestive System Diseases
+Fatty Liver, Alcoholic	Digestive System Diseases
+Fatty Liver, Alcoholic	Chemically-Induced Disorders
+Fecal Incontinence	Digestive System Diseases
+Female Urogenital Diseases and Pregnancy Complications	Female Urogenital Diseases and Pregnancy Complications
+Fetal Death	Female Urogenital Diseases and Pregnancy Complications
+Fetal Death	Pathological Conditions, Signs and Symptoms
+Fever	Pathological Conditions, Signs and Symptoms
+Fibrocystic Breast Disease	Skin and Connective Tissue Diseases
+Fibrosarcoma	Neoplasms
+Fibrosis	Pathological Conditions, Signs and Symptoms
+Fibromyalgia	Musculoskeletal Diseases
+Fibromyalgia	Nervous System Diseases
+Fissure in Ano	Digestive System Diseases
+Flatulence	Pathological Conditions, Signs and Symptoms
+Food Hypersensitivity	Immune System Diseases
+Fragile X Syndrome	Nervous System Diseases
+Fragile X Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Friedreich Ataxia	Nervous System Diseases
+Friedreich Ataxia	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Friedreich Ataxia	Nutritional and Metabolic Diseases
+Galactorrhea	Female Urogenital Diseases and Pregnancy Complications
+Galactorrhea	Skin and Connective Tissue Diseases
+Gambling	Behavior and Behavior Mechanisms
+Gambling	Mental Disorders
+Gastritis	Digestive System Diseases
+Gastroenteritis	Digestive System Diseases
+Gastroesophageal Reflux	Digestive System Diseases
+Gastrointestinal Diseases	Digestive System Diseases
+Gastrointestinal Neoplasms	Neoplasms
+Gastrointestinal Neoplasms	Digestive System Diseases
+Gaucher Disease	Nervous System Diseases
+Gaucher Disease	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Gaucher Disease	Nutritional and Metabolic Diseases
+Giant Lymph Node Hyperplasia	Hemic and Lymphatic Diseases
+Giant Lymph Node Hyperplasia	Immune System Diseases
+Tourette Syndrome	Nervous System Diseases
+Tourette Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Tourette Syndrome	Mental Disorders
+Glaucoma	Eye Diseases
+Glomerulonephritis	Male Urogenital Diseases
+Glomerulonephritis	Female Urogenital Diseases and Pregnancy Complications
+Glomerulonephritis, IGA	Male Urogenital Diseases
+Glomerulonephritis, IGA	Female Urogenital Diseases and Pregnancy Complications
+Glomerulonephritis, IGA	Immune System Diseases
+Glycogen Storage Disease Type I	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Glycogen Storage Disease Type I	Nutritional and Metabolic Diseases
+Glycogen Storage Disease Type II	Nervous System Diseases
+Glycogen Storage Disease Type II	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Glycogen Storage Disease Type II	Nutritional and Metabolic Diseases
+Goiter	Endocrine System Diseases
+Gonorrhea	Bacterial Infections and Mycoses
+Gonorrhea	Male Urogenital Diseases
+Gonorrhea	Female Urogenital Diseases and Pregnancy Complications
+Graft vs Host Disease	Immune System Diseases
+Granulomatous Disease, Chronic	Hemic and Lymphatic Diseases
+Granulomatous Disease, Chronic	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Granulomatous Disease, Chronic	Immune System Diseases
+Gynecomastia	Skin and Connective Tissue Diseases
+Haemophilus Infections	Bacterial Infections and Mycoses
+Hamartoma Syndrome, Multiple	Neoplasms
+Hamartoma Syndrome, Multiple	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Rhinitis, Allergic, Seasonal	Respiratory Tract Diseases
+Rhinitis, Allergic, Seasonal	Otorhinolaryngologic Diseases
+Rhinitis, Allergic, Seasonal	Immune System Diseases
+Head and Neck Neoplasms	Neoplasms
+Headache	Nervous System Diseases
+Headache	Pathological Conditions, Signs and Symptoms
+Heart Failure	Cardiovascular Diseases
+Hemangioma	Neoplasms
+Hematologic Diseases	Hemic and Lymphatic Diseases
+Hemic and Lymphatic Diseases	Hemic and Lymphatic Diseases
+Hemiplegia	Nervous System Diseases
+Hemiplegia	Pathological Conditions, Signs and Symptoms
+Hemochromatosis	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Hemochromatosis	Nutritional and Metabolic Diseases
+Hemoglobinuria, Paroxysmal	Hemic and Lymphatic Diseases
+Hemolytic-Uremic Syndrome	Male Urogenital Diseases
+Hemolytic-Uremic Syndrome	Female Urogenital Diseases and Pregnancy Complications
+Hemolytic-Uremic Syndrome	Hemic and Lymphatic Diseases
+Hemophilia A	Hemic and Lymphatic Diseases
+Hemophilia A	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Hemorrhage	Pathological Conditions, Signs and Symptoms
+Postpartum Hemorrhage	Female Urogenital Diseases and Pregnancy Complications
+Postpartum Hemorrhage	Pathological Conditions, Signs and Symptoms
+Hepatitis	Digestive System Diseases
+Hepatitis A	Virus Diseases
+Hepatitis A	Digestive System Diseases
+Hepatitis B	Virus Diseases
+Hepatitis B	Digestive System Diseases
+Hepatitis, Viral, Human	Virus Diseases
+Hepatitis, Viral, Human	Digestive System Diseases
+Hepatitis C	Virus Diseases
+Hepatitis C	Digestive System Diseases
+Hepatolenticular Degeneration	Digestive System Diseases
+Hepatolenticular Degeneration	Nervous System Diseases
+Hepatolenticular Degeneration	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Hepatolenticular Degeneration	Nutritional and Metabolic Diseases
+Hepatorenal Syndrome	Digestive System Diseases
+Hepatorenal Syndrome	Male Urogenital Diseases
+Hepatorenal Syndrome	Female Urogenital Diseases and Pregnancy Complications
+Herpes Simplex	Virus Diseases
+Herpes Simplex	Skin and Connective Tissue Diseases
+Herpesviridae Infections	Virus Diseases
+von Hippel-Lindau Disease	Nervous System Diseases
+von Hippel-Lindau Disease	Cardiovascular Diseases
+Hirsutism	Skin and Connective Tissue Diseases
+Hirsutism	Pathological Conditions, Signs and Symptoms
+Histiocytosis, Langerhans-Cell	Respiratory Tract Diseases
+Histiocytosis, Langerhans-Cell	Hemic and Lymphatic Diseases
+Hodgkin Disease	Neoplasms
+Hodgkin Disease	Hemic and Lymphatic Diseases
+Hodgkin Disease	Immune System Diseases
+Homocystinuria	Nervous System Diseases
+Homocystinuria	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Homocystinuria	Skin and Connective Tissue Diseases
+Homocystinuria	Nutritional and Metabolic Diseases
+Huntington Disease	Nervous System Diseases
+Huntington Disease	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Huntington Disease	Mental Disorders
+Hyperaldosteronism	Endocrine System Diseases
+Hyperbilirubinemia	Pathological Conditions, Signs and Symptoms
+Hypercalcemia	Nutritional and Metabolic Diseases
+Hypercholesterolemia	Nutritional and Metabolic Diseases
+Hyperlipoproteinemia Type II	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Hyperlipoproteinemia Type II	Nutritional and Metabolic Diseases
+Hyperhidrosis	Skin and Connective Tissue Diseases
+Hyperlipidemias	Nutritional and Metabolic Diseases
+Hyperoxaluria	Male Urogenital Diseases
+Hyperoxaluria	Female Urogenital Diseases and Pregnancy Complications
+Hyperparathyroidism	Endocrine System Diseases
+Hyperparathyroidism, Secondary	Endocrine System Diseases
+Hyperphagia	Pathological Conditions, Signs and Symptoms
+Hyperplasia	Pathological Conditions, Signs and Symptoms
+Hyperprolactinemia	Nervous System Diseases
+Hyperprolactinemia	Endocrine System Diseases
+Hypersensitivity	Immune System Diseases
+Hypertension	Cardiovascular Diseases
+Hypertension, Portal	Digestive System Diseases
+Hypertension, Pulmonary	Respiratory Tract Diseases
+Hyperthyroidism	Endocrine System Diseases
+Hypocalcemia	Nutritional and Metabolic Diseases
+Hypoglycemia	Nutritional and Metabolic Diseases
+Hypogonadism	Endocrine System Diseases
+Hyponatremia	Nutritional and Metabolic Diseases
+Hypoparathyroidism	Endocrine System Diseases
+Hypophosphatasia	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Hypophosphatasia	Nutritional and Metabolic Diseases
+Hypoprothrombinemias	Hemic and Lymphatic Diseases
+Hypoprothrombinemias	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Hypotension	Cardiovascular Diseases
+Hypothermia	Pathological Conditions, Signs and Symptoms
+Hypotrichosis	Skin and Connective Tissue Diseases
+Ichthyosis	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Ichthyosis	Skin and Connective Tissue Diseases
+Immunologic Deficiency Syndromes	Immune System Diseases
+Immune System Diseases	Immune System Diseases
+Impetigo	Bacterial Infections and Mycoses
+Impetigo	Skin and Connective Tissue Diseases
+Erectile Dysfunction	Male Urogenital Diseases
+Erectile Dysfunction	Mental Disorders
+Disruptive, Impulse Control, and Conduct Disorders	Mental Disorders
+Infection	Bacterial Infections and Mycoses
+Infertility, Female	Female Urogenital Diseases and Pregnancy Complications
+Infertility, Male	Male Urogenital Diseases
+Inflammation	Pathological Conditions, Signs and Symptoms
+Influenza, Human	Virus Diseases
+Influenza, Human	Respiratory Tract Diseases
+Sleep Initiation and Maintenance Disorders	Nervous System Diseases
+Sleep Initiation and Maintenance Disorders	Mental Disorders
+Intermittent Claudication	Cardiovascular Diseases
+Intermittent Claudication	Pathological Conditions, Signs and Symptoms
+Intervertebral Disc Displacement	Musculoskeletal Diseases
+Intervertebral Disc Displacement	Pathological Conditions, Signs and Symptoms
+Ischemia	Pathological Conditions, Signs and Symptoms
+Creutzfeldt-Jakob Syndrome	Nervous System Diseases
+Creutzfeldt-Jakob Syndrome	Mental Disorders
+Jaundice	Pathological Conditions, Signs and Symptoms
+Joint Diseases	Musculoskeletal Diseases
+Kartagener Syndrome	Respiratory Tract Diseases
+Kartagener Syndrome	Otorhinolaryngologic Diseases
+Kartagener Syndrome	Cardiovascular Diseases
+Kartagener Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Keratitis	Eye Diseases
+Keratoconjunctivitis	Eye Diseases
+Keratoconus	Eye Diseases
+Keratosis	Skin and Connective Tissue Diseases
+Darier Disease	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Darier Disease	Skin and Connective Tissue Diseases
+Kernicterus	Nervous System Diseases
+Kernicterus	Hemic and Lymphatic Diseases
+Kernicterus	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Kernicterus	Nutritional and Metabolic Diseases
+Kernicterus	Immune System Diseases
+Kernicterus	Pathological Conditions, Signs and Symptoms
+Kidney Diseases	Male Urogenital Diseases
+Kidney Diseases	Female Urogenital Diseases and Pregnancy Complications
+Kidney Failure, Chronic	Male Urogenital Diseases
+Kidney Failure, Chronic	Female Urogenital Diseases and Pregnancy Complications
+Kidney Neoplasms	Neoplasms
+Kidney Neoplasms	Male Urogenital Diseases
+Kidney Neoplasms	Female Urogenital Diseases and Pregnancy Complications
+Polycystic Kidney Diseases	Male Urogenital Diseases
+Polycystic Kidney Diseases	Female Urogenital Diseases and Pregnancy Complications
+Polycystic Kidney Diseases	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Obstetric Labor Complications	Female Urogenital Diseases and Pregnancy Complications
+Obstetric Labor, Premature	Female Urogenital Diseases and Pregnancy Complications
+Labyrinth Diseases	Otorhinolaryngologic Diseases
+Lactation Disorders	Female Urogenital Diseases and Pregnancy Complications
+Lactation Disorders	Skin and Connective Tissue Diseases
+Lecithin Cholesterol Acyltransferase Deficiency	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Lecithin Cholesterol Acyltransferase Deficiency	Nutritional and Metabolic Diseases
+Leiomyoma	Neoplasms
+Leiomyosarcoma	Neoplasms
+Leishmaniasis	Parasitic Diseases
+Leishmaniasis	Skin and Connective Tissue Diseases
+Leprosy	Bacterial Infections and Mycoses
+Lesch-Nyhan Syndrome	Nervous System Diseases
+Lesch-Nyhan Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Lesch-Nyhan Syndrome	Nutritional and Metabolic Diseases
+Leukemia	Neoplasms
+Leukemia, Hairy Cell	Neoplasms
+Leukemia, Hairy Cell	Hemic and Lymphatic Diseases
+Leukemia, Hairy Cell	Immune System Diseases
+Leukemia, Mast-Cell	Neoplasms
+Leukodystrophy, Globoid Cell	Nervous System Diseases
+Leukodystrophy, Globoid Cell	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Leukodystrophy, Globoid Cell	Nutritional and Metabolic Diseases
+Leukodystrophy, Metachromatic	Nervous System Diseases
+Leukodystrophy, Metachromatic	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Leukodystrophy, Metachromatic	Nutritional and Metabolic Diseases
+Leukoencephalopathy, Progressive Multifocal	Virus Diseases
+Leukoencephalopathy, Progressive Multifocal	Nervous System Diseases
+Leukopenia	Hemic and Lymphatic Diseases
+Leukoplakia	Neoplasms
+Leukoplakia	Pathological Conditions, Signs and Symptoms
+Mucopolysaccharidosis I	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Mucopolysaccharidosis I	Skin and Connective Tissue Diseases
+Mucopolysaccharidosis I	Nutritional and Metabolic Diseases
+Lipodystrophy	Skin and Connective Tissue Diseases
+Lipodystrophy	Nutritional and Metabolic Diseases
+Lipoma	Neoplasms
+Hyperlipoproteinemia Type I	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Hyperlipoproteinemia Type I	Nutritional and Metabolic Diseases
+Liposarcoma	Neoplasms
+Liver Cirrhosis	Digestive System Diseases
+Liver Cirrhosis, Biliary	Digestive System Diseases
+Liver Diseases	Digestive System Diseases
+Liver Neoplasms	Neoplasms
+Liver Neoplasms	Digestive System Diseases
+Long QT Syndrome	Cardiovascular Diseases
+Long QT Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Long QT Syndrome	Pathological Conditions, Signs and Symptoms
+Lung Diseases	Respiratory Tract Diseases
+Lung Neoplasms	Neoplasms
+Lung Neoplasms	Respiratory Tract Diseases
+Lupus Erythematosus, Cutaneous	Skin and Connective Tissue Diseases
+Lupus Erythematosus, Systemic	Skin and Connective Tissue Diseases
+Lupus Erythematosus, Systemic	Immune System Diseases
+Lupus Nephritis	Male Urogenital Diseases
+Lupus Nephritis	Female Urogenital Diseases and Pregnancy Complications
+Lupus Nephritis	Skin and Connective Tissue Diseases
+Lupus Nephritis	Immune System Diseases
+Lyme Disease	Bacterial Infections and Mycoses
+Lymphedema	Hemic and Lymphatic Diseases
+Lymphoma	Neoplasms
+Lymphoma	Hemic and Lymphatic Diseases
+Lymphoma	Immune System Diseases
+Lymphoma, Follicular	Neoplasms
+Lymphoma, Follicular	Hemic and Lymphatic Diseases
+Lymphoma, Follicular	Immune System Diseases
+Lymphoma, Non-Hodgkin	Neoplasms
+Lymphoma, Non-Hodgkin	Hemic and Lymphatic Diseases
+Lymphoma, Non-Hodgkin	Immune System Diseases
+Lymphopenia	Hemic and Lymphatic Diseases
+Lymphopenia	Immune System Diseases
+Waldenstrom Macroglobulinemia	Neoplasms
+Waldenstrom Macroglobulinemia	Cardiovascular Diseases
+Waldenstrom Macroglobulinemia	Hemic and Lymphatic Diseases
+Waldenstrom Macroglobulinemia	Immune System Diseases
+Macular Degeneration	Eye Diseases
+Macular Edema	Eye Diseases
+Malabsorption Syndromes	Digestive System Diseases
+Malabsorption Syndromes	Nutritional and Metabolic Diseases
+Malaria	Parasitic Diseases
+Malignant Carcinoid Syndrome	Neoplasms
+Malignant Hyperthermia	Pathological Conditions, Signs and Symptoms
+alpha-Mannosidosis	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+alpha-Mannosidosis	Nutritional and Metabolic Diseases
+Maple Syrup Urine Disease	Nervous System Diseases
+Maple Syrup Urine Disease	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Maple Syrup Urine Disease	Nutritional and Metabolic Diseases
+Marburg Virus Disease	Virus Diseases
+Marfan Syndrome	Musculoskeletal Diseases
+Marfan Syndrome	Cardiovascular Diseases
+Marfan Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Marfan Syndrome	Skin and Connective Tissue Diseases
+Mastocytosis	Neoplasms
+Mastocytosis	Skin and Connective Tissue Diseases
+Measles	Virus Diseases
+Meconium Aspiration Syndrome	Respiratory Tract Diseases
+Meconium Aspiration Syndrome	Female Urogenital Diseases and Pregnancy Complications
+Meconium Aspiration Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Melanoma	Neoplasms
+Melanosis	Skin and Connective Tissue Diseases
+Meniere Disease	Otorhinolaryngologic Diseases
+Meningioma	Neoplasms
+Meningioma	Nervous System Diseases
+Meningitis, Aseptic	Nervous System Diseases
+Meningitis, Viral	Virus Diseases
+Meningitis, Viral	Nervous System Diseases
+Meningococcal Infections	Bacterial Infections and Mycoses
+Menorrhagia	Female Urogenital Diseases and Pregnancy Complications
+Menorrhagia	Pathological Conditions, Signs and Symptoms
+Menstruation Disturbances	Pathological Conditions, Signs and Symptoms
+Intellectual Disability	Nervous System Diseases
+Intellectual Disability	Pathological Conditions, Signs and Symptoms
+Intellectual Disability	Behavior and Behavior Mechanisms
+Intellectual Disability	Mental Disorders
+Mesothelioma	Neoplasms
+Metabolic Diseases	Nutritional and Metabolic Diseases
+Migraine Disorders	Nervous System Diseases
+Mouth Neoplasms	Neoplasms
+Mouth Neoplasms	Stomatognathic Diseases
+Mucocutaneous Lymph Node Syndrome	Cardiovascular Diseases
+Mucocutaneous Lymph Node Syndrome	Hemic and Lymphatic Diseases
+Mucocutaneous Lymph Node Syndrome	Skin and Connective Tissue Diseases
+Mucopolysaccharidoses	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Mucopolysaccharidoses	Skin and Connective Tissue Diseases
+Mucopolysaccharidoses	Nutritional and Metabolic Diseases
+Mucopolysaccharidosis III	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Mucopolysaccharidosis III	Skin and Connective Tissue Diseases
+Mucopolysaccharidosis III	Nutritional and Metabolic Diseases
+Mucopolysaccharidosis IV	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Mucopolysaccharidosis IV	Skin and Connective Tissue Diseases
+Mucopolysaccharidosis IV	Nutritional and Metabolic Diseases
+Mucopolysaccharidosis VI	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Mucopolysaccharidosis VI	Skin and Connective Tissue Diseases
+Mucopolysaccharidosis VI	Nutritional and Metabolic Diseases
+Multiple Myeloma	Neoplasms
+Multiple Myeloma	Cardiovascular Diseases
+Multiple Myeloma	Hemic and Lymphatic Diseases
+Multiple Myeloma	Immune System Diseases
+Multiple Sclerosis	Nervous System Diseases
+Multiple Sclerosis	Immune System Diseases
+Muscle Spasticity	Musculoskeletal Diseases
+Muscle Spasticity	Nervous System Diseases
+Muscle Spasticity	Pathological Conditions, Signs and Symptoms
+Muscular Atrophy	Nervous System Diseases
+Muscular Atrophy	Pathological Conditions, Signs and Symptoms
+Muscular Atrophy, Spinal	Nervous System Diseases
+Muscular Dystrophies	Musculoskeletal Diseases
+Muscular Dystrophies	Nervous System Diseases
+Muscular Dystrophies	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Musculoskeletal Diseases	Musculoskeletal Diseases
+Myasthenia Gravis	Nervous System Diseases
+Myasthenia Gravis	Immune System Diseases
+Mycobacterium Infections, Nontuberculous	Bacterial Infections and Mycoses
+Mycoses	Bacterial Infections and Mycoses
+Myelodysplastic Syndromes	Hemic and Lymphatic Diseases
+Cardiomyopathies	Cardiovascular Diseases
+Myocardial Infarction	Cardiovascular Diseases
+Myopia	Eye Diseases
+Myositis	Musculoskeletal Diseases
+Myositis	Nervous System Diseases
+Myositis Ossificans	Musculoskeletal Diseases
+Myotonic Dystrophy	Musculoskeletal Diseases
+Myotonic Dystrophy	Nervous System Diseases
+Myotonic Dystrophy	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Narcolepsy	Nervous System Diseases
+Narcolepsy	Mental Disorders
+Opioid-Related Disorders	Chemically-Induced Disorders
+Opioid-Related Disorders	Mental Disorders
+Nasal Polyps	Respiratory Tract Diseases
+Nasal Polyps	Otorhinolaryngologic Diseases
+Nasal Polyps	Pathological Conditions, Signs and Symptoms
+Nasopharyngeal Neoplasms	Neoplasms
+Nasopharyngeal Neoplasms	Stomatognathic Diseases
+Nasopharyngeal Neoplasms	Otorhinolaryngologic Diseases
+Neoplasms	Neoplasms
+Nephritis	Male Urogenital Diseases
+Nephritis	Female Urogenital Diseases and Pregnancy Complications
+Nephritis, Hereditary	Male Urogenital Diseases
+Nephritis, Hereditary	Female Urogenital Diseases and Pregnancy Complications
+Nephritis, Hereditary	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Nephritis, Hereditary	Skin and Connective Tissue Diseases
+Wilms Tumor	Neoplasms
+Wilms Tumor	Male Urogenital Diseases
+Wilms Tumor	Female Urogenital Diseases and Pregnancy Complications
+Wilms Tumor	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Nephrotic Syndrome	Male Urogenital Diseases
+Nephrotic Syndrome	Female Urogenital Diseases and Pregnancy Complications
+Nervous System Diseases	Nervous System Diseases
+Neuralgia	Nervous System Diseases
+Neuralgia	Pathological Conditions, Signs and Symptoms
+Neurilemmoma	Neoplasms
+Neuroblastoma	Neoplasms
+Neurofibromatosis 1	Neoplasms
+Neurofibromatosis 1	Nervous System Diseases
+Neurofibromatosis 1	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Neuromyelitis Optica	Nervous System Diseases
+Neuromyelitis Optica	Eye Diseases
+Neuromyelitis Optica	Immune System Diseases
+Neuronal Ceroid-Lipofuscinoses	Nervous System Diseases
+Neuronal Ceroid-Lipofuscinoses	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Neuronal Ceroid-Lipofuscinoses	Nutritional and Metabolic Diseases
+Neurotic Disorders	Mental Disorders
+Neutropenia	Hemic and Lymphatic Diseases
+Niemann-Pick Diseases	Nervous System Diseases
+Niemann-Pick Diseases	Hemic and Lymphatic Diseases
+Niemann-Pick Diseases	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Niemann-Pick Diseases	Nutritional and Metabolic Diseases
+Noonan Syndrome	Musculoskeletal Diseases
+Noonan Syndrome	Cardiovascular Diseases
+Noonan Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Noonan Syndrome	Skin and Connective Tissue Diseases
+Nutritional and Metabolic Diseases	Nutritional and Metabolic Diseases
+Nystagmus, Pathologic	Nervous System Diseases
+Nystagmus, Pathologic	Eye Diseases
+Obesity	Nutritional and Metabolic Diseases
+Obesity	Pathological Conditions, Signs and Symptoms
+Obsessive-Compulsive Disorder	Mental Disorders
+Optic Neuritis	Nervous System Diseases
+Optic Neuritis	Eye Diseases
+Ossification, Heterotopic	Pathological Conditions, Signs and Symptoms
+Osteitis Deformans	Musculoskeletal Diseases
+Osteoarthritis	Musculoskeletal Diseases
+Osteogenesis Imperfecta	Musculoskeletal Diseases
+Osteogenesis Imperfecta	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Osteogenesis Imperfecta	Skin and Connective Tissue Diseases
+Osteomalacia	Musculoskeletal Diseases
+Osteomalacia	Nutritional and Metabolic Diseases
+Osteomyelitis	Bacterial Infections and Mycoses
+Osteomyelitis	Musculoskeletal Diseases
+Osteonecrosis	Musculoskeletal Diseases
+Osteonecrosis	Pathological Conditions, Signs and Symptoms
+Osteopetrosis	Musculoskeletal Diseases
+Osteoporosis	Musculoskeletal Diseases
+Osteoporosis	Nutritional and Metabolic Diseases
+Otitis	Otorhinolaryngologic Diseases
+Otitis Externa	Otorhinolaryngologic Diseases
+Otitis Media	Otorhinolaryngologic Diseases
+Ovarian Neoplasms	Neoplasms
+Ovarian Neoplasms	Female Urogenital Diseases and Pregnancy Complications
+Ovarian Neoplasms	Endocrine System Diseases
+Pain	Nervous System Diseases
+Pain	Pathological Conditions, Signs and Symptoms
+Pain	Psychological Phenomena and Processes
+Pain, Postoperative	Nervous System Diseases
+Pain, Postoperative	Pathological Conditions, Signs and Symptoms
+Pancreatic Diseases	Digestive System Diseases
+Exocrine Pancreatic Insufficiency	Digestive System Diseases
+Pancreatic Neoplasms	Neoplasms
+Pancreatic Neoplasms	Digestive System Diseases
+Pancreatic Neoplasms	Endocrine System Diseases
+Pancreatitis	Digestive System Diseases
+Papilloma	Neoplasms
+Paraphilic Disorders	Mental Disorders
+Parasitic Diseases	Parasitic Diseases
+Parkinson Disease	Nervous System Diseases
+Pemphigoid, Bullous	Skin and Connective Tissue Diseases
+Pemphigoid, Bullous	Immune System Diseases
+Pemphigus	Skin and Connective Tissue Diseases
+Pemphigus	Immune System Diseases
+Penile Induration	Male Urogenital Diseases
+Penile Induration	Skin and Connective Tissue Diseases
+Familial Mediterranean Fever	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Periodontitis	Stomatognathic Diseases
+Peritoneal Neoplasms	Neoplasms
+Peritoneal Neoplasms	Digestive System Diseases
+Phenylketonurias	Nervous System Diseases
+Phenylketonurias	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Phenylketonurias	Nutritional and Metabolic Diseases
+Phobic Disorders	Mental Disorders
+Photosensitivity Disorders	Skin and Connective Tissue Diseases
+Picornaviridae Infections	Virus Diseases
+Pituitary Diseases	Nervous System Diseases
+Pituitary Diseases	Endocrine System Diseases
+Pituitary Neoplasms	Neoplasms
+Pituitary Neoplasms	Nervous System Diseases
+Pituitary Neoplasms	Endocrine System Diseases
+Placental Insufficiency	Female Urogenital Diseases and Pregnancy Complications
+Plague	Bacterial Infections and Mycoses
+Plant Poisoning	Chemically-Induced Disorders
+Pneumococcal Infections	Bacterial Infections and Mycoses
+Pneumonia	Respiratory Tract Diseases
+Poisoning	Chemically-Induced Disorders
+Polycystic Ovary Syndrome	Neoplasms
+Polycystic Ovary Syndrome	Female Urogenital Diseases and Pregnancy Complications
+Polycystic Ovary Syndrome	Endocrine System Diseases
+Polycythemia Vera	Neoplasms
+Polycythemia Vera	Hemic and Lymphatic Diseases
+Polymyalgia Rheumatica	Musculoskeletal Diseases
+Polymyalgia Rheumatica	Skin and Connective Tissue Diseases
+Porphyrias	Nutritional and Metabolic Diseases
+Postgastrectomy Syndromes	Digestive System Diseases
+Postgastrectomy Syndromes	Pathological Conditions, Signs and Symptoms
+Prader-Willi Syndrome	Nervous System Diseases
+Prader-Willi Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Prader-Willi Syndrome	Nutritional and Metabolic Diseases
+Pre-Eclampsia	Female Urogenital Diseases and Pregnancy Complications
+Premenstrual Syndrome	Pathological Conditions, Signs and Symptoms
+Presbyopia	Eye Diseases
+Proctitis	Digestive System Diseases
+Progeria	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Progeria	Nutritional and Metabolic Diseases
+Prostatic Hyperplasia	Male Urogenital Diseases
+Prostatic Neoplasms	Neoplasms
+Prostatic Neoplasms	Male Urogenital Diseases
+Prostatitis	Male Urogenital Diseases
+Proteinuria	Male Urogenital Diseases
+Proteinuria	Female Urogenital Diseases and Pregnancy Complications
+Proteinuria	Pathological Conditions, Signs and Symptoms
+Pruritus	Skin and Connective Tissue Diseases
+Pruritus	Pathological Conditions, Signs and Symptoms
+Pseudohypoaldosteronism	Male Urogenital Diseases
+Pseudohypoaldosteronism	Female Urogenital Diseases and Pregnancy Complications
+Pseudohypoaldosteronism	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Pseudohypoaldosteronism	Nutritional and Metabolic Diseases
+Pseudomonas Infections	Bacterial Infections and Mycoses
+Psoriasis	Skin and Connective Tissue Diseases
+Psychotic Disorders	Mental Disorders
+Pterygium	Eye Diseases
+Puberty, Delayed	Endocrine System Diseases
+Puberty, Precocious	Endocrine System Diseases
+Pulmonary Alveolar Proteinosis	Respiratory Tract Diseases
+Pulmonary Edema	Respiratory Tract Diseases
+Purpura, Thrombotic Thrombocytopenic	Hemic and Lymphatic Diseases
+Purpura, Thrombotic Thrombocytopenic	Pathological Conditions, Signs and Symptoms
+Rabies	Virus Diseases
+Radiation Injuries	Wounds and Injuries
+Raynaud Disease	Cardiovascular Diseases
+Rectal Fistula	Digestive System Diseases
+Rectal Fistula	Pathological Conditions, Signs and Symptoms
+Red-Cell Aplasia, Pure	Hemic and Lymphatic Diseases
+Respiratory Distress Syndrome, Newborn	Respiratory Tract Diseases
+Respiratory Distress Syndrome, Newborn	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Respiratory Distress Syndrome, Adult	Respiratory Tract Diseases
+Respiratory Insufficiency	Respiratory Tract Diseases
+Respiratory Tract Diseases	Respiratory Tract Diseases
+Respiratory Tract Infections	Bacterial Infections and Mycoses
+Respiratory Tract Infections	Respiratory Tract Diseases
+Restless Legs Syndrome	Nervous System Diseases
+Restless Legs Syndrome	Mental Disorders
+Retinal Detachment	Eye Diseases
+Retinal Diseases	Eye Diseases
+Retinal Vein Occlusion	Eye Diseases
+Retinal Vein Occlusion	Cardiovascular Diseases
+Retinitis Pigmentosa	Eye Diseases
+Retinitis Pigmentosa	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Retinopathy of Prematurity	Eye Diseases
+Retinopathy of Prematurity	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Rhabdomyosarcoma	Neoplasms
+Rhinitis	Respiratory Tract Diseases
+Rhinitis	Otorhinolaryngologic Diseases
+Rhinitis, Allergic, Perennial	Respiratory Tract Diseases
+Rhinitis, Allergic, Perennial	Otorhinolaryngologic Diseases
+Rhinitis, Allergic, Perennial	Immune System Diseases
+Rickets	Musculoskeletal Diseases
+Rickets	Nutritional and Metabolic Diseases
+Rosacea	Skin and Connective Tissue Diseases
+Sandhoff Disease	Nervous System Diseases
+Sandhoff Disease	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Sandhoff Disease	Nutritional and Metabolic Diseases
+Sarcoidosis	Hemic and Lymphatic Diseases
+Sarcoma	Neoplasms
+Sarcoma, Ewing	Neoplasms
+Sarcoma, Kaposi	Virus Diseases
+Sarcoma, Kaposi	Neoplasms
+Osteosarcoma	Neoplasms
+Schistosomiasis	Parasitic Diseases
+Schizophrenia	Mental Disorders
+Dermatitis, Seborrheic	Skin and Connective Tissue Diseases
+Serum Sickness	Skin and Connective Tissue Diseases
+Serum Sickness	Immune System Diseases
+Serum Sickness	Chemically-Induced Disorders
+Shock, Traumatic	Pathological Conditions, Signs and Symptoms
+Shock, Traumatic	Wounds and Injuries
+Short Bowel Syndrome	Digestive System Diseases
+Short Bowel Syndrome	Pathological Conditions, Signs and Symptoms
+Sialorrhea	Stomatognathic Diseases
+Sinusitis	Respiratory Tract Diseases
+Sinusitis	Otorhinolaryngologic Diseases
+Sjogren's Syndrome	Musculoskeletal Diseases
+Sjogren's Syndrome	Stomatognathic Diseases
+Sjogren's Syndrome	Eye Diseases
+Sjogren's Syndrome	Skin and Connective Tissue Diseases
+Sjogren's Syndrome	Immune System Diseases
+Skin Diseases	Skin and Connective Tissue Diseases
+Skin Diseases, Infectious	Bacterial Infections and Mycoses
+Skin Diseases, Infectious	Skin and Connective Tissue Diseases
+Skin Neoplasms	Neoplasms
+Skin Neoplasms	Skin and Connective Tissue Diseases
+Sleep Wake Disorders	Nervous System Diseases
+Sleep Wake Disorders	Pathological Conditions, Signs and Symptoms
+Sleep Wake Disorders	Mental Disorders
+Smallpox	Virus Diseases
+Spasm	Nervous System Diseases
+Spasm	Pathological Conditions, Signs and Symptoms
+Spasms, Infantile	Nervous System Diseases
+Spinal Cord Injuries	Nervous System Diseases
+Spinal Cord Injuries	Wounds and Injuries
+Spinal Stenosis	Musculoskeletal Diseases
+Spondylitis, Ankylosing	Musculoskeletal Diseases
+Staphylococcal Infections	Bacterial Infections and Mycoses
+Status Epilepticus	Nervous System Diseases
+Stomach Neoplasms	Neoplasms
+Stomach Neoplasms	Digestive System Diseases
+Stomach Ulcer	Digestive System Diseases
+Stomatitis	Stomatognathic Diseases
+Stomatitis, Aphthous	Stomatognathic Diseases
+Streptococcal Infections	Bacterial Infections and Mycoses
+Stress Disorders, Post-Traumatic	Mental Disorders
+Stuttering	Nervous System Diseases
+Stuttering	Pathological Conditions, Signs and Symptoms
+Subarachnoid Hemorrhage	Nervous System Diseases
+Subarachnoid Hemorrhage	Cardiovascular Diseases
+Subarachnoid Hemorrhage	Pathological Conditions, Signs and Symptoms
+Supranuclear Palsy, Progressive	Nervous System Diseases
+Supranuclear Palsy, Progressive	Eye Diseases
+Supranuclear Palsy, Progressive	Pathological Conditions, Signs and Symptoms
+Sarcoma, Synovial	Neoplasms
+Synovitis, Pigmented Villonodular	Neoplasms
+Synovitis, Pigmented Villonodular	Musculoskeletal Diseases
+Tachycardia	Cardiovascular Diseases
+Tachycardia	Pathological Conditions, Signs and Symptoms
+Tachycardia, Supraventricular	Cardiovascular Diseases
+Tachycardia, Supraventricular	Pathological Conditions, Signs and Symptoms
+Tay-Sachs Disease	Nervous System Diseases
+Tay-Sachs Disease	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Tay-Sachs Disease	Nutritional and Metabolic Diseases
+Telangiectasia, Hereditary Hemorrhagic	Cardiovascular Diseases
+Telangiectasia, Hereditary Hemorrhagic	Hemic and Lymphatic Diseases
+Telangiectasia, Hereditary Hemorrhagic	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Telangiectasis	Cardiovascular Diseases
+Tennis Elbow	Musculoskeletal Diseases
+Tennis Elbow	Wounds and Injuries
+Teratoma	Neoplasms
+Testicular Neoplasms	Neoplasms
+Testicular Neoplasms	Male Urogenital Diseases
+Testicular Neoplasms	Endocrine System Diseases
+Tetanus	Bacterial Infections and Mycoses
+Tetralogy of Fallot	Cardiovascular Diseases
+Tetralogy of Fallot	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Thalassemia	Hemic and Lymphatic Diseases
+Thalassemia	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Thrombasthenia	Hemic and Lymphatic Diseases
+Thrombasthenia	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Thromboangiitis Obliterans	Cardiovascular Diseases
+Thrombocytopenia	Hemic and Lymphatic Diseases
+Thrombocytosis	Hemic and Lymphatic Diseases
+Thrombophlebitis	Cardiovascular Diseases
+Thrombosis	Cardiovascular Diseases
+Thymoma	Neoplasms
+Thymoma	Hemic and Lymphatic Diseases
+Thymus Neoplasms	Neoplasms
+Thymus Neoplasms	Hemic and Lymphatic Diseases
+Thyroid Neoplasms	Neoplasms
+Thyroid Neoplasms	Endocrine System Diseases
+Tinnitus	Otorhinolaryngologic Diseases
+Tinnitus	Nervous System Diseases
+Tinnitus	Pathological Conditions, Signs and Symptoms
+Tobacco Use Disorder	Chemically-Induced Disorders
+Tobacco Use Disorder	Mental Disorders
+Toxoplasmosis	Parasitic Diseases
+Chagas Disease	Parasitic Diseases
+Tuberculosis	Bacterial Infections and Mycoses
+Tuberous Sclerosis	Neoplasms
+Tuberous Sclerosis	Nervous System Diseases
+Tuberous Sclerosis	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Tularemia	Bacterial Infections and Mycoses
+Turner Syndrome	Male Urogenital Diseases
+Turner Syndrome	Female Urogenital Diseases and Pregnancy Complications
+Turner Syndrome	Cardiovascular Diseases
+Turner Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Turner Syndrome	Endocrine System Diseases
+Ulcer	Pathological Conditions, Signs and Symptoms
+Urethral Neoplasms	Neoplasms
+Urethral Neoplasms	Male Urogenital Diseases
+Urethral Neoplasms	Female Urogenital Diseases and Pregnancy Complications
+Urinary Calculi	Male Urogenital Diseases
+Urinary Calculi	Female Urogenital Diseases and Pregnancy Complications
+Urinary Calculi	Pathological Conditions, Signs and Symptoms
+Urinary Incontinence	Male Urogenital Diseases
+Urinary Incontinence	Female Urogenital Diseases and Pregnancy Complications
+Urinary Incontinence	Pathological Conditions, Signs and Symptoms
+Urinary Tract Infections	Bacterial Infections and Mycoses
+Urinary Tract Infections	Male Urogenital Diseases
+Urinary Tract Infections	Female Urogenital Diseases and Pregnancy Complications
+Urination Disorders	Male Urogenital Diseases
+Urination Disorders	Female Urogenital Diseases and Pregnancy Complications
+Urogenital Abnormalities	Male Urogenital Diseases
+Urogenital Abnormalities	Female Urogenital Diseases and Pregnancy Complications
+Urogenital Abnormalities	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Urogenital Neoplasms	Neoplasms
+Urogenital Neoplasms	Male Urogenital Diseases
+Urogenital Neoplasms	Female Urogenital Diseases and Pregnancy Complications
+Urticaria	Skin and Connective Tissue Diseases
+Urticaria	Immune System Diseases
+Uveitis	Eye Diseases
+Vaginal Neoplasms	Neoplasms
+Vaginal Neoplasms	Female Urogenital Diseases and Pregnancy Complications
+Vaginitis	Female Urogenital Diseases and Pregnancy Complications
+Varicose Ulcer	Cardiovascular Diseases
+Varicose Ulcer	Skin and Connective Tissue Diseases
+Vascular Diseases	Cardiovascular Diseases
+Venous Insufficiency	Cardiovascular Diseases
+Ventricular Fibrillation	Cardiovascular Diseases
+Ventricular Fibrillation	Pathological Conditions, Signs and Symptoms
+Vertigo	Otorhinolaryngologic Diseases
+Vertigo	Nervous System Diseases
+Vertigo	Pathological Conditions, Signs and Symptoms
+Virus Diseases	Virus Diseases
+Vitamin D Deficiency	Nutritional and Metabolic Diseases
+Vitiligo	Skin and Connective Tissue Diseases
+Vomiting	Pathological Conditions, Signs and Symptoms
+von Willebrand Diseases	Hemic and Lymphatic Diseases
+von Willebrand Diseases	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Granulomatosis with Polyangiitis	Respiratory Tract Diseases
+Granulomatosis with Polyangiitis	Cardiovascular Diseases
+Granulomatosis with Polyangiitis	Immune System Diseases
+Werner Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Werner Syndrome	Nutritional and Metabolic Diseases
+West Nile Fever	Virus Diseases
+West Nile Fever	Nervous System Diseases
+Whooping Cough	Bacterial Infections and Mycoses
+Whooping Cough	Respiratory Tract Diseases
+Wiskott-Aldrich Syndrome	Hemic and Lymphatic Diseases
+Wiskott-Aldrich Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Wiskott-Aldrich Syndrome	Immune System Diseases
+Wolfram Syndrome	Otorhinolaryngologic Diseases
+Wolfram Syndrome	Nervous System Diseases
+Wolfram Syndrome	Eye Diseases
+Wolfram Syndrome	Male Urogenital Diseases
+Wolfram Syndrome	Female Urogenital Diseases and Pregnancy Complications
+Wolfram Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Wolfram Syndrome	Nutritional and Metabolic Diseases
+Wolfram Syndrome	Endocrine System Diseases
+Wounds and Injuries	Wounds and Injuries
+Xerophthalmia	Eye Diseases
+Xerostomia	Stomatognathic Diseases
+Yellow Fever	Virus Diseases
+Zollinger-Ellison Syndrome	Neoplasms
+Zollinger-Ellison Syndrome	Digestive System Diseases
+Dementia, Vascular	Nervous System Diseases
+Dementia, Vascular	Cardiovascular Diseases
+Dementia, Vascular	Mental Disorders
+Colorectal Neoplasms	Neoplasms
+Colorectal Neoplasms	Digestive System Diseases
+Cholangitis, Sclerosing	Digestive System Diseases
+Arthritis, Gouty	Musculoskeletal Diseases
+Arthritis, Gouty	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Arthritis, Gouty	Nutritional and Metabolic Diseases
+Inflammatory Bowel Diseases	Digestive System Diseases
+Wolman Disease	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Wolman Disease	Nutritional and Metabolic Diseases
+Hypertriglyceridemia	Nutritional and Metabolic Diseases
+Carcinoma, Merkel Cell	Virus Diseases
+Carcinoma, Merkel Cell	Neoplasms
+Churg-Strauss Syndrome	Cardiovascular Diseases
+Churg-Strauss Syndrome	Hemic and Lymphatic Diseases
+Churg-Strauss Syndrome	Immune System Diseases
+Mycobacterium avium-intracellulare Infection	Bacterial Infections and Mycoses
+Tumor Lysis Syndrome	Hemic and Lymphatic Diseases
+Tumor Lysis Syndrome	Immune System Diseases
+Pyruvate Metabolism, Inborn Errors	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Pyruvate Metabolism, Inborn Errors	Nutritional and Metabolic Diseases
+Scleritis	Eye Diseases
+Reperfusion Injury	Cardiovascular Diseases
+Reperfusion Injury	Pathological Conditions, Signs and Symptoms
+Weight Gain	Pathological Conditions, Signs and Symptoms
+Glomerulonephritis, Membranoproliferative	Male Urogenital Diseases
+Glomerulonephritis, Membranoproliferative	Female Urogenital Diseases and Pregnancy Complications
+Glomerulonephritis, Membranoproliferative	Immune System Diseases
+Glomerulonephritis, Membranous	Male Urogenital Diseases
+Glomerulonephritis, Membranous	Female Urogenital Diseases and Pregnancy Complications
+Glomerulonephritis, Membranous	Immune System Diseases
+Leukemia, Lymphocytic, Chronic, B-Cell	Neoplasms
+Leukemia, Lymphocytic, Chronic, B-Cell	Hemic and Lymphatic Diseases
+Leukemia, Lymphocytic, Chronic, B-Cell	Immune System Diseases
+Leukemia, Myelogenous, Chronic, BCR-ABL Positive	Neoplasms
+Leukemia, Myelogenous, Chronic, BCR-ABL Positive	Hemic and Lymphatic Diseases
+Leukemia, Myeloid, Acute	Neoplasms
+Leukemia, Myelomonocytic, Chronic	Neoplasms
+Leukemia, Myelomonocytic, Chronic	Hemic and Lymphatic Diseases
+HTLV-I Infections	Virus Diseases
+HTLV-I Infections	Immune System Diseases
+Rett Syndrome	Nervous System Diseases
+Rett Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+AIDS Dementia Complex	Virus Diseases
+AIDS Dementia Complex	Nervous System Diseases
+AIDS Dementia Complex	Immune System Diseases
+AIDS Dementia Complex	Mental Disorders
+Arthritis, Psoriatic	Musculoskeletal Diseases
+Arthritis, Psoriatic	Skin and Connective Tissue Diseases
+HIV Infections	Virus Diseases
+HIV Infections	Immune System Diseases
+Fatigue Syndrome, Chronic	Virus Diseases
+Fatigue Syndrome, Chronic	Musculoskeletal Diseases
+Fatigue Syndrome, Chronic	Nervous System Diseases
+Choroideremia	Eye Diseases
+Choroideremia	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Eye Infections	Bacterial Infections and Mycoses
+Eye Infections	Eye Diseases
+Osteochondroma	Neoplasms
+Osteochondroma	Musculoskeletal Diseases
+Vestibular Diseases	Otorhinolaryngologic Diseases
+Choroid Diseases	Eye Diseases
+Urinary Retention	Male Urogenital Diseases
+Urinary Retention	Female Urogenital Diseases and Pregnancy Complications
+Pleural Effusion, Malignant	Neoplasms
+Pleural Effusion, Malignant	Respiratory Tract Diseases
+Postpoliomyelitis Syndrome	Virus Diseases
+Postpoliomyelitis Syndrome	Musculoskeletal Diseases
+Postpoliomyelitis Syndrome	Nervous System Diseases
+Lymphoma, B-Cell	Neoplasms
+Lymphoma, B-Cell	Hemic and Lymphatic Diseases
+Lymphoma, B-Cell	Immune System Diseases
+Lymphoma, T-Cell	Neoplasms
+Lymphoma, T-Cell	Hemic and Lymphatic Diseases
+Lymphoma, T-Cell	Immune System Diseases
+Lymphoma, Large B-Cell, Diffuse	Neoplasms
+Lymphoma, Large B-Cell, Diffuse	Hemic and Lymphatic Diseases
+Lymphoma, Large B-Cell, Diffuse	Immune System Diseases
+Lymphoma, T-Cell, Cutaneous	Neoplasms
+Lymphoma, T-Cell, Cutaneous	Hemic and Lymphatic Diseases
+Lymphoma, T-Cell, Cutaneous	Immune System Diseases
+Lymphoma, T-Cell, Peripheral	Neoplasms
+Lymphoma, T-Cell, Peripheral	Hemic and Lymphatic Diseases
+Lymphoma, T-Cell, Peripheral	Immune System Diseases
+Motor Neuron Disease	Nervous System Diseases
+Helicobacter Infections	Bacterial Infections and Mycoses
+Peripheral Vascular Diseases	Cardiovascular Diseases
+Severe Combined Immunodeficiency	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Severe Combined Immunodeficiency	Nutritional and Metabolic Diseases
+Severe Combined Immunodeficiency	Immune System Diseases
+Neurofibromatosis 2	Neoplasms
+Neurofibromatosis 2	Otorhinolaryngologic Diseases
+Neurofibromatosis 2	Nervous System Diseases
+Neurofibromatosis 2	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Mucopolysaccharidosis II	Nervous System Diseases
+Mucopolysaccharidosis II	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Mucopolysaccharidosis II	Skin and Connective Tissue Diseases
+Mucopolysaccharidosis II	Nutritional and Metabolic Diseases
+Gangliosidosis, GM1	Nervous System Diseases
+Gangliosidosis, GM1	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Gangliosidosis, GM1	Nutritional and Metabolic Diseases
+Mucopolysaccharidosis VII	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Mucopolysaccharidosis VII	Skin and Connective Tissue Diseases
+Mucopolysaccharidosis VII	Nutritional and Metabolic Diseases
+Central Nervous System Neoplasms	Neoplasms
+Central Nervous System Neoplasms	Nervous System Diseases
+Purpura, Thrombocytopenic, Idiopathic	Hemic and Lymphatic Diseases
+Purpura, Thrombocytopenic, Idiopathic	Immune System Diseases
+Purpura, Thrombocytopenic, Idiopathic	Pathological Conditions, Signs and Symptoms
+Seasonal Affective Disorder	Mental Disorders
+Panic Disorder	Mental Disorders
+Diabetes, Gestational	Female Urogenital Diseases and Pregnancy Complications
+Diabetes, Gestational	Nutritional and Metabolic Diseases
+Diabetes, Gestational	Endocrine System Diseases
+Cerebral Amyloid Angiopathy	Nervous System Diseases
+Cerebral Amyloid Angiopathy	Cardiovascular Diseases
+Cerebral Amyloid Angiopathy	Nutritional and Metabolic Diseases
+Still's Disease, Adult-Onset	Musculoskeletal Diseases
+Still's Disease, Adult-Onset	Skin and Connective Tissue Diseases
+Still's Disease, Adult-Onset	Immune System Diseases
+Antiphospholipid Syndrome	Immune System Diseases
+Alagille Syndrome	Digestive System Diseases
+Alagille Syndrome	Cardiovascular Diseases
+Alagille Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Stiff-Person Syndrome	Nervous System Diseases
+Stiff-Person Syndrome	Immune System Diseases
+Hepatitis E	Virus Diseases
+Hepatitis E	Digestive System Diseases
+Keratitis, Herpetic	Virus Diseases
+Keratitis, Herpetic	Eye Diseases
+Endometrial Neoplasms	Neoplasms
+Endometrial Neoplasms	Female Urogenital Diseases and Pregnancy Complications
+IgA Deficiency	Hemic and Lymphatic Diseases
+IgA Deficiency	Immune System Diseases
+IgG Deficiency	Hemic and Lymphatic Diseases
+IgG Deficiency	Immune System Diseases
+Akathisia, Drug-Induced	Nervous System Diseases
+Akathisia, Drug-Induced	Pathological Conditions, Signs and Symptoms
+Akathisia, Drug-Induced	Chemically-Induced Disorders
+Tachycardia, Ventricular	Cardiovascular Diseases
+Tachycardia, Ventricular	Pathological Conditions, Signs and Symptoms
+Skin Diseases, Bacterial	Bacterial Infections and Mycoses
+Skin Diseases, Bacterial	Skin and Connective Tissue Diseases
+Myocardial Ischemia	Cardiovascular Diseases
+Angelman Syndrome	Nervous System Diseases
+Angelman Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Mitochondrial Encephalomyopathies	Musculoskeletal Diseases
+Mitochondrial Encephalomyopathies	Nervous System Diseases
+Mitochondrial Encephalomyopathies	Nutritional and Metabolic Diseases
+Mitochondrial Myopathies	Musculoskeletal Diseases
+Mitochondrial Myopathies	Nervous System Diseases
+Mitochondrial Myopathies	Nutritional and Metabolic Diseases
+MELAS Syndrome	Musculoskeletal Diseases
+MELAS Syndrome	Nervous System Diseases
+MELAS Syndrome	Cardiovascular Diseases
+MELAS Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+MELAS Syndrome	Nutritional and Metabolic Diseases
+Caliciviridae Infections	Virus Diseases
+Neurofibromatoses	Neoplasms
+Neurofibromatoses	Nervous System Diseases
+Neurofibromatoses	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Polymyositis	Musculoskeletal Diseases
+Polymyositis	Nervous System Diseases
+Dermatitis, Allergic Contact	Skin and Connective Tissue Diseases
+Dermatitis, Allergic Contact	Immune System Diseases
+Hidradenitis Suppurativa	Bacterial Infections and Mycoses
+Hidradenitis Suppurativa	Skin and Connective Tissue Diseases
+Pyoderma Gangrenosum	Skin and Connective Tissue Diseases
+Postcholecystectomy Syndrome	Digestive System Diseases
+Postcholecystectomy Syndrome	Pathological Conditions, Signs and Symptoms
+Lung Diseases, Interstitial	Respiratory Tract Diseases
+Myelinolysis, Central Pontine	Nervous System Diseases
+Myelinolysis, Central Pontine	Nutritional and Metabolic Diseases
+Neuroectodermal Tumors	Neoplasms
+Hypophosphatemia	Nutritional and Metabolic Diseases
+Lichen Planus, Oral	Stomatognathic Diseases
+Lichen Planus, Oral	Skin and Connective Tissue Diseases
+Hypereosinophilic Syndrome	Hemic and Lymphatic Diseases
+Lymphoma, Large-Cell, Anaplastic	Neoplasms
+Lymphoma, Large-Cell, Anaplastic	Hemic and Lymphatic Diseases
+Lymphoma, Large-Cell, Anaplastic	Immune System Diseases
+Tympanic Membrane Perforation	Otorhinolaryngologic Diseases
+Tympanic Membrane Perforation	Wounds and Injuries
+Glucose Intolerance	Nutritional and Metabolic Diseases
+Paramyxoviridae Infections	Virus Diseases
+Lymphangioleiomyomatosis	Neoplasms
+Lymphangioleiomyomatosis	Hemic and Lymphatic Diseases
+Lymphangioleiomyomatosis	Immune System Diseases
+Fibromatosis, Aggressive	Neoplasms
+Neoplasms, Basal Cell	Neoplasms
+Neoplasms, Squamous Cell	Neoplasms
+Gliosarcoma	Neoplasms
+Coronavirus Infections	Virus Diseases
+Alphavirus Infections	Virus Diseases
+Respiratory Syncytial Virus Infections	Virus Diseases
+Neuroendocrine Tumors	Neoplasms
+Lymphoma, B-Cell, Marginal Zone	Neoplasms
+Lymphoma, B-Cell, Marginal Zone	Hemic and Lymphatic Diseases
+Lymphoma, B-Cell, Marginal Zone	Immune System Diseases
+Gastroparesis	Digestive System Diseases
+Gastroparesis	Pathological Conditions, Signs and Symptoms
+Systemic Inflammatory Response Syndrome	Pathological Conditions, Signs and Symptoms
+Hantavirus Infections	Virus Diseases
+Anemia, Iron-Deficiency	Hemic and Lymphatic Diseases
+Anemia, Iron-Deficiency	Nutritional and Metabolic Diseases
+Sepsis	Bacterial Infections and Mycoses
+Sepsis	Pathological Conditions, Signs and Symptoms
+Heat Stroke	Wounds and Injuries
+Optic Neuropathy, Ischemic	Nervous System Diseases
+Optic Neuropathy, Ischemic	Eye Diseases
+Optic Neuropathy, Ischemic	Cardiovascular Diseases
+Myositis, Inclusion Body	Musculoskeletal Diseases
+Myositis, Inclusion Body	Nervous System Diseases
+Burkholderia Infections	Bacterial Infections and Mycoses
+Hemorrhagic Fever, Ebola	Virus Diseases
+HIV Wasting Syndrome	Virus Diseases
+HIV Wasting Syndrome	Nutritional and Metabolic Diseases
+HIV Wasting Syndrome	Immune System Diseases
+Hematologic Neoplasms	Neoplasms
+Hematologic Neoplasms	Hemic and Lymphatic Diseases
+Pouchitis	Digestive System Diseases
+Capillary Leak Syndrome	Cardiovascular Diseases
+Multiple System Atrophy	Nervous System Diseases
+Neurodegenerative Diseases	Nervous System Diseases
+Schnitzler Syndrome	Immune System Diseases
+alpha 1-Antitrypsin Deficiency	Digestive System Diseases
+alpha 1-Antitrypsin Deficiency	Respiratory Tract Diseases
+alpha 1-Antitrypsin Deficiency	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+alpha 1-Antitrypsin Deficiency	Pathological Conditions, Signs and Symptoms
+Conduct Disorder	Mental Disorders
+Neurocognitive Disorders	Mental Disorders
+Substance-Related Disorders	Chemically-Induced Disorders
+Substance-Related Disorders	Mental Disorders
+Amphetamine-Related Disorders	Chemically-Induced Disorders
+Amphetamine-Related Disorders	Mental Disorders
+Cocaine-Related Disorders	Chemically-Induced Disorders
+Cocaine-Related Disorders	Mental Disorders
+Epstein-Barr Virus Infections	Virus Diseases
+Coagulation Protein Disorders	Hemic and Lymphatic Diseases
+Antithrombin III Deficiency	Hemic and Lymphatic Diseases
+Antithrombin III Deficiency	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Hyperglycinemia, Nonketotic	Nervous System Diseases
+Hyperglycinemia, Nonketotic	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Hyperglycinemia, Nonketotic	Nutritional and Metabolic Diseases
+Citrullinemia	Nervous System Diseases
+Citrullinemia	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Citrullinemia	Nutritional and Metabolic Diseases
+Hyperargininemia	Nervous System Diseases
+Hyperargininemia	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Hyperargininemia	Nutritional and Metabolic Diseases
+Ornithine Carbamoyltransferase Deficiency Disease	Nervous System Diseases
+Ornithine Carbamoyltransferase Deficiency Disease	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Ornithine Carbamoyltransferase Deficiency Disease	Nutritional and Metabolic Diseases
+Carbamoyl-Phosphate Synthase I Deficiency Disease	Nervous System Diseases
+Carbamoyl-Phosphate Synthase I Deficiency Disease	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Carbamoyl-Phosphate Synthase I Deficiency Disease	Nutritional and Metabolic Diseases
+Tyrosinemias	Nervous System Diseases
+Tyrosinemias	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Tyrosinemias	Nutritional and Metabolic Diseases
+Hypersomnolence, Idiopathic	Nervous System Diseases
+Hypersomnolence, Idiopathic	Mental Disorders
+Sleep Disorders, Circadian Rhythm	Nervous System Diseases
+Sleep Disorders, Circadian Rhythm	Occupational Diseases
+Sleep Disorders, Circadian Rhythm	Mental Disorders
+Unverricht-Lundborg Syndrome	Nervous System Diseases
+Unverricht-Lundborg Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Trauma, Nervous System	Nervous System Diseases
+Trauma, Nervous System	Wounds and Injuries
+Venous Thrombosis	Cardiovascular Diseases
+Postoperative Nausea and Vomiting	Pathological Conditions, Signs and Symptoms
+Guillain-Barre Syndrome	Nervous System Diseases
+Guillain-Barre Syndrome	Immune System Diseases
+Polyradiculoneuropathy, Chronic Inflammatory Demyelinating	Nervous System Diseases
+Polyradiculoneuropathy, Chronic Inflammatory Demyelinating	Immune System Diseases
+Vasospasm, Intracranial	Nervous System Diseases
+Vasospasm, Intracranial	Cardiovascular Diseases
+Essential Tremor	Nervous System Diseases
+Enterocolitis, Necrotizing	Digestive System Diseases
+Muscular Dystrophy, Duchenne	Musculoskeletal Diseases
+Muscular Dystrophy, Duchenne	Nervous System Diseases
+Muscular Dystrophy, Duchenne	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Muscular Dystrophy, Facioscapulohumeral	Musculoskeletal Diseases
+Muscular Dystrophy, Facioscapulohumeral	Nervous System Diseases
+Muscular Dystrophy, Facioscapulohumeral	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Lymphoma, Mantle-Cell	Neoplasms
+Lymphoma, Mantle-Cell	Hemic and Lymphatic Diseases
+Lymphoma, Mantle-Cell	Immune System Diseases
+Multiple Sclerosis, Chronic Progressive	Nervous System Diseases
+Multiple Sclerosis, Chronic Progressive	Immune System Diseases
+Multiple Sclerosis, Relapsing-Remitting	Nervous System Diseases
+Multiple Sclerosis, Relapsing-Remitting	Immune System Diseases
+Brain Diseases, Metabolic, Inborn	Nervous System Diseases
+Brain Diseases, Metabolic, Inborn	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Brain Diseases, Metabolic, Inborn	Nutritional and Metabolic Diseases
+Spinocerebellar Ataxias	Nervous System Diseases
+Spinocerebellar Ataxias	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Intracranial Thrombosis	Nervous System Diseases
+Intracranial Thrombosis	Cardiovascular Diseases
+Hemangioma, Cavernous, Central Nervous System	Neoplasms
+Hemangioma, Cavernous, Central Nervous System	Nervous System Diseases
+Hemangioma, Cavernous, Central Nervous System	Cardiovascular Diseases
+Hemangioma, Cavernous, Central Nervous System	Hemic and Lymphatic Diseases
+Hemangioma, Cavernous, Central Nervous System	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Bardet-Biedl Syndrome	Nervous System Diseases
+Bardet-Biedl Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Dyskinesias	Nervous System Diseases
+Dyskinesias	Pathological Conditions, Signs and Symptoms
+Myopathies, Structural, Congenital	Musculoskeletal Diseases
+Myopathies, Structural, Congenital	Nervous System Diseases
+Complex Regional Pain Syndromes	Nervous System Diseases
+Lewy Body Disease	Nervous System Diseases
+Lewy Body Disease	Mental Disorders
+Muscular Disorders, Atrophic	Musculoskeletal Diseases
+Muscular Disorders, Atrophic	Nervous System Diseases
+Hyperammonemia	Pathological Conditions, Signs and Symptoms
+Metabolic Syndrome X	Nutritional and Metabolic Diseases
+Spondylarthritis	Musculoskeletal Diseases
+Mitochondrial Diseases	Nutritional and Metabolic Diseases
+Optic Atrophy, Hereditary, Leber	Nervous System Diseases
+Optic Atrophy, Hereditary, Leber	Eye Diseases
+Optic Atrophy, Hereditary, Leber	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Optic Atrophy, Hereditary, Leber	Nutritional and Metabolic Diseases
+Pulmonary Disease, Chronic Obstructive	Respiratory Tract Diseases
+Bronchitis, Chronic	Respiratory Tract Diseases
+Papillomavirus Infections	Virus Diseases
+Erdheim-Chester Disease	Hemic and Lymphatic Diseases
+Hyperuricemia	Pathological Conditions, Signs and Symptoms
+Hypoalbuminemia	Hemic and Lymphatic Diseases
+Hearing Loss	Otorhinolaryngologic Diseases
+Hearing Loss	Nervous System Diseases
+Hearing Loss	Pathological Conditions, Signs and Symptoms
+Fasciitis, Plantar	Musculoskeletal Diseases
+Muscular Dystrophy, Oculopharyngeal	Musculoskeletal Diseases
+Muscular Dystrophy, Oculopharyngeal	Nervous System Diseases
+Muscular Dystrophy, Oculopharyngeal	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Retinoschisis	Eye Diseases
+Irritable Bowel Syndrome	Digestive System Diseases
+Severe Acute Respiratory Syndrome	Virus Diseases
+Severe Acute Respiratory Syndrome	Respiratory Tract Diseases
+Steatorrhea	Digestive System Diseases
+Steatorrhea	Nutritional and Metabolic Diseases
+Ileus	Digestive System Diseases
+Protoporphyria, Erythropoietic	Digestive System Diseases
+Protoporphyria, Erythropoietic	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Protoporphyria, Erythropoietic	Skin and Connective Tissue Diseases
+Protoporphyria, Erythropoietic	Nutritional and Metabolic Diseases
+Pituitary ACTH Hypersecretion	Nervous System Diseases
+Pituitary ACTH Hypersecretion	Endocrine System Diseases
+Diabetes Complications	Endocrine System Diseases
+Muscular Dystrophies, Limb-Girdle	Musculoskeletal Diseases
+Muscular Dystrophies, Limb-Girdle	Nervous System Diseases
+Muscular Dystrophies, Limb-Girdle	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Hyperparathyroidism, Primary	Endocrine System Diseases
+Graves Ophthalmopathy	Eye Diseases
+Graves Ophthalmopathy	Endocrine System Diseases
+Graves Ophthalmopathy	Immune System Diseases
+Atherosclerosis	Cardiovascular Diseases
+Fractures, Bone	Wounds and Injuries
+Lymphohistiocytosis, Hemophagocytic	Hemic and Lymphatic Diseases
+Renal Insufficiency	Male Urogenital Diseases
+Renal Insufficiency	Female Urogenital Diseases and Pregnancy Complications
+Neuralgia, Postherpetic	Nervous System Diseases
+Neuralgia, Postherpetic	Pathological Conditions, Signs and Symptoms
+Delayed Graft Function	Pathological Conditions, Signs and Symptoms
+Mucositis	Digestive System Diseases
+Mucositis	Stomatognathic Diseases
+Usher Syndromes	Otorhinolaryngologic Diseases
+Usher Syndromes	Nervous System Diseases
+Usher Syndromes	Eye Diseases
+Usher Syndromes	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Usher Syndromes	Pathological Conditions, Signs and Symptoms
+Tendinopathy	Musculoskeletal Diseases
+Tendinopathy	Wounds and Injuries
+Lipid Metabolism Disorders	Nutritional and Metabolic Diseases
+Hypoalphalipoproteinemias	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Hypoalphalipoproteinemias	Nutritional and Metabolic Diseases
+Nocturia	Pathological Conditions, Signs and Symptoms
+Dysuria	Pathological Conditions, Signs and Symptoms
+Urinary Bladder, Overactive	Male Urogenital Diseases
+Urinary Bladder, Overactive	Female Urogenital Diseases and Pregnancy Complications
+Urinary Bladder, Overactive	Pathological Conditions, Signs and Symptoms
+Hyper-IgM Immunodeficiency Syndrome	Hemic and Lymphatic Diseases
+Hyper-IgM Immunodeficiency Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Hyper-IgM Immunodeficiency Syndrome	Immune System Diseases
+Pachyonychia Congenita	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Pachyonychia Congenita	Skin and Connective Tissue Diseases
+Opsoclonus-Myoclonus Syndrome	Neoplasms
+Opsoclonus-Myoclonus Syndrome	Nervous System Diseases
+Opsoclonus-Myoclonus Syndrome	Eye Diseases
+Acute Coronary Syndrome	Cardiovascular Diseases
+Mevalonate Kinase Deficiency	Nervous System Diseases
+Mevalonate Kinase Deficiency	Hemic and Lymphatic Diseases
+Mevalonate Kinase Deficiency	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Mevalonate Kinase Deficiency	Nutritional and Metabolic Diseases
+Mevalonate Kinase Deficiency	Immune System Diseases
+Vascular Malformations	Cardiovascular Diseases
+Vascular Malformations	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Angioedemas, Hereditary	Cardiovascular Diseases
+Angioedemas, Hereditary	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Angioedemas, Hereditary	Skin and Connective Tissue Diseases
+Angioedemas, Hereditary	Immune System Diseases
+Precursor Cell Lymphoblastic Leukemia-Lymphoma	Neoplasms
+Precursor Cell Lymphoblastic Leukemia-Lymphoma	Hemic and Lymphatic Diseases
+Precursor Cell Lymphoblastic Leukemia-Lymphoma	Immune System Diseases
+Leukemia, Myelomonocytic, Juvenile	Neoplasms
+Leukemia, Myelomonocytic, Juvenile	Hemic and Lymphatic Diseases
+Hyperphosphatemia	Nutritional and Metabolic Diseases
+Idiopathic Pulmonary Fibrosis	Respiratory Tract Diseases
+Acute Lung Injury	Respiratory Tract Diseases
+Macrophage Activation Syndrome	Immune System Diseases
+Keratosis, Actinic	Neoplasms
+Keratosis, Actinic	Skin and Connective Tissue Diseases
+Purpura Fulminans	Hemic and Lymphatic Diseases
+Purpura Fulminans	Pathological Conditions, Signs and Symptoms
+Primary Myelofibrosis	Hemic and Lymphatic Diseases
+Small Cell Lung Carcinoma	Neoplasms
+Small Cell Lung Carcinoma	Respiratory Tract Diseases
+Sarcopenia	Nervous System Diseases
+Sarcopenia	Pathological Conditions, Signs and Symptoms
+Microscopic Polyangiitis	Nervous System Diseases
+Microscopic Polyangiitis	Cardiovascular Diseases
+Microscopic Polyangiitis	Immune System Diseases
+Intervertebral Disc Degeneration	Musculoskeletal Diseases
+Asthma, Aspirin-Induced	Respiratory Tract Diseases
+Asthma, Aspirin-Induced	Immune System Diseases
+Asthma, Aspirin-Induced	Chemically-Induced Disorders
+Acute Chest Syndrome	Respiratory Tract Diseases
+Acute Chest Syndrome	Hemic and Lymphatic Diseases
+Acute Chest Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Cryopyrin-Associated Periodic Syndromes	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Cryopyrin-Associated Periodic Syndromes	Skin and Connective Tissue Diseases
+Vulvodynia	Female Urogenital Diseases and Pregnancy Complications
+Hereditary Autoinflammatory Diseases	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Hereditary Autoinflammatory Diseases	Skin and Connective Tissue Diseases
+Donohue Syndrome	Musculoskeletal Diseases
+Donohue Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Donohue Syndrome	Nutritional and Metabolic Diseases
+Donohue Syndrome	Endocrine System Diseases
+Alstrom Syndrome	Nervous System Diseases
+Alstrom Syndrome	Eye Diseases
+Alstrom Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Netherton Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Netherton Syndrome	Skin and Connective Tissue Diseases
+Urea Cycle Disorders, Inborn	Nervous System Diseases
+Urea Cycle Disorders, Inborn	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Urea Cycle Disorders, Inborn	Nutritional and Metabolic Diseases
+Argininosuccinic Aciduria	Nervous System Diseases
+Argininosuccinic Aciduria	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Argininosuccinic Aciduria	Nutritional and Metabolic Diseases
+Binge-Eating Disorder	Mental Disorders
+Geographic Atrophy	Eye Diseases
+Leber Congenital Amaurosis	Eye Diseases
+Wet Macular Degeneration	Eye Diseases
+Frontotemporal Dementia	Nervous System Diseases
+Frontotemporal Dementia	Nutritional and Metabolic Diseases
+Frontotemporal Dementia	Mental Disorders
+Eosinophilic Esophagitis	Digestive System Diseases
+Eosinophilic Esophagitis	Hemic and Lymphatic Diseases
+Eosinophilic Esophagitis	Immune System Diseases
+Diabetic Cardiomyopathies	Cardiovascular Diseases
+Diabetic Cardiomyopathies	Endocrine System Diseases
+Acute Kidney Injury	Male Urogenital Diseases
+Acute Kidney Injury	Female Urogenital Diseases and Pregnancy Complications
+Smith-Magenis Syndrome	Nervous System Diseases
+Smith-Magenis Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
+Nociceptive Pain	Nervous System Diseases
+Nociceptive Pain	Pathological Conditions, Signs and Symptoms
+Atrophic Vaginitis	Female Urogenital Diseases and Pregnancy Complications
+Musculoskeletal Pain	Musculoskeletal Diseases
+Musculoskeletal Pain	Nervous System Diseases
+Musculoskeletal Pain	Pathological Conditions, Signs and Symptoms
+Musculoskeletal Pain	Psychological Phenomena and Processes
+Mastodynia	Nervous System Diseases
+Mastodynia	Pathological Conditions, Signs and Symptoms
+Mastodynia	Psychological Phenomena and Processes
+Intraabdominal Infections	Bacterial Infections and Mycoses
+Reproductive Tract Infections	Bacterial Infections and Mycoses
+Reproductive Tract Infections	Male Urogenital Diseases
+Reproductive Tract Infections	Female Urogenital Diseases and Pregnancy Complications
+Cognitive Dysfunction	Mental Disorders
+Hand-Foot Syndrome	Skin and Connective Tissue Diseases
+Hand-Foot Syndrome	Chemically-Induced Disorders
+Vascular Calcification	Nutritional and Metabolic Diseases
+Premature Ejaculation	Male Urogenital Diseases
+Premature Ejaculation	Mental Disorders
+Organophosphate Poisoning	Chemically-Induced Disorders
+Drug-Related Side Effects and Adverse Reactions	Chemically-Induced Disorders
+Corneal Injuries	Nervous System Diseases
+Corneal Injuries	Eye Diseases
+Corneal Injuries	Wounds and Injuries
+Premenstrual Dysphoric Disorder	Pathological Conditions, Signs and Symptoms
+Premenstrual Dysphoric Disorder	Mental Disorders
+Non-alcoholic Fatty Liver Disease	Digestive System Diseases
+Rhinitis, Allergic	Respiratory Tract Diseases
+Rhinitis, Allergic	Otorhinolaryngologic Diseases
+Rhinitis, Allergic	Immune System Diseases
+Chikungunya Fever	Virus Diseases
+Lennox Gastaut Syndrome	Nervous System Diseases
+Lennox Gastaut Syndrome	Congenital, Hereditary, and Neonatal Diseases and Abnormalities
