@@ -1,6 +1,9 @@
 data/*
 results/*
 doc/cache/*
+doc/*.md
+doc/*.html
+doc/figure/*
 *.gz
 *.sty
 *.log
