@@ -100,7 +100,7 @@ Data file with one row per MSH-ensembl_id pair in Citeline Pharmaprojects.
 ##### target_indication_nmsh.tsv
 Same as above, but the MeSH term mappings havev been harmonized with Nelson et al. 2015.
 ##### gene_trait_assoc.tsv
-GWAS catalog and OMIM gene-trait links used in this analysis.  Some columns are only applicable to GWAS Catalog or OMIM but not both, and some GWAS Catalog columns are only applicable for some types of evidence.  Only one LD SNP is retained per top SNP-gene-trait triplet, and which is retained is determined by the highest score.  Key columns are: 
+GWAS catalog and OMIM gene-trait links used in this analysis.  Some columns are only applicable to GWAS Catalog or OMIM but not both, and some GWAS Catalog columns are only applicable for some types of evidence.  Only one LD SNP is retained per top SNP-gene-trait triplet, and which is retained is determined by the highest score (unless there is a moderate/high deleterious variant with higher LD than the top scoring: we need to retain these for the analysis of high confidence SNP-Gene links).  Key columns are: 
 * SNP_A: the GWAS catalog top SNP
 * SNP_B the LD SNP providing the information in the row
 * R2 = LD between SNP_A and SNP_B
