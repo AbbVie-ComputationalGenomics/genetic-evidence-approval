@@ -19,7 +19,7 @@ install.packages("ggplot2")
 install.packages("cowplot")
 install.packages("gdata")
 install.packages("epitools")
-install.packages("biomaRt")
+install.packages("tidyr")
 ```
 ##### Shiny app dependencies
 ```
@@ -34,11 +34,11 @@ install.packages("rstan")
 
 #### File only data files
 ##### Nelson et al supplementary tables and King et al supplementary tables
-From command line, in genetic-evidence-approval/data
+From R session in genetic_evidence_approval/doc directory
 ```
-wget https://images.nature.com/full/nature-assets/ng/journal/v47/n8/extref/ng.3314-S12.txt
-wget https://images.nature.com/full/nature-assets/ng/journal/v47/n8/extref/ng.3314-S13.txt
-wget https://images.nature.com/full/nature-assets/ng/journal/v47/n8/extref/ng.3314-S14.txt
+download.file('https://images.nature.com/full/nature-assets/ng/journal/v47/n8/extref/ng.3314-S12.txt', '../data/ng.3314-S12.txt')
+download.file('https://images.nature.com/full/nature-assets/ng/journal/v47/n8/extref/ng.3314-S13.txt', '../data/ng.3314-S13.txt')
+download.file('https://images.nature.com/full/nature-assets/ng/journal/v47/n8/extref/ng.3314-S14.txt', '../data/ng.3314-S14.txt')
 ```
  Or download directly from papers and move to `genetic-evidence-approval/data`
 ### Reproducing main text figures
@@ -50,7 +50,7 @@ knit('AssociationBetweenGeneticEvidenceAndSuccess.Rmd', 'AssociationBetweenGenet
 markdownToHTML('AssociationBetweenGeneticEvidenceAndSuccess.md', 'AssociationBetweenGeneticEvidenceAndSuccess.html')
 browseURL(paste('file://', file.path(getwd(),'AssociationBetweenGeneticEvidenceAndSuccess.html'), sep='')) 
 ```
-From RStudio, open `AssociationBetweenGeneticEvidenceAndSuccess.Rmd` and click Knit.
+From RStudio, open `AssociationBetweenGeneticEvidenceAndSuccess.Rmd` and click Knit.  The file will take several minutes to run.
 
 ### Rerunning model fit
 From R session in `genetic_evidence_approval/doc` directory
@@ -66,7 +66,7 @@ Note this will likely take several hours to run.
 ### Running shiny app
 From R session in `genetic_evidence_approval` directory
 ```
-library(rshiny)
+library(shiny)
 runApp('PredictApproval/app.R')
 ```
 From RStudio, open `genetic_evidence_approval/PredictApproval/app.R` and click run app button.
@@ -92,17 +92,46 @@ Fitted probabilities use a fixed value for time target has been under developmen
 
 ## Supplementary data files
 ###### target_indication.tsv
-Data file with one row per MSH-ensembl_id pair in Citeline Pharmaprojects. lApprovedUS.EU = is there a US/EU approved drug with this target approved for this indication?  Phase.Latest = Inferred latest historical development phase from Pharmaprojects (see methods and supplement for construction).  First Added = earliest added date for any drug with this target and indication.  Inactive = Is any drug with this target and indication assigned an inactive status in Pharmaprojects, such as No Development Reported?  symbol = HUGO/HGNC symbol corresponding to the target ensembl id.
+Data file with one row per MSH-ensembl_id pair in Citeline Pharmaprojects. 
+* lApprovedUS.EU = is there a US/EU approved drug with this target approved for this indication?  
+* Phase.Latest = Inferred latest historical development phase from Pharmaprojects (see methods and supplement for construction).  
+* First Added = earliest added date for any drug with this target and indication.  
+* Inactive = Is any drug with this target and indication assigned an inactive status in Pharmaprojects, such as No Development Reported?  * symbol = HUGO/HGNC symbol corresponding to the target ensembl id.
 ##### target_indication_nmsh.tsv
 Same as above, but the MeSH term mappings havev been harmonized with Nelson et al. 2015.
 ##### gene_trait_assoc.tsv
-GWAS catalog and OMIM gene-trait links used in this analysis.  Some columns are only applicable to GWAS Catalog or OMIM but not both, and some GWAS Catalog columns are only applicable for some types of evidence.  Only one LD SNP is retained per top SNP-gene-trait triplet, and which is retained is determined by the highest score.  Key columns are: SNP_A: the GWAS catalog top SNP, SNP_B the LD SNP providing the information in the row, R2 = LD between SNP_A and SNP_B, ensembl_id = ensembl_id of associated gene, eQTL = whether or not SNP_B is a GTeX eQTL for ensembl_id (p < 10e-6 in some tissue), eQTL_pval = lowest p-value of any tissue in GTeX for SNP_B and ensembl_id, DHS = is there an established DHS link (see methods), Distance = distance between gene and SNP_B if less than or equal to 5000 bp, Deleterious = SnpEff assessed deleteriousness of SNP_B on gene, missense = is SNP_B a missense variant in gene, distance = is SNP_B within 5000 bp of gene, RDB = RegulomeDB score for SNP_B if 4 or less, MAPPED_TRAIT = GWAS Catalog MAPPED_TRAIT for association, TotalScore = score for association according to Nelson et al. method, MSH = mapped MeSH term, Rank = rank of gene for that assocation (relative to other associated genes), NStudy = number of GWAS catalog studies finding SNP_A linked to MAPPED_TRAIT after filtering on p < 1e-8, Source = GWAS:A for GWAS Catalog, OMIM for OMIM, Phenotype = OMIM phenotype, UI = MeSH unique identifier, MSH = mapped MeSH heading, first_added = earliest date a link between the MeSH heading and ensembl_id appeared in the source (this may differ from the date the association appeared because more than one association may have the same mapped MeSH term and ensembl_id), symbol = HUGO/HGNC symbol for gene, xMHCGene = is the gene considered part of xMHC?
+GWAS catalog and OMIM gene-trait links used in this analysis.  Some columns are only applicable to GWAS Catalog or OMIM but not both, and some GWAS Catalog columns are only applicable for some types of evidence.  Only one LD SNP is retained per top SNP-gene-trait triplet, and which is retained is determined by the highest score.  Key columns are: 
+* SNP_A: the GWAS catalog top SNP
+* SNP_B the LD SNP providing the information in the row
+* R2 = LD between SNP_A and SNP_B
+* ensembl_id = ensembl_id of associated gene
+* eQTL = whether or not SNP_B is a GTeX eQTL for ensembl_id (p < 10e-6 in some tissue)
+* eQTL_pval = lowest p-value of any tissue in GTeX for SNP_B and ensembl_id
+* DHS = is there an established DHS link (see methods)
+* Distance = distance between gene and SNP_B if less than or equal to 5000 bp
+* Deleterious = SnpEff assessed deleteriousness of SNP_B on gene, missense = is SNP_B a missense variant in gene
+* distance = is SNP_B within 5000 bp of gene
+* RDB = RegulomeDB score for SNP_B if 4 or less
+* MAPPED_TRAIT = GWAS Catalog MAPPED_TRAIT for association
+* TotalScore = score for association according to Nelson et al. method
+* MSH = mapped MeSH term, Rank = rank of gene for that assocation (relative to other associated genes)
+* NStudy = number of GWAS catalog studies finding SNP_A linked to MAPPED_TRAIT after filtering on p < 1e-8
+* Source = GWAS:A for GWAS Catalog, OMIM for OMIM
+* Phenotype = OMIM phenotype
+* UI = MeSH unique identifier
+* MSH = mapped MeSH heading
+* first_added = earliest date a link between the MeSH heading and ensembl_id appeared in the source (this may differ from the date the association appeared because more than one association may have the same mapped MeSH term and ensembl_id)
+* symbol = HUGO/HGNC symbol for gene
+* xMHCGene = is the gene considered part of xMHC?
 ##### Standardized_Nelson_Associations.tsv
 Nelson et al. supplementary table 2, standardized to use 2017 MeSH and ensembl gene ids for comparison with new data.
 ##### indication_trait_similarity.tsv
 A matrix with MeSH terms mapped to Pharmaprojects indications as rows and MeSH terms mapped to genetically associated traits as columns with the entries being the similarity between the terms.
 ##### Target_properties.tsv
-Data file with one row per ensembl_id giving GO annotations for each target (1 = has annotation, 0 = does not), RVIS = residual variation intolerance score from [Petrovski 2013](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003709) supplement, Time = time drug target has been under development, in days since Jan 1, 1970.
+Data file with one row per ensembl_id giving 
+* GO annotations for each target (1 = has annotation, 0 = does not).  GO annotations were a subset of all possible GO terms selected to map to Pharmaprojects target families.
+* RVIS = residual variation intolerance score from [Petrovski 2013](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003709) supplement
+* Time = time drug target has been under development, in days since Jan 1, 1970.
 ##### top_mesh.tsv
 For each MeSH heading, gives all top-level MeSH (e.g. Neoplasms) under which the heading appears.
 
