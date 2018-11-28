@@ -12,7 +12,7 @@ Note: For public git repo, to appear,
 From an R session
 ##### Figure reproduction dependencies
 ```
-install.packages("rmarkdown")
+install.packages("markdown")
 install.packages("knitr")
 install.packages("dplyr")
 install.packages("ggplot2")
@@ -43,7 +43,6 @@ cd data
 wget https://images.nature.com/full/nature-assets/ng/journal/v47/n8/extref/ng.3314-S12.txt
 wget https://images.nature.com/full/nature-assets/ng/journal/v47/n8/extref/ng.3314-S13.txt
 wget https://images.nature.com/full/nature-assets/ng/journal/v47/n8/extref/ng.3314-S14.txt
-wget https://images.nature.com/full/nature-assets/ng/journal/v47/n8/extref/ng.3314-S9.xlsx
 
 [fetch gene_trait_assoc.tsv, Standardized_Nelson_Associations.tsv, target_indication_nmsh.tsv, target_indication.tsv, Target_Properties.tsv, top_mesh.tsv, indication_trait_similarity.tsv from paper supplementary materials.  url not yet available]
 
@@ -51,24 +50,24 @@ cd ../
 ```
  Or download directly from papers and move to `genetic-evidence-approval/data`
 ### Reproducing main text figures
-From R session in `genetic_evidence_approval` directory
+From R session in `genetic_evidence_approval/doc` directory
 ```
 library(knitr)
-library(rmarkdown)
-knit('doc/AssociationBetweenGeneticEvidenceAndSuccess.Rmd', 'doc/AssociationBetweenGeneticEvidenceAndSuccess.md')
-markdownToHTML('doc/AssociationBetweenGeneticEvidenceAndSuccess.md', 'doc/AssociationBetweenGeneticEvidenceAndSuccess.html')
-browseURL(paste('file://', file.path('doc/AssociationBetweenGeneticEvidenceAndSuccess.html'), sep=''))
+library(markdown)
+knit('AssociationBetweenGeneticEvidenceAndSuccess.Rmd', 'AssociationBetweenGeneticEvidenceAndSuccess.md')
+markdownToHTML('AssociationBetweenGeneticEvidenceAndSuccess.md', 'AssociationBetweenGeneticEvidenceAndSuccess.html')
+browseURL(paste('file://', file.path(getwd(),'AssociationBetweenGeneticEvidenceAndSuccess.html'), sep='')) 
 ```
 From RStudio, open `AssociationBetweenGeneticEvidenceAndSuccess.Rmd` and click Knit.
 
 ### Rerunning model fit
-From R session in `genetic_evidence_approval` directory
+From R session in `genetic_evidence_approval/doc` directory
 ```
 library(knitr)
-library(rmarkdown)
-knit('doc/StanModelFits.Rmd', 'doc/StanModelFits.md')
-markdownToHTML('doc/StanModelFits.md', 'doc/StanModelFits.html')
-browseURL(paste('file://', file.path('doc/StanModelFits.html'), sep=''))
+library(markdown)
+knit('StanModelFits.Rmd', 'StanModelFits.md')
+markdownToHTML('StanModelFits.md', 'StanModelFits.html')
+browseURL(paste('file://', file.path(getwd(),'StanModelFits.html'), sep='')) 
 ```
 From RStudio, open `StanModelFits.Rmd` and click Knit.
 Note this will likely take several hours to run.
