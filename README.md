@@ -77,11 +77,11 @@ The shiny app displays the estimated success probability of gene target-indicati
 ##### Tabs
 The app can display genetic evidence by target for a fixed indication or genetic evidence by indication for a fixed gene target.  These are two separate tabs.
 ##### Available models
-GWAS: GWAS genetic evidence alone
-OMIM: OMIM genetic evidence alone
-GWAS and OMIM: GWAS and OMIM genetic evidence in the same model.  
+* GWAS: GWAS genetic evidence alone
+* OMIM: OMIM genetic evidence alone
+* GWAS and OMIM: GWAS and OMIM genetic evidence in the same model.  
 ##### Available gene target-indication pairs
-Gene target indication pairs were created from MeSH terms mapping to Pharmaprojects indications and genetically associated non xMHC, protein coding genes (filtering criteria used in the paper).  Target-indication pairs are only included if the target is genetically linked to a trait with similarity at least 0.5.  
+Gene target indication pairs were created from MeSH terms mapping to Pharmaprojects indications and genetically associated non xMHC, protein coding genes (filtering criteria used in the paper).  Target-indication pairs are only included if the target is genetically linked to a trait with similarity at least 0.5 to some indication.  
 ##### Output interpretation
 Success probabilities reflect target and indication level properties in addition to genetic evidence, and are best interpreted on a relative scale due to unknown development times for new programs (see next section for further details).  Odds ratios purely reflect the contribution of genetic evidence to success, and by default we sort by the odds ratio.  Odds ratios above 1 mean the gene target-indication pair is more likely to succeed than if there were no genetic association and odds ratios below 1 mean it is less likely to succeed than with no genetic assocation.  
 ### Interpretation caveats
