@@ -249,8 +249,7 @@ pairwise_top_status <- function(status_vec1, status_vec2) {
 ##### Figures #############################################
 ###########################################################
 
-# Functions to make the main figures of the paper.
-# Tend to have limited generalization, but
+# Function to make Fig 2B of the paper.
 # Done so we can more easily recreate with, say, another similarity cutoff
 
 make_collected_results_plot <- function(table1_list, 
@@ -440,9 +439,7 @@ top_mesh_design_matrix <- function(target_indication_table, top_mesh) {
   return(list(X=X_msh, norm=tibble()))
 }
 
-# Function to run stan from input data frames.  Returns a list with components stan_out and stan_in.
-# I am electing not to store data now as I am not sure what can be shared, but we need normalization 
-# in order to predict new observations.
+# Function to run stan from input data frames.  Returns a list with components stan_out and stan_in and params and norm
 # ... is additional arguments to sampler.  Optionally, save output to file.
 
 run_stan <- function(target_indication_table, association_table, MSH_similarity,
@@ -526,7 +523,6 @@ generate_prediction_df <- function(stan_input, stan_out, params, norm, similarit
 predict_gene_mesh <- function(ensembl_ids, mesh_terms, conf, stan_res, similarity, gene_table, top_mesh, association_table, default_time = 13903.5, cutoff=0.5, find_similar_trait=TRUE) {
   X_table <- new_design_rows_df(ensembl_id = ensembl_ids, mesh_term = mesh_terms, association_table = association_table, 
                                  MSH_similarity = similarity, top_mesh = top_mesh, gene_table = gene_table, stan_res = stan_res, cutoff=cutoff)
-  browser()
   X <- as.matrix(X_table[,!colnames(X_table) %in% c("ensembl_id", "MSH")])
   posterior_samps_beta <- as.matrix(stan_res$stan_out, pars=paste0("beta[", 1:ncol(X), "]"))
   posterior_samps_alpha <- matrix(data = as.matrix(stan_res$stan_out, pars="alpha"), nrow = nrow(posterior_samps_beta), ncol = nrow(X), byrow=FALSE)
