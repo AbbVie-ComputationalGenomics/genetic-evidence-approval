@@ -92,7 +92,7 @@ Fitted probabilities use a fixed value for time target has been under developmen
 
 ## Supplementary data files
 ###### target_indication.tsv
-Data file with one row per MSH-ensembl_id pair derived from Informa Pharmaprojects.
+Data file with one row per MSH-ensembl_id pair derived from Informa Pharmaprojects (Accessed Jan 25, 2018).
 * lApprovedUS.EU = is there a US/EU approved drug with this target approved for this indication?  
 * Phase.Latest = Inferred latest historical development phase from Pharmaprojects (see methods and supplement for construction).  
 * First Added = earliest added date for any drug with this target and indication.  
@@ -101,7 +101,7 @@ Data file with one row per MSH-ensembl_id pair derived from Informa Pharmaprojec
 ##### target_indication_nmsh.tsv
 Same as above, but the MeSH term mappings have been harmonized with Nelson et al. 2015.
 ##### gene_trait_assoc.tsv
-GWAS catalog and OMIM gene-trait links used in this analysis.  Some columns are only applicable to GWAS Catalog or OMIM but not both, and some GWAS Catalog columns are only applicable for some types of evidence.  Only one LD SNP is retained per top SNP-gene-trait triplet, and which is retained is determined by the highest score (unless there is a moderate/high deleterious variant with higher LD than the top scoring: we need to retain these for the analysis of high confidence SNP-Gene links).  Key columns are: 
+GWAS catalog (accessed 9/25/2017) and OMIM (accessed 6/6/2018) gene-trait links used in this analysis.  Some columns are only applicable to GWAS Catalog or OMIM but not both, and some GWAS Catalog columns are only applicable for some types of evidence.  Only one LD SNP is retained per top SNP-gene-trait triplet, and which is retained is determined by the highest score (unless there is a moderate/high deleterious variant with higher LD than the top scoring: we need to retain these for the analysis of high confidence SNP-Gene links).  Key columns are: 
 * SNP_A: the GWAS catalog top SNP
 * SNP_B the LD SNP providing the information in the row
 * R2 = LD between SNP_A and SNP_B
