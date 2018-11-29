@@ -92,7 +92,7 @@ Fitted probabilities use a fixed value for time target has been under developmen
 
 ## Supplementary data files
 ###### target_indication.tsv
-Data file with one row per MSH-ensembl_id pair in Citeline Pharmaprojects. 
+Data file with one row per MSH-ensembl_id pair derived from Informa Pharmaprojects.
 * lApprovedUS.EU = is there a US/EU approved drug with this target approved for this indication?  
 * Phase.Latest = Inferred latest historical development phase from Pharmaprojects (see methods and supplement for construction).  
 * First Added = earliest added date for any drug with this target and indication.  
