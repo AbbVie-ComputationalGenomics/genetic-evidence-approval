@@ -135,7 +135,7 @@ Data file with one row per ensembl_id giving
 For each MeSH heading, gives all top-level MeSH (e.g. Neoplasms) under which the heading appears.
 
 ## Citations
-* Informa's Pharmaprojects. [https://pharmaintelligence.informa.com/ products-and-services/data-and-analysis/pharmaprojects](https://pharmaintelligence.informa.com/ products-and-services/data-and-analysis/pharmaprojects). Accessed: 2018-01-25.
+* Informa's Pharmaprojects.[https://pharmaintelligence.informa.com/ products-and-services/data-and-analysis/pharmaprojects. Accessed: 2018-01-25.
 * Online Mendelian Inheritance in Man, OMIM®. McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University (Baltimore, MD), 2018-06-06. World Wide Web URL: https://omim.org/
 * Michael Ashburner, Catherine A Ball, Judith A Blake, David Botstein, Heather Butler, J Michael Cherry, Allan P Davis, Kara Dolinski, Selina S Dwight, Janan T Eppig, et al. Gene Ontology: tool for the unification of biology. Nature Genetics, 25(1):25, 2000.
 * Alan P Boyle, Eurie L Hong, Manoj Hariharan, Yong Cheng, Marc A Schaub, Maya Kasowski, Konrad J Karczewski, Julie Park, Benjamin C Hitz, Shuai Weng, et al. Annotation of functional variation in personal genomes using RegulomeDB. Genome Research, 22(9):1790–1797, 2012.
