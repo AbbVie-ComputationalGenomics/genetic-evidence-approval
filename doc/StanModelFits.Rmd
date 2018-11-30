@@ -2,8 +2,6 @@
 library(dplyr)
 library(tidyr)
 library(rstan)
-library(biomaRt)
-library(parallel)
 source("../src/StatisticalFunctions.R")
 source("../src/GeneticFunctions.R")
 ```

@@ -150,8 +150,8 @@ OMIM_filter <- function(assoc_table) {
 
 gwas_filter <- function(assoc_table) {
   require(dplyr)
-  #  filter(assoc_table, !(Source %in% c("Omim", "OMIM")))
-  dplyr::filter(assoc_table, !Source=="OMIM")
+  filter(assoc_table, !(Source %in% c("Omim", "OMIM")))
+#  dplyr::filter(assoc_table, !Source=="OMIM")
 }
 
 # Get the MeSH terms with at least ngene_cutoff associations for similar traits.
@@ -444,17 +444,40 @@ top_mesh_design_matrix <- function(target_indication_table, top_mesh) {
 
 run_stan <- function(target_indication_table, association_table, MSH_similarity,
                      top_mesh, gene_table, pg, pe, filter_list, 
-                     sigmab, mualpha, sigmaalpha, save_file=NULL, stan_path="../src/LogisticRegression.stan",...) {
+                     sigmab, mualpha, sigmaalpha, save_file=NULL, stan_path="../src/LogisticRegression.stan", 
+                     random_start = TRUE, ...) {
   data = list(target_indication_table=target_indication_table, association_table=association_table, 
               MSH_similarity=MSH_similarity, top_mesh=top_mesh, gene_table=gene_table)
   params = list(pg=pg, pe=pe, filter_list=filter_list, sigmab=sigmab, sigmaalpha=sigmaalpha, mualpha=mualpha)
   stan_input <- do.call(generate_stan_input, c(data, params))
-  stan_out <- stan(file=stan_path, data=stan_input$input,...)
+  if (random_start) {
+    stan_out <- stan(file=stan_path, data=stan_input$input,...)
+  } else {
+    init_list <- generate_init_list(stan_input)
+    stan_out <- stan(file=stan_path, data=stan_input$input, init = init_list,...)
+  }
   res <- list(stan_input=stan_input$input, stan_out=stan_out, params=params, norm=stan_input$norm)
   if (!is.null(save_file)) {
     saveRDS(res, file = save_file)
   }
   return(res)
+}
+
+generate_init_list <- function(stan_input, nchain=4) {
+  require(MASS)
+  glm_data <- cbind(data.frame(y = stan_input$input$y), data.frame(stan_input$input$X))
+  glm_fit <- glm(y~., data = glm_data, family=binomial("logit"))
+  glm_est <- coef(glm_fit)
+  glm_vcov <- vcov(glm_fit)
+  start_coef <- mvrnorm(n=nchain, mu = glm_est[!is.na(glm_est)], Sigma = glm_vcov)
+  starts <- vector("list", nchain)
+  for (i in 1:nchain) {
+    # Start at 0 if not estimable
+    beta_start <- rep(0, ncol(stan_input$input$X))
+    beta_start[!is.na(glm_est[-1])] <- start_coef[i,-1]
+    starts[[i]] <- list(alpha = start_coef[i,1], beta = beta_start)
+  }
+  return(starts)
 }
 
 # Taking the inputs to functions for generating mesh, gene, and genetic evidence design matrices

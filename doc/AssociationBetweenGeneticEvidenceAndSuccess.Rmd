@@ -13,7 +13,6 @@ library(gdata)
 library(epitools)
 library(cowplot)
 library(rstan)
-library(biomaRt)
 source("../src/MeSHFunctions.R")
 source("../src/StatisticalFunctions.R")
 source("../src/GeneticFunctions.R")
@@ -49,7 +48,6 @@ mesh_properties <- read.delim(paste0(data_folder,"/top_mesh.tsv"), stringsAsFact
 ```
 
 ```{r label=RemoveXMHC, include=FALSE}
-xMHC_ensembl <- get_xMHC_genes()
 gene_trait_association_table <- filter(gene_trait_association_table0, !xMHCGene)
 ```
 
