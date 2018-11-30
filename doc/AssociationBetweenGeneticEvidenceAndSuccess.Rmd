@@ -67,7 +67,7 @@ new_associations <- filter(gene_trait_association_table, (Source== "GWAS:A" & fi
 well_studied <- get_well_studied_MSH(target_indication_table = target_indication_table, association_table = gene_trait_association_table, MSH_similarity = average_similarity, similarity_cutoff =new_replication_similarity_cutoff, ngene_cutoff = 5, gene_col_name = "ensembl_id")
 
 # New Genetic Test Set
-table1_new_genetic  <- replicate_table1(association_table = new_associations, target_indication_table = target_indication_table, MSH_similarity = average_similarity, similarity_cutoff = new_replication_similarity_cutoff, ngene_cutoff = 5, gene_col_name = "ensembl_id", MSH_to_include = well_studied)
+table1_new_genetic  <- replicate_table1(association_table = new_associations, target_indication_table = target_indication_table, MSH_similarity = average_similarity, similarity_cutoff = new_replication_similarity_cutoff, ngene_cutoff = 5, gene_col_name = "ensembl_id", MSH_to_include = well_studied, source_names=c(gwas="GWAS Catalog", omim="OMIM", any="GWAS Catalog & OMIM"))
 ```
 
 ```{r label=ReplicationNewClincial, include=FALSE}
