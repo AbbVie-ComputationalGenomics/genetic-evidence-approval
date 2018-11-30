@@ -127,26 +127,3 @@ output_for_app <- bind_rows(pred_res) %>% filter(!is.na(OMIMSimilarity) | !is.na
 
 saveRDS(output_for_app, file = "../results/ShinyAppPrecomputed.rds")
 ```
-
-```{r label=GeneratingInputForShinyAppKnownTargets, include=FALSE, cache=TRUE, eval=TRUE}
-target_genes <- unique(target_indication_table$ensembl_id)
-
-ngenes <- length(target_genes)
-# Split into chunks to avoid memory problems
-ntasks <- 50
-genes_per_task <- ceiling(ngenes / ntasks)
-gene_df <- data.frame(gene_start = seq(1, ngenes, genes_per_task)) %>% mutate(gene_end = pmin(gene_start + (genes_per_task - 1), ngenes))
-params <- cbind(bind_rows(rep(list(gene_df),3)), stan_res_ind = rep(1:3, each=nrow(gene_df)))
-
-pred_res <- vector("list", nrow(params))
-
-pb <- txtProgressBar(min = 0, max = nrow(params), style = 3)
-
-for (i in 1:length(stan_res_list)) {
-  pred_res[[i]] <- cbind(predict_gene_mesh(ensembl_ids = target_genes[params$gene_start[i]:params$gene_end[i]], mesh_terms = indications, association_table = gene_trait_association_table, similarity = average_similarity, gene_table = gene_properties, top_mesh = mesh_properties, stan_res= stan_res_list[[params$stan_res_ind[i]]], default_time = NA, conf = 0.95, cutoff=0.5), data.frame(Model=names(stan_res_list)[params$stan_res_ind[i]], stringsAsFactors = FALSE))
-}
-
-output_for_app <- bind_rows(pred_res) %>% filter(!is.na(OMIMSimilarity) | !is.na(GWASSimilarity))
-
-saveRDS(output_for_app, file = "../results/ShinyAppPrecomputedKnownTargets.rds")
-```
