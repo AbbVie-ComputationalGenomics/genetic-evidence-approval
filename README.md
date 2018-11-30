@@ -47,10 +47,8 @@ From R session in `genetic_evidence_approval/doc` directory
 library(knitr)
 library(markdown)
 knit('AssociationBetweenGeneticEvidenceAndSuccess.Rmd', 'AssociationBetweenGeneticEvidenceAndSuccess.md')
-markdownToHTML('AssociationBetweenGeneticEvidenceAndSuccess.md', 'AssociationBetweenGeneticEvidenceAndSuccess.html')
-browseURL(paste('file://', file.path(getwd(),'AssociationBetweenGeneticEvidenceAndSuccess.html'), sep='')) 
 ```
-From RStudio, open `AssociationBetweenGeneticEvidenceAndSuccess.Rmd` and click Knit.  The file will take several minutes to run.
+From RStudio, open `AssociationBetweenGeneticEvidenceAndSuccess.Rmd` and click Knit.  The file will take several minutes to run.  Running this file creates new copies of `results/ORForFig2.rds` and `results/ShinyAppPrecomputed.rds` but does not produce any graphical or text output.
 
 ### Rerunning model fit
 From R session in `genetic_evidence_approval/doc` directory
