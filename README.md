@@ -97,17 +97,17 @@ Data file with one row per MSH-ensembl_id pair derived from Informa Pharmaprojec
 * Inactive = Is any drug with this target and indication assigned an inactive status in Pharmaprojects, such as No Development Reported?
 * symbol = HUGO/HGNC symbol corresponding to the target ensembl id.
 ##### target_indication_nmsh.tsv
-Same as above, but the MeSH term mappings have been harmonized with Nelson et al. 2015.
+Same as above, but the MeSH term mappings have been harmonized with [Nelson et al. 2015](https://www.nature.com/articles/ng.3314).
 ##### gene_trait_assoc.tsv
-GWAS catalog (accessed 9/25/2017) and OMIM (accessed 6/6/2018) gene-trait links used in this analysis.  Some columns are only applicable to GWAS Catalog or OMIM but not both, and some GWAS Catalog columns are only applicable for some types of evidence.  Only one LD SNP is retained per top SNP-gene-trait triplet, and which is retained is determined by the highest score (unless there is a moderate/high deleterious variant with higher LD than the top scoring: we need to retain these for the analysis of high confidence SNP-Gene links).  Key columns are: 
-* SNP_A: the GWAS catalog top SNP
+GWAS Catalog (accessed 9/25/2017) and OMIM (accessed 6/6/2018) gene-trait links used in this analysis.  Some columns are only applicable to GWAS Catalog or OMIM but not both, and some GWAS Catalog columns are only applicable for some types of evidence.  Only one LD SNP is retained per top SNP-gene-trait triplet, and which is retained is determined by the highest score (unless there is a moderate/high deleterious variant with higher LD than the top scoring: we need to retain these for the analysis of high confidence SNP-Gene links).  Key columns are: 
+* SNP_A: the GWAS Catalog top SNP
 * SNP_B the LD SNP providing the information in the row
 * R2 = LD between SNP_A and SNP_B
 * ensembl_id = ensembl_id of associated gene
 * eQTL = whether or not SNP_B is a GTeX eQTL for ensembl_id (p < 10e-6 in some tissue)
 * eQTL_pval = lowest p-value of any tissue in GTeX for SNP_B and ensembl_id
-* DHS = is there an established DHS link (see methods)
-* Distance = distance between gene and SNP_B if less than or equal to 5000 bp
+* DHS = is there an established DHS link from [Regulatory Elements DB](http://dnase.genome.duke.edu/) (see methods)
+* Distance = distance between gene and SNP_B if less than or equal to 5000 b.p.
 * Deleterious = SnpEff assessed deleteriousness of SNP_B on gene, missense = is SNP_B a missense variant in gene
 * distance = is SNP_B within 5000 bp of gene
 * RDB = RegulomeDB score for SNP_B if 4 or less
@@ -123,7 +123,7 @@ GWAS catalog (accessed 9/25/2017) and OMIM (accessed 6/6/2018) gene-trait links 
 * symbol = HUGO/HGNC symbol for gene
 * xMHCGene = is the gene considered part of xMHC?
 ##### Standardized_Nelson_Associations.tsv
-Nelson et al. supplementary table 2, standardized to use 2017 MeSH and ensembl gene ids for comparison with new data.
+[Nelson et al. 2015](https://www.nature.com/articles/ng.3314) supplementary table 2, standardized to use 2017 MeSH and ensembl gene ids for comparison with new data.
 ##### indication_trait_similarity.tsv
 A matrix with MeSH terms mapped to Pharmaprojects indications as rows and MeSH terms mapped to genetically associated traits as columns with the entries being the similarity between the terms.
 ##### Target_properties.tsv
@@ -134,3 +134,14 @@ Data file with one row per ensembl_id giving
 ##### top_mesh.tsv
 For each MeSH heading, gives all top-level MeSH (e.g. Neoplasms) under which the heading appears.
 
+## Citations
+* Informa's Pharmaprojects. [https://pharmaintelligence.informa.com/ products-and-services/data-and-analysis/pharmaprojects](https://pharmaintelligence.informa.com/ products-and-services/data-and-analysis/pharmaprojects). Accessed: 2018-01-25.
+* Online Mendelian Inheritance in Man, OMIM®. McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University (Baltimore, MD), 2018-06-06. World Wide Web URL: https://omim.org/
+* Michael Ashburner, Catherine A Ball, Judith A Blake, David Botstein, Heather Butler, J Michael Cherry, Allan P Davis, Kara Dolinski, Selina S Dwight, Janan T Eppig, et al. Gene Ontology: tool for the unification of biology. Nature Genetics, 25(1):25, 2000.
+* Alan P Boyle, Eurie L Hong, Manoj Hariharan, Yong Cheng, Marc A Schaub, Maya Kasowski, Konrad J Karczewski, Julie Park, Benjamin C Hitz, Shuai Weng, et al. Annotation of functional variation in personal genomes using RegulomeDB. Genome Research, 22(9):1790–1797, 2012.
+* P. Cingolani, A. Platts, M. Coon, T. Nguyen, L. Wang, S.J. Land, X. Lu, and D.M. Ruden. A program for annotating and predicting the ef- fects of single nucleotide polymorphisms, SnpEff: SNPs in the genome of Drosophila melanogaster strain w1118; iso-2; iso-3. Fly, 6(2):80–92, 2012.
+* 1000 Genomes Project Consortium et al. A global reference for human genetic variation. Nature, 526(7571):68–74, 2015.
+* Jacqueline MacArthur, Emily Bowler, Maria Cerezo, Laurent Gil, Peggy Hall, Emma Hastings, Heather Junkins, Aoife McMahon, Annalisa Mi- lano, Joannella Morales, et al. The new NHGRI-EBI Catalog of published genome-wide association studies (GWAS Catalog). Nucleic Acids Research, 45(D1):D896–D901, 2017.
+* Matthew R Nelson, Hannah Tipney, Jeffery L Painter, Judong Shen, Paola Nicoletti, Yufeng Shen, Aris Floratos, Pak Chung Sham, Mulin Jun Li, Junwen Wang, et al. The support of human genetic evidence for approved drug indications. Nature Genetics, 47(8):856, 2015.
+* Slave Petrovski, Quanli Wang, Erin L Heinzen, Andrew S Allen, and David B Goldstein. Genic intolerance to functional variation and the in- terpretation of personal genomes. PLoS genetics, 9(8):e1003709, 2013.
+* Nathan C Sheffield, Robert E Thurman, Lingyun Song, Alexias Safi, John A Stamatoyannopoulos, Boris Lenhard, Gregory E Crawford, and Terrence S Furey. Patterns of regulatory activity across diverse human cell types predict tissue identity, transcription factor binding, and long-range interactions. Genome Research, 23(5):777–788, 2013.
