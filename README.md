@@ -55,12 +55,12 @@ From R session in `genetic_evidence_approval/doc` directory
 ```
 library(knitr)
 library(markdown)
-knit('StanModelFits.Rmd', 'StanModelFits.md')
-markdownToHTML('StanModelFits.md', 'StanModelFits.html')
-browseURL(paste('file://', file.path(getwd(),'StanModelFits.html'), sep='')) 
+knit('StanModelFits.Rmd')
 ```
 From RStudio, open `StanModelFits.Rmd` and click Knit.
 Note this will likely take several hours to run.
+Also note this does not produce html output.  Instead, it will output `.rds` files to `results` which are used by `AssociationBetweenGeneticEvidenceAndSuccess.Rmd` to generate figures.
+
 ### Running shiny app
 From R session in `genetic_evidence_approval` directory
 ```
