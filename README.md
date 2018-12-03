@@ -47,8 +47,10 @@ From R session in `genetic_evidence_approval/doc` directory
 library(knitr)
 library(markdown)
 knit('AssociationBetweenGeneticEvidenceAndSuccess.Rmd', 'AssociationBetweenGeneticEvidenceAndSuccess.md')
+markdownToHTML('AssociationBetweenGeneticEvidenceAndSuccess.md', 'AssociationBetweenGeneticEvidenceAndSuccess.html')
+-browseURL(paste('file://', file.path(getwd(),'AssociationBetweenGeneticEvidenceAndSuccess.html'), sep='')) 
 ```
-From RStudio, open `AssociationBetweenGeneticEvidenceAndSuccess.Rmd` and click Knit.  The file will take several minutes to run.  Running this file creates new copies of `results/ORForFig2.rds` and `results/ShinyAppPrecomputed.rds` but does not produce any graphical or text output.
+From RStudio, open `AssociationBetweenGeneticEvidenceAndSuccess.Rmd` and click Knit.  The file will take several minutes to run.  
 
 ### Rerunning model fit
 From R session in `genetic_evidence_approval/doc` directory
@@ -59,7 +61,7 @@ knit('StanModelFits.Rmd')
 ```
 From RStudio, open `StanModelFits.Rmd` and click Knit.
 Note this will likely take several hours to run.
-Also note this does not produce html output.  Instead, it will output `.rds` files to `results` which are used by `AssociationBetweenGeneticEvidenceAndSuccess.Rmd` to generate figures.
+Running this file creates new copies of `results/ORForFig2.rds` and `results/ShinyAppPrecomputed.rds` but does not produce any graphical or text output.
 
 ### Running shiny app
 From R session in `genetic_evidence_approval` directory
