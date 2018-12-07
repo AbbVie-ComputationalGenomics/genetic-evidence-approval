@@ -1,6 +1,6 @@
 data/*
 results/*
-doc/cache/*
+doc/*cache/*
 doc/*.md
 doc/*.html
 doc/figure/*

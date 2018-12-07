@@ -6,17 +6,33 @@
 # whether or not each target appears in OMIM or GWAS gene list
 # and the closest trait similarity for supporting genetic association
 # of each type.  
-# Supporting trait similarity set to zero if target not associated.
-# Default filter list is set to any genetic association (any), omim only, and gwas only, but
-# this can be changed to allow annotation with different types of genetic evidence for different
-# filtering functions (e.g. filter on missense variants)
-# Should be named to label columns
+
+#' Adding genetic evidence to target-indication table.
+#'
+#' @param target_indication_table 
+#' A data frame of drug targets and indications.  Minimally has column with name gene_col_name and column MSH.
+#' @param association_table 
+#' A data frame of genetic associations.  Has any columns listed in original trait columns, MSH, and gene_col_name, as
+#' well as any column required by functions in filter_list.
+#' @param MSH_similarity 
+#' A matrix of similarities between indication MeSH terms (rows) and associated trait MeSH terms (columns)
+#' @param gene_col_name 
+#' Name of the column giving the gene (e.g. Gene in the Nelson et al. data, ensembl_id in this paper)
+#' @param filter_list 
+#' List of functions to filter association table.  Names are used to label columns.
+#' Default filter list is set to any genetic association (any), omim only, and gwas only.
+#' @param original_trait_cols 
+#' Names of the columns in association_table corresponding to trait names for each source
+#'
+#' @return
+#' target_indication_table with additional columns best_mesh_filter, filter_gene, best_trait_filter (if original_trait_cols specified)
+#' for each filter in filter list.
+#' @export
 
 annotate_target_indication_table_with_genetic_evidence <- function(target_indication_table, association_table, 
                                                                    MSH_similarity, gene_col_name, 
                                                                    filter_list=list(gwas=gwas_filter, omim=OMIM_filter, any=function(x) {x}),
                                                                    original_trait_cols = c("MAPPED_TRAIT", "Phenotype", NA)) {
-#  gene_col2 = sym(gene_col_name)
   for (j in seq_along(filter_list)) {
     filtered_table <- filter_list[[j]](association_table)
     filter_name <- names(filter_list)[j]
@@ -56,9 +72,37 @@ trait_colname <- function(assoc_class) {
 # MSH_to_include is an optional argument giving the set of MeSH terms to include in the analysis.  Otherwise those with at least
 # ngene_cutoff associations are included.
 
+#' Recreating calculations for Nelson et al. table 1.
+#'
+#' @param target_indication_table 
+#' A data frame of drug targets and indications.  Minimally has column with name gene_col_name, MSH, Phase.Latest, and lApprovedUS.EU
+#' @param association_table 
+#' A data frame of genetic associations.  Has columns MSH, gene_col_name, Source, Link, and snp_id.  Note that sources are not OMIM or Omim are
+#' assumed GWAS.  Filtering functions must be updated otherwise.
+#' @param MSH_similarity 
+#' A matrix of similarities between indication MeSH terms (rows) and associated trait MeSH terms (columns)
+#' @param similarity_cutoff 
+#' The minimum similarity required for two traits to be considered similar, on a scale of 0 to 1.
+#' @param ngene_cutoff 
+#' The minimum number of genetic associations for similar traits required to include a MeSH term.
+#' @param gene_col_name 
+#' Name of the column giving the gene (e.g. Gene in the Nelson et al. data, ensembl_id in this paper).
+#' @param MSH_to_include 
+#' MeSH terms included in the analysis.  If NULL use those with at least ngene_cutoff genetic associations for similar traits with similarity_cutoff
+#' @param source_names 
+#' What should the names of data sources gwas, omim, and any be in the output table?
+#' @return
+#' A data frame with columns First Phase, SecondPhase, Source, Estimate, Lower, Upper, SimilarityCutoff, NGeneCutoff, N1, N2.
+#' Estimate is the estimated effect of genetic evidence (risk ratio) on progression from FirstPhase and SecondPhase.  
+#' Lower and Upper give 95% confidence limits.  
+#' SimilarityCutoff and NGeneCutoff record the values of these parameters input to the analysis.
+#' N1 is the number of target-indication pairs in FirstPhase or higher and N2 is the number of target-indication pairs in SecondPhase or higher.
+#' @export
+
 replicate_table1 <- function(target_indication_table, association_table, MSH_similarity, 
                              similarity_cutoff, ngene_cutoff, gene_col_name, MSH_to_include=NULL, 
                              source_names=c("gwas"="GWASdb", "omim"="OMIM", "any"="GWASdb & OMIM")) {
+  
   if (is.null(MSH_to_include)) {
     MSH_to_include <- get_well_studied_MSH(target_indication_table, association_table, MSH_similarity, similarity_cutoff, ngene_cutoff, gene_col_name)
   }
@@ -86,7 +130,14 @@ replicate_table1 <- function(target_indication_table, association_table, MSH_sim
   return(df)
 }
 
-# Filter to retain only new trial phases and label with whether each target-indication pair has attained at least phase x
+#' Add phase x or higher labels to target-indication table.
+#'
+#' @param target_indication_table 
+#'A data frame of drug targets and indications.  Minimally has column with name gene_col_name, MSH, Phase.Latest, and lApprovedUS.EU
+#' @return
+#' target-indication table with additional columns PhaseI, PhaseII, PhaseIII, and Approved indicating whether each target-indication pair achieved that phase or higher,
+#' and filtered to remove uninformative rows where all these columns are FALSE.
+
 filter_and_label_by_phase <- function(target_indication_table) {
   interesting_trial_phases <- c("Phase I Clinical Trial", "Phase II Clinical Trial", "Phase III Clinical Trial")
   target_indication_table <- filter(target_indication_table, Phase.Latest %in% interesting_trial_phases | lApprovedUS.EU)
@@ -97,7 +148,24 @@ filter_and_label_by_phase <- function(target_indication_table) {
   return(target_indication_table)
 }
 
-# one data frame row for a phase transition
+#' Construct data frame row with relative risk of phase transition given genetic evidence for one phase pair and one source of genetic information.
+#'
+#' @param annotated_target_indication_table 
+#' A target-indication table that has already been labeled with genetic evidence (using annotate_target_indication_table_with_genetic_evidence)
+#' and phase x or higher (using filter_and_label_by_phase )
+#' @param first_phase 
+#' Earlier phase in the pair
+#' @param second_phase 
+#' More advanced phase in the pair
+#' @param source 
+#' genetic data source. annotated_target_indication table expected to have column best_mesh_source.
+#' @param similarity_cutoff 
+#' The minimum similarity required for two traits to be considered similar, on a scale of 0 to 1.
+#' @param ngene_cutoff 
+#' The minimum number of genetic associations for similar traits required to include a MeSH term.
+#' @return
+#' a data frame with one row and columns described in replicate_table1 documentation.
+
 phase_transition_relative_risk_df <- function(annotated_target_indication_table, first_phase, second_phase, source, similarity_cutoff, ngene_cutoff) {
   rrout <- progression_test(annotated_target_indication_table, first_phase, second_phase, source, similarity_cutoff)  
   df_entry <- data_frame_entry_from_risk_ratioboot(rrout, first_phase, second_phase, source, similarity_cutoff, ngene_cutoff)
@@ -106,14 +174,28 @@ phase_transition_relative_risk_df <- function(annotated_target_indication_table,
   return(df_entry)
 }
 
-#first_phase and second_phase are names of logical columns in annotated_target_indication_table
+#' Find relative risk of phase transition given genetic evidence for one phase pair and one source of genetic information.
+#'
+#' @param annotated_target_indication_table 
+#' A target-indication table that has already been labeled with genetic evidence (using annotate_target_indication_table_with_genetic_evidence)
+#' and phase x or higher (using filter_and_label_by_phase)
+#' @param first_phase 
+#' Earlier phase in the pair
+#' @param second_phase 
+#' More advanced phase in the pair
+#' @param source 
+#' genetic data source. annotated_target_indication table expected to have column best_mesh_source.
+#' @param similarity_cutoff 
+#' The minimum similarity required for two traits to be considered similar, on a scale of 0 to 1.
+#'
+#' @return
+#' Output of epitools::riskratio.boot for test of genetic information from source versus progression from first_phase to second_phase
 
 progression_test <- function(annotated_target_indication_table, first_phase, second_phase, source, similarity_cutoff) {
   at_least_second <- annotated_target_indication_table[[first_phase]] & annotated_target_indication_table[[second_phase]]
   at_first_stop_before_second <- annotated_target_indication_table[[first_phase]] &
     !at_least_second
-  # TODO: switch to quo/enquo/!!
-  has_association <- annotated_target_indication_table[[paste0("best_mesh_", source)]] >= similarity_cutoff
+  has_association <- annotated_target_indication_table[[similarity_base(source)]] >= similarity_cutoff
   nAN <- sum(has_association & at_first_stop_before_second)
   nAP <- sum(has_association & at_least_second)
   nNN <- sum(!has_association & at_first_stop_before_second)
@@ -122,7 +204,25 @@ progression_test <- function(annotated_target_indication_table, first_phase, sec
   riskratio.boot(twobytwo)
 }
 
-# Function to construxt a row of my table 1 output from risk ratio book results.
+#' Function to construct a row of table1 (see replicate_table1) output from epitools::riskratio.boot output. 
+#'
+#' @param rrboot_out 
+#' Output of riskratio boot.
+#' @param first_phase 
+#' Earlier phase
+#' @param second_phase 
+#' Later phase
+#' @param source 
+#' genetic data source.
+#' @param similarity_cutoff 
+#' The minimum similarity required for two traits to be considered similar, on a scale of 0 to 1.
+#' @param ngene_cutoff 
+#' The minimum number of genetic associations for similar traits required to include a MeSH term.
+#' @param rrboot_out_row 
+#' Which row name or index in rrboot_out has the risk ratio you want in the table?
+#' @return
+#' Data frame with one row and columns as described in replicate_table1.
+
 data_frame_entry_from_risk_ratioboot <- function(rrboot_out, first_phase, second_phase, source, similarity_cutoff, ngene_cutoff, rrboot_out_row="Exposed2") {
   if (inherits(rrboot_out, "try-error")) {
     rrow <- c(estimate=NA, lower=NA, upper=NA)  
@@ -139,14 +239,26 @@ data_frame_entry_from_risk_ratioboot <- function(rrboot_out, first_phase, second
 # Excluding Omim is to improve agreement with main text of Nelson et al. 2015.
 # All OMIM associations in this study are called OMIM.
 
+#' Filter genetic association table to have only OMIM associations.
+#'
+#' @param assoc_table 
+#' Table of genetic evidence that minimally has column Source.  Only Source OMIM is considered to be OMIM.
+#' @return
+#' assoc_table with only OMIM rows
+#' @export
+
 OMIM_filter <- function(assoc_table) {
-  require(dplyr)
   #  filter(assoc_table, Source %in% c("Omim", "OMIM"))  
   filter(assoc_table, Source=="OMIM")
 }
 
-# Filter association table to get any GWAS
-# Including Omim produces results consistent with main text of Nelson et al. 2015.
+#' Filter genetic association table to have only GWAS associations.
+#'
+#' @param assoc_table 
+#' Table of genetic evidence that minimally has column Source.  GWAS is anything except OMIM or Omim.
+#' @return
+#' assoc_table with only GWAS rows.
+#' @export
 
 gwas_filter <- function(assoc_table) {
   require(dplyr)
@@ -154,7 +266,25 @@ gwas_filter <- function(assoc_table) {
 #  dplyr::filter(assoc_table, !Source=="OMIM")
 }
 
-# Get the MeSH terms with at least ngene_cutoff associations for similar traits.
+#' MeSH headings with at least ngene_cutoff associations for similar traits.
+#'
+#' @param target_indication_table 
+#' A data frame of drug targets and indications.  Minimally has column with name gene_col_name and column MSH.
+#' @param association_table 
+#' A data frame of genetic associations.  Has any columns listed in original trait columns, MSH, and gene_col_name, as
+#' well as any column required by functions in filter_list.
+#' @param MSH_similarity 
+#' A matrix of similarities between indication MeSH terms (rows) and associated trait MeSH terms (columns)
+#' @param similarity_cutoff
+#' The minimum similarity required for two traits to be similar.
+#' @param ngene_cutoff
+#' The number of genetic associations required.
+#' @param gene_col_name 
+#' Name of the column giving the gene (e.g. Gene in the Nelson et al. data, ensembl_id in this paper)
+#'
+#' @return
+#' A vector of MeSH terms having at least ngene_cutoff associations for similar traits.
+#' @export
 
 get_well_studied_MSH <- function(target_indication_table, association_table, MSH_similarity, similarity_cutoff, ngene_cutoff, gene_col_name) {
   MSH_nassoc <- get_mesh_nassoc(target_indication_table, association_table, MSH_similarity, similarity_cutoff, gene_col_name)
@@ -162,7 +292,21 @@ get_well_studied_MSH <- function(target_indication_table, association_table, MSH
   return(MSH_to_include)
 }
 
-# Number of associations for each mesh term in target_indication_table for similar traits
+#' Number of associations for each mesh term in target_indication_table for similar traits
+#'
+#' @param target_indication_table 
+#' A data frame of drug targets and indications.  Minimally has column with name gene_col_name and column MSH.
+#' @param association_table 
+#' A data frame of genetic associations.  Has any columns listed in original trait columns, MSH, and gene_col_name, as
+#' well as any column required by functions in filter_list.
+#' @param MSH_similarity 
+#' A matrix of similarities between indication MeSH terms (rows) and associated trait MeSH terms (columns)
+#' @param similarity_cutoff
+#' The minimum similarity required for two traits to be similar.
+#' @param gene_col_name 
+#' Name of the column giving the gene (e.g. Gene in the Nelson et al. data, ensembl_id in this paper)
+#' @return
+#' Data frame with columns MSH, NAssoc giving the number of associations for similar traits for each MeSH term.
 
 get_mesh_nassoc <- function(target_indication_table, association_table, MSH_similarity, similarity_cutoff, gene_col_name) {
   umsh <- unique(target_indication_table$MSH)
@@ -176,9 +320,13 @@ get_mesh_nassoc <- function(target_indication_table, association_table, MSH_simi
   return(res)
 }
 
-# Number of associations for each associated trait
-# A distinct association is: distinct entry + MSH (OMIM or GWAS catalog) + distinct SNP id (for GWAS catalog)
-
+#' Number of distinct associations in association rows
+#'
+#' @param association_rows 
+#' A genetic association data frame with columns Link, snp_id, and MSH.
+#' @return
+#' The number of distinct associations.  A distinct association is: distinct entry + MSH (OMIM or GWAS catalog) + distinct SNP id (for GWAS catalog)
+#' @examples
 count_associations <- function(association_rows) {
   return(length(unique(paste(association_rows$Link, association_rows$snp_id, association_rows$MSH))))
 }
@@ -187,7 +335,30 @@ count_associations <- function(association_rows) {
 ##### Progression Test ###########################################
 ##################################################################
 
-# target_indication should be data frame with columns ensembl_id-MSH-Phase.Latest-lApprovedUS.EU as before with additional column NelsonStatus
+#' Test whether target indication pairs with genetic evidence are more likely to have progressed in their development.
+#'
+#' @param target_indication_table 
+#' A data frame of drug targets and indications.  Minimally has column with name gene_col_name, MSH, Phase.Latest, and lApprovedUS.EU
+#' @param association_table 
+#' A data frame of genetic associations.  Has columns MSH, gene_col_name, Source, Link, and snp_id.  Note that sources are not OMIM or Omim are
+#' assumed GWAS.  Filtering functions must be updated otherwise.
+#' @param MSH_similarity 
+#' A matrix of similarities between indication MeSH terms (rows) and associated trait MeSH terms (columns)
+#' @param similarity_cutoff 
+#' The minimum similarity required for two traits to be considered similar, on a scale of 0 to 1.
+#' @param ngene_cutoff 
+#' The minimum number of genetic associations for similar traits required to include a MeSH term.
+#' @param gene_col_name 
+#' Name of the column giving the gene (e.g. Gene in the Nelson et al. data, ensembl_id in this paper).
+#' @param MSH_to_include 
+#' MeSH terms included in the analysis.  If NULL use those with at least ngene_cutoff genetic associations for similar traits with similarity_cutoff
+#' @param source_names 
+#' What should the names of data sources gwas, omim, and any be in the output table?
+#'
+#' @return
+#' A data frame with columns as in replicate_table1
+#' @export
+
 generate_table1_progression <- function(target_indication_table, association_table, MSH_similarity, 
                                         similarity_cutoff, ngene_cutoff=5, gene_col_name="ensembl_id",
                                         source_names=c("gwas"="GWASdb", "omim"="OMIM", "any"="GWASdb & OMIM")) {
@@ -233,6 +404,15 @@ generate_table1_progression <- function(target_indication_table, association_tab
   return(bind_rows(df))
 }
 
+#' Title
+#'
+#' @param status_vec1 
+#' A vector of statuses in "Approved", "Pre-registration", "Phase I Clinical Trial", "Phase II Clinical Trial", "Phase III Clinical Trial"
+#' @param status_vec2 
+#' A vector of statuses in "Approved", "Pre-registration", "Phase I Clinical Trial", "Phase II Clinical Trial", "Phase III Clinical Trial" of the same length as status_vec1
+#' @return
+#' A vector of the same length as status_vec1 giving the elementwise higher status of status_vec1 and status_vec2.
+
 pairwise_top_status <- function(status_vec1, status_vec2) {
   if (!all(c(status_vec1, status_vec2) %in% c("Approved", "Pre-registration", "Phase I Clinical Trial", "Phase II Clinical Trial", "Phase III Clinical Trial"))) {
     stop("Unsupported status")
@@ -249,8 +429,15 @@ pairwise_top_status <- function(status_vec1, status_vec2) {
 ##### Figures #############################################
 ###########################################################
 
-# Function to make Fig 2B of the paper.
-# Done so we can more easily recreate with, say, another similarity cutoff
+#' Make Figure 2B from the paper.
+#'
+#' @param table1_list 
+#' A named list of data frames of the format output by replicate_table1
+#' @param analysis_classification_vec 
+#' A vector with names being the names of table1_list and elements being Old if this is the old data to compare to and something else otherwise.
+#' @return
+#' A gtable from which Figure 2B can be displayed by calling plot.
+#' @export
 
 make_collected_results_plot <- function(table1_list, 
                                         analysis_classification_vec = c("Updated Clinical"="Mix",
@@ -311,7 +498,19 @@ make_collected_results_plot <- function(table1_list,
 ##### Modeling ############################################
 ###########################################################
 
-# Portion of design matrix controlling gene level covariates.
+#' Columns of design matrix giving gene level covariates.
+#'
+#' @param target_indication_table 
+#' A data frame of drug targets and indications.  Minimally has column ensembl_id and column MSH.
+#' @param gene_table 
+#' A data frame with gene-level properties.  Must have column ensembl_id.
+#' @param p 
+#' Optinally, a named vector giving the polynomial order of each covariate (default is to not include polynomial terms).
+#' @param norm 
+#' A data frame indicating the center and scale use to normalize covariates in names(p) (default is mean and standard deviation)
+#' @return
+#' A matrix with rows corresponding to the rows of target_indication_table and columns being predictor variables derived from gene_table
+
 gene_design_matrix <- function(target_indication_table, gene_table, p=integer(0), norm=NULL) {
   if (!nrow(gene_table)==length(unique(gene_table$ensembl_id))) {
     stop("Expect one row per gene in gene_table")
@@ -340,9 +539,24 @@ gene_design_matrix <- function(target_indication_table, gene_table, p=integer(0)
   return(list(X=joined_matrix, norm=bind_rows(new_norm)))
 }
 
-# Should support no genetic evidence
-# Do this by nothing in filter_list
-# If norm is input, it is assumed to be a dataframe.
+#' Columns of design matrix giving genetic evidence.
+#'
+#' @param target_indication_table 
+#' A data frame of drug targets and indications.  Minimally has column ensembl_id and column MSH.
+#' @param association_table 
+#' A data frame of genetic associations.  Has any columns listed in original trait columns, MSH, and ensembl_id, as
+#' well as any column required by functions in filter_list.
+#' @param MSH_similarity 
+#' A matrix of similarities between indication MeSH terms (rows) and associated trait MeSH terms (columns)
+#' @param filter_list 
+#' List of functions to filter association table.  Names are used to label columns.
+#' Default filter list is set to any genetic association (any), omim only, and gwas only.
+#' @param p 
+#' A named vector giving the polynomial order of genetic evidence of each source in filter_list
+#' @param norm 
+#' A data frame indicating the center and scale use to normalize covariates in names(p) (default is mean and standard deviation conditional on having an association)
+#' @return
+#' A matrix with rows corresponding to elements of target_indication_table, and columns being genetic evidence from sources in filter_list.
 
 genetic_evidence_design_matrix <- function(target_indication_table, association_table, MSH_similarity, filter_list, p, norm=NULL) {
   annotated_target_indication_table <- annotate_target_indication_table_with_genetic_evidence(target_indication_table, 
@@ -391,6 +605,18 @@ initialize_norm <- function(norm, n) {
   return(new_norm)
 }
 
+#' Generate a design matrix for polynomial of x.
+#'
+#' @param x 
+#' A numeric vector
+#' @param p 
+#' The polynomial order
+#' @param name_base 
+#' For order p >=1, column names are name_base1,...,name_basep
+#' @param standardize.x 
+#' Should x be standardized by its mean and standard deviation prior to constructing the polynomial?
+#' @return
+#' A matrix with p columns and length(x) rows giving polynomial of x.
 order_p_design_matrix <- function(x, p, name_base, standardize.x=TRUE) {
   n <- length(x)
   if (standardize.x) {
@@ -408,6 +634,13 @@ order_p_design_matrix <- function(x, p, name_base, standardize.x=TRUE) {
   return(list(X=X, norm=data.frame(var = name_base, mx = x$mx, sx = x$sx, stringsAsFactors = FALSE)))
 }
 
+#' standardize x by mean and standard deviation
+#'
+#' @param x 
+#' A numeric vector
+#' @return
+#' A list giving centered and scaled values z, mx the mean of x, and sx the standard deviation of x.
+
 center_scale_x <- function(x) {
   mx <- mean(x, na.rm=TRUE)
   sx <- sd(x, na.rm=TRUE)
@@ -415,6 +648,20 @@ center_scale_x <- function(x) {
   return(list(res = z, mx = mx, sx = sx))
 }
 
+#' A function to center and scale MeSH 
+#'
+#' @param mesh 
+#' A numeric vector of MeSH similarities
+#' @param gene 
+#' A logical vector that is TRUE if element of mesh corresponds to a genetic association (used to distinguish a genetic association with zero similarity from no genetic association)
+#' @param vals_to_standardize 
+#' A vector of MeSH similarities to standardize (default is mesh)
+#' @param genes_to_standardize 
+#' A logical vector that is TRUE if element of vals_to_standardize corresponds to a genetic association 
+#' @return
+#' A numeric vector of length vals_to_standardize giving the standardized similarities
+#'
+#' @examples
 standardize_mesh <- function(mesh, gene, vals_to_standardize=mesh, genes_to_standardize=gene) {
   mean_mesh <- mean(mesh[gene])  
   sd_mesh <- sd(mesh[gene])
@@ -423,9 +670,14 @@ standardize_mesh <- function(mesh, gene, vals_to_standardize=mesh, genes_to_stan
   return(list(res= std, mx=mean_mesh, sx=sd_mesh))
 }
 
-# Function to construct a design matrix indicating whether or not 
-# each human disease top MeSH term applies to
-# each mesh term in target-indication table
+#' Construct top_mesh columns of design matrix
+#'
+#' @param target_indication_table 
+#' A data frame of drug targets and indications.  Minimally has column ensembl_id and column MSH.
+#' @param top_mesh 
+#' A data frame with columns Name and MSH.Top.  A row is included iff heading Name appears under MSH.Top.
+#' @return
+#' A matrix with rows corresponding to target_indication_table and columns being whether or not the indication in each row maps to each top-level mesh heading.
 
 top_mesh_design_matrix <- function(target_indication_table, top_mesh) {
   # Exclude nondisease, animal disease (C22)
@@ -439,23 +691,50 @@ top_mesh_design_matrix <- function(target_indication_table, top_mesh) {
   return(list(X=X_msh, norm=tibble()))
 }
 
-# Function to run stan from input data frames.  Returns a list with components stan_out and stan_in and params and norm
-# ... is additional arguments to sampler.  Optionally, save output to file.
+#' Fit logistic regression model predicting approval from genetic evidence
+#'
+#' @param target_indication_table 
+#' A data frame of drug targets and indications.  Minimally has column ensembl_id and column MSH.
+#' @param association_table 
+#' A data frame of genetic associations.  Has any columns listed in original trait columns, MSH, and ensembl_id, as
+#' well as any column required by functions in filter_list.
+#' @param MSH_similarity 
+#' A matrix of similarities between indication MeSH terms (rows) and associated trait MeSH terms (columns)
+#' @param top_mesh 
+#' A data frame with columns Name and MSH.Top.  A row is included iff heading Name appears under MSH.Top.
+#' @param gene_table 
+#' A data frame with gene-level properties.  Must have column ensembl_id.
+#' @param pg 
+#' Optinally, a named vector giving the polynomial order of each covariate (default is to not include polynomial terms).
+#' @param pe 
+#' A named vector giving the polynomial order of genetic evidence of each source in filter_list.
+#' @param filter_list 
+#' List of functions to filter association table.  Names are used to label columns.
+#' Default filter list is set to any genetic association (any), omim only, and gwas only.
+#' @param sigmab 
+#' normal standard deviation for regression coefficients (other than intercept)
+#' @param mualpha 
+#' normal mean for intercept
+#' @param sigmaalpha 
+#' normal standard deviation for intercept
+#' @param save_file 
+#' name of file to save the stan output, NULL if not saving
+#' @param stan_path 
+#' Path to .stan file for running the regression
+#' @param ... 
+#' Additional arguments to stan
+#' @return
+#' stan output from running logistic regression of approval on genetic evidence and other predictors supplied in gene_table and top_mesh
+#' @export
 
 run_stan <- function(target_indication_table, association_table, MSH_similarity,
                      top_mesh, gene_table, pg, pe, filter_list, 
-                     sigmab, mualpha, sigmaalpha, save_file=NULL, stan_path="../src/LogisticRegression.stan", 
-                     random_start = TRUE, ...) {
+                     sigmab, mualpha, sigmaalpha, save_file=NULL, stan_path="../src/LogisticRegression.stan", ...) {
   data = list(target_indication_table=target_indication_table, association_table=association_table, 
               MSH_similarity=MSH_similarity, top_mesh=top_mesh, gene_table=gene_table)
   params = list(pg=pg, pe=pe, filter_list=filter_list, sigmab=sigmab, sigmaalpha=sigmaalpha, mualpha=mualpha)
   stan_input <- do.call(generate_stan_input, c(data, params))
-  if (random_start) {
-    stan_out <- stan(file=stan_path, data=stan_input$input,...)
-  } else {
-    init_list <- generate_init_list(stan_input)
-    stan_out <- stan(file=stan_path, data=stan_input$input, init = init_list,...)
-  }
+  stan_out <- stan(file=stan_path, data=stan_input$input,...)
   res <- list(stan_input=stan_input$input, stan_out=stan_out, params=params, norm=stan_input$norm)
   if (!is.null(save_file)) {
     saveRDS(res, file = save_file)
@@ -463,25 +742,37 @@ run_stan <- function(target_indication_table, association_table, MSH_similarity,
   return(res)
 }
 
-generate_init_list <- function(stan_input, nchain=4) {
-  require(MASS)
-  glm_data <- cbind(data.frame(y = stan_input$input$y), data.frame(stan_input$input$X))
-  glm_fit <- glm(y~., data = glm_data, family=binomial("logit"))
-  glm_est <- coef(glm_fit)
-  glm_vcov <- vcov(glm_fit)
-  start_coef <- mvrnorm(n=nchain, mu = glm_est[!is.na(glm_est)], Sigma = glm_vcov)
-  starts <- vector("list", nchain)
-  for (i in 1:nchain) {
-    # Start at 0 if not estimable
-    beta_start <- rep(0, ncol(stan_input$input$X))
-    beta_start[!is.na(glm_est[-1])] <- start_coef[i,-1]
-    starts[[i]] <- list(alpha = start_coef[i,1], beta = beta_start)
-  }
-  return(starts)
-}
-
-# Taking the inputs to functions for generating mesh, gene, and genetic evidence design matrices
-# and prior parameters and combining resulting outputs to get design matrix.
+#' Generate input for stan logistic regression
+#'
+#' @param target_indication_table 
+#' A data frame of drug targets and indications.  Minimally has column ensembl_id and column MSH.
+#' @param association_table 
+#' A data frame of genetic associations.  Has any columns listed in original trait columns, MSH, and ensembl_id, as
+#' well as any column required by functions in filter_list.
+#' @param MSH_similarity 
+#' A matrix of similarities between indication MeSH terms (rows) and associated trait MeSH terms (columns)
+#' @param top_mesh 
+#' A data frame with columns Name and MSH.Top.  A row is included iff heading Name appears under MSH.Top.
+#' @param gene_table 
+#' A data frame with gene-level properties.  Must have column ensembl_id.
+#' @param pg 
+#' Optinally, a named vector giving the polynomial order of each covariate (default is to not include polynomial terms).
+#' @param pe 
+#' A named vector giving the polynomial order of genetic evidence of each source in filter_list.
+#' @param filter_list 
+#' List of functions to filter association table.  Names are used to label columns.
+#' Default filter list is set to any genetic association (any), omim only, and gwas only.
+#' @param sigmab 
+#' normal standard deviation for regression coefficients (other than intercept)
+#' @param mualpha 
+#' normal mean for intercept
+#' @param sigmaalpha 
+#' normal standard deviation for intercept
+#' @param norm 
+#' optional data frame of center and scale for normalizing continuous predictors
+#' @return
+#' stan output from running logistic regression of approval on genetic evidence and other predictors supplied in gene_table and top_mesh
+#' @export
 
 generate_stan_input <- function(target_indication_table, association_table, MSH_similarity,
                                 top_mesh, gene_table, pg, pe, filter_list, 
@@ -496,6 +787,33 @@ generate_stan_input <- function(target_indication_table, association_table, MSH_
                      sigmab=sigmab, mualpha=mualpha, sigmaalpha=sigmaalpha)
   return(list(input = stan_input, norm=dmat$norm))
 }
+
+#' Generate logistic regression design matrix
+#'
+#' @param target_indication_table 
+#' A data frame of drug targets and indications.  Minimally has column ensembl_id and column MSH.
+#' @param association_table 
+#' A data frame of genetic associations.  Has any columns listed in original trait columns, MSH, and ensembl_id, as
+#' well as any column required by functions in filter_list.
+#' @param MSH_similarity 
+#' A matrix of similarities between indication MeSH terms (rows) and associated trait MeSH terms (columns)
+#' @param top_mesh 
+#' A data frame with columns Name and MSH.Top.  A row is included iff heading Name appears under MSH.Top.
+#' @param gene_table 
+#' A data frame with gene-level properties.  Must have column ensembl_id.
+#' @param pg 
+#' Optinally, a named vector giving the polynomial order of each covariate (default is to not include polynomial terms).
+#' @param pe 
+#' A named vector giving the polynomial order of genetic evidence of each source in filter_list.
+#' @param filter_list 
+#' List of functions to filter association table.  Names are used to label columns.
+#' Default filter list is set to any genetic association (any), omim only, and gwas only.
+#' @param norm 
+#' optional data frame of center and scale for normalizing continuous predictors
+#'
+#' @return
+#' design matrix X running logistic regression of approval on genetic evidence and other predictors supplied in gene_table and top_mesh
+#' @export
 
 generate_full_design_matrix <- function(target_indication_table, association_table, MSH_similarity,
                                         top_mesh, gene_table, pg, pe, filter_list, norm=NULL) {
@@ -536,13 +854,38 @@ generate_prediction_df <- function(stan_input, stan_out, params, norm, similarit
   return(bind_rows(pred_list))
 }
 
-# Function that takes an ensembl id and a MeSH term and returns a predicted success probability.  Requires input and output from a stan run, and 
-# confidence level, as well as some data tables allowing to get covariates for the genes.
-# TODO: new_dev_time not currently used.
-# TODO: we could probably speed it up alot using changes to similarity function such that it only computes the parts actually needed (1 row here)
+#' Calculate success probabilities for target-indication pairs with genetic evidence
+#'
+#' @param ensembl_ids 
+#' vector of target ensembl_ids
+#' @param mesh_terms 
+#' vector of indication MeSH headings
+#' @param conf 
+#' Level for credible intervals
+#' @param stan_res 
+#' output from stan model (with input from generate_stan_input)
+#' @param similarity 
+#' similarity matrix for MeSH terms (must include mesh_terms in row names and asssociation_table mesh in column names)
+#' @param gene_table 
+#' A data frame with gene-level properties.  Must have column ensembl_id.
+#' @param top_mesh 
+#' A data frame with columns Name and MSH.Top.  A row is included iff heading Name appears under MSH.Top.
+#' @param association_table 
+#' A data frame of genetic associations.  Has any columns listed in original trait columns, MSH, ensembl_id, and Source
+#' @param default_time 
+#' When generating probabilities, we assume a single start development time in days since Jan 1, 1970 for all drugs.  Enter the time here.
+#' @param cutoff 
+#' The minimum similarity to an associated trait for the ensembl_id required to include an ensembl id - MeSH heading pair
+#' @param find_similar_trait 
+#' logical: Should the output include the supporting traits generating the success probability?
+#' @return
+#' data frame with columns MSH, ensembl_id, Source, Similarity, p.mean, p.median, p.lower, p.upper, OR, OR.lower, OR.upper, Trait (if find_similar_trait)
+#' Source is the association source used to generate predictions Trait (if supplied) is the most similar associated trait to MSH
+#' Similarity is the similarity of that trait to the indication, p.mean (median) is the mean (median) estimated success probability,
+#' p.lower and p.order are pointwise credible interval limits, OR is the odds ratio of success based only on genetic evidence (not including covariates)
+#' OR.lower and OR.upper are the credible interval limits.
+#' @export
 
-
-# parameter cutoff determines the minimum similarity for which ensembl ids and mesh term pairs are included.
 predict_gene_mesh <- function(ensembl_ids, mesh_terms, conf, stan_res, similarity, gene_table, top_mesh, association_table, default_time = 13903.5, cutoff=0.5, find_similar_trait=TRUE) {
   X_table <- new_design_rows_df(ensembl_id = ensembl_ids, mesh_term = mesh_terms, association_table = association_table, 
                                  MSH_similarity = similarity, top_mesh = top_mesh, gene_table = gene_table, stan_res = stan_res, cutoff=cutoff)
@@ -596,12 +939,29 @@ predict_gene_mesh <- function(ensembl_ids, mesh_terms, conf, stan_res, similarit
   return(res)
 }
 
-# Time is optionally set to a default value (default is do this).  This is recommended for new targets in particular as a certain amount of
-# time is required for a target to have a positive probability of success.  Set to NA if you don't want.
-# Default time is 10 before dataset download. 
-# What this means as we estimate the success for a target for which Pharmaprojects knows about 10 years of development.
-# This is a commonly stated figure and consistent with calculations from Pharmaprojects 
-# (calculating time between drug with target first added and first launched or registered, excluding negative values, get 10.35 years on average).
+#' Create a design matrix for user supplied ensembl_id and MSH
+#'
+#' @param ensembl_ids 
+#' vector of ensembl gene ids e.g. ENSG00000139618
+#' @param mesh_terms 
+#' vector of indication MeSH headings e.g. Neoplasms
+#' @param association_table 
+#' A data frame of genetic associations.  Has any columns listed in original trait columns, MSH, ensembl_id, and Source
+#' @param MSH_similarity 
+#' similarity matrix for MeSH terms (must include mesh_terms in row names and asssociation_table mesh in column names)
+#' @param gene_table 
+#' A data frame with gene-level properties.  Must have column ensembl_id.
+#' @param top_mesh 
+#' A data frame with columns Name and MSH.Top.  A row is included iff heading Name appears under MSH.Top.
+#' @param stan_res 
+#' output from stan model (with input from generate_stan_input)
+#' @param default_time 
+#' When generating probabilities, we assume a single start development time in days since Jan 1, 1970 for all drugs.  Enter the time here.
+#' @param cutoff 
+#' The minimum similarity to an associated trait for the ensembl_id required to include an ensembl id - MeSH heading pair
+#' @return
+#' A data frame with first two columns being MSH-ensembl_id pairs and remaining columns being corresponding design matrix columns
+
 
 new_design_rows_df <- function(ensembl_ids, mesh_terms, association_table, MSH_similarity, gene_table, top_mesh, stan_res, 
                            default_time = 13903.5, cutoff=0.5) {
@@ -632,6 +992,21 @@ new_design_rows_df <- function(ensembl_ids, mesh_terms, association_table, MSH_s
   new_rows_df <- data.frame(tmp_table[,1:2], new_rows, stringsAsFactors = FALSE)
   return(new_rows_df)
 }
+
+#' Find gene-mesh pairs with genetic evidence
+#'
+#' @param ensembl_ids 
+#' vector of ensembl gene ids e.g. ENSG00000139618
+#' @param mesh_terms 
+#' vector of MeSH headings e.g. Neoplasms
+#' @param association_table 
+#' A data frame of genetic associations.  Has any columns listed in original trait columns, MSH, ensembl_id, and Source
+#' @param MSH_similarity 
+#' similarity matrix for MeSH terms (must include mesh_terms in row names and asssociation_table mesh in column names)
+#' @param cutoff 
+#' The minimum similarity to an associated trait for the ensembl_id required to include an ensembl id - MeSH heading pair
+#' @return 
+#' A data frame with columns ensembl_id and MSH giving pairs satisfying the similarity condition.
 
 select_gene_msh_pairs <- function(ensembl_ids, mesh_terms, association_table, MSH_similarity, cutoff) {
   cand_ids <- ensembl_ids[ensembl_ids %in% association_table$ensembl_id]

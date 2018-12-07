@@ -49,6 +49,8 @@ mesh_properties <- read.delim(paste0(data_folder,"/top_mesh.tsv"), stringsAsFact
 
 ```{r label=RemoveXMHC, include=FALSE}
 gene_trait_association_table <- filter(gene_trait_association_table0, !xMHCGene)
+# Add on column "Link" for counting OMIM distinct associations (# of GWAS associations is still number of snp_id-MSH pairs)
+gene_trait_association_table <- mutate(gene_trait_association_table, Link = Phenotype)
 ```
 
 ```{r ReplicationResultsOnFullDataset, include=FALSE}
@@ -68,6 +70,11 @@ well_studied <- get_well_studied_MSH(target_indication_table = target_indication
 
 # New Genetic Test Set
 table1_new_genetic  <- replicate_table1(association_table = new_associations, target_indication_table = target_indication_table, MSH_similarity = average_similarity, similarity_cutoff = new_replication_similarity_cutoff, ngene_cutoff = 5, gene_col_name = "ensembl_id", MSH_to_include = well_studied, source_names=c(gwas="GWAS Catalog", omim="OMIM", any="GWAS Catalog & OMIM"))
+```
+  
+```{r label=ReplicationNewGeneticAlt, include=FALSE, eval=FALSE}  
+# We can also see GWAS results are still not significant when we use things that are well-studied with respect to the new genetic associations (not shown in any of the figures, but included for possible interest) 
+table1_new_genetic_alt  <- replicate_table1(association_table = new_associations, target_indication_table = target_indication_table, MSH_similarity = average_similarity, similarity_cutoff = new_replication_similarity_cutoff, ngene_cutoff = 5, gene_col_name = "ensembl_id", source_names=c(gwas="GWAS Catalog", omim="OMIM", any="GWAS Catalog & OMIM"))
 ```
 
 ```{r label=ReplicationNewClincial, include=FALSE}
@@ -94,7 +101,7 @@ table1_list <- list(
                     "New\nClinical"=table1_new_clinical,
                     "Clinical\nProgression"=progression_table,
                     "New\nGenetic"=table1_new_genetic,
-                    "Complete\nCurrent"=table1_complete,
+                    "Full\nData"=table1_complete,
                     "2013 Data"=table1_original)
 
 collected_results_plot <- make_collected_results_plot(table1_list, 
@@ -102,7 +109,7 @@ collected_results_plot <- make_collected_results_plot(table1_list,
                                                                    "2013 Data"="Old",
                                                                    "New\nGenetic"="New",
                                                                    "Clinical\nProgression"="Pro",
-                                                                   "Complete\nCurrent"="Mix"))
+                                                                   "Full\nData"="Mix"))
 ```
 
 ```{r label=CountFigure, include=FALSE, cache=FALSE}
