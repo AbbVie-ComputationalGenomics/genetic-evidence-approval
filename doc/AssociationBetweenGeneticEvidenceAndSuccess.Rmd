@@ -50,7 +50,7 @@ mesh_properties <- read.delim(paste0(data_folder,"/top_mesh.tsv"), stringsAsFact
 ```{r label=RemoveXMHC, include=FALSE}
 gene_trait_association_table <- filter(gene_trait_association_table0, !xMHCGene)
 # Add on column "Link" for counting OMIM distinct associations (# of GWAS associations is still number of snp_id-MSH pairs)
-gene_trait_association_table <- mutate(gene_trait_association_table, Link = Phenotype)
+gene_trait_association_table <- mutate(gene_trait_association_table, Link = Phenotype, snp_id = SNP_A)
 ```
 
 ```{r ReplicationResultsOnFullDataset, include=FALSE}
@@ -98,17 +98,17 @@ table1_original <- replicate_table1(target_indication_table = table3_nelson, ass
 
 ```{r label=ResultsFigure, include=FALSE, cache=FALSE}
 table1_list <- list(
-                    "New\nClinical"=table1_new_clinical,
-                    "Clinical\nProgression"=progression_table,
+                    "New\nPipeline"=table1_new_clinical,
+                    "Pipeline\nProgression"=progression_table,
                     "New\nGenetic"=table1_new_genetic,
                     "Full\nData"=table1_complete,
                     "2013 Data"=table1_original)
 
 collected_results_plot <- make_collected_results_plot(table1_list, 
-                                                      analysis_classification_vec = c("New\nClinical"="New",
+                                                      analysis_classification_vec = c("New\nPipeline"="New",
                                                                    "2013 Data"="Old",
                                                                    "New\nGenetic"="New",
-                                                                   "Clinical\nProgression"="Pro",
+                                                                   "Pipeline\nProgression"="Pro",
                                                                    "Full\nData"="Mix"))
 ```
 
@@ -119,7 +119,7 @@ pharmaprojects_count <- target_indication_table_nmsh %>%
                                  TRUE ~ "Unused")) %>%
   group_by(StatusCurrent, NelsonStatus) %>% 
   dplyr::summarise(N=length(MSH)) %>% 
-  mutate(Set = case_when(StatusCurrent=="Unused"~"Unknown Status", 
+  mutate(Set = case_when(StatusCurrent=="Unused"~"Unknown Phase", 
                          grepl("linical", NelsonStatus)~"Nelson Clinical\nClinical Progression",
                          NelsonStatus=="Approved"~"Nelson Approved",
                          TRUE~"Nelson Unused\nNew Clinical"), Source="Pharmaprojects") %>% 
@@ -148,7 +148,7 @@ count_plot <- ggplot(combined_counts) + aes(x = Source, y = N, fill = Col) + geo
   labs(x="", y="Number of Target-MeSH Pairs", fill="Subset Type") + 
   scale_fill_manual(values=c(hcl(h = seq(15, 375, length = 4), l = 65, c = 100)[c(3,2,1)], "gray")) +
   geom_text(aes(label=ifelse(grepl("Unknown Date|Approved", Set) | (Set=="New Genetic" & Source=="OMIM"), "", Set)), position = "stack", vjust=2, size=lab_size) +
-  geom_text(aes(label=ifelse(grepl("Pre|Status", Set) | (Set=="New Genetic" & Source=="GWAS"), paste0("N"=N), "")), position = "stack", vjust=4, size=lab_size) +
+  geom_text(aes(label=ifelse(grepl("Pre|Phase", Set) | (Set=="New Genetic" & Source=="GWAS"), paste0("N"=N), "")), position = "stack", vjust=4, size=lab_size) +
   geom_text(aes(label=ifelse(grepl("New Clinical|Prog", Set), paste0("N"=N), "")), position = "stack", vjust=8, size=lab_size) +
   geom_text(aes(label=ifelse(grepl("Approved", Set), paste(Set, N), "")), position = "stack", vjust=2.5, size=lab_size) +
   geom_text(aes(label=ifelse((grepl("New Genetic", Set) & Source=="OMIM"), paste(Set, N), "")), position = "stack", vjust=1.5, size=lab_size) +

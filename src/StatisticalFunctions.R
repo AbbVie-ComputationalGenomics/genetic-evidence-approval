@@ -466,13 +466,14 @@ make_collected_results_plot <- function(table1_list,
   collected_new_results$Analysis <- factor(collected_new_results$Analysis, 
                                            levels = names(table1_list)[!analysis_classification_vec[names(table1_list)]=="Old"])
   
+  hues <- c("#F8766D", "#A3A500", "#00BF7D","#BDBDBD", "#E76BF3")
   combo_plot_scatter2 <- qplot(data=collected_new_results, x=EstimateOld, y=Estimate, ylab="Current Progression Risk Ratio", xlab="Nelson et al. 2015 Progression Risk Ratio", color=Transition, shape=Transition) + 
     facet_grid(Source~Analysis) + 
     geom_hline(yintercept = 1, linetype="dashed") + scale_y_log10(breaks=c(0.25, 0.5,1,2,4)) + 
     scale_x_log10(breaks=c(0.25, 0.5,1,2,4)) + geom_abline(slope=1, intercept=0) +
     geom_errorbarh(aes(xmin=LowerOld, xmax=UpperOld)) +
     geom_errorbar(aes(ymin=Lower, ymax=Upper)) + 
-    theme(legend.position = "bottom") + guides(color=guide_legend(ncol=3)) + background_grid(major = "xy", minor = "none")
+    theme(legend.position = "bottom") + guides(color=guide_legend(ncol=3)) + background_grid(major = "xy", minor = "none") + scale_colour_manual(values = hues)
   
   g <- ggplot_gtable(ggplot_build(combo_plot_scatter2))
   stript <- which(grepl('strip-t', g$layout$name))
