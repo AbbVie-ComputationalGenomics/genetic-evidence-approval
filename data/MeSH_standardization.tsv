@@ -1,0 +1,2532 @@
+Original	UI	MSH
+alzheimer disease	D000544	Alzheimer Disease
+attention deficit disorder with hyperactivity	D001289	Attention Deficit Disorder with Hyperactivity
+lupus erythematosus, systemic	D008180	Lupus Erythematosus, Systemic
+prostatic neoplasms	D011471	Prostatic Neoplasms
+schizophrenia	D012559	Schizophrenia
+hearing loss, sensorineural	D006319	Hearing Loss, Sensorineural
+asthma	D001249	Asthma
+obesity	D009765	Obesity
+ossification, heterotopic	D009999	Ossification, Heterotopic
+anemia, sickle cell	D000755	Anemia, Sickle Cell
+rhinitis, allergic, perennial	D012221	Rhinitis, Allergic, Perennial
+leprosy	D007918	Leprosy
+mycobacterium tuberculosis	D009169	Mycobacterium tuberculosis
+depressive disorder	D003866	Depressive Disorder
+autistic disorder	D001321	Autistic Disorder
+celiac disease	D002446	Celiac Disease
+obesity, abdominal	D056128	Obesity, Abdominal
+affective disorders, psychotic	D000341	Affective Disorders, Psychotic
+parkinson disease	D010300	Parkinson Disease
+psoriasis	D011565	Psoriasis
+liver cirrhosis, biliary	D008105	Liver Cirrhosis, Biliary
+thyroiditis, autoimmune	D013967	Thyroiditis, Autoimmune
+eosinophilic esophagitis	D057765	Eosinophilic Esophagitis
+cleft lip	D002971	Cleft Lip
+receptors, adrenergic, alpha-2	D018341	Receptors, Adrenergic, alpha-2
+ribonuclease, pancreatic	D012259	Ribonuclease, Pancreatic
+low density lipoprotein receptor-related protein-1	D026503	Low Density Lipoprotein Receptor-Related Protein-1
+c-reactive protein, pentraxin-related		NA
+proline transport protein		NA
+nerve tissue proteins	D009419	Nerve Tissue Proteins
+complement factor h	D017242	Complement Factor H
+receptors, gaba-a	D011963	Receptors, GABA-A
+neuregulin-1	D020890	Neuregulin-1
+insulysin	D007339	Insulysin
+interferon regulatory factor-1	D050856	Interferon Regulatory Factor-1
+pro-opiomelanocortin	D011333	Pro-Opiomelanocortin
+receptor, serotonin, 5-ht2a	D044402	Receptor, Serotonin, 5-HT2A
+sodium channel	D015222	Sodium Channels
+proto-oncogene proteins p21(ras)	D016283	Proto-Oncogene Proteins p21(ras)
+transforming growth factor beta1	D053773	Transforming Growth Factor beta1
+transforming growth factor beta3	D053782	Transforming Growth Factor beta3
+tryptophan hydroxylase	D014365	Tryptophan Hydroxylase
+atp-binding cassette, sub-family a (abc1), member 2		NA
+receptor tyrosine-protein kinase erbb-4	D066247	Receptor, ErbB-4
+synapsins	D016704	Synapsins
+stat6		NA
+receptors, calcitriol	D018167	Receptors, Calcitriol
+transcription factor 7-like 2 protein	D058118	Transcription Factor 7-Like 2 Protein
+forkhead transcription factors	D051858	Forkhead Transcription Factors
+ubiquitin-protein ligases	D044767	Ubiquitin-Protein Ligases
+ldl-receptor related proteins	D026502	LDL-Receptor Related Proteins
+amyloid beta a4 precursor protein-binding		NA
+ox40 ligand	D053278	OX40 Ligand
+trpc cation channels	D050052	TRPC Cation Channels
+delayed rectifier potassium channels	D051668	Delayed Rectifier Potassium Channels
+nuclear proteins	D009687	Nuclear Proteins
+glycogen synthase kinase 3	D038362	Glycogen Synthase Kinase 3
+ubqln1 protein, human		NA
+carrier proteins	D002352	Carrier Proteins
+sorbs1 protein, human		NA
+fibroblast growth factors	D005346	Fibroblast Growth Factors
+ifih1 protein, human or dead-box rna helicases		NA
+adaptor proteins, signal transducing	D048868	Adaptor Proteins, Signal Transducing
+dystrobrevin binding protein 1 protein, human		NA
+interferon regulatory factor-6		NA
+interferon regulatory factor-5		NA
+molecular chaperones	D018832	Molecular Chaperones
+insig2 protein, human		NA
+zinc finger dhhc domain-containing protein 8;membrane proteins		NA
+dna helicases	D004265	DNA Helicases
+slc24a6 protein, human		NA
+alpha-macroglobulins	D000511	alpha-Macroglobulins
+n-ethylmaleimide-sensitive proteins	D052066	N-Ethylmaleimide-Sensitive Proteins
+complement c5	D003182	Complement C5
+huntington disease	D006816	Huntington Disease
+potassium channels, voltage-gated	D024642	Potassium Channels, Voltage-Gated
+membrane transport proteins	D026901	Membrane Transport Proteins
+klotho protein		NA
+antigens, cd	D015703	Antigens, CD
+aortic aneurysm, abdominal	D017544	Aortic Aneurysm, Abdominal
+acenocoumarol	D000074	Acenocoumarol
+partial thromboplastin time	D010314	Partial Thromboplastin Time
+precursor cell lymphoblastic leukemia-lymphoma	D054198	Precursor Cell Lymphoblastic Leukemia-Lymphoma
+adiponectin	D052242	Adiponectin
+adiposity	D050154	Adiposity
+macular degeneration	D008268	Macular Degeneration
+choroidal neovascularization	D020256	Choroidal Neovascularization
+wet macular degeneration	D057135	Wet Macular Degeneration
+aging	D000375	Aging
+skin aging	D015595	Skin Aging
+acquired immunodeficiency syndrome	D000163	Acquired Immunodeficiency Syndrome
+airway obstruction	D000402	Airway Obstruction
+alcohol drinking	D000428	Alcohol Drinking
+alcoholism	D000437	Alcoholism
+alopecia areata	D000506	Alopecia Areata
+serum amyloid a protein	D000685	Serum Amyloid A Protein
+amyotrophic lateral sclerosis	D000690	Amyotrophic Lateral Sclerosis
+androgens	D000728	Androgens
+angiotensins	D000809	Angiotensins
+ankle brachial index	D055109	Ankle Brachial Index
+spondylitis, ankylosing	D013167	Spondylitis, Ankylosing
+anticoagulants	D000925	Anticoagulants
+aortic aneurysm	D001014	Aortic Aneurysm
+apolipoprotein a-ii	D016633	Apolipoprotein A-II
+aspartate aminotransferases	D001219	Aspartate Aminotransferases
+dermatitis, atopic	D003876	Dermatitis, Atopic
+atrial fibrillation	D001281	Atrial Fibrillation
+carcinoma, basal cell	D002280	Carcinoma, Basal Cell
+behcet syndrome	D001528	Behcet Syndrome
+intramolecular oxidoreductases	D019746	Intramolecular Oxidoreductases
+beta-thalassemia	D017086	beta-Thalassemia
+biliary atresia	D001656	Biliary Atresia
+bilirubin	D001663	Bilirubin
+bipolar disorder	D001714	Bipolar Disorder
+birth weight	D001724	Birth Weight
+taste disorders	D013651	Taste Disorders
+hair diseases	D006201	Hair Diseases
+urinary bladder neoplasms	D001749	Urinary Bladder Neoplasms
+hyperlipidemias	D006949	Hyperlipidemias
+blood [subheading]		NA
+blood pressure	D001794	Blood Pressure
+color vision defects	D003117	Color Vision Defects
+thinness	D013851	Thinness
+body mass index	D015992	Body Mass Index
+bone density	D015519	Bone Density
+brain	D001921	Brain
+breast neoplasms	D001943	Breast Neoplasms
+breast neoplasms, male	D018567	Breast Neoplasms, Male
+breast diseases	D001941	Breast Diseases
+pigmentation disorders	D010859	Pigmentation Disorders
+c-reactive protein	D002097	C-Reactive Protein
+psychoses, substance-induced	D011605	Psychoses, Substance-Induced
+arrhythmias, cardiac	D001145	Arrhythmias, Cardiac
+romano-ward syndrome	D029597	Romano-Ward Syndrome
+heart diseases	D006331	Heart Diseases
+cardiovascular disease	D002318	Cardiovascular Diseases
+carotid intima-media thickness	D059168	Carotid Intima-Media Thickness
+arthritis, rheumatoid	D001172	Arthritis, Rheumatoid
+glaucoma	D005901	Glaucoma
+sickle cell trait	D012805	Sickle Cell Trait
+cholesterol	D002784	Cholesterol
+hepatitis c, chronic	D019698	Hepatitis C, Chronic
+kidney failure, chronic	D007676	Kidney Failure, Chronic
+acute kidney injury	D058186	Acute Kidney Injury
+leukemia, lymphocytic, chronic, b-cell	D015451	Leukemia, Lymphocytic, Chronic, B-Cell
+leukemia, myelogenous, chronic, bcr-abl positive	D015464	Leukemia, Myelogenous, Chronic, BCR-ABL Positive
+pulmonary disease, chronic obstructive	D029424	Pulmonary Disease, Chronic Obstructive
+dna	D004247	DNA
+vasoactive intestinal peptide	D014660	Vasoactive Intestinal Peptide
+blood coagulation factors	D001779	Blood Coagulation Factors
+coffee	D003069	Coffee
+mild cognitive impairment	D060825	Cognitive Dysfunction
+executive function	D056344	Executive Function
+neuropsychological tests	D009483	Neuropsychological Tests
+colorectal neoplasms	D015179	Colorectal Neoplasms
+genetic phenomena	D055614	Genetic Phenomena
+complement system proteins	D003165	Complement System Proteins
+conduct disorder	D019955	Conduct Disorder
+astigmatism	D001251	Astigmatism
+corneal wavefront aberration	D057108	Corneal Wavefront Aberration
+cornea	D003315	Cornea
+vascular calcification	D061205	Vascular Calcification
+coronary artery disease	D003324	Coronary Artery Disease
+coronary disease	D003327	Coronary Disease
+malformations of cortical development	D054220	Malformations of Cortical Development
+cobblestone lissencephaly	D054222	Cobblestone Lissencephaly
+creutzfeldt-jakob syndrome	D007562	Creutzfeldt-Jakob Syndrome
+crohn disease	D003424	Crohn Disease
+nevus	D009506	Nevus
+cystatin c	D055316	Cystatin C
+cystic fibrosis	D003550	Cystic Fibrosis
+fibrin fibrinogen degradation products	D005338	Fibrin Fibrinogen Degradation Products
+dengue hemorrhagic fever	D019595	Severe Dengue
+dental caries	D003731	Dental Caries
+diabetes, gestational	D016640	Diabetes, Gestational
+diabetic nephropathies	D003928	Diabetic Nephropathies
+diabetic retinopathy	D003930	Diabetic Retinopathy
+hypertension	D006973	Hypertension
+dietary supplements	D019587	Dietary Supplements
+fingers	D005385	Fingers
+cardiomyopathy, dilated	D002311	Cardiomyopathy, Dilated
+drinking behavior	D004327	Drinking Behavior
+floxacillin	D005436	Floxacillin
+duodenal ulcer	D004381	Duodenal Ulcer
+e-selectin	D019040	E-Selectin
+electrocardiography	D004562	Electrocardiography
+electroencephalography	D004569	Electroencephalography
+blood coagulation	D001777	Blood Coagulation
+kidney diseases	D007674	Kidney Diseases
+endometrial neoplasms	D016889	Endometrial Neoplasms
+endometriosis	D004715	Endometriosis
+epilepsy	D004827	Epilepsy
+leukopenia	D007970	Leukopenia
+blood sedimentation	D001799	Blood Sedimentation
+esophageal neoplasms	D004938	Esophageal Neoplasms
+gastrointestinal neoplasms	D005770	Gastrointestinal Neoplasms
+sarcoma, ewing	D012512	Sarcoma, Ewing
+fetal hemoglobin	D005319	Fetal Hemoglobin
+facial asymmetry	D005146	Facial Asymmetry
+factor vii	D005167	Factor VII
+glucose metabolism disorders	D044882	Glucose Metabolism Disorders
+metabolism, inborn errors	D008661	Metabolism, Inborn Errors
+glucose tolerance test	D005951	Glucose Tolerance Test
+fibrinogen	D005340	Fibrinogen
+folic acid deficiency	D005494	Folic Acid Deficiency
+melanosis	D008548	Melanosis
+fuchs' endothelial dystrophy	D005642	Fuchs' Endothelial Dystrophy
+gallbladder neoplasms	D005706	Gallbladder Neoplasms
+gallstones	D042882	Gallstones
+gamma-glutamyltransferase	D005723	gamma-Glutamyltransferase
+stomach neoplasms	D013274	Stomach Neoplasms
+exfoliation syndrome	D017889	Exfoliation Syndrome
+glaucoma, open-angle	D005902	Glaucoma, Open-Angle
+glioma	D005910	Glioma
+glioblastoma	D005909	Glioblastoma
+glomerulosclerosis, focal segmental	D005923	Glomerulosclerosis, Focal Segmental
+hemoglobin a, glycosylated	D006442	Hemoglobin A, Glycosylated
+gout	D006073	Gout
+graves disease	D006111	Graves Disease
+quantitative trait, heritable	D019655	Quantitative Trait, Heritable
+hemoglobinuria	D006456	Hemoglobinuria
+narcolepsy	D009290	Narcolepsy
+intercellular signaling peptides and proteins	D036341	Intercellular Signaling Peptides and Proteins
+iron deficiency anemia	D018798	Anemia, Iron-Deficiency
+blood group antigens	D001789	Blood Group Antigens
+haptoglobins	D006242	Haptoglobins
+hemoglobin a2	D006443	Hemoglobin A2
+cholesterol, hdl	D008076	Cholesterol, HDL
+embolism, cholesterol	D017700	Embolism, Cholesterol
+microcephaly	D008831	Microcephaly
+body height	D001827	Body Height
+hematocrit	D006400	Hematocrit
+hematologic diseases	D006402	Hematologic Diseases
+hematologic agents	D006401	Hematologic Agents
+hemoglobins	D006454	Hemoglobins
+hemostatic disorders	D020141	Hemostatic Disorders
+hepatitis b	D006509	Hepatitis B
+carcinoma, hepatocellular	D006528	Carcinoma, Hepatocellular
+hepatitis b virus	D006515	Hepatitis B virus
+hippocampus	D006624	Hippocampus
+hirschsprung disease	D006627	Hirschsprung Disease
+hodgkin disease	D006689	Hodgkin Disease
+homocysteine	D006710	Homocysteine
+memory, episodic	D061212	Memory, Episodic
+hypertriglyceridemia	D015228	Hypertriglyceridemia
+hypothyroidism	D007037	Hypothyroidism
+thrombocytopenia	D013921	Thrombocytopenia
+glomerulonephritis, iga	D005922	Glomerulonephritis, IGA
+hypersensitivity, immediate	D006969	Hypersensitivity, Immediate
+immunoglobulin e	D007073	Immunoglobulin E
+igg deficiency	D017099	IgG Deficiency
+hyper-igm immunodeficiency syndrome	D053306	Hyper-IgM Immunodeficiency Syndrome
+smallpox	D012899	Smallpox
+iga deficiency	D017098	IgA Deficiency
+pyloric stenosis, hypertrophic	D046248	Pyloric Stenosis, Hypertrophic
+inflammation	D007249	Inflammation
+inflammatory bowel diseases	D015212	Inflammatory Bowel Diseases
+somatomedins	D013002	Somatomedins
+intelligence	D007360	Intelligence
+interleukin-18	D020382	Interleukin-18
+intracranial aneurysm	D002532	Intracranial Aneurysm
+ocular hypertension	D009798	Ocular Hypertension
+iris diseases	D007499	Iris Diseases
+mucocutaneous lymph node syndrome	D009080	Mucocutaneous Lymph Node Syndrome
+keloid	D007627	Keloid
+kidney calculi	D007669	Kidney Calculi
+quinazolines	D011799	Quinazolines
+lipoproteins, ldl	D008077	Lipoproteins, LDL
+cholesterol, ldl	D008078	Cholesterol, LDL
+hypertrophy, left ventricular	D017379	Hypertrophy, Left Ventricular
+dyslipidemias	D050171	Dyslipidemias
+hypercholesterolemia	D006937	Hypercholesterolemia
+1-alkyl-2-acetylglycerophosphocholine esterase	D043203	1-Alkyl-2-acetylglycerophosphocholine Esterase
+lipoprotein(a)	D017270	Lipoprotein(a)
+drug-induced liver injury	D056486	Chemical and Drug Induced Liver Injury
+longevity	D008136	Longevity
+lung neoplasms	D008175	Lung Neoplasms
+lymphocytosis	D008218	Lymphocytosis
+mood disorders	D019964	Mood Disorders
+malaria	D008288	Malaria
+alopecia	D000505	Alopecia
+erythrocyte indices	D004909	Erythrocyte Indices
+platelet count	D010976	Platelet Count
+melanoma	D008545	Melanoma
+premenstrual syndrome	D011293	Premenstrual Syndrome
+menstruation disturbances	D008599	Menstruation Disturbances
+meningitis, meningococcal	D008585	Meningitis, Meningococcal
+metabolic syndrome x	D024821	Metabolic Syndrome X
+metabolomics	D055432	Metabolomics
+methotrexate	D008727	Methotrexate
+migraine disorders	D008881	Migraine Disorders
+monocyte chemoattractant proteins	D018945	Monocyte Chemoattractant Proteins
+monocytes	D009000	Monocytes
+neoplasms	D009369	Neoplasms
+immune complex diseases	D007105	Immune Complex Diseases
+quantitative trait loci	D040641	Quantitative Trait Loci
+multiple myeloma	D009101	Multiple Myeloma
+multiple sclerosis	D009103	Multiple Sclerosis
+biological markers	D015415	Biomarkers
+myeloproliferative disorders	D009196	Myeloproliferative Disorders
+myocardial infarction	D009203	Myocardial Infarction
+myopia, degenerative	D047728	Myopia, Degenerative
+membrane proteins	D008565	Membrane Proteins
+nasopharyngeal neoplasms	D009303	Nasopharyngeal Neoplasms
+natriuretic peptides	D045265	Natriuretic Peptides
+nephrolithiasis	D053040	Nephrolithiasis
+glomerulonephritis, membranous	D015433	Glomerulonephritis, Membranous
+costello syndrome	D056685	Costello Syndrome
+neuroblastoma	D009447	Neuroblastoma
+neutropenia	D009503	Neutropenia
+tobacco use disorder	D014029	Tobacco Use Disorder
+serum albumin	D012709	Serum Albumin
+azoospermia	D053713	Azoospermia
+carcinoma, non-small-cell lung	D002289	Carcinoma, Non-Small-Cell Lung
+fatty liver	D005234	Fatty Liver
+optic disk	D009898	Optic Disk
+osteoarthritis	D010003	Osteoarthritis
+osteoporosis	D010024	Osteoporosis
+erythrocytes, abnormal	D004913	Erythrocytes, Abnormal
+ovarian neoplasms	D010051	Ovarian Neoplasms
+osteitis deformans	D010001	Osteitis Deformans
+pain	D010146	Pain
+pancreatic neoplasms	D010190	Pancreatic Neoplasms
+pancreatitis	D010195	Pancreatitis
+panic disorder	D016584	Panic Disorder
+pericardium	D010496	Pericardium
+periodontitis	D010518	Periodontitis
+personality assessment	D010552	Personality Assessment
+complement c4b-binding protein	D050716	Complement C4b-Binding Protein
+antioxidants	D000975	Antioxidants
+eosinophilia	D004802	Eosinophilia
+homocystinuria	D006712	Homocystinuria
+vitamin b12 deficiency	D014806	Vitamin B 12 Deficiency
+liver failure	D017093	Liver Failure
+protein c deficiency	D020151	Protein C Deficiency
+hyperlipoproteinemias	D006951	Hyperlipoproteinemias
+plasminogen activator inhibitor 1	D017395	Plasminogen Activator Inhibitor 1
+thrombosis	D013927	Thrombosis
+blood platelet disorders	D001791	Blood Platelet Disorders
+polycystic ovary syndrome	D011085	Polycystic Ovary Syndrome
+wolff-parkinson-white syndrome	D014927	Wolff-Parkinson-White Syndrome
+cholangitis, sclerosing	D015209	Cholangitis, Sclerosing
+dentition, primary	D014094	Tooth, Deciduous
+prion diseases	D017096	Prion Diseases
+grn protein, human		NA
+supranuclear palsy, progressive	D013494	Supranuclear Palsy, Progressive
+proinsulin	D011384	Proinsulin
+prostate-specific antigen	D017430	Prostate-Specific Antigen
+diabetes complications	D048909	Diabetes Complications
+prothrombin time	D011517	Prothrombin Time
+arthritis, psoriatic	D015535	Arthritis, Psoriatic
+lung diseases	D008171	Lung Diseases
+respiratory function tests	D012129	Respiratory Function Tests
+long qt syndrome	D008133	Long QT Syndrome
+recombination, genetic	D011995	Recombination, Genetic
+carcinoma, renal cell	D002292	Carcinoma, Renal Cell
+renal insufficiency, chronic	D051436	Renal Insufficiency, Chronic
+resistin	D052243	Resistin
+ticlopidine	D013988	Ticlopidine
+fenofibrate	D011345	Fenofibrate
+hepatitis c	D006526	Hepatitis C
+metformin	D008687	Metformin
+hydroxymethylglutaryl-coa reductase inhibitors	D019161	Hydroxymethylglutaryl-CoA Reductase Inhibitors
+dacarbazine	D003606	Dacarbazine
+vitamin e deficiency	D014811	Vitamin E Deficiency
+heart rate	D006339	Heart Rate
+restless legs syndrome	D012148	Restless Legs Syndrome
+retinal vasculitis	D031300	Retinal Vasculitis
+vitamin a deficiency	D014802	Vitamin A Deficiency
+retinal diseases	D012164	Retinal Diseases
+anemia	D000740	Anemia
+craniosynostoses	D003398	Craniosynostoses
+sarcoidosis	D012507	Sarcoidosis
+bile duct diseases	D001649	Bile Duct Diseases
+scoliosis	D012600	Scoliosis
+blood proteins	D001798	Blood Proteins
+hyperbilirubinemia	D006932	Hyperbilirubinemia
+cholinesterases	D002802	Cholinesterases
+hypocalcemia	D006996	Hypocalcemia
+dehydroepiandrosterone sulphate		NA
+anemia, iron-deficiency	D018798	Anemia, Iron-Deficiency
+hyperlipoproteinemia type ii	D006938	Hyperlipoproteinemia Type II
+magnesium deficiency	D008275	Magnesium Deficiency
+matrix metalloproteinases	D020782	Matrix Metalloproteinases
+phosphorus metabolism disorders	D010760	Phosphorus Metabolism Disorders
+phytosterols	D010840	Phytosterols
+urinary calculi	D014545	Urinary Calculi
+hyperuricemia	D033461	Hyperuricemia
+sex hormone-binding globulin	D012738	Sex Hormone-Binding Globulin
+skin pigmentation	D012880	Skin Pigmentation
+photophobia	D020795	Photophobia
+smoking	D012907	Smoking
+smoking cessation	D016540	Smoking Cessation
+intercellular adhesion molecule-1	D018799	Intercellular Adhesion Molecule-1
+receptors, leptin	D054411	Receptors, Leptin
+cell adhesion molecules	D015815	Cell Adhesion Molecules
+sphingolipidoses	D013106	Sphingolipidoses
+carcinoma, squamous cell	D002294	Carcinoma, Squamous Cell
+stroke	D020521	Stroke
+death, sudden, cardiac	D016757	Death, Sudden, Cardiac
+scleroderma, systemic	D012595	Scleroderma, Systemic
+tanning	D013633	Tanning
+telomere	D016615	Telomere
+testicular neoplasms	D013736	Testicular Neoplasms
+neoplasms, germ cell and embryonal	D009373	Neoplasms, Germ Cell and Embryonal
+testosterone	D013739	Testosterone
+hydrochlorothiazide	D006852	Hydrochlorothiazide
+aortic aneurysm, thoracic	D017545	Aortic Aneurysm, Thoracic
+thyroid neoplasms	D013964	Thyroid Neoplasms
+thyroid diseases	D013959	Thyroid Diseases
+thyroid hormones	D013963	Thyroid Hormones
+triglycerides	D014280	Triglycerides
+diabetes mellitus, type 1	D003922	Diabetes Mellitus, Type 1
+diabetes mellitus, type 2	D003924	Diabetes Mellitus, Type 2
+hyperinsulinism	D006946	Hyperinsulinism
+colitis, ulcerative	D003093	Colitis, Ulcerative
+head and neck neoplasms	D006258	Head and Neck Neoplasms
+uric acid	D014527	Uric Acid
+albuminuria	D000419	Albuminuria
+renal tubular transport, inborn errors	D015499	Renal Tubular Transport, Inborn Errors
+leiomyoma	D007889	Leiomyoma
+vascular endothelial growth factor a	D042461	Vascular Endothelial Growth Factor A
+venous thromboembolism	D054556	Venous Thromboembolism
+atrioventricular block	D054537	Atrioventricular Block
+vitamin b 12 deficiency	D014806	Vitamin B 12 Deficiency
+vitamin d deficiency	D014808	Vitamin D Deficiency
+vitiligo	D014820	Vitiligo
+waist-hip ratio	D049629	Waist-Hip Ratio
+waist circumference	D055105	Waist Circumference
+warfarin	D014859	Warfarin
+leukocyte count	D007958	Leukocyte Count
+leukocytes	D007962	Leukocytes
+leukoencephalopathies	D056784	Leukoencephalopathies
+wilms tumor	D009396	Wilms Tumor
+arrhythmogenic right ventricular dysplasia, familial, 5		NA
+dystonia musculorum deformans 4		NA
+n syndrome		NA
+phosphoenolpyruvate carboxykinase deficiency		NA
+ptosis, hereditary congenital 1		NA
+sarcoma, synovial	D013584	Sarcoma, Synovial
+testicular microlithiasis		NA
+dystransthyretinemic euthyroidal hyperthyroxinemia		NA
+polycythemia, primary familial and congenital		NA
+fructosuria		NA
+gilbert disease	D005878	Gilbert Disease
+tay-sachs disease	D013661	Tay-Sachs Disease
+histidinemia		NA
+phenylketonurias	D010661	Phenylketonurias
+familial apoceruloplasmin deficiency		NA
+ige responsiveness, atopic		NA
+flaujeac factor deficiency		NA
+sarcosinemia		NA
+long qt syndrome 2		NA
+macular degeneration, age-related, 1		NA
+hiv infections	D015658	HIV Infections
+oculocutaneous albinism type 2		NA
+allergic rhinitis	D065631	Rhinitis, Allergic
+amyotrophic lateral sclerosis 1		NA
+anorexia nervosa	D000856	Anorexia Nervosa
+bulimia nervosa	D052018	Bulimia Nervosa
+anxiety disorders	D001008	Anxiety Disorders
+anemia, aplastic	D000741	Anemia, Aplastic
+asthma, nasal polyps, and aspirin intolerance		NA
+atrioventricular septal defect, partial, with heterotaxy syndrome		NA
+atypical mycobacteriosis, familial, x-linked 1		NA
+autoimmune diseases	D001327	Autoimmune Diseases
+bardet-biedl syndrome	D020788	Bardet-Biedl Syndrome
+benign essential blepharospasm		NA
+bronchiectasis with or without elevated sweat chloride 1		NA
+budd-chiari syndrome	D006502	Budd-Chiari Syndrome
+buruli ulcer	D054312	Buruli Ulcer
+cardiac conduction defect		NA
+cerebral infarction	D002544	Cerebral Infarction
+cirrhosis, familial		NA
+renal hypodysplasia, nonsyndromic, 1		NA
+coronary artery disease, autosomal dominant, 1		NA
+coronary artery disease, autosomal dominant 2		NA
+deafness, autosomal recessive 12		NA
+deafness, aminoglycoside-induced		NA
+drug metabolism, poor, cyp2d6-related		NA
+thrombophilia, x-linked, due to factor ix defect		NA
+dermatitis, atopic, 2		NA
+diabetes mellitus, insulin-dependent, 22		NA
+diabetes mellitus, insulin-dependent, 5		NA
+diabetes mellitus, insulin-dependent, 12		NA
+diabetes mellitus, noninsulin-dependent, 1		NA
+diabetes mellitus, transient neonatal, 1		NA
+diabetes mellitus, insulin-dependent, 10		NA
+epilepsies, myoclonic	D004831	Epilepsies, Myoclonic
+epilepsy, absence	D004832	Epilepsy, Absence
+epilepsy, generalized	D004829	Epilepsy, Generalized
+tremor hereditary essential, 1		NA
+tropical calcific pancreatitis		NA
+helicobacter infections	D016481	Helicobacter Infections
+hemangioma, capillary infantile		NA
+atypical hemolytic uremic syndrome	D065766	Atypical Hemolytic Uremic Syndrome
+encephalitis, herpes simplex	D020803	Encephalitis, Herpes Simplex
+hemochromatosis	D006432	Hemochromatosis
+hypercalciuria, absorptive, 2		NA
+hypertension, diastolic, resistance to		NA
+hypothalamic hamartomas		NA
+hashimoto disease	D050031	Hashimoto Disease
+inflammatory bowel disease 10		NA
+inflammatory bowel disease 13		NA
+inflammatory bowel disease 14		NA
+inflammatory bowel disease 17		NA
+intervertebral disc disease		NA
+intracranial arteriovenous malformations	D002538	Intracranial Arteriovenous Malformations
+sarcoma, kaposi	D012514	Sarcoma, Kaposi
+porphyria, acute hepatic		NA
+legionnaires' disease	D007877	Legionnaires' Disease
+lewy body disease	D020961	Lewy Body Disease
+lipodystrophy, partial, acquired		NA
+hypercholesterolemia, autosomal dominant, 3		NA
+lymphoma, follicular	D008224	Lymphoma, Follicular
+macular degeneration, age-related, 10		NA
+macular degeneration, age-related, 4		NA
+macular degeneration, age-related, 9		NA
+macular degeneration, age-related, 7		NA
+major affective disorder 7		NA
+testicular germ cell tumor		NA
+malignant hyperthermia susceptibility type 1		NA
+malignant hyperthermia susceptibility type 5		NA
+medulloblastoma	D008527	Medulloblastoma
+meningioma, familial		NA
+mesothelioma	D008654	Mesothelioma
+abdominal obesity metabolic syndrome		NA
+moyamoya disease 2		NA
+keratoacanthoma familial		NA
+mycobacterium infections, nontuberculous	D009165	Mycobacterium Infections, Nontuberculous
+neural tube defect, folate-sensitive		NA
+neural tube defects	D009436	Neural Tube Defects
+nevus, epidermal		NA
+obsessive-compulsive disorder	D009771	Obsessive-Compulsive Disorder
+opioid-related disorders	D009293	Opioid-Related Disorders
+ossification of the posterior longitudinal ligament of the spine		NA
+hereditary pancreatitis		NA
+pheochromocytoma	D010673	Pheochromocytoma
+invasive pneumococcal disease, recurrent isolated, 1		NA
+fetal membranes, premature rupture	D005322	Fetal Membranes, Premature Rupture
+prostate cancer, hereditary, 12		NA
+prostate cancer, hereditary, 13		NA
+pseudofolliculitis barbae		NA
+pseudoxanthoma elasticum	D011561	Pseudoxanthoma Elasticum
+idiopathic pulmonary fibrosis	D054990	Idiopathic Pulmonary Fibrosis
+alveolar capillary dysplasia		NA
+usher syndrome, type 2a		NA
+arthritis, juvenile	D001171	Arthritis, Juvenile
+sudden infant death	D013398	Sudden Infant Death
+thrombophilia	D019851	Thrombophilia
+thrombophilia due to activated protein c resistance		NA
+thyroid cancer, follicular		NA
+thyroid cancer, hurthle cell		NA
+tuberous sclerosis	D014402	Tuberous Sclerosis
+hypouricemia, renal, 2		NA
+von hippel-lindau disease	D006623	von Hippel-Lindau Disease
+coumarin resistance		NA
+west nile fever	D014901	West Nile Fever
+adrenal hyperplasia, congenital, type 5		NA
+hydroxyacyl-coa dehydrogenase, type 2, deficiency		NA
+2-methylbutyryl-coa dehydrogenase deficiency		NA
+adrenal hyperplasia 2		NA
+3-hydroxyacyl-coa dehydrogenase deficiency		NA
+beta-hydroxyisobutyryl coa deacylase deficiency		NA
+three m syndrome 2		NA
+3-methylcrotonyl coa carboxylase 1 deficiency		NA
+3-methylcrotonyl coa carboxylase 2 deficiency		NA
+3-methylglutaconic aciduria, type i		NA
+costeff optic atrophy syndrome		NA
+3-methylglutaconic aciduria, type v		NA
+46,xy gonadal dysgenesis, partial, with minifascicular neuropathy		NA
+dosage-sensitive sex reversal		NA
+46, xy sex reversal 5		NA
+46,xy gonadal dysgenesis, complete or partial, dhh-related		NA
+abcd syndrome		NA
+abetalipoproteinemia	D000012	Abetalipoproteinemia
+acyl-coa dehydrogenase family, member 9, deficiency of		NA
+achalasia addisonianism alacrimia syndrome		NA
+acheiropodia		NA
+achondrogenesis type 1b		NA
+achondrogenesis type 1a		NA
+achondrogenesis type 2		NA
+achondroplasia	D000130	Achondroplasia
+achromatopsia 2		NA
+achromatopsia 3		NA
+hidradenitis suppurativa, familial		NA
+acrocapitofemoral dysplasia		NA
+acrodermatitis enteropathica		NA
+acrofacial dysostosis, nager type		NA
+growth hormone-secreting pituitary adenoma	D049912	Growth Hormone-Secreting Pituitary Adenoma
+acromesomelic dysplasia, maroteaux type		NA
+acth-independent macronodular adrenal hyperplasia		NA
+medium chain acyl coa dehydrogenase deficiency		NA
+short chain acyl coa dehydrogenase deficiency		NA
+adams oliver syndrome		NA
+colorectal adenomatous polyposis, autosomal recessive		NA
+salivary gland adenoma, pleomorphic		NA
+adenosine triphosphate, elevated, of erythrocytes		NA
+adenylosuccinate lyase deficiency		NA
+adrenocortical carcinoma, hereditary		NA
+congenital adrenal hyperplasia due to 11-beta-hydroxylase deficiency		NA
+adrenal hyperplasia, congenital	D000312	Adrenal Hyperplasia, Congenital
+acth deficiency, isolated		NA
+adrenoleukodystrophy	D000326	Adrenoleukodystrophy
+propping zerres syndrome		NA
+advanced sleep-phase syndrome, familial		NA
+afibrinogenemia congenital	D000347	Afibrinogenemia
+agammaglobulinemia	D000361	Agammaglobulinemia
+hypogammaglobulinemia and isolated growth hormone deficiency, x-linked		NA
+bruton type agammaglobulinemia		NA
+corpus callosum agenesis neuronopathy		NA
+dysgnathia complex		NA
+aicardi-goutieres syndrome		NA
+aicardi-goutieres syndrome 3		NA
+aicardi-goutieres syndrome 4		NA
+aicardi-goutieres syndrome 5		NA
+alagille syndrome	D016738	Alagille Syndrome
+aland island eye disease		NA
+oculocutaneous albinism type 1		NA
+oculocutaneous albinism type 1b		NA
+oculocutaneous albinism type 3		NA
+oculocutaneous albinism, type iv		NA
+glucocorticoid-remediable aldosteronism		NA
+alexander disease	D038261	Alexander Disease
+alkaptonuria	D000474	Alkaptonuria
+allan-herndon-dudley syndrome		NA
+alopecia universalis		NA
+alopecia, neurologic defects, and endocrinopathy syndrome		NA
+anti-plasmin deficiency, congenital		NA
+alpha-ketoglutarate dehydrogenase deficiency		NA
+beta ketothiolase deficiency		NA
+alpha-thalassemia myelodysplasia syndrome		NA
+atr-x syndrome		NA
+alpha/beta t-cell lymphopenia with gamma/delta t-cell expansion, severe cytomegalovirus infection, and autoimmunity		NA
+alport syndrome, dominant type		NA
+alport syndrome, recessive type		NA
+alstrom syndrome	D056769	Alstrom Syndrome
+alternating hemiplegia of childhood		NA
+sarcoma, alveolar soft part	D018234	Sarcoma, Alveolar Soft Part
+alzheimer disease type 2		NA
+alzheimer disease type 4		NA
+alzheimer disease, familial, 3, with spastic paraparesis and apraxia		NA
+amelogenesis imperfecta, type iv		NA
+amelogenesis imperfecta, hypomaturation type, iia3		NA
+amelogenesis imperfecta, hypoplastic/hypomaturation, x-linked 1		NA
+amelogenesis imperfecta, type iii		NA
+amelogenesis imperfecta, type ib		NA
+amelogenesis imperfecta, type ic		NA
+amelogenesis imperfecta pigmented hypomaturation type		NA
+amelogenesis imperfecta, hypomaturation type, iia2		NA
+aminoacylase 1 deficiency		NA
+amish infantile epilepsy syndrome		NA
+amyloidosis, familial visceral		NA
+meretoja syndrome		NA
+amyloidosis, hereditary, transthyretin-related		NA
+amyloidosis ix		NA
+amyotrophic lateral sclerosis 11		NA
+amyotrophic lateral sclerosis 2, juvenile		NA
+amyotrophic lateral sclerosis 4, juvenile		NA
+amyotrophic lateral sclerosis 6, autosomal recessive		NA
+amyotrophic lateral sclerosis 8		NA
+amyotrophic lateral sclerosis 9		NA
+andersen syndrome	D050030	Andersen Syndrome
+androgen-insensitivity syndrome	D013734	Androgen-Insensitivity Syndrome
+anemia, dyserythropoietic, congenital	D000742	Anemia, Dyserythropoietic, Congenital
+uridine 5-prime monophosphate hydrolase deficiency, hemolytic anemia due to		NA
+rh-null, regulator type		NA
+anemia, hypochromic microcytic, with iron overload		NA
+anemia, sideroblastic, pyridoxine-refractory, autosomal recessive		NA
+anemia, sideroblastic spinocerebellar ataxia		NA
+x-linked sideroblastic anemia		NA
+angelman syndrome	D017204	Angelman Syndrome
+hereditary angioedema type iii	D056828	Hereditary Angioedema Type III
+angioedemas, hereditary	D054179	Angioedemas, Hereditary
+angiopathy, hereditary, with nephropathy, aneurysms, and muscle cramps		NA
+anonychia congenita		NA
+anterior segment mesenchymal dysgenesis		NA
+aortic aneurysm, familial thoracic 4		NA
+aortic aneurysm, familial thoracic 6		NA
+aphakia, congenital primary		NA
+aplasia of lacrimal and salivary glands		NA
+hyperargininemia	D020162	Hyperargininemia
+argininosuccinic aciduria	D056807	Argininosuccinic Aciduria
+aromatase deficiency		NA
+aromatic amino acid decarboxylase deficiency		NA
+arrhythmogenic right ventricular dysplasia, familial, 1		NA
+arrhythmogenic right ventricular dysplasia, familial, 10		NA
+arrhythmogenic right ventricular dysplasia, familial, 11		NA
+arrhythmogenic right ventricular dysplasia, familial, 12		NA
+arrhythmogenic right ventricular dysplasia, familial, 2		NA
+arrhythmogenic right ventricular dysplasia, familial, 8		NA
+arrhythmogenic right ventricular dysplasia, familial, 9		NA
+arterial calcification of infancy		NA
+arterial tortuosity syndrome		NA
+distal arthrogryposis type 2b		NA
+freeman-sheldon syndrome		NA
+lethal arthrogryposis with anterior horn cell disease		NA
+arthrogryposis renal dysfunction cholestasis syndrome		NA
+arts syndrome		NA
+aspartylglucosaminuria	D054880	Aspartylglucosaminuria
+asphyxiating thoracic dystrophy 2		NA
+asphyxiating thoracic dystrophy 3	D012779	Short Rib-Polydactyly Syndrome
+spinocerebellar ataxia, autosomal recessive 1		NA
+ataxia telangiectasia	D001260	Ataxia Telangiectasia
+ataxia with vitamin e deficiency		NA
+cerebellar ataxia, cayman type		NA
+early-onset ataxia with oculomotor apraxia and hypoalbuminemia		NA
+posterior column ataxia with retinitis pigmentosa		NA
+atelosteogenesis, type 1		NA
+congenital atransferrinemia		NA
+atrial fibrillation, familial, 3		NA
+atrial fibrillation, familial, 4		NA
+atrial fibrillation, familial, 6		NA
+atrial fibrillation, familial, 7		NA
+atrial septal defect 2		NA
+atrial septal defect 4		NA
+atrial septal defect 5		NA
+atrial septal defect 6		NA
+atrichia with papular lesions		NA
+atypical mycobacteriosis, familial, x-linked 2		NA
+auditory neuropathy, autosomal dominant, 1		NA
+aural atresia, congenital		NA
+auriculo-condylar syndrome		NA
+autoimmune lymphoproliferative syndrome, type iia		NA
+autoimmune polyendocrinopathy syndrome, type 1	D016884	Polyendocrinopathies, Autoimmune
+femur head necrosis	D005271	Femur Head Necrosis
+craniosynostosis radial aplasia syndrome		NA
+bamforth syndrome		NA
+bare lymphocyte syndrome 2		NA
+knuckle pads, leuconychia and sensorineural deafness		NA
+barth syndrome	D056889	Barth Syndrome
+bartter syndrome, antenatal type 1		NA
+bartter syndrome, antenatal , type 2		NA
+bartter syndrome, type 3		NA
+bartter syndrome, type 4b		NA
+basal cell nevus syndrome	D001478	Basal Cell Nevus Syndrome
+basal laminar drusen		NA
+cutis gyrata syndrome of beare and stevenson		NA
+beckwith-wiedemann syndrome	D001506	Beckwith-Wiedemann Syndrome
+bernard-soulier syndrome	D001606	Bernard-Soulier Syndrome
+vitelliform macular dystrophy	D057826	Vitelliform Macular Dystrophy
+beta-ureidopropionase deficiency		NA
+bethlem myopathy		NA
+bietti's crystalline dystrophy		NA
+bifid nose with or without anorectal and renal anomalies		NA
+bile acid malabsorption, primary		NA
+bile acid synthesis defect, congenital, 1		NA
+bile acid synthesis defect, congenital, 2		NA
+bile acid synthesis defect, congenital, 4		NA
+biotinidase deficiency	D028921	Biotinidase Deficiency
+birk-barel mental retardation dysmorphism syndrome		NA
+birt-hogg-dube syndrome	D058249	Birt-Hogg-Dube Syndrome
+bjornstad syndrome		NA
+synovitis granulomatous with uveitis and cranial neuropathies		NA
+glanzmann thrombasthenia, autosomal dominant		NA
+blepharophimosis, ptosis, and epicanthus inversus		NA
+bloom syndrome	D001816	Bloom Syndrome
+blue cone monochromatism		NA
+bohring syndrome		NA
+boomerang dysplasia		NA
+borjeson-forssman-lehmann syndrome		NA
+athabaskan brainstem dysgenesis		NA
+bothnia retinal dystrophy		NA
+bowen-conradi syndrome		NA
+branchiootic syndrome 3		NA
+brachydactyly-syndactyly syndrome		NA
+brachydactyly type a1		NA
+brachydactyly type a2		NA
+brachydactyly, type b1		NA
+brachydactyly type c		NA
+brachydactyly, type d		NA
+spondyloepimetaphyseal dysplasia, pakistani type		NA
+brachyolmia type 3		NA
+prolonged electroretinal response suppression		NA
+brain small vessel disease with hemorrhage		NA
+adenomatous polyposis coli	D011125	Adenomatous Polyposis Coli
+branchio-oto-renal syndrome	D019280	Branchio-Oto-Renal Syndrome
+ehlers-danlos syndrome 6b		NA
+brody myopathy		NA
+bronchiectasis with or without elevated sweat chloride 2		NA
+bronchiectasis with or without elevated sweat chloride 3		NA
+familial cylindromatosis		NA
+brown-vialetto-van laere syndrome		NA
+bruck syndrome 2		NA
+brugada syndrome	D053840	Brugada Syndrome
+brugada syndrome 2		NA
+brugada syndrome 3		NA
+brugada syndrome 4		NA
+brugada syndrome 6		NA
+brugada syndrome 7		NA
+brugada syndrome 8		NA
+brunner syndrome		NA
+burkitt lymphoma	D002051	Burkitt Lymphoma
+complement component 5 deficiency		NA
+complement component 6 deficiency		NA
+complement component 7 deficiency		NA
+hyperostosis, cortical, congenital	D006958	Hyperostosis, Cortical, Congenital
+calcification of joints and arteries		NA
+campomelic dysplasia	D055036	Campomelic Dysplasia
+jacobs syndrome		NA
+camurati-engelmann syndrome	D003966	Camurati-Engelmann Syndrome
+canavan disease	D017825	Canavan Disease
+candidiasis familial chronic mucocutaneous, autosomal recessive		NA
+capillary malformation-arteriovenous malformation		NA
+capillary malformations, congenital, 1		NA
+carbamoyl-phosphate synthase i deficiency disease	D020165	Carbamoyl-Phosphate Synthase I Deficiency Disease
+carboxypeptidase n deficiency		NA
+carcinoid tumors, intestinal		NA
+brugada syndrome 5		NA
+cardiac valvular dysplasia, x-linked		NA
+cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency		NA
+cardiofaciocutaneous syndrome		NA
+cardiomyopathy, dilated, 1aa		NA
+cardiomyopathy, dilated, 1bb		NA
+cardiomyopathy, dilated, 1cc		NA
+cardiomyopathy, dilated, 1dd		NA
+cardiomyopathy, dilated, 1e		NA
+cardiomyopathy, dilated, 1ee		NA
+cardiomyopathy, dilated, 1ff		NA
+cardiomyopathy, dilated, 1g		NA
+cardiomyopathy, dilated, 1i		NA
+cardiomyopathy, dilated, 1j		NA
+cardiomyopathy, dilated, 1l		NA
+cardiomyopathy, dilated, 1m		NA
+cardiomyopathy, dilated, 1n		NA
+cardiomyopathy, dilated, 1o		NA
+cardiomyopathy, dilated, 1p		NA
+cardiomyopathy, dilated, 1t		NA
+cardiomyopathy, dilated, 1u		NA
+cardiomyopathy, dilated, 1v		NA
+cardiomyopathy, dilated, 1w		NA
+cardiomyopathy, dilated, 1x		NA
+cardiomyopathy, dilated, 1y		NA
+cardiomyopathy, dilated, 1z		NA
+cardiomyopathy, dilated, 2a		NA
+cardiomyopathy, familial hypertrophic, 6		NA
+cardiomyopathy, familial hypertrophic, 1		NA
+cardiomyopathy, familial hypertrophic, 10		NA
+cardiomyopathy, familial hypertrophic, 11		NA
+cardiomyopathy, familial hypertrophic, 13		NA
+cardiomyopathy, familial hypertrophic, 14		NA
+cardiomyopathy, familial hypertrophic, 15		NA
+cardiomyopathy, familial hypertrophic, 2		NA
+cardiomyopathy, familial hypertrophic, 3		NA
+cardiomyopathy, familial hypertrophic, 4		NA
+cardiomyopathy, familial hypertrophic, 8		NA
+cardiomyopathy, familial hypertrophic, 9		NA
+cardiomyopathy, familial restrictive, 1		NA
+cardiomyopathy, familial restrictive, 3		NA
+carney complex variant		NA
+carnitine-acylcarnitine translocase deficiency		NA
+systemic carnitine deficiency		NA
+carotid intimal medial thickness 1		NA
+carpal tunnel syndrome	D002349	Carpal Tunnel Syndrome
+acrocephalopolysyndactyly type ii		NA
+cataract, zonular pulverulent 1		NA
+cataract, congenital zonular, with sutural opacities		NA
+cataract, posterior polar, 4		NA
+cataract, autosomal dominant, multiple types 1		NA
+cataract, zonular pulverulent 3		NA
+cataract, congenital nuclear, autosomal recessive 3		NA
+cataract, autosomal recessive congenital 2		NA
+cataract, coppock-like		NA
+cataract, congenital nuclear, autosomal recessive 2		NA
+cataract, nuclear diffuse nonprogressive		NA
+cataract, posterior polar, 3		NA
+cataract, cortical, juvenile-onset		NA
+cataract, zonular		NA
+cataract, autosomal dominant		NA
+aniridia, type 2		NA
+cataract, juvenile, with microcornea and glucosuria		NA
+cataract, pulverulent, juvenile-onset		NA
+catshl syndrome		NA
+caudal duplication anomaly		NA
+sacral defect and anterior sacral meningocele		NA
+cd59 deficiency		NA
+cd8 deficiency, familial		NA
+syndactyly cenani lenz type		NA
+congenital central hypoventilation syndrome		NA
+cerebellar ataxia, mental retardation, and dysequilibrium syndrome 3		NA
+cerebellar ataxia, mental retardation, and dysequilibrium syndrome 2		NA
+dysequilibrium syndrome		NA
+cerebral amyloid angiopathy, familial	D028243	Cerebral Amyloid Angiopathy, Familial
+cerebral amyloid angiopathy, app-related		NA
+cadasil	D046589	CADASIL
+cerebral cavernous malformations 2		NA
+cerebral cavernous malformations 3		NA
+creatine deficiency, x-linked		NA
+guanidinoacetate methyltransferase deficiency		NA
+arginine:glycine amidinotransferase deficiency		NA
+cerebral dysgenesis, neuropathy, ichthyosis, and palmoplantar keratoderma syndrome		NA
+cerebral palsy, spastic quadriplegic, 1		NA
+cerebral palsy, spastic quadriplegic, 2		NA
+cerebrooculofacioskeletal syndrome 1		NA
+cerebrooculofacioskeletal syndrome 2		NA
+cerebrooculofacioskeletal syndrome 4		NA
+xanthomatosis, cerebrotendinous	D019294	Xanthomatosis, Cerebrotendinous
+ceroid lipofuscinosis, neuronal, 1		NA
+ceroid lipofuscinosis, neuronal, 10		NA
+ceroid lipofuscinosis, neuronal, 2		NA
+ceroid lipofuscinosis, neuronal 5		NA
+ceroid lipofuscinosis, neuronal, 6		NA
+ceroid lipofuscinosis, neuronal, 7		NA
+ceroid lipofuscinosis, neuronal 8		NA
+uterine cervical neoplasms	D002583	Uterine Cervical Neoplasms
+triglyceride storage disease with impaired long-chain fatty acid oxidation		NA
+char syndrome		NA
+charcot-marie-tooth disease, type 2f		NA
+charcot-marie-tooth disease, type 2k		NA
+charcot-marie-tooth disease, axonal, type 2n		NA
+charcot-marie-tooth disease, dominant intermediate b		NA
+charcot-marie-tooth disease, dominant intermediate c		NA
+charcot-marie-tooth disease, dominant intermediate d		NA
+charcot-marie-tooth disease, recessive intermediate a		NA
+charcot-marie-tooth disease	D002607	Charcot-Marie-Tooth Disease
+charcot-marie-tooth disease, type 1c		NA
+charcot-marie-tooth disease, type 1d		NA
+charcot-marie-tooth disease, demyelinating, type 1e		NA
+charcot-marie-tooth disease, type 1f		NA
+charcot-marie-tooth disease, axonal, type 2a1		NA
+charcot-marie-tooth disease, axonal, type 2a2		NA
+charcot-marie-tooth disease, type 2b		NA
+charcot-marie-tooth disease, type 2b1		NA
+charcot-marie-tooth disease, type 2b2		NA
+charcot-marie-tooth disease, type 2d		NA
+charcot-marie-tooth disease, type 2e		NA
+charcot-marie-tooth disease, type 2i		NA
+charcot-marie-tooth disease, type 2j		NA
+charcot-marie-tooth disease, type 4a		NA
+charcot-marie-tooth disease, type 4b1		NA
+charcot-marie-tooth disease, type 4b2		NA
+charcot-marie-tooth disease, type 4c		NA
+neuropathy, hereditary motor and sensory, lom type		NA
+charcot-marie-tooth disease, type 4h		NA
+charcot-marie-tooth disease, type 4j		NA
+optic atrophy polyneuropathy deafness		NA
+charcot-marie-tooth disease, x-linked, 1		NA
+chediak-higashi syndrome	D002609	Chediak-Higashi Syndrome
+cherubism	D002636	Cherubism
+chilblain lupus		NA
+congenital hemidysplasia with ichthyosiform erythroderma and limb defects		NA
+congenital chloride diarrhea		NA
+cholestasis, intrahepatic of pregnancy		NA
+cholestasis, progressive familial intrahepatic 1		NA
+cholestasis, progressive familial intrahepatic 2		NA
+cholestasis, progressive familial intrahepatic 3		NA
+chondrocalcinosis 2		NA
+rhizomelic chondrodysplasia punctata, type 2		NA
+chondrodysplasia punctata 2, x-linked dominant	D002806	Chondrodysplasia Punctata
+chondrodysplasia punctata, brachytelephalangic		NA
+chondrodysplasia, blomstrand type		NA
+chondrodysplasia, grebe type		NA
+chondrosarcoma	D002813	Chondrosarcoma
+chondrosarcoma, extraskeletal myxoid		NA
+chorea	D002819	Chorea
+neuroacanthocytosis	D054546	Neuroacanthocytosis
+choreoathetosis, hypothyroidism, and neonatal respiratory distress		NA
+choroidal dystrophy, central areolar 2		NA
+papilloma, choroid plexus	D020288	Papilloma, Choroid Plexus
+choroideremia	D015794	Choroideremia
+chondrodysplasia, acromesomelic, with genital anomalies		NA
+granulomatous disease, chronic, autosomal recessive, cytochrome b-positive, type i		NA
+granulomatous disease, chronic, autosomal recessive, cytochrome b-positive, type ii		NA
+granulomatous disease, chronic, autosomal recessive, cytochrome b-negative		NA
+granulomatous disease, chronic, x-linked	D006105	Granulomatous Disease, Chronic
+chudley-mccullough syndrome		NA
+chylomicron retention disease		NA
+kartagener syndrome	D007619	Kartagener Syndrome
+ciliary dyskinesia, primary, 10		NA
+ciliary dyskinesia, primary, 11		NA
+ciliary dyskinesia, primary, 12		NA
+ciliary dyskinesia, primary, 13		NA
+primary ciliary dyskinesia, 2		NA
+primary ciliary dyskinesia, 3		NA
+ciliary dyskinesia, primary, 5		NA
+ciliary dyskinesia, primary, 6		NA
+ciliary dyskinesia, primary, 7		NA
+ciliary dyskinesia, primary, 9		NA
+cryopyrin-associated periodic syndromes	D056587	Cryopyrin-Associated Periodic Syndromes
+north american indian childhood cirrhosis		NA
+citrullinemia	D020159	Citrullinemia
+adult-onset citrullinemia type 2		NA
+neonatal-onset citrullinemia type 2		NA
+cleft palate, isolated, and mental retardation		NA
+cleft palate x-linked		NA
+cleidocranial dysplasia	D002973	Cleidocranial Dysplasia
+clubfoot	D003025	Clubfoot
+coach syndrome		NA
+cockayne syndrome	D003057	Cockayne Syndrome
+spinocerebellar ataxia, autosomal recessive 9		NA
+coffin-lowry syndrome	D038921	Coffin-Lowry Syndrome
+cohen syndrome		NA
+cold-induced sweating syndrome 1		NA
+crisponi syndrome		NA
+coloboma	D003103	Coloboma
+pilomatrixoma	D018296	Pilomatrixoma
+lynch syndrome i (site-specific colonic cancer)		NA
+lynch syndrome ii	D055847	Lynch Syndrome II
+colorectal cancer, hereditary nonpolyposis, type 8		NA
+combined cellular and humoral immune defects with granulomas		NA
+x-linked combined immunodeficiency diseases	D053632	X-Linked Combined Immunodeficiency Diseases
+combined oxidative phosphorylation deficiency 1		NA
+combined oxidative phosphorylation deficiency 2		NA
+combined oxidative phosphorylation deficiency 3		NA
+combined oxidative phosphorylation deficiency 4		NA
+combined oxidative phosphorylation deficiency 5		NA
+combined saposin deficiency		NA
+complement component 4, partial deficiency of		NA
+complement factor h deficiency		NA
+complement factor i deficiency		NA
+mitochondrial complex i deficiency		NA
+cone-rod dystrophy 10		NA
+cone-rod dystrophy 11		NA
+cone-rod dystrophy 12		NA
+cone-rod dystrophy 13		NA
+cone dystrophy 3		NA
+cone-rod dystrophy 3		NA
+cone-rod dystrophy 5		NA
+retinal cone dystrophy 2		NA
+cone-rod dystrophy 7		NA
+cone-rod dystrophy, x-linked, 3		NA
+cone dystrophy 4		NA
+congenital bilateral aplasia of vas deferens		NA
+congenital cataracts, facial dysmorphism, and neuropathy		NA
+congenital disorder of glycosylation type 1a		NA
+congenital disorder of glycosylation type 1b		NA
+congenital disorder of glycosylation type 1c		NA
+congenital disorder of glycosylation type 1d		NA
+congenital disorder of glycosylation type 1e		NA
+congenital disorder of glycosylation type 1f		NA
+congenital disorder of glycosylation type 1g		NA
+congenital disorder of glycosylation type 1h		NA
+congenital disorder of glycosylation type 1i		NA
+congenital disorder of glycosylation type 2a		NA
+congenital disorder of glycosylation, type iib		NA
+congenital disorder of glycosylation, type 2c		NA
+congenital disorder of glycosylation type 2d		NA
+congenital disorder of glycosylation type 2e		NA
+congenital disorder of glycosylation, type iif		NA
+congenital disorder of glycosylation, type 2g		NA
+congenital disorder of glycosylation, type iih		NA
+congenital disorder of glycosylation type 1j		NA
+congenital disorder of glycosylation type 1k		NA
+congenital disorder of glycosylation type 1l		NA
+congenital disorder of glycosylation, type im		NA
+congenital disorder of glycosylation, type in		NA
+congenital disorder of glycosylation, type io		NA
+plasminogen deficiency, type i		NA
+congenital contractural arachnodactyly		NA
+infantile convulsions and paroxysmal choreoathetosis, familial		NA
+cornea plana 2		NA
+corneal dystrophy, posterior polymorphous, 2		NA
+corneal dystrophy avellino type		NA
+corneal dystrophy, congenital stromal		NA
+corneal dystrophy, epithelial basement membrane		NA
+corneal dystrophy, fuchs' endothelial, 1		NA
+corneal dystrophy, fuchs endothelial, 4		NA
+corneal dystrophy, fuchs endothelial, 6		NA
+corneal dystrophy, gelatinous drop-like		NA
+groenouw type i corneal dystrophy		NA
+corneal dystrophy, posterior polymorphous, 1		NA
+lattice corneal dystrophy type 1		NA
+corneal dystrophy, lattice type iiia		NA
+corneal dystrophy, posterior polymorphous, 3		NA
+corneal dystrophy of bowman layer, type 1		NA
+corneal dystrophy, crystalline, of schnyder		NA
+corneal dystrophy, thiel-behnke type		NA
+corneal endothelial dystrophy type 2		NA
+corneal dystrophy and perceptive deafness		NA
+corneal dystrophy, fleck		NA
+de lange syndrome	D003635	De Lange Syndrome
+corpus callosum, agenesis of, with mental retardation, ocular coloboma, and micrognathia		NA
+corpus callosum, partial agenesis of, x-linked		NA
+corticosteroid-binding globulin deficiency		NA
+cortisone reductase deficiency		NA
+cowchock syndrome		NA
+cowden-like syndrome		NA
+carnitine palmitoyl transferase 1a deficiency		NA
+carnitine palmitoyltransferase ii deficiency, infantile		NA
+carnitine palmitoyltransferase ii deficiency, lethal neonatal		NA
+cranioectodermal dysplasia		NA
+craniofacial deafness hand syndrome		NA
+craniofrontonasal dysplasia		NA
+craniolenticulosutural dysplasia		NA
+craniometaphyseal dysplasia, autosomal dominant		NA
+craniosynostosis, type 2		NA
+crigler najjar syndrome, type 2		NA
+crouzon syndrome with acanthosis nigricans		NA
+craniofacial dysostosis	D003394	Craniofacial Dysostosis
+cryptorchidism	D003456	Cryptorchidism
+currarino triad		NA
+cutis laxa with severe pulmonary, gastrointestinal, and urinary abnormalities		NA
+cutis laxa, autosomal recessive, type iia		NA
+cutis laxa, autosomal recessive, type iib		NA
+gamma-cystathionase deficiency		NA
+cystinosis, late-onset juvenile or adolescent nephropathic type		NA
+cystinosis, ocular nonnephropathic		NA
+cystinuria	D003555	Cystinuria
+glycogen storage disease type iib	D052120	Glycogen Storage Disease Type IIb
+darier disease	D007644	Darier Disease
+atelosteogenesis type 2		NA
+de sanctis-cacchione syndrome		NA
+deafness, autosomal dominant 1		NA
+deafness, autosomal dominant 10		NA
+deafness, autosomal dominant 11		NA
+deafness, autosomal dominant 15		NA
+deafness, autosomal dominant 20		NA
+deafness, autosomal dominant 23		NA
+deafness, autosomal dominant 25		NA
+deafness, autosomal dominant 28		NA
+deafness, autosomal dominant 2a		NA
+deafness, autosomal dominant 2b		NA
+deafness, autosomal dominant 36		NA
+deafness, autosomal dominant 39, with dentinogenesis imperfecta 1		NA
+deafness, autosomal dominant 3a		NA
+deafness, autosomal dominant 3b		NA
+deafness, autosomal dominant 44		NA
+deafness, autosomal dominant 48		NA
+deafness, autosomal dominant 5		NA
+deafness, autosomal dominant 6		NA
+deafness, autosomal dominant 12		NA
+deafness, autosomal dominant 9		NA
+deafness, autosomal recessive 15		NA
+deafness, autosomal recessive 16		NA
+deafness, autosomal recessive 1a		NA
+deafness, autosomal recessive 1b		NA
+deafness, autosomal recessive 2		NA
+deafness, autosomal recessive 21		NA
+deafness, autosomal recessive 22		NA
+deafness, autosomal recessive 23		NA
+deafness, autosomal recessive 28		NA
+deafness, autosomal recessive 3		NA
+deafness, autosomal recessive 30		NA
+deafness, autosomal recessive 31		NA
+deafness, autosomal recessive 35		NA
+deafness, autosomal recessive 37		NA
+deafness, autosomal recessive 39		NA
+deafness, autosomal recessive 42		NA
+deafness, autosomal recessive 48		NA
+deafness, autosomal recessive 49		NA
+deafness, autosomal recessive 59		NA
+deafness, autosomal recessive 6		NA
+deafness, autosomal recessive 63		NA
+deafness, autosomal recessive 67		NA
+deafness, autosomal recessive 7		NA
+deafness, autosomal recessive 77		NA
+deafness, autosomal recessive 79		NA
+deafness, autosomal recessive 9		NA
+deafness, congenital, with inner ear agenesis, microtia, and microdontia		NA
+deafness, x-linked 1		NA
+progressive hearing loss stapes fixation		NA
+deafness, x-linked 4		NA
+dehydrated hereditary stomatocytosis, pseudohyperkalemia, and perinatal edema		NA
+dementia, familial british		NA
+dementia, familial danish		NA
+frontotemporal dementia, chromosome 3-linked		NA
+frontotemporal dementia	D057180	Frontotemporal Dementia
+dent disease 2		NA
+dent disease 1		NA
+myoclonic epilepsies, progressive	D020191	Myoclonic Epilepsies, Progressive
+dentin dysplasia, type 1		NA
+dentinogenesis imperfecta	D003811	Dentinogenesis Imperfecta
+dentinogenesis imperfecta, shields type 3		NA
+denys-drash syndrome	D030321	Denys-Drash Syndrome
+dermatopathia pigmentosa reticularis		NA
+desbuquois syndrome		NA
+desmoid disease, hereditary		NA
+desmosterolosis		NA
+diabetes insipidus, nephrogenic	D018500	Diabetes Insipidus, Nephrogenic
+diabetes insipidus, neurogenic	D020790	Diabetes Insipidus, Neurogenic
+diabetes mellitus, insulin-dependent, 20		NA
+diabetes mellitus, insulin-resistant, with acanthosis nigricans		NA
+diabetes mellitus, neonatal, with congenital hypothyroidism		NA
+diabetes mellitus, permanent neonatal		NA
+diabetes mellitus, permanent neonatal, with cerebellar agenesis		NA
+diabetes mellitus, transient neonatal, 2		NA
+diabetes mellitus, transient neonatal, 3		NA
+diabetes mellitus, insulin-dependent, 2		NA
+anemia, diamond-blackfan	D029503	Anemia, Diamond-Blackfan
+diamond-blackfan anemia 10		NA
+anemia, diamond-blackfan, 3		NA
+diamond-blackfan anemia 4		NA
+diamond-blackfan anemia 5		NA
+diamond-blackfan anemia 7		NA
+diamond-blackfan anemia 8		NA
+diamond-blackfan anemia 9		NA
+diaphragmatic hernia 3		NA
+diaphyseal medullary stenosis with malignant fibrous histiocytoma		NA
+diarrhea 3, secretory sodium, congenital		NA
+diarrhea 4, malabsorptive, congenital		NA
+diarrhea 5, with tufting enteropathy, congenital		NA
+diastrophic dysplasia		NA
+dihydropyrimidine dehydrogenase deficiency	D054067	Dihydropyrimidine Dehydrogenase Deficiency
+dihydropyrimidinase deficiency		NA
+cardiomyopathy dilated with woolly hair and keratoderma		NA
+dimethylglycine dehydrogenase deficiency		NA
+donnai-barrow syndrome		NA
+dopamine beta hydroxylase deficiency		NA
+dowling-degos disease		NA
+doyne honeycomb retinal dystrophy		NA
+fibular hypoplasia and complex brachydactyly		NA
+duane retraction syndrome	D004370	Duane Retraction Syndrome
+jaundice, chronic idiopathic	D007566	Jaundice, Chronic Idiopathic
+muscular dystrophy, duchenne	D020388	Muscular Dystrophy, Duchenne
+dyggve-melchior-clausen syndrome		NA
+dysautonomia, familial	D004402	Dysautonomia, Familial
+dyschromatosis symmetrica hereditaria 1		NA
+dyskeratosis congenita, autosomal recessive		NA
+dyskeratosis congenita	D019871	Dyskeratosis Congenita
+dyssegmental dysplasia		NA
+dystonia musculorum deformans type 1		NA
+myoclonic dystonia		NA
+dystonia 12		NA
+dystonia 3, torsion, x-linked		NA
+dystonia	D004421	Dystonia
+dystonia 6, torsion		NA
+choreoathetosis/spasticity, episodic		NA
+dystonia, dopa-responsive, due to sepiapterin reductase deficiency		NA
+dystonia, dopa-responsive		NA
+juvenile-onset dystonia		NA
+epidermolysis bullosa with congenital localized absence of skin and deformity of nails		NA
+ectodermal dysplasia 1, anhidrotic	D053358	Ectodermal Dysplasia 1, Anhidrotic
+ectodermal dysplasia 3, anhidrotic	D053359	Ectodermal Dysplasia 3, Anhidrotic
+ectodermal dysplasia, hypohidrotic, autosomal recessive	D053360	Ectodermal Dysplasia, Hypohidrotic, Autosomal Recessive
+witkop syndrome		NA
+ectodermal dysplasia, anhidrotic, with t-cell immunodeficiency, autosomal dominant		NA
+ectodermal dysplasia, ectrodactyly, and macular dystrophy		NA
+ectodermal dysplasia, hypohidrotic, with immune deficiency		NA
+ectodermal dysplasia/ skin fragility syndrome		NA
+ectodermal dysplasia, anhidrotic, with immunodeficiency, osteopetrosis, and lymphedema		NA
+ectrodactyly, ectodermal dysplasia, and cleft lip/palate syndrome 3		NA
+ehlers-danlos syndrome, cardiac valvular form		NA
+ehlers-danlos syndrome, progeroid form		NA
+ehlers-danlos syndrome type 1		NA
+ehlers-danlos syndrome type 2		NA
+ehlers-danlos syndrome type 3		NA
+ehlers-danlos syndrome type 6		NA
+ehlers-danlos syndrome, type vii, autosomal dominant		NA
+ehlers-danlos syndrome, type vii, autosomal recessive		NA
+eiken skeletal dysplasia		NA
+elliptocytosis 1		NA
+elliptocytosis 2		NA
+ellis-van creveld syndrome	D004613	Ellis-Van Creveld Syndrome
+muscular dystrophy, emery-dreifuss	D020389	Muscular Dystrophy, Emery-Dreifuss
+familial encephalopathy with neuroserpin inclusion bodies		NA
+encephalopathy, neonatal severe, due to mecp2 mutations		NA
+endocrine-cerebroosteodysplasia		NA
+endplate acetylcholinesterase deficiency		NA
+enhanced s-cone syndrome		NA
+enterokinase deficiency		NA
+epidermodysplasia verruciformis	D004819	Epidermodysplasia Verruciformis
+epidermolysis bullosa dystrophica, pasini type		NA
+epidermolysis bullosa pruriginosa		NA
+epidermolysis bullosa simplex with migratory circinate erythema		NA
+epidermolysis bullosa simplex with mottled pigmentation		NA
+epidermolysis bullosa simplex with pyloric atresia		NA
+epidermolysis bullosa simplex	D016110	Epidermolysis Bullosa Simplex
+epidermolysis bullosa simplex, ogna type		NA
+epidermolysis bullosa simplex, autosomal recessive		NA
+epidermolysis bullosa, junctional, non-herlitz type		NA
+epidermolysis bullosa, junctional	D016109	Epidermolysis Bullosa, Junctional
+epidermolysis bullosa, lethal acantholytic		NA
+epidermolysis bullosa, pretibial		NA
+hyperkeratosis, epidermolytic	D017488	Hyperkeratosis, Epidermolytic
+keratoderma, palmoplantar, epidermolytic	D053546	Keratoderma, Palmoplantar, Epidermolytic
+epilepsy, partial, with variable foci		NA
+generalized epilepsy with febrile seizures plus, type 1		NA
+epilepsy, nocturnal frontal lobe, type 1		NA
+epilepsy, nocturnal frontal lobe, type 3		NA
+epilepsy, nocturnal frontal lobe, type 4		NA
+unverricht-lundborg syndrome	D020194	Unverricht-Lundborg Syndrome
+epilepsy, progressive myoclonic, 1b		NA
+lafora disease	D020192	Lafora Disease
+pyridoxine-dependent epilepsy		NA
+epilepsy, x-linked, with variable learning disabilities and behavior disorders		NA
+epileptic encephalopathy, early infantile, 1		NA
+epileptic encephalopathy, early infantile, 2		NA
+epileptic encephalopathy, early infantile, 3		NA
+epileptic encephalopathy, early infantile, 4		NA
+epileptic encephalopathy, lennox-gastaut type		NA
+fairbank disease		NA
+epiphyseal dysplasia, multiple, 2		NA
+epiphyseal dysplasia, multiple, 3		NA
+epiphyseal dysplasia, multiple, 4		NA
+epiphyseal dysplasia, multiple, 5		NA
+epiphyseal dysplasia, multiple, with myopia and conductive deafness		NA
+episodic ataxia with nystagmus		NA
+episodic ataxia, type 5		NA
+episodic ataxia, type 6		NA
+episodic ataxia, type 1		NA
+familial paroxysmal dystonia		NA
+epstein syndrome		NA
+erythrocyte lactate transporter defect		NA
+erythrocytosis, familial, 2		NA
+erythrocytosis, familial, 3		NA
+erythrocytosis, familial, 4		NA
+erythrokeratodermia variabilis	D056266	Erythrokeratodermia Variabilis
+multiple pterygium syndrome		NA
+ethylmalonic encephalopathy		NA
+exfoliative ichthyosis, autosomal recessive, ichthyosis bullosa of siemens-like		NA
+exocrine pancreatic insufficiency, dyserythropoietic anemia, and calvarial hyperostosis		NA
+exudative vitreoretinopathy 4		NA
+exudative vitreoretinopathy 5		NA
+fabry disease	D000795	Fabry Disease
+factor v deficiency	D005166	Factor V Deficiency
+factor vii deficiency	D005168	Factor VII Deficiency
+factor x deficiency	D005171	Factor X Deficiency
+factor xi deficiency	D005173	Factor XI Deficiency
+factor xii deficiency	D005175	Factor XII Deficiency
+factor xiii deficiency	D005177	Factor XIII Deficiency
+failure of tooth eruption, primary		NA
+familial cold autoinflammatory syndrome 2		NA
+familial mediterranean fever, autosomal dominant		NA
+familial mediterranean fever	D010505	Familial Mediterranean Fever
+fanconi anemia	D005199	Fanconi Anemia
+fanconi anemia, complementation group b		NA
+fanconi anemia, complementation group d1		NA
+fanconi anemia, complementation group i		NA
+fanconi anemia, complementation group j		NA
+fanconi anemia, complementation group n		NA
+fanconi syndrome	D005198	Fanconi Syndrome
+farber lipogranulomatosis	D055577	Farber Lipogranulomatosis
+facioscapulohumeral muscular dystrophy 1b		NA
+bulbar palsy, progressive	D010244	Bulbar Palsy, Progressive
+generalized epilepsy with febrile seizures plus, type 2		NA
+generalized epilepsy with febrile seizures plus, type 3		NA
+oculodigitoesophagoduodenal syndrome		NA
+fertile eunuch syndrome		NA
+pena shokeir syndrome, type 1		NA
+myositis ossificans	D009221	Myositis Ossificans
+fibrosis of extraocular muscles, congenital, 2		NA
+fibrosis of extraocular muscles, congenital, 3a, with or without extraocular involvement		NA
+prekallikrein deficiency		NA
+focal cortical dysplasia of taylor		NA
+focal dermal hypoplasia	D005489	Focal Dermal Hypoplasia
+folate malabsorption, hereditary		NA
+follicle-stimulating hormone deficiency, isolated		NA
+fragile x tremor ataxia syndrome		NA
+ter haar syndrome		NA
+fraser syndrome	D058497	Fraser Syndrome
+frasier syndrome	D052159	Frasier Syndrome
+frontometaphyseal dysplasia		NA
+amyotrophic lateral sclerosis 10		NA
+fructose-1,6-diphosphatase deficiency	D015319	Fructose-1,6-Diphosphatase Deficiency
+fructose intolerance	D005633	Fructose Intolerance
+fucosidosis	D005645	Fucosidosis
+fumaric aciduria		NA
+fundus albipunctatus		NA
+gamma aminobutyric acid transaminase deficiency		NA
+galactosemias	D005693	Galactosemias
+neuraminidase deficiency with beta-galactosidase deficiency		NA
+gallbladder disease 4		NA
+gastrointestinal stromal tumors	D046152	Gastrointestinal Stromal Tumors
+gaucher disease, atypical, due to saposin c deficiency		NA
+gaucher disease, perinatal lethal		NA
+gaucher disease	D005776	Gaucher Disease
+gaucher-like disease		NA
+gaze palsy, familial horizontal, with progressive scoliosis		NA
+generalized epilepsy and paroxysmal dyskinesia		NA
+gerodermia osteodysplastica		NA
+gerstmann-straussler-scheinker disease	D016098	Gerstmann-Straussler-Scheinker Disease
+ghosal hematodiaphyseal dysplasia		NA
+giant axonal neuropathy	D056768	Giant Axonal Neuropathy
+aniridia cerebellar ataxia mental deficiency		NA
+gitelman syndrome	D053579	Gitelman Syndrome
+thrombasthenia	D013915	Thrombasthenia
+glaucoma 1, open angle, o		NA
+glaucoma, primary open angle		NA
+glaucoma 1, open angle, f		NA
+glaucoma 1, open angle, g		NA
+glaucoma 1, open angle, a		NA
+glaucoma 3, primary congenital, d		NA
+glaucoma 3, primary congenital, a		NA
+glomerulocystic kidney disease with hyperuricemia and isosthenuria		NA
+glomerulopathy with fibronectin deposits		NA
+glomus vagale tumors		NA
+glucocorticoid deficiency 2		NA
+glucose/galactose malabsorption		NA
+de vivo disease		NA
+glutamate formiminotransferase deficiency		NA
+glutamine deficiency, congenital		NA
+multiple acyl coenzyme a dehydrogenase deficiency	D054069	Multiple Acyl Coenzyme A Dehydrogenase Deficiency
+glutaric aciduria 1		NA
+glutathione synthetase deficiency		NA
+hyperglycerolemia		NA
+hyperglycinemia, nonketotic	D020158	Hyperglycinemia, Nonketotic
+glycine n-methyltransferase deficiency		NA
+glycogen storage disease 0, muscle		NA
+glycogen storage disease type i	D005953	Glycogen Storage Disease Type I
+glycogen storage disease ib		NA
+glycogen storage disease ic		NA
+glycogen storage disease type ii	D006009	Glycogen Storage Disease Type II
+glycogen storage disease type iii	D006010	Glycogen Storage Disease Type III
+glycogen storage disease type iv	D006011	Glycogen Storage Disease Type IV
+glycogen storage disease ixc		NA
+glycogen storage disease of heart, lethal congenital		NA
+glycogen storage disease type vi	D006013	Glycogen Storage Disease Type VI
+glycogen storage disease type vii	D006014	Glycogen Storage Disease Type VII
+dimauro disease		NA
+lactate dehydrogenase deficiency type a		NA
+glycogen storage disease xii		NA
+glycogen storage disease xiii		NA
+glycogen storage disease xiv		NA
+glycogen storage disease 0, liver		NA
+glycosylphosphatidylinositol deficiency		NA
+gangliosidosis, gm1	D016537	Gangliosidosis, GM1
+tay-sachs disease, ab variant	D049290	Tay-Sachs Disease, AB Variant
+goldberg-shprintzen megacolon syndrome		NA
+finnish lethal neonatal metabolic syndrome		NA
+greig cephalopolysyndactyly syndrome		NA
+griscelli syndrome type 1		NA
+griscelli syndrome type 2		NA
+griscelli syndrome type 3		NA
+isolated growth hormone deficiency, type ib		NA
+isolated growth hormone deficiency, type ii		NA
+insulin-like growth factor i deficiency		NA
+growth retardation, developmental delay, coarse facies, and early death		NA
+preaxial deficiency, postaxial polydactyly and hypospadias		NA
+pemphigus, benign familial	D016506	Pemphigus, Benign Familial
+keratosis palmoplantaris with periodontopathia and onychogryposis		NA
+hallermann's syndrome	D006210	Hallermann's Syndrome
+hand foot uterus syndrome		NA
+coproporphyria, hereditary	D046349	Coproporphyria, Hereditary
+hypoprebetalipoproteinemia, acanthocytosis, retinitis pigmentosa, and pallidal degeneration		NA
+hartnup disease	D006250	Hartnup Disease
+hawkinsinuria		NA
+hay-wells syndrome		NA
+hypoalphalipoproteinemias	D052456	Hypoalphalipoproteinemias
+heart-hand syndrome, slovenian type		NA
+heinz body anemias		NA
+hematuria, benign familial		NA
+hemochromatosis, type 2a		NA
+hemochromatosis, type 2b		NA
+hemochromatosis, type 3		NA
+hemochromatosis, type 4		NA
+adenylate kinase deficiency, hemolytic anemia due to		NA
+gamma-glutamylcysteine synthetase deficiency, hemolytic anemia due to		NA
+glutathione synthetase deficiency of erythrocytes, hemolytic anemia due to		NA
+hemophagocytic lymphohistiocytosis, familial, 2		NA
+hemophagocytic lymphohistiocytosis, familial, 3		NA
+hemophagocytic lymphohistiocytosis, familial, 4		NA
+hemophilia a	D006467	Hemophilia A
+hemophilia b	D002836	Hemophilia B
+alpha 1-antitrypsin deficiency	D019896	alpha 1-Antitrypsin Deficiency
+hennekam lymphangiectasia lymphedema syndrome		NA
+hepatic adenomas, familial		NA
+hepatic venoocclusive disease with immunodeficiency		NA
+hereditary motor and sensory neuropathy vi		NA
+neuropathy, hereditary motor and sensory, okinawa type		NA
+hereditary motor and sensory neuropathy, type iic		NA
+albinism with hemorrhagic diathesis and pigmented reticuloendothelial cells		NA
+hermansky pudlak syndrome 2		NA
+heterotaxy, visceral, x-linked		NA
+heterotopia, periventricular, ehlers-danlos variant		NA
+histiocytoma, angiomatoid fibrous		NA
+histiocytosis with joint contractures and sensorineural deafness		NA
+hmg coa lyase deficiency		NA
+3-hydroxy-3-methylglutaryl-coa synthase 2 deficiency		NA
+holocarboxylase synthetase deficiency	D028922	Holocarboxylase Synthetase Deficiency
+holoprosencephaly 2		NA
+holoprosencephaly 3		NA
+holoprosencephaly 4		NA
+holoprosencephaly 5		NA
+holoprosencephaly 7		NA
+holoprosencephaly 9		NA
+holt-oram syndrome		NA
+homocystinuria-megaloblastic anemia due to defect in cobalamin metabolism, cble complementation type		NA
+methylcobalamin deficiency, cblg type		NA
+hoyeraal hreidarsson syndrome		NA
+huntington disease-like 1		NA
+huntington disease-like 2		NA
+hyalinosis, systemic	D057770	Hyalinosis, Systemic
+hydatidiform mole	D006828	Hydatidiform Mole
+hydrocephalus, x-linked		NA
+hydrocephalus	D006849	Hydrocephalus
+hydrolethalus syndrome 1		NA
+hyper-ige recurrent infection syndrome, autosomal dominant		NA
+hyperbilirubinemia, transient familial neonatal		NA
+hypercarotenemia and vitamin a deficiency, autosomal dominant		NA
+hypercholanemia, familial		NA
+hypercholesterolemia, autosomal recessive		NA
+hyperlipoproteinemia type v	D006954	Hyperlipoproteinemia Type V
+hyperexplexia hereditary		NA
+hyperferritinemia, hereditary, with congenital cataracts		NA
+hyperinsulinemic hypoglycemia, familial, 3		NA
+hyperinsulinemic hypoglycemia, familial, 4		NA
+hyperinsulinemic hypoglycemia, familial, 5		NA
+hyperinsulinemic hypoglycemia, familial, 7		NA
+hyperinsulinemic hypoglycemia, familial, 6		NA
+paralysis, hyperkalemic periodic	D020513	Paralysis, Hyperkalemic Periodic
+hemangioma, cavernous, central nervous system	D020786	Hemangioma, Cavernous, Central Nervous System
+hyperlysinemias	D020167	Hyperlysinemias
+hhh syndrome		NA
+primary hyperoxaluria type 1		NA
+primary hyperoxaluria type 2		NA
+hyperparathyroidism, neonatal severe primary		NA
+6-pyruvoyl-tetrahydropterin synthase deficiency		NA
+hyperphenylalaninemia, bh4-deficient, b		NA
+hyperprolinemia		NA
+hyperprolinemia type 2		NA
+hypertension, early-onset, autosomal dominant, with severe exacerbation in pregnancy		NA
+hyperthyroidism, familial gestational		NA
+hyperthyroidism, nonautoimmune		NA
+18-hydroxylase deficiency		NA
+hypobetalipoproteinemia, familial, 2		NA
+familial benign hypercalcemia, type 3		NA
+hypocalciuric hypercalcemia, familial, type 1		NA
+hypocalciuric hypercalcemia, familial, type 2		NA
+hypochondroplasia		NA
+hypoglycemia, leucine-induced		NA
+kallmann syndrome	D017436	Kallmann Syndrome
+hypogonadism	D007006	Hypogonadism
+hypokalemic periodic paralysis, type 2		NA
+hypomagnesemia 2, renal		NA
+hypomagnesemia 1, intestinal		NA
+hypomagnesemia 4, renal		NA
+hypomagnesemia 5, renal, with ocular involvement		NA
+hypomyelination, global cerebral		NA
+hypoparathyroidism-retardation-dysmorphism syndrome		NA
+hypoparathyroidism familial isolated		NA
+barakat syndrome		NA
+hypophosphatasia, childhood		NA
+hypophosphatasia, infantile		NA
+hypophosphatemic rickets with hypercalciuria, hereditary		NA
+hypophosphatemic rickets, autosomal recessive, 1		NA
+hypophosphatemic rickets, autosomal dominant		NA
+hypophosphatemic rickets, autosomal recessive, 2		NA
+familial hypophosphatemic rickets	D053098	Familial Hypophosphatemic Rickets
+hypoplastic left heart syndrome	D018636	Hypoplastic Left Heart Syndrome
+hypoproteinemia, hypercatabolic		NA
+hypospadias 1, x-linked		NA
+hypospadias 2, x-linked		NA
+hypothyroidism, congenital, nongoitrous, 4		NA
+hypothyroidism, congenital, nongoitrous, 5		NA
+hypothyroidism, congenital, nongoitrous, 2		NA
+hypotrichosis-lymphedema-telangiectasia syndrome		NA
+hypotrichosis and recurrent skin vesicles		NA
+hypotrichosis simplex		NA
+juvenile macular degeneration and hypotrichosis		NA
+renal hypouricemia		NA
+ichthyosis bullosa of siemens	D053560	Ichthyosis Bullosa of Siemens
+ichthyosis hystrix, curth macklin type		NA
+ichthyosis prematurity syndrome		NA
+ichthyosis vulgaris	D016112	Ichthyosis Vulgaris
+ichthyosis with hypotrichosis, autosomal recessive		NA
+harlequin type ichthyosis		NA
+ichthyosiform erythroderma, brocq congenital, nonbullous form		NA
+ichthyosis, lamellar, 5		NA
+lamellar ichthyosis, type 2		NA
+lamellar ichthyosis, type 3		NA
+ichthyosis, cyclic, with epidermolytic hyperkeratosis		NA
+ichthyosis, leukocyte vacuoles, alopecia, and sclerosing cholangitis		NA
+ichthyosis, x-linked	D016114	Ichthyosis, X-Linked
+ichthyosis follicularis atrichia photophobia syndrome		NA
+intrauterine growth retardation, metaphyseal dysplasia, adrenal hypoplasia congenita, and genital anomalies		NA
+iminoglycinuria		NA
+immune dysfunction with t-cell inactivation due to calcium entry defect 1		NA
+immune dysfunction with t-cell inactivation due to calcium entry defect 2		NA
+autoimmune lymphoproliferative syndrome	D056735	Autoimmune Lymphoproliferative Syndrome
+immunodeficiency due to defect in cd3-zeta		NA
+immunodeficiency due to defect in mapbp-interacting protein		NA
+purine nucleoside phosphorylase deficiency		NA
+common variable immunodeficiency	D017074	Common Variable Immunodeficiency
+immunodeficiency without anhidrotic ectodermal dysplasia		NA
+immunodysregulation, polyendocrinopathy, and enteropathy, x-linked		NA
+immunoglobulin a deficiency 2		NA
+inclusion body myopathy, autosomal dominant		NA
+inclusion body myopathy with early-onset paget disease and frontotemporal dementia		NA
+inclusion body myopathy autosomal recessive		NA
+incontinentia pigmenti	D007184	Incontinentia Pigmenti
+inflammatory bowel disease 19		NA
+inflammatory bowel disease 25, autosomal recessive		NA
+inflammatory bowel disease 28, autosomal recessive		NA
+indifference to pain, congenital, autosomal recessive		NA
+hereditary sensory and autonomic neuropathies	D009477	Hereditary Sensory and Autonomic Neuropathies
+insomnia, fatal familial	D034062	Insomnia, Fatal Familial
+insulin-like growth factor i, resistance to		NA
+interleukin 2 receptor, alpha, deficiency of		NA
+intestinal atresia, multiple		NA
+congenital idiopathic intestinal pseudoobstruction		NA
+intrinsic factor deficiency		NA
+invasive pneumococcal disease, recurrent isolated, 2		NA
+irak4 deficiency		NA
+iron-refractory iron deficiency anemia		NA
+isobutyryl-coa dehydrogenase deficiency		NA
+acidemia, isovaleric		NA
+oculootoradial syndrome		NA
+jackson-weiss syndrome		NA
+jensen syndrome		NA
+jervell-lange nielsen syndrome	D029593	Jervell-Lange Nielsen Syndrome
+johanson blizzard syndrome		NA
+joubert syndrome 3		NA
+joubert syndrome 1		NA
+joubert syndrome 10		NA
+acrocallosal syndrome	D055673	Acrocallosal Syndrome
+joubert syndrome 2		NA
+joubert syndrome 4		NA
+joubert syndrome 5		NA
+joubert syndrome 6		NA
+joubert syndrome 7		NA
+joubert syndrome 8		NA
+joubert syndrome 9		NA
+kahrizi syndrome		NA
+kenny-caffey syndrome, type 1		NA
+keratitis, hereditary		NA
+keratoconus 1		NA
+keratosis palmoplantaris papulosa		NA
+keratoderma palmoplantar deafness		NA
+keratosis follicularis spinulosa decalvans, x-linked		NA
+keratosis linearis with ichthyosis congenita and sclerosing keratoderma		NA
+keratosis palmoplantaris striata 1		NA
+keratosis palmoplantaris striata ii		NA
+keratosis palmoplantaris striata 3		NA
+keratosis, seborrheic	D017492	Keratosis, Seborrheic
+keutel syndrome		NA
+poikiloderma of kindler		NA
+kleefstra syndrome		NA
+klippel feil syndrome dominant type		NA
+klippel feil syndrome recessive type		NA
+kniest dysplasia		NA
+knobloch syndrome		NA
+kowarski syndrome		NA
+leukodystrophy, globoid cell	D007965	Leukodystrophy, Globoid Cell
+krabbe disease, atypical, due to saposin a deficiency		NA
+lactase deficiency, congenital		NA
+lactose intolerance, adult type		NA
+pyruvate dehydrogenase e3-binding protein deficiency		NA
+lacrimoauriculodentodigital syndrome		NA
+langer mesomelic dysplasia		NA
+laron syndrome	D046150	Laron Syndrome
+larsen syndrome, dominant type		NA
+laryngo onycho cutaneous syndrome		NA
+lathosterolosis		NA
+amaurosis congenita of leber, type 1		NA
+leber congenital amaurosis 10		NA
+leber congenital amaurosis 12		NA
+leber congenital amaurosis 13		NA
+amaurosis congenita of leber, type 2		NA
+amaurosis congenita of leber, type 5		NA
+amaurosis congenita of leber, type 9		NA
+cardiomyopathy, dilated, 1c		NA
+cardiomyopathy, dilated, 1s		NA
+cardiomyopathy, dilated, 1d		NA
+legg-calve-perthes disease	D007873	Legg-Calve-Perthes Disease
+legius syndrome		NA
+leigh disease	D007888	Leigh Disease
+leigh syndrome , french canadian type		NA
+leigh syndrome, x-linked		NA
+leopard syndrome, 2		NA
+leri-weil syndrome		NA
+lesch-nyhan syndrome	D007926	Lesch-Nyhan Syndrome
+lethal congenital contracture syndrome 2		NA
+lethal congenital contractural syndrome 3		NA
+lethal congenital contracture syndrome 1		NA
+leukemia, promyelocytic, acute	D015473	Leukemia, Promyelocytic, Acute
+leukemia, myelomonocytic, juvenile	D054429	Leukemia, Myelomonocytic, Juvenile
+down syndrome	D004314	Down Syndrome
+leukocyte adhesion deficiency, type iii		NA
+leukodystrophy, hypomyelinating, 2		NA
+leukodystrophy, hypomyelinating, 4		NA
+leukodystrophy, hypomyelinating, 5		NA
+leukoencephalopathy with brainstem and spinal cord involvement and lactate elevation		NA
+leukoencephalopathy, cystic, without megalencephaly		NA
+hamartoma syndrome, multiple	D006223	Hamartoma Syndrome, Multiple
+liddle syndrome	D056929	Liddle Syndrome
+lig4 syndrome		NA
+limb-mammary syndrome		NA
+lipase deficiency combined		NA
+lipodystrophy, congenital generalized, type 3		NA
+lipodystrophy, congenital generalized, type 4		NA
+lipoid congenital adrenal hyperplasia		NA
+lipoprotein glomerulopathy		NA
+hyperlipoproteinemia type i	D008072	Hyperlipoproteinemia Type I
+norman roberts lissencephaly syndrome		NA
+lissencephaly	D054082	Lissencephaly
+lissencephaly, x-linked, 2		NA
+loeys-dietz syndrome, type 1b		NA
+loeys-dietz syndrome, type 2a		NA
+aortic aneurysm, familial thoracic 3		NA
+long qt syndrome 10		NA
+long qt syndrome 11		NA
+long qt syndrome 3		NA
+cardiac arrhythmia, ankyrin-b-related		NA
+long qt syndrome 5		NA
+long qt syndrome 6		NA
+long qt syndrome 9		NA
+long qt syndrome 12		NA
+oculocerebrorenal syndrome	D009800	Oculocerebrorenal Syndrome
+lujan fryns syndrome		NA
+leydig cell hypoplasia, type i		NA
+lymphangioleiomyomatosis	D018192	Lymphangioleiomyomatosis
+lymphedema distichiasis syndrome		NA
+lymphoma, non-hodgkin	D008228	Lymphoma, Non-Hodgkin
+lymphoproliferative syndrome, ebv-associated, autosomal, 1		NA
+lymphoproliferative disorders	D008232	Lymphoproliferative Disorders
+lysinuric protein intolerance		NA
+bone fragility with contractures, arterial rupture, and deafness		NA
+machado-joseph disease	D017827	Machado-Joseph Disease
+macrocephaly, alopecia, cutis laxa, and scoliosis		NA
+macrocephaly autism syndrome		NA
+5q- syndrome		NA
+macrothrombocytopenia progressive deafness		NA
+macrothrombocytopenia, autosomal dominant, tubb1-related		NA
+macular dystrophy, corneal type 1		NA
+macular degeneration, age-related, 11		NA
+macular degeneration, age-related, 2		NA
+macular degeneration, age-related, 3		NA
+stargardt disease 1		NA
+patterned dystrophy of retinal pigment epithelium		NA
+macular dystrophy, retinal, 2		NA
+majeed syndrome		NA
+malonic aciduria		NA
+mandibuloacral dysplasia with type b lipodystrophy		NA
+mandibuloacral dysplasia with type a lipodystrophy		NA
+alpha-mannosidosis	D008363	alpha-Mannosidosis
+beta-mannosidosis	D044905	beta-Mannosidosis
+maple syrup urine disease	D008375	Maple Syrup Urine Disease
+marfan syndrome	D008382	Marfan Syndrome
+spinocerebellar degenerations	D013132	Spinocerebellar Degenerations
+marshall syndrome		NA
+martsolf syndrome		NA
+masa (mental retardation, aphasia, shuffling gait, adducted thumbs) syndrome		NA
+masp2 deficiency		NA
+mass syndrome		NA
+mast syndrome		NA
+maturity-onset diabetes of the young, type 9		NA
+maturity-onset diabetes of the young, type 7		NA
+maturity-onset diabetes of the young, type 8, with exocrine dysfunction		NA
+glycogen storage disease type v	D006012	Glycogen Storage Disease Type V
+fibrous dysplasia, polyostotic	D005359	Fibrous Dysplasia, Polyostotic
+mckusick kaufman syndrome		NA
+meacham winn culler syndrome		NA
+meckel syndrome type 1		NA
+meckel syndrome type 2		NA
+meckel syndrome type 3		NA
+meckel syndrome, type 4		NA
+meckel syndrome, type 5		NA
+meckel syndrome, type 6		NA
+renal hepatic pancreatic dysplasia dandy walker cyst		NA
+erythrokeratodermia variabilis 3		NA
+medullary cystic kidney disease 1		NA
+medullary cystic kidney disease 2		NA
+familial medullary thyroid carcinoma		NA
+corneal dystrophy, juvenile epithelial of meesmann	D053559	Corneal Dystrophy, Juvenile Epithelial of Meesmann
+megalencephalic leukoencephalopathy with subcortical cysts		NA
+megalocornea		NA
+meier-gorlin syndrome		NA
+melanoma astrocytoma syndrome		NA
+keratoderma, palmoplantar	D007645	Keratoderma, Palmoplantar
+osteochondrodysplasias	D010009	Osteochondrodysplasias
+melorheostosis	D008557	Melorheostosis
+menkes kinky hair syndrome	D007706	Menkes Kinky Hair Syndrome
+mental retardation-hypotonic facies syndrome, x-linked, 1		NA
+mental retardation and microcephaly with pontine and cerebellar hypoplasia		NA
+cri-du-chat syndrome	D003410	Cri-du-Chat Syndrome
+siderius x-linked mental retardation syndrome		NA
+mental retardation, autosomal dominant 1		NA
+mental retardation, autosomal dominant 3		NA
+mental retardation, autosomal dominant 4		NA
+mental retardation, autosomal recessive 1		NA
+mental retardation, autosomal recessive 12		NA
+mental retardation, autosomal recessive 13		NA
+mental retardation, autosomal recessive 2		NA
+mental retardation, autosomal recessive 3		NA
+mental retardation, autosomal recessive 5		NA
+mental retardation, autosomal recessive 7		NA
+mental retardation, autosomal recessive 6		NA
+mental retardation, fra12a type		NA
+morm syndrome		NA
+mental retardation, x-linked 1		NA
+mental retardation, x-linked 17		NA
+mental retardation, x-linked, with or without seizures, arx-related		NA
+mental retardation, x-linked 3		NA
+mental retardation, x-linked 30		NA
+mental retardation, x-linked 45		NA
+mental retardation, x-linked 46		NA
+mental retardation, x-linked 58		NA
+mental retardation, x-linked 63		NA
+mental retardation, x-linked 72		NA
+mental retardation, x-linked 9		NA
+mental retardation, x-linked 91		NA
+mental retardation, x-linked 93		NA
+mental retardation, x-linked 94		NA
+mental retardation, x-linked 95		NA
+mental retardation, x-linked, syndromic 10		NA
+aarskog syndrome		NA
+mental retardation, x-linked, syndromic, christianson type		NA
+lubs x-linked mental retardation syndrome		NA
+mental retardation, x-linked, syndromic, turner type		NA
+snyder robinson syndrome		NA
+mental retardation, x-linked, syndromic 13		NA
+mental retardation, x-linked, syndromic 14		NA
+mental retardation, x-linked, syndromic, jarid1c-related		NA
+mental retardation, x-linked, with cerebellar hypoplasia and distinctive facial appearance		NA
+mental retardation, x-linked, with epilepsy		NA
+mental retardation, x-linked, with panhypopituitarism		NA
+metachondromatosis		NA
+metachromatic leukodystrophy due to saposin b deficiency		NA
+leukodystrophy, metachromatic	D007966	Leukodystrophy, Metachromatic
+metaphyseal anadysplasia 2		NA
+jansen type metaphyseal chondrodysplasia		NA
+metaphyseal chondrodysplasia schmid type		NA
+metatropic dwarfism		NA
+nadh cytochrome b5 reductase deficiency		NA
+methemoglobinemia type iv		NA
+methionine adenosyltransferase deficiency		NA
+methylmalonic acidemia with homocystinuria		NA
+methylmalonic aciduria and homocystinuria, cblf type		NA
+methylmalonic aciduria and homocystinuria, cbld type		NA
+methylmalonic aciduria due to methylmalonyl-coa mutase deficiency		NA
+methylmalonic aciduria cbla type		NA
+methylmalonic aciduria cblb type		NA
+methylmalonyl-coa epimerase deficiency		NA
+mevalonate kinase deficiency	D054078	Mevalonate Kinase Deficiency
+microcephalic osteodysplastic primordial dwarfism, type ii		NA
+amish lethal microcephaly		NA
+microphthalmia, isolated, with cataract 2		NA
+microphthalmia, isolated, with coloboma 3		NA
+microphthalmia, isolated, with coloboma 5		NA
+microphthalmia, isolated 2		NA
+microphthalmia, isolated 3		NA
+microphthalmia, isolated 4		NA
+microphthalmia, syndromic 2		NA
+microphthalmia, syndromic 6		NA
+microphthalmia, syndromic 7		NA
+microtia, hearing impairment, and cleft palate		NA
+microvillus inclusion disease		NA
+migraine, familial hemiplegic, 3		NA
+minicore myopathy with external ophthalmoplegia		NA
+laurin-sandrow syndrome		NA
+turcot syndrome		NA
+mitochondrial complex ii deficiency		NA
+mitochondrial complex iii deficiency		NA
+mitochondrial phosphate carrier deficiency		NA
+sensory ataxic neuropathy, dysarthria, and ophthalmoparesis		NA
+miyoshi myopathy		NA
+maturity-onset diabetes of the young, type 1		NA
+maturity-onset diabetes of the young, type 2		NA
+maturity-onset diabetes of the young, type 3		NA
+maturity-onset diabetes of the young, type 4		NA
+mohr-tranebjaerg syndrome		NA
+molybdenum cofactor deficiency		NA
+monilethrix	D056734	Monilethrix
+coloboma of optic nerve		NA
+mosaic variegated aneuploidy syndrome		NA
+mowat-wilson syndrome		NA
+mucolipidosis iii gamma		NA
+mucopolysaccharidosis ii	D016532	Mucopolysaccharidosis II
+mucopolysaccharidosis i	D008059	Mucopolysaccharidosis I
+mucopolysaccharidosis iii	D009084	Mucopolysaccharidosis III
+mucopolysaccharidosis iv	D009085	Mucopolysaccharidosis IV
+mucopolysaccharidosis vi	D009087	Mucopolysaccharidosis VI
+mucopolysaccharidosis vii	D016538	Mucopolysaccharidosis VII
+muenke syndrome		NA
+muir-torre syndrome	D055653	Muir-Torre Syndrome
+mulibrey nanism	D050336	Mulibrey Nanism
+mullerian aplasia and hyperandrogenism		NA
+multiple endocrine neoplasia type 1	D018761	Multiple Endocrine Neoplasia Type 1
+multiple endocrine neoplasia type 2a	D018813	Multiple Endocrine Neoplasia Type 2a
+multiple endocrine neoplasia type 2b	D018814	Multiple Endocrine Neoplasia Type 2b
+multiple endocrine neoplasia, type iv		NA
+multiple sulfatase deficiency disease	D052517	Multiple Sulfatase Deficiency Disease
+multiple synostoses syndrome 2		NA
+multiple synostoses syndrome 3		NA
+glycogen storage disease, type ixd		NA
+walker-warburg syndrome	D058494	Walker-Warburg Syndrome
+epidermolysa bullosa simplex and limb girdle muscular dystrophy		NA
+muscular dystrophy, congenital, lmna-related		NA
+muscular dystrophy, congenital, due to integrin alpha-7 deficiency		NA
+muscular dystrophy congenital, merosin negative		NA
+muscular dystrophy, limb-girdle, type 1a		NA
+limb-girdle muscular dystrophy, type 1b		NA
+muscular dystrophy, limb-girdle, type 1e		NA
+limb-girdle muscular dystrophy type 2a		NA
+limb-girdle muscular dystrophy, type 2b		NA
+limb-girdle muscular dystrophy, type 2c		NA
+limb-girdle muscular dystrophy, type 2e		NA
+limb-girdle muscular dystrophy type 2f		NA
+muscular dystrophy, limb-girdle, type 2g		NA
+limb-girdle muscular dystrophy type 2h		NA
+muscular dystrophy, limb-girdle, type 2j		NA
+muscular dystrophy, limb-girdle, type 2l		NA
+muscular dystrophy, limb-girdle, type 1c		NA
+rigid spine syndrome		NA
+congenital myasthenic syndrome ib		NA
+congenital myasthenic syndrome with episodic apnea		NA
+myasthenic syndrome, congenital, fast-channel		NA
+myasthenic syndrome, congenital, postsynaptic slow-channel		NA
+primary myelofibrosis	D055728	Primary Myelofibrosis
+myeloperoxidase deficiency		NA
+myeloproliferative disorder, chronic, with eosinophilia		NA
+myoglobinuria, acute recurrent, autosomal recessive		NA
+carnitine palmitoyltransferase ii deficiency, late-onset		NA
+myopathy with lactic acidosis, hereditary		NA
+myopathy, congenital, compton-north		NA
+myopathy, distal, with anterior tibial onset		NA
+myopathy, early-onset, with fatal cardiomyopathy		NA
+myopathy with lactic acidosis and sideroblastic anemia		NA
+myopathy, mitochondrial progressive, with congenital cataract, hearing loss, and developmental delay		NA
+alpha-b crystallinopathy		NA
+filaminopathy, autosomal dominant		NA
+myopathy, myosin storage		NA
+hereditary myopathy with early respiratory failure		NA
+myopathy, reducing body, x-linked, childhood-onset		NA
+myopathy, reducing body, x-linked, early-onset, severe		NA
+spheroid body myopathy		NA
+myopathy, x-linked, with postural muscle atrophy		NA
+myopia 6		NA
+myosclerosis, autosomal recessive		NA
+potassium aggravated myotonia		NA
+dystrophia myotonica 1	D009223	Myotonic Dystrophy
+dystrophia myotonica 2	D009223	Myotonic Dystrophy
+liposarcoma, myxoid	D018208	Liposarcoma, Myxoid
+atrial myxoma, familial		NA
+n-acetyl glutamate synthetase deficiency		NA
+naegeli syndrome		NA
+nail-patella syndrome	D009261	Nail-Patella Syndrome
+nance-horan syndrome		NA
+nanophthalmos 2		NA
+nasopharyngeal carcinoma		NA
+polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy		NA
+naxos disease		NA
+nemaline myopathy 1		NA
+nemaline myopathy 2		NA
+nemaline myopathy 3		NA
+nemaline myopathy 4		NA
+nemaline myopathy 5		NA
+nemaline myopathy 6		NA
+nemaline myopathy 7		NA
+nephrogenic syndrome of inappropriate antidiuresis		NA
+nephrolithiasis, x-linked recessive, with renal failure		NA
+nephronophthisis, familial juvenile		NA
+nephronophthisis 2		NA
+nephronophthisis 3		NA
+nephronophthisis 4		NA
+nephronophthisis 7		NA
+nephropathy with pretibial epidermolysis bullosa and deafness		NA
+nephrosis, congenital		NA
+nephrotic syndrome, idiopathic, steroid-resistant		NA
+netherton syndrome	D056770	Netherton Syndrome
+neurodegeneration due to cerebral folate transport deficiency		NA
+pantothenate kinase-associated neurodegeneration	D006211	Pantothenate Kinase-Associated Neurodegeneration
+neurofibromatosis-noonan syndrome		NA
+neurofibromatosis, familial spinal		NA
+neurofibromatosis 1	D009456	Neurofibromatosis 1
+neurofibromatosis 2	D016518	Neurofibromatosis 2
+myopathy, central core	D020512	Myopathy, Central Core
+spinal muscular atrophy with respiratory distress 1		NA
+charcot-marie-tooth disease, type 4e		NA
+neuronopathy, distal hereditary motor, type iib		NA
+neuronopathy, distal hereditary motor, type viib		NA
+neuropathy, hereditary motor and sensory, russe type		NA
+neuropathy, hereditary sensory and autonomic, type iib		NA
+neuropathy, hereditary sensory, with spastic paraplegia, autosomal recessive		NA
+neutral lipid storage disease with myopathy		NA
+cyclic neutropenia		NA
+neutropenia, severe congenital, x-linked		NA
+neutrophil immunodeficiency syndrome		NA
+neutrophilia, hereditary		NA
+newfoundland rod-cone dystrophy		NA
+niemann-pick disease, type a	D052536	Niemann-Pick Disease, Type A
+niemann-pick disease, type b	D052537	Niemann-Pick Disease, Type B
+niemann-pick disease, type c2		NA
+niemann-pick disease, type c	D052556	Niemann-Pick Disease, Type C
+night blindness, congenital stationary, autosomal dominant 1		NA
+night blindness, congenital stationary, autosomal dominant 2		NA
+night blindness, congenital stationary, autosomal dominant 3		NA
+nijmegen breakage syndrome-like disorder		NA
+nijmegen breakage syndrome	D049932	Nijmegen Breakage Syndrome
+distal myopathy, nonaka type		NA
+noonan syndrome	D009634	Noonan Syndrome
+noonan syndrome 3		NA
+noonan syndrome 4		NA
+noonan syndrome 5		NA
+noonan syndrome 6		NA
+norrie disease		NA
+lecithin acyltransferase deficiency		NA
+nystagmus 1, congenital, x- linked		NA
+proopiomelanocortin deficiency		NA
+occipital horn syndrome		NA
+ocular albinism type 1		NA
+oculoauricular syndrome		NA
+oculodentodigital dysplasia		NA
+oculodentodigital dysplasia, autosomal recessive		NA
+muscular dystrophy, oculopharyngeal	D039141	Muscular Dystrophy, Oculopharyngeal
+hypophosphatasia, adult		NA
+odontoonychodermal dysplasia		NA
+oguchi disease		NA
+osteogenesis imperfecta, type 2a		NA
+osteogenesis imperfecta, type 3		NA
+osteogenesis imperfecta, type 4		NA
+oligodontia-colorectal cancer syndrome		NA
+reticuloendotheliosis, familial, with eosinophilia		NA
+omodysplasia type 1		NA
+opitz-kaveggia syndrome		NA
+opitz gbbb syndrome, x-linked		NA
+optic atrophy 7		NA
+optic atrophy, autosomal dominant	D029241	Optic Atrophy, Autosomal Dominant
+optic atrophy and cataract, autosomal dominant		NA
+optic atrophy 1 and deafness		NA
+microphthalmia, syndromic 3		NA
+optic nerve hypoplasia, bilateral		NA
+orofaciodigital syndrome type1		NA
+orofacial cleft 10		NA
+orofacial cleft 11		NA
+orofacial cleft 5		NA
+zlotogora-ogur syndrome		NA
+oroticaciduria 1		NA
+orthostatic intolerance	D054971	Orthostatic Intolerance
+osseous heteroplasia, progressive		NA
+osteoarthritis with mild chondrodysplasia		NA
+osteogenesis imperfecta	D010013	Osteogenesis Imperfecta
+osteogenesis imperfecta, type ix		NA
+osteogenesis imperfecta, type 5		NA
+osteogenesis imperfecta, type 7		NA
+osteogenesis imperfecta, type viii		NA
+osteoglophonic dwarfism		NA
+polyostotic osteolytic dysplasia, hereditary expansile		NA
+osteopathia striata cranial sclerosis		NA
+osteopetrosis autosomal dominant type 1		NA
+osteopetrosis	D010022	Osteopetrosis
+osteopetrosis, autosomal recessive 1		NA
+osteopetrosis with renal tubular acidosis		NA
+osteopetrosis, autosomal recessive 5		NA
+osteopetrosis, autosomal recessive 6		NA
+osteopetrosis, autosomal recessive 7		NA
+buschke-ollendorff syndrome		NA
+osteoporosis-pseudoglioma syndrome		NA
+osteosarcoma	D012516	Osteosarcoma
+otofaciocervical syndrome		NA
+oto-palato-digital syndrome type 1		NA
+oto-palato-digital syndrome, type 2		NA
+ovarian hyperstimulation syndrome	D016471	Ovarian Hyperstimulation Syndrome
+pachyonychia congenita	D053549	Pachyonychia Congenita
+pallister-hall syndrome	D054975	Pallister-Hall Syndrome
+palmoplantar keratoderma, nonepidermolytic		NA
+pancreatic agenesis, congenital		NA
+melanoma-pancreatic cancer syndrome		NA
+panhypopituitarism x-linked		NA
+papillon-lefevre disease	D010214	Papillon-Lefevre Disease
+papillorenal syndrome		NA
+carney-stratakis syndrome		NA
+paraganglioma	D010235	Paraganglioma
+paramyotonia congenita of von eulenburg		NA
+parastremmatic dwarfism		NA
+parathyroid neoplasms	D010282	Parathyroid Neoplasms
+parietal foramina		NA
+parietal foramina 2		NA
+parietal foramina with cleidocranial dysplasia		NA
+sturge-weber syndrome	D013341	Sturge-Weber Syndrome
+parkinson disease 4, autosomal dominant lewy body		NA
+parkinson disease 6, autosomal recessive early-onset		NA
+parkinson disease 7, autosomal recessive early-onset		NA
+parkinson disease 9		NA
+parkinsonism-dystonia, infantile		NA
+paroxysmal extreme pain disorder		NA
+hemoglobinuria, paroxysmal	D006457	Hemoglobinuria, Paroxysmal
+paroxysmal nonkinesigenic dyskinesia		NA
+partington x-linked mental retardation syndrome		NA
+peripheral demyelinating neuropathy, central dysmyelination, waardenburg syndrome, and hirschsprung disease		NA
+peeling skin syndrome, acral type		NA
+pelger-huet anomaly	D010381	Pelger-Huet Anomaly
+pelizaeus-merzbacher disease	D020371	Pelizaeus-Merzbacher Disease
+pendred syndrome		NA
+pentosuria		NA
+phosphoenolpyruvate carboxykinase 2 deficiency		NA
+periodic fever, familial, autosomal dominant		NA
+aggressive periodontitis	D010520	Aggressive Periodontitis
+heterotopia, periventricular, autosomal recessive		NA
+peroxisomal acyl-coa oxidase deficiency		NA
+zellweger syndrome	D015211	Zellweger Syndrome
+peroxisome biogenesis disorders		NA
+refsum disease, infantile	D052919	Refsum Disease, Infantile
+perry syndrome		NA
+persistent mullerian duct syndrome		NA
+krause-kivlin syndrome		NA
+peters anomaly		NA
+peutz-jeghers syndrome	D010580	Peutz-Jeghers Syndrome
+pfeiffer type acrocephalosyndactyly		NA
+telomeric 22q13 monosomy syndrome		NA
+phosphoglycerate dehydrogenase deficiency		NA
+phosphoglycerate kinase 1 deficiency		NA
+phosphoribosylpyrophosphate synthetase superactivity		NA
+glycogen storage disease ixb		NA
+phosphoserine aminotransferase deficiency		NA
+pick disease of the brain	D020774	Pick Disease of the Brain
+piebaldism	D016116	Piebaldism
+pierson syndrome		NA
+pigmented nodular adrenocortical disease, primary, 1		NA
+pigmented nodular adrenocortical disease, primary, 2		NA
+pigmented paravenous chorioretinal atrophy		NA
+cortical dysplasia-focal epilepsy syndrome		NA
+pitt-hopkins syndrome		NA
+acth-secreting pituitary adenoma	D049913	ACTH-Secreting Pituitary Adenoma
+prolactinoma	D015175	Prolactinoma
+pituitary hormone deficiency, combined, 1		NA
+pituitary hormone deficiency, combined, 2		NA
+winkelman bethge pfeiffer syndrome		NA
+pituitary hormone deficiency, combined, 4		NA
+plasminogen activator inhibitor-1 deficiency		NA
+platelet disorder, familial, with associated myeloid malignancy		NA
+platelet glycoprotein iv deficiency		NA
+platyspondylic lethal skeletal dysplasia, torrance type		NA
+pleuropulmonary blastoma		NA
+pneumothorax, primary spontaneous		NA
+poikiloderma with neutropenia		NA
+polycystic kidney, autosomal recessive	D017044	Polycystic Kidney, Autosomal Recessive
+polycystic kidney diseases	D007690	Polycystic Kidney Diseases
+polycystic liver disease		NA
+polycythemia vera	D011087	Polycythemia Vera
+polydactyly, preaxial 4		NA
+polyhydramnios, megalencephaly, and symptomatic epilepsy		NA
+polymicrogyria with optic nerve hypoplasia		NA
+polymicrogyria, bilateral frontoparietal		NA
+polyneuropathy, hearing loss, ataxia, retinitis pigmentosa, and cataract		NA
+polyposis syndrome, hereditary mixed, 2		NA
+juvenile polyposis syndrome		NA
+pontocerebellar hypoplasia type 1		NA
+pontocerebellar hypoplasia type 6		NA
+popliteal pterygium syndrome		NA
+familial porencephaly	D065708	Porencephaly
+porokeratosis, disseminated superficial actinic 1		NA
+porphyria, south african type		NA
+porphyria, acute intermittent	D017118	Porphyria, Acute Intermittent
+porphyria, erythropoietic	D017092	Porphyria, Erythropoietic
+porphyria cutanea tarda	D017119	Porphyria Cutanea Tarda
+prader-willi syndrome	D011218	Prader-Willi Syndrome
+precocious puberty, central		NA
+familial testotoxicosis		NA
+pre-eclampsia	D011225	Pre-Eclampsia
+primary ovarian insufficiency	D016649	Primary Ovarian Insufficiency
+premature ovarian failure 2b		NA
+premature ovarian failure 3		NA
+ovarian dysgenesis 2		NA
+premature ovarian failure 5		NA
+premature ovarian failure 6		NA
+premature ovarian failure 7		NA
+premature ovarian failure 2a		NA
+primary lateral sclerosis juvenile		NA
+spongiform encephalopathy with neuropsychiatric features		NA
+progressive external ophthalmoplegia with mitochondrial dna deletions, autosomal dominant, 2		NA
+progressive external ophthalmoplegia with mitochondrial dna deletions, autosomal dominant, 4		NA
+progressive external ophthalmoplegia with mitochondrial dna deletions, autosomal dominant, 5		NA
+progressive external ophthalmoplegia with mitochondrial dna deletions, autosomal dominant, 1		NA
+progressive external ophthalmoplegia with mitochondrial dna deletions, autosomal dominant, 3		NA
+progressive external ophthalmoplegia with mitochondrial dna deletions, autosomal recessive		NA
+progressive familial heart block, type ib		NA
+drug metabolism, poor, cyp2c19-related		NA
+prolidase deficiency	D056732	Prolidase Deficiency
+encephaloclastic proliferative vasculopathy		NA
+properdin deficiency, x-linked		NA
+propionic acidemia	D056693	Propionic Acidemia
+low molecular weight proteinuria with hypercalciuria and nephrocalcinosis		NA
+proteus syndrome	D016715	Proteus Syndrome
+protoporphyria, erythropoietic	D046351	Protoporphyria, Erythropoietic
+proud syndrome		NA
+pseudoachondroplasia		NA
+17-hydroxysteroid dehydrogenase deficiency		NA
+pseudohypoaldosteronism	D011546	Pseudohypoaldosteronism
+pseudopseudohypoparathyroidism	D011556	Pseudopseudohypoparathyroidism
+pseudovaginal perineoscrotal hypospadias		NA
+pseudoxanthoma elasticum-like disorder with multiple coagulation factor deficiency		NA
+pulmonary alveolar microlithiasis		NA
+hypertension, pulmonary	D006976	Hypertension, Pulmonary
+pycnodysostosis	D058631	Pycnodysostosis
+myd88 deficiency		NA
+pyogenic arthritis, pyoderma gangrenosum, and acne		NA
+pyridoxamine 5-prime-phosphate oxidase deficiency		NA
+pyropoikilocytosis, hereditary		NA
+pyruvate carboxylase deficiency disease	D015324	Pyruvate Carboxylase Deficiency Disease
+pyruvate dehydrogenase complex deficiency disease	D015325	Pyruvate Dehydrogenase Complex Deficiency Disease
+pyruvate dehydrogenase e2 deficiency		NA
+pyruvate dehydrogenase phosphatase deficiency		NA
+pyruvate kinase deficiency of red cells		NA
+donohue syndrome	D056731	Donohue Syndrome
+radioulnar synostosis with amegakaryocytic thrombocytopenia		NA
+raine syndrome		NA
+rapadilino syndrome		NA
+rapp-hodgkin syndrome		NA
+refsum disease	D012035	Refsum Disease
+hereditary renal agenesis		NA
+renal cysts and diabetes syndrome		NA
+glycosuria, renal	D006030	Glycosuria, Renal
+renal tubular acidosis, distal, with progressive nerve deafness		NA
+renal tubular acidosis, distal, with hemolytic anemia		NA
+renal tubular acidosis, distal, autosomal recessive		NA
+renal tubular acidosis, proximal, with ocular abnormalities and mental retardation		NA
+renpenning syndrome 1		NA
+tight skin contracture syndrome, lethal		NA
+reticular dysgenesis		NA
+retinal cone dystrophy 3a		NA
+retinal cone dystrophy 3b		NA
+retinal cone dystrophy 4		NA
+late-onset retinal degeneration		NA
+microphthalmia, syndromic 5		NA
+retinitis pigmentosa 12		NA
+retinitis pigmentosa 1		NA
+retinitis pigmentosa 10		NA
+retinitis pigmentosa 11		NA
+retinitis pigmentosa 13		NA
+retinitis pigmentosa 14		NA
+retinitis pigmentosa 17		NA
+retinitis pigmentosa 18		NA
+retinitis pigmentosa 19		NA
+retinitis pigmentosa 2		NA
+retinitis pigmentosa 25		NA
+retinitis pigmentosa 26		NA
+retinitis pigmentosa	D012174	Retinitis Pigmentosa
+retinitis pigmentosa 3		NA
+retinitis pigmentosa 30		NA
+retinitis pigmentosa 31		NA
+retinitis pigmentosa 33		NA
+retinitis pigmentosa 35		NA
+retinitis pigmentosa 36		NA
+retinitis pigmentosa 37		NA
+retinitis pigmentosa 4		NA
+retinitis pigmentosa 41		NA
+retinitis pigmentosa 42		NA
+retinitis pigmentosa 7		NA
+retinitis pigmentosa 9		NA
+leber congenital amaurosis 14		NA
+leber congenital amaurosis 4		NA
+leber congenital amaurosis 3		NA
+retinitis pigmentosa, x-linked, and sinorespiratory infections, with or without deafness		NA
+retinoblastoma	D012175	Retinoblastoma
+exudative vitreoretinopathy 1		NA
+retinoschisis	D041441	Retinoschisis
+rett syndrome	D015518	Rett Syndrome
+revesz debuse syndrome		NA
+rhabdoid tumor predisposition syndrome 2		NA
+rhabdoid tumor predisposition syndrome 1		NA
+rhabdomyosarcoma, alveolar	D018232	Rhabdomyosarcoma, Alveolar
+rhabdomyosarcoma, embryonal	D018233	Rhabdomyosarcoma, Embryonal
+rhizomelic chondrodysplasia punctata, type 1		NA
+rhizomelic chondrodysplasia punctata, type 3		NA
+ribose 5-phosphate isomerase deficiency		NA
+vitamin d hydroxylation-deficient rickets, type 1b		NA
+vitamin d-dependent rickets, type 2a		NA
+riddle syndrome		NA
+ring dermoid of cornea		NA
+rippling muscle disease, 1		NA
+roberts syndrome		NA
+robinow syndrome, autosomal recessive		NA
+rolandic epilepsy, mental retardation, and speech dyspraxia, x-linked		NA
+rothmund-thomson syndrome	D011038	Rothmund-Thomson Syndrome
+rubinstein-taybi syndrome	D012415	Rubinstein-Taybi Syndrome
+saccharopinuria		NA
+acrocephalosyndactylia	D000168	Acrocephalosyndactylia
+sialic acid storage disease	D029461	Sialic Acid Storage Disease
+sandhoff disease	D012497	Sandhoff Disease
+sarcoidosis, early-onset		NA
+scaphocephaly, maxillary retrusion, and mental retardation		NA
+scapuloperoneal myopathy, x-linked dominant		NA
+scapuloperoneal syndrome, neurogenic, kaeser type		NA
+schimke immunoosseous dysplasia		NA
+schindler disease, type 1		NA
+schinzel-giedion syndrome		NA
+schneckenbecken dysplasia		NA
+schopf-schulz-passarge syndrome		NA
+schwannomatosis		NA
+severe combined immunodeficiency, autosomal recessive, t cell-negative, b cell-positive, nk cell-negative		NA
+sclerosteosis		NA
+scott syndrome		NA
+sea-blue histiocyte syndrome	D012618	Sea-Blue Histiocyte Syndrome
+seborrhea-like dermatitis with psoriasiform elements		NA
+seckel syndrome 1		NA
+seckel syndrome 2		NA
+spondyloepiphyseal dysplasia, congenita		NA
+segawa syndrome, autosomal recessive		NA
+epilepsy, benign neonatal, 3		NA
+senior-loken syndrome 4		NA
+senior-loken syndrome 5		NA
+senior-loken syndrome 6		NA
+bartter syndrome, type 4a		NA
+hypopituitarism and septooptic 'dysplasia'		NA
+severe combined immunodeficiency due to adenosine deaminase deficiency		NA
+severe combined immunodeficiency with microcephaly, growth retardation, and sensitivity to ionizing radiation		NA
+severe combined immunodeficiency with sensitivity to ionizing radiation		NA
+severe combined immunodeficiency, autosomal recessive, t cell-negative, b cell-negative, nk cell-positive		NA
+short qt syndrome 1		NA
+short qt syndrome 2		NA
+short qt syndrome 3		NA
+short rib-polydactyly syndrome	D012779	Short Rib-Polydactyly Syndrome
+short rib-polydactyly syndrome, verma-naumoff type		NA
+short stature, idiopathic, autosomal		NA
+short stature, idiopathic, x-linked		NA
+shprintzen golberg craniosynostosis		NA
+shwachman syndrome		NA
+sick sinus syndrome 1, autosomal recessive		NA
+sick sinus syndrome 2, autosomal dominant		NA
+silver-russell syndrome	D056730	Silver-Russell Syndrome
+spastic paraplegia 17		NA
+simpson-golabi-behmel syndrome, type 2		NA
+single upper central incisor		NA
+sitosterolemia		NA
+sjogren-larsson syndrome	D016111	Sjogren-Larsson Syndrome
+skeletal defects, genital hypoplasia, and mental retardation		NA
+skin fragility-woolly hair syndrome		NA
+slowed nerve conduction velocity, autosomal dominant		NA
+carcinoma, small cell	D018288	Carcinoma, Small Cell
+erythromelalgia	D004916	Erythromelalgia
+ischiopatellar dysplasia		NA
+strudwick syndrome		NA
+smith-lemli-opitz syndrome	D019082	Smith-Lemli-Opitz Syndrome
+smith-magenis syndrome	D058496	Smith-Magenis Syndrome
+smith-mccort dysplasia		NA
+snowflake vitreoretinal degeneration		NA
+fundus dystrophy, pseudoinflammatory, of sorsby		NA
+sotos syndrome	D058495	Sotos Syndrome
+spastic ataxia charlevoix-saguenay type		NA
+hereditary spastic paralysis, infantile onset ascending		NA
+spastic paraplegia 10, autosomal dominant		NA
+spastic paraplegia 11, autosomal recessive		NA
+spastic paraplegia 12, autosomal dominant		NA
+spastic paraplegia 13, autosomal dominant		NA
+spastic paraplegia 15, autosomal recessive		NA
+spastic paraplegia 18, autosomal recessive		NA
+spastic paraplegia 2, x-linked		NA
+spastic paraplegia 26, autosomal recessive		NA
+spastic paraplegia 28, autosomal recessive		NA
+spastic paraplegia 30, autosomal recessive		NA
+spastic paraplegia 31, autosomal dominant		NA
+spastic paraplegia 33, autosomal dominant		NA
+spastic paraplegia 39, autosomal recessive		NA
+spastic paraplegia 3, autosomal dominant		NA
+spastic paraplegia 4, autosomal dominant		NA
+spastic paraplegia 42, autosomal dominant		NA
+spastic paraplegia 44, autosomal recessive		NA
+spastic paraplegia type 5a, recessive		NA
+spastic paraplegia 6, autosomal dominant		NA
+spastic paraplegia 7, autosomal recessive		NA
+spastic paraplegia 8, autosomal dominant		NA
+specific granule deficiency		NA
+azoospermia, nonobstructive		NA
+spermatogenic failure 7		NA
+spermatogenic failure, nonobstructive, y-linked		NA
+spherocytosis, type 5		NA
+spherocytosis, type 1		NA
+spherocytosis, type 3		NA
+spherocytosis, type 4		NA
+bulbospinal neuronopathy, x-linked recessive		NA
+spinal muscular atrophies of childhood	D014897	Spinal Muscular Atrophies of Childhood
+spinal muscular atrophy 4		NA
+spinal muscular atrophy, distal, autosomal recessive, 4		NA
+spinal muscular atrophy, distal, congenital nonprogressive		NA
+spinal muscular atrophy, distal, x-linked 3		NA
+spinal muscular atrophy, proximal, adult, autosomal dominant		NA
+arthrogryposis multiplex congenita, distal, x-linked		NA
+spinocerebellar ataxia 10		NA
+spinocerebellar ataxia 11		NA
+spinocerebellar ataxia 12		NA
+spinocerebellar ataxia 13		NA
+spinocerebellar ataxia 14		NA
+spinocerebellar ataxia 15		NA
+spinocerebellar ataxia 17		NA
+spinocerebellar ataxia 23		NA
+spinocerebellar ataxia 27		NA
+spinocerebellar ataxia 28		NA
+spinocerebellar ataxia 29		NA
+spinocerebellar ataxia 31		NA
+spinocerebellar ataxia, autosomal recessive 5		NA
+spinocerebellar ataxia, autosomal recessive 8		NA
+spinocerebellar ataxia, autosomal recessive, with axonal neuropathy		NA
+spinocerebellar ataxia, x-linked 1		NA
+split-hand/foot malformation 4		NA
+split-hand/foot malformation 6		NA
+spondylo-megaepiphyseal-metaphyseal dysplasia		NA
+spondylocarpotarsal synostosis		NA
+spondylocheirodysplasia, ehlers-danlos syndrome-like		NA
+spondyloepimetaphyseal dysplasia, matrilin-3 related		NA
+spondyloepimetaphyseal dysplasia, aggrecan type		NA
+spondyloepimetaphyseal dysplasia, missouri type		NA
+arthropathy, progressive pseudorheumatoid, of childhood		NA
+spondyloepiphyseal dysplasia tarda, x-linked	D010009	Osteochondrodysplasias
+spondyloepiphyseal dysplasia, kimberley type		NA
+spondylometaepiphyseal dysplasia, short limb-hand type		NA
+spondylometaphyseal dysplasia, kozlowski type		NA
+carcinoma, squamous cell of head and neck		NA
+toe syndactyly, telecanthus, and anogenital and renal malformations		NA
+stargardt disease 3		NA
+stargardt disease 4		NA
+steatocystoma multiplex	D062685	Steatocystoma Multiplex
+stickler syndrome, type i, nonsyndromic ocular		NA
+stickler syndrome, type 1		NA
+stickler syndrome, type 2		NA
+stiff skin syndrome		NA
+stocco dos santos syndrome		NA
+striatal degeneration, autosomal dominant		NA
+striatonigral degeneration infantile		NA
+stuve-wiedemann syndrome		NA
+succinic semialdehyde dehydrogenase deficiency		NA
+succinyl-coa:3-oxoacid coa transferase deficiency		NA
+sucrase-isomaltase deficiency, congenital		NA
+sudden infant death with dysgenesis of the testes syndrome		NA
+sulfite oxidase deficiency		NA
+progressive supranuclear palsy atypical		NA
+aortic stenosis, supravalvular	D021921	Aortic Stenosis, Supravalvular
+surfactant metabolism dysfunction, pulmonary, 1		NA
+surfactant metabolism dysfunction, pulmonary, 2		NA
+surfactant metabolism dysfunction, pulmonary, 3		NA
+surfactant metabolism dysfunction, pulmonary, 4		NA
+sveinsson chorioretinal atrophy		NA
+cushing's symphalangism		NA
+syndactyly, type 3		NA
+syndactyly, type iv		NA
+syndactyly, type v		NA
+synpolydactyly 2		NA
+synpolydactyly 1		NA
+t-cell immunodeficiency, congenital alopecia and nail dystrophy		NA
+tangier disease	D013631	Tangier Disease
+tarp syndrome		NA
+tarsal carpal coalition syndrome		NA
+telangiectasia, hereditary hemorrhagic	D013683	Telangiectasia, Hereditary Hemorrhagic
+osler-rendu-weber syndrome 2		NA
+tetra-amelia autosomal recessive		NA
+tetralogy of fallot	D013771	Tetralogy of Fallot
+alpha-thalassemia	D017085	alpha-Thalassemia
+thanatophoric dysplasia, type 1		NA
+thanatophoric dysplasia, type 2		NA
+thiamine responsive megaloblastic anemia syndrome		NA
+basal ganglia disease, biotin-responsive		NA
+thrombocythemia, essential	D013920	Thrombocythemia, Essential
+absent radii and thrombocytopenia		NA
+congenital amegakaryocytic thrombocytopenia		NA
+antithrombin iii deficiency	D020152	Antithrombin III Deficiency
+heparin cofactor ii deficiency		NA
+congenital thrombotic disease, due to protein c deficiency		NA
+purpura, thrombotic thrombocytopenic	D011697	Purpura, Thrombotic Thrombocytopenic
+thyroid dyshormonogenesis 6		NA
+thyroid cancer, papillary		NA
+thyroid dyshormonogenesis 1		NA
+thyroid dyshormonogenesis 2a		NA
+thyroid dyshormonogenesis 3		NA
+thyroid dyshormonogenesis 4		NA
+thyroid dyshormonogenesis 5		NA
+thyroid hormone metabolism, abnormal		NA
+thyroid hormone resistance, generalized, autosomal dominant		NA
+thyroid hormone resistance, generalized, autosomal recessive		NA
+thyroid hormone resistance, selective pituitary		NA
+tietz syndrome		NA
+timothy syndrome		NA
+tn syndrome		NA
+tooth agenesis, selective, 3		NA
+tooth agenesis, selective, 6		NA
+tooth agenesis, selective, x-linked, 1		NA
+tourette syndrome	D005879	Tourette Syndrome
+townes-brocks syndrome		NA
+transaldolase deficiency		NA
+transient bullous dermolysis of the newborn		NA
+transposition of the great arteries, dextro-looped 1		NA
+mandibulofacial dysostosis	D008342	Mandibulofacial Dysostosis
+mandibulofacial dysostosis, treacher collins type, autosomal recessive		NA
+trehalase deficiency		NA
+trichorhinophalangeal syndrome, type iii		NA
+trichotillomania	D014256	Trichotillomania
+trimethylaminuria		NA
+hecht syndrome		NA
+spastic paraplegia 20, autosomal recessive		NA
+tumoral calcinosis, normophosphatemic, familial		NA
+tumoral calcinosis, hyperphosphatemic, familial		NA
+keratosis palmoplantaris with esophageal cancer		NA
+tyrosine kinase 2 deficiency		NA
+tyrosinemias	D020176	Tyrosinemias
+scleroatonic muscular dystrophy		NA
+al awadi syndrome		NA
+ulnar-mammary syndrome		NA
+lipoid proteinosis of urbach and wiethe	D008065	Lipoid Proteinosis of Urbach and Wiethe
+urocanase deficiency		NA
+urofacial syndrome		NA
+usher syndrome, type 1b		NA
+usher syndrome, type 1c		NA
+usher syndrome, type 1d		NA
+usher syndrome, type 1f		NA
+usher syndrome, type ig		NA
+usher syndrome, type 2c		NA
+vater association		NA
+vacterl association with hydrocephaly, x-linked		NA
+van buchem disease type 2		NA
+van der woude syndrome		NA
+vasculopathy, retinal, with cerebral leukodystrophy		NA
+vacterl hydrocephaly		NA
+digeorge syndrome	D004062	DiGeorge Syndrome
+venous malformations, multiple cutaneous and mucosal		NA
+paroxysmal ventricular fibrillation		NA
+vertical talus, congenital		NA
+vesico-ureteral reflux	D014718	Vesico-Ureteral Reflux
+vitamin d hydroxylation-deficient rickets, type 1a		NA
+vitamin k-dependent clotting factors, combined deficiency of, 1		NA
+vitreoretinochoroidopathy		NA
+vlcad deficiency		NA
+vohwinkel syndrome, variant form		NA
+vohwinkel syndrome		NA
+von willebrand disease, platelet type		NA
+von willebrand disease, type 1	D056725	von Willebrand Disease, Type 1
+von willebrand disease, type 2	D056728	von Willebrand Disease, Type 2
+von willebrand disease, type 3	D056729	von Willebrand Disease, Type 3
+waardenburg syndrome	D014849	Waardenburg Syndrome
+waardenburg syndrome type 2a		NA
+waardenburg syndrome, type 2d		NA
+waardenburg syndrome type 2		NA
+waardenburg syndrome, type 4b		NA
+waardenburg syndrome, type 4c		NA
+hyaloideoretinal degeneration of wagner		NA
+warburg sjo fledelius syndrome		NA
+weaver syndrome		NA
+weill-marchesani-like syndrome		NA
+weill-marchesani syndrome	D056846	Weill-Marchesani Syndrome
+welander distal myopathy, swedish type		NA
+werner syndrome	D014898	Werner Syndrome
+weyers acrofacial dysostosis		NA
+whim syndrome		NA
+leukokeratosis, hereditary mucosal	D053529	Leukokeratosis, Hereditary Mucosal
+wieacker syndrome		NA
+wilson-turner x-linked mental retardation syndrome		NA
+hepatolenticular degeneration	D006527	Hepatolenticular Degeneration
+wiskott-aldrich syndrome	D014923	Wiskott-Aldrich Syndrome
+wolcott-rallison syndrome		NA
+wolfram syndrome	D014929	Wolfram Syndrome
+lysosomal acid lipase deficiency		NA
+woodhouse sakati syndrome		NA
+wrinkly skin syndrome		NA
+xanthinuria, type i		NA
+xeroderma pigmentosum	D014983	Xeroderma Pigmentosum
+xeroderma pigmentosum, complementation group b		NA
+xeroderma pigmentosum, complementation group c		NA
+xeroderma pigmentosum, complementation group d		NA
+xeroderma pigmentosum, complementation group e		NA
+xeroderma pigmentosum, complementation group g		NA
+xeroderma pigmentosum, complementation group f		NA
+xeroderma pigmentosum, variant type		NA
+xfe progeroid syndrome		NA

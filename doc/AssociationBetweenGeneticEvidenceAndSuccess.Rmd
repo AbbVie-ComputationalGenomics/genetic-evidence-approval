@@ -24,7 +24,6 @@ source("../src/GeneticFunctions.R")
 data_folder = "../data"
 # Gene-trait associations from GWAS and OMIM genetic evidence (current and Nelson)
 gene_trait_association_table0 <- read.delim(paste0(data_folder, "/gene_trait_assoc.tsv"), stringsAsFactors = FALSE)
-gene_trait_association_table_n <- read.delim(paste0(data_folder, "/Standardized_Nelson_Associations.tsv"), stringsAsFactors = FALSE)
 # Drug target-indication links with success (with my maps and maps standardized to n et al.).
 target_indication_table <- read.delim(paste0(data_folder, "/target_indication.tsv"), stringsAsFactors = FALSE)
 target_indication_table_nmsh <- read.delim(paste0(data_folder, "/target_indication_nmsh.tsv"), stringsAsFactors = FALSE)
@@ -45,12 +44,21 @@ colnames(table4_nelson) <- gsub("\\\\", "", colnames(table4_nelson))
 gene_properties <- read.delim(paste0(data_folder,"/Target_Properties.tsv"), stringsAsFactors = FALSE)
 # top mesh, used in statistical models
 mesh_properties <- read.delim(paste0(data_folder,"/top_mesh.tsv"), stringsAsFactors = FALSE)
+# Nelson gene and MeSH names to ensembl_id and 2017 MeSH
+gene_conversions <- read.delim(paste0(data_folder, "/Gene_standardization.tsv"), stringsAsFactors = FALSE)
+mesh_conversions <- read.delim(paste0(data_folder, "/MeSH_standardization.tsv"), stringsAsFactors = FALSE)
 ```
 
-```{r label=RemoveXMHC, include=FALSE}
+```{r label=DataProcessing, include=FALSE}
 gene_trait_association_table <- filter(gene_trait_association_table0, !xMHCGene)
 # Add on column "Link" for counting OMIM distinct associations (# of GWAS associations is still number of snp_id-MSH pairs)
 gene_trait_association_table <- mutate(gene_trait_association_table, Link = Phenotype, snp_id = SNP_A)
+```
+
+```{r label=StandardizingNelsonAssociations, include=FALSE}
+gene_trait_association_table_n <- left_join(table2_nelson %>% mutate(danum=to_alphanum(MSH)), mesh_conversions %>% 
+                          mutate(danum=to_alphanum(Original)), by="danum", suffix=c("Old", "")) %>% left_join(gene_conversions) %>% dplyr::select(-danum, -UI) %>%
+  filter(!is.na(ensembl_id)) %>% mutate(MSH=ifelse(is.na(MSH), MSHOld, MSH))
 ```
 
 ```{r ReplicationResultsOnFullDataset, include=FALSE}
