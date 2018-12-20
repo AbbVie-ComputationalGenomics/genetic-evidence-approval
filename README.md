@@ -124,8 +124,10 @@ GWAS Catalog (accessed 9/25/2017) and OMIM (accessed 6/6/2018) gene-trait links 
 * first_added = earliest date a link between the MeSH heading and ensembl_id appeared in the source (this may differ from the date the association appeared because more than one association may have the same mapped MeSH term and ensembl_id)
 * symbol = HUGO/HGNC symbol for gene
 * xMHCGene = is the gene considered part of xMHC?
-##### Standardized_Nelson_Associations.tsv
-[Nelson et al. 2015](https://www.nature.com/articles/ng.3314) supplementary table 2, standardized to use 2017 MeSH and ensembl gene ids for comparison with new data.
+##### Gene_standardization.tsv
+Maps gene symbols from Nelson et al. tables to ensembl ids where a suitable match could be found.
+##### MeSH_standardization.tsv
+Maps MeSH as giving in the Nelson et al tables to 2017 MeSH headings.  Note the terms with NA values, these are MeSH supplementary concepts.  For compatible behavior with Nelson et al analysis we did not map them to MeSH headings.
 ##### indication_trait_similarity.tsv
 A matrix with MeSH terms mapped to Pharmaprojects indications as rows and MeSH terms mapped to genetically associated traits as columns with the entries being the similarity between the terms.
 ##### Target_properties.tsv
