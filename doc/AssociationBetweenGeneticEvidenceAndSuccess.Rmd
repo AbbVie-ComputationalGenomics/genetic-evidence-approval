@@ -128,9 +128,9 @@ pharmaprojects_count <- target_indication_table_nmsh %>%
   group_by(StatusCurrent, NelsonStatus) %>% 
   dplyr::summarise(N=length(MSH)) %>% 
   mutate(Set = case_when(StatusCurrent=="Unused"~"Unknown Phase", 
-                         grepl("linical", NelsonStatus)~"Nelson Clinical\nClinical Progression",
+                         grepl("linical", NelsonStatus)~"Nelson Pipeline\nPipeline Progression",
                          NelsonStatus=="Approved"~"Nelson Approved",
-                         TRUE~"Nelson Unused\nNew Clinical"), Source="Pharmaprojects") %>% 
+                         TRUE~"Nelson Unused\nNew Pipeline"), Source="Pharmaprojects") %>% 
   group_by(Set) %>% 
   dplyr::summarise(N=sum(N), Source=unique(Source))
 
@@ -157,7 +157,7 @@ count_plot <- ggplot(combined_counts) + aes(x = Source, y = N, fill = Col) + geo
   scale_fill_manual(values=c(hcl(h = seq(15, 375, length = 4), l = 65, c = 100)[c(3,2,1)], "gray")) +
   geom_text(aes(label=ifelse(grepl("Unknown Date|Approved", Set) | (Set=="New Genetic" & Source=="OMIM"), "", Set)), position = "stack", vjust=2, size=lab_size) +
   geom_text(aes(label=ifelse(grepl("Pre|Phase", Set) | (Set=="New Genetic" & Source=="GWAS"), paste0("N"=N), "")), position = "stack", vjust=4, size=lab_size) +
-  geom_text(aes(label=ifelse(grepl("New Clinical|Prog", Set), paste0("N"=N), "")), position = "stack", vjust=8, size=lab_size) +
+  geom_text(aes(label=ifelse(grepl("New Pipeline|Prog", Set), paste0("N"=N), "")), position = "stack", vjust=8, size=lab_size) +
   geom_text(aes(label=ifelse(grepl("Approved", Set), paste(Set, N), "")), position = "stack", vjust=2.5, size=lab_size) +
   geom_text(aes(label=ifelse((grepl("New Genetic", Set) & Source=="OMIM"), paste(Set, N), "")), position = "stack", vjust=1.5, size=lab_size) +
   annotate("text", x=2, y=5500, label=paste0("Unknown Date ", combined_counts %>% filter(Set=="Unknown Date") %>% pull(N)), size=lab_size)
