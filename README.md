@@ -1,7 +1,7 @@
 # genetic-evidence-approval
 Code and supplementary to reproduce main text figures on new estimates of the effect of genetic evidence on drug approval.
 ## Quickstart guide
-This guide gives instructions for compiling a pdf document reproducing main text figures from King et al. 2018 using supplementary data sources and for installing the associated shiny app outputing predictions.
+This guide gives instructions for compiling a pdf document reproducing main text figures from King et al. xxxx. Are drug targets with genetic support twice as likely to be approved? Revised estimates of the impact of genetic support for drug mechanisms on the probability of drug approval. using supplementary data sources and for installing the associated shiny app outputing predictions.
 ### Cloning repository
 
 `git clone https://github.com/AbbVie-ComputationalGenomics/genetic-evidence-approval.git`
