@@ -361,14 +361,17 @@ count_associations <- function(association_rows) {
 
 generate_table1_progression <- function(target_indication_table, association_table, MSH_similarity, 
                                         similarity_cutoff, ngene_cutoff=5, gene_col_name="ensembl_id",
+                                        MSH_to_include = NULL,
                                         source_names=c("gwas"="GWASdb", "omim"="OMIM", "any"="GWASdb & OMIM")) {
-  well_studied <- get_well_studied_MSH(target_indication_table = target_indication_table, 
-                                       association_table = association_table, 
-                                       MSH_similarity = MSH_similarity, 
-                                       similarity_cutoff = similarity_cutoff, ngene_cutoff = ngene_cutoff)
+  if (is.null(MSH_to_include)) {
+    MSH_to_include <- get_well_studied_MSH(target_indication_table = target_indication_table, 
+                                         association_table = association_table, 
+                                         MSH_similarity = MSH_similarity, 
+                                         similarity_cutoff = similarity_cutoff, ngene_cutoff = ngene_cutoff)
+  }
   candidates_to_advance <- filter(target_indication_table, 
                                   grepl("Trial", NelsonStatus), grepl("Clinical|Approved|egistr", Phase.Latest) | lApprovedUS.EU, 
-                                  MSH %in% well_studied_clinical) %>% 
+                                  MSH %in% MSH_to_include) %>% 
     mutate(Highest=pairwise_top_status(Phase.Latest, NelsonStatus), Valid=Highest==Phase.Latest) %>% 
     filter(Valid) %>% 
     mutate(Progressed=!Highest==NelsonStatus)
@@ -473,6 +476,7 @@ make_collected_results_plot <- function(table1_list,
     scale_x_log10(breaks=c(0.25, 0.5,1,2,4)) + geom_abline(slope=1, intercept=0) +
     geom_errorbarh(aes(xmin=LowerOld, xmax=UpperOld)) +
     geom_errorbar(aes(ymin=Lower, ymax=Upper)) + 
+    theme_cowplot() + 
     theme(legend.position = "bottom") + guides(color=guide_legend(ncol=3)) + background_grid(major = "xy", minor = "none") + scale_colour_manual(values = hues)
   
   g <- ggplot_gtable(ggplot_build(combo_plot_scatter2))
