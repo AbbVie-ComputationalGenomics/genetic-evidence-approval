@@ -95,6 +95,7 @@ Data file with one row per MSH-ensembl_id pair derived from Informa Pharmaprojec
 * First Added = earliest added date for any drug with this target and indication.  
 * Inactive = Is any drug with this target and indication assigned an inactive status in Pharmaprojects, such as No Development Reported?
 * symbol = HUGO/HGNC symbol corresponding to the target ensembl id.
+Note: as in Nelson et al. 2015, xMHC targets have been excluded.
 ##### target_indication_nmsh.tsv
 Same as above, but the MeSH term mappings have been harmonized with [Nelson et al. 2015](https://www.nature.com/articles/ng.3314).
 ##### gene_trait_assoc.tsv
