@@ -92,7 +92,7 @@ Fitted probabilities use a fixed value for time target has been under developmen
 Data file with one row per MSH-ensembl_id pair derived from Informa Pharmaprojects (Accessed Jan 25, 2018).
 * lApprovedUS.EU = is there a US/EU approved drug with this target approved for this indication?  
 * Phase.Latest = Inferred latest historical development phase from Pharmaprojects (see methods and supplement for construction).  
-* First Added = earliest added date for any drug with this target and indication.  
+* First Added = earliest Pharmaprojects New Product date for any drug with this target and indication.  
 * Inactive = Is any drug with this target and indication assigned an inactive status in Pharmaprojects, such as No Development Reported?
 * symbol = HUGO/HGNC symbol corresponding to the target ensembl id.
 Note: as in Nelson et al. 2015, xMHC targets have been excluded.
